@@ -1,0 +1,97 @@
+{
+  "uid" : "995c3e923098b5dd",
+  "name" : "#01.1 User can leave the registration process by clicking the Home link and click 'Yes I want to leave'.",
+  "fullName" : "Registration > Step 1.#01.1 User can leave the registration process by clicking the Home link and click 'Yes I want to leave'.",
+  "historyId" : "aee24f2e33d8eb58df5a1027d55ce95e",
+  "time" : {
+    "start" : 1641292306937,
+    "stop" : 1641292312564,
+    "duration" : 5627
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Failed: No element found using locator: By(css selector, .button--secondary)",
+  "statusTrace" : "NoSuchElementError: No element found using locator: By(css selector, .button--secondary)\n                    at /Users/ivaninja/dev/eyas-test-automation/node_modules/protractor/built/element.js:814:27\n                    at ManagedPromise.invokeCallback_ (/Users/ivaninja/dev/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:1376:14)\n                    at TaskQueue.execute_ (/Users/ivaninja/dev/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n                    at TaskQueue.executeNext_ (/Users/ivaninja/dev/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n                    at /Users/ivaninja/dev/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2927:27\n                    at /Users/ivaninja/dev/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:668:7\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)Error\n                    at ElementArrayFinder.applyAction_ (/Users/ivaninja/dev/eyas-test-automation/node_modules/protractor/built/element.js:459:27)\n                    at ElementArrayFinder.<computed> [as click] (/Users/ivaninja/dev/eyas-test-automation/node_modules/protractor/built/element.js:91:29)\n                    at ElementFinder.<computed> [as click] (/Users/ivaninja/dev/eyas-test-automation/node_modules/protractor/built/element.js:831:22)\n                    at UserContext.<anonymous> (/Users/ivaninja/dev/eyas-test-automation/src/test/registration/registration-step-1.spec.js:81:46)\n                From: Task: Run it(\"#01.1 User can leave the registration process by clicking the Home link and click 'Yes I want to leave'.\") in control flow\n                    at UserContext.<anonymous> (/Users/ivaninja/dev/eyas-test-automation/node_modules/jasminewd2/index.js:94:19)\n                    at attempt (/Users/ivaninja/dev/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4297:26)\n                    at QueueRunner.run (/Users/ivaninja/dev/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4217:20)\n                    at runNext (/Users/ivaninja/dev/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4257:20)\n                    at /Users/ivaninja/dev/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4264:13\n                    at /Users/ivaninja/dev/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4172:9\n                    at /Users/ivaninja/dev/eyas-test-automation/node_modules/jasminewd2/index.js:64:48\n                    at ControlFlow.emit (/Users/ivaninja/dev/eyas-test-automation/node_modules/selenium-webdriver/lib/events.js:62:21)\n                    at ControlFlow.shutdown_ (/Users/ivaninja/dev/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2674:10)\n                    at /Users/ivaninja/dev/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2599:53\n                From asynchronous test: \n                Error\n                    at Suite.<anonymous> (/Users/ivaninja/dev/eyas-test-automation/src/test/registration/registration-step-1.spec.js:77:5)\n                    at addSpecsToSuite (/Users/ivaninja/dev/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1107:25)\n                    at Env.describe (/Users/ivaninja/dev/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1074:7)\n                    at describe (/Users/ivaninja/dev/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4399:18)\n                    at Object.<anonymous> (/Users/ivaninja/dev/eyas-test-automation/src/test/registration/registration-step-1.spec.js:27:1)\n                    at Module._compile (internal/modules/cjs/loader.js:1063:30)\n                    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)\n                    at Module.load (internal/modules/cjs/loader.js:928:32)\n                    at Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Failed: No element found using locator: By(css selector, .button--secondary)",
+    "statusTrace" : "NoSuchElementError: No element found using locator: By(css selector, .button--secondary)\n                    at /Users/ivaninja/dev/eyas-test-automation/node_modules/protractor/built/element.js:814:27\n                    at ManagedPromise.invokeCallback_ (/Users/ivaninja/dev/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:1376:14)\n                    at TaskQueue.execute_ (/Users/ivaninja/dev/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n                    at TaskQueue.executeNext_ (/Users/ivaninja/dev/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n                    at /Users/ivaninja/dev/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2927:27\n                    at /Users/ivaninja/dev/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:668:7\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)Error\n                    at ElementArrayFinder.applyAction_ (/Users/ivaninja/dev/eyas-test-automation/node_modules/protractor/built/element.js:459:27)\n                    at ElementArrayFinder.<computed> [as click] (/Users/ivaninja/dev/eyas-test-automation/node_modules/protractor/built/element.js:91:29)\n                    at ElementFinder.<computed> [as click] (/Users/ivaninja/dev/eyas-test-automation/node_modules/protractor/built/element.js:831:22)\n                    at UserContext.<anonymous> (/Users/ivaninja/dev/eyas-test-automation/src/test/registration/registration-step-1.spec.js:81:46)\n                From: Task: Run it(\"#01.1 User can leave the registration process by clicking the Home link and click 'Yes I want to leave'.\") in control flow\n                    at UserContext.<anonymous> (/Users/ivaninja/dev/eyas-test-automation/node_modules/jasminewd2/index.js:94:19)\n                    at attempt (/Users/ivaninja/dev/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4297:26)\n                    at QueueRunner.run (/Users/ivaninja/dev/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4217:20)\n                    at runNext (/Users/ivaninja/dev/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4257:20)\n                    at /Users/ivaninja/dev/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4264:13\n                    at /Users/ivaninja/dev/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4172:9\n                    at /Users/ivaninja/dev/eyas-test-automation/node_modules/jasminewd2/index.js:64:48\n                    at ControlFlow.emit (/Users/ivaninja/dev/eyas-test-automation/node_modules/selenium-webdriver/lib/events.js:62:21)\n                    at ControlFlow.shutdown_ (/Users/ivaninja/dev/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2674:10)\n                    at /Users/ivaninja/dev/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2599:53\n                From asynchronous test: \n                Error\n                    at Suite.<anonymous> (/Users/ivaninja/dev/eyas-test-automation/src/test/registration/registration-step-1.spec.js:77:5)\n                    at addSpecsToSuite (/Users/ivaninja/dev/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1107:25)\n                    at Env.describe (/Users/ivaninja/dev/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1074:7)\n                    at describe (/Users/ivaninja/dev/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4399:18)\n                    at Object.<anonymous> (/Users/ivaninja/dev/eyas-test-automation/src/test/registration/registration-step-1.spec.js:27:1)\n                    at Module._compile (internal/modules/cjs/loader.js:1063:30)\n                    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)\n                    at Module.load (internal/modules/cjs/loader.js:928:32)\n                    at Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "cdfe54dfc0c83d40",
+      "name" : "Screenshot",
+      "source" : "cdfe54dfc0c83d40.png",
+      "type" : "image/png",
+      "size" : 364499
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Registration > Step 1"
+  }, {
+    "name" : "testClass",
+    "value" : "Registration > Step 1"
+  }, {
+    "name" : "testMethod",
+    "value" : "#01.1 User can leave the registration process by clicking the Home link and click 'Yes I want to leave'."
+  }, {
+    "name" : "package",
+    "value" : "Registration > Step 1"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d58d690608681657",
+      "status" : "failed",
+      "statusDetails" : "Failed: No element found using locator: By(css selector, .button--secondary)",
+      "time" : {
+        "start" : 1641291803641,
+        "stop" : 1641291809740,
+        "duration" : 6099
+      }
+    }, {
+      "uid" : "1610f000a1b895bf",
+      "status" : "failed",
+      "statusDetails" : "Failed: No element found using locator: By(css selector, .button--secondary)",
+      "time" : {
+        "start" : 1641290443268,
+        "stop" : 1641290452608,
+        "duration" : 9340
+      }
+    }, {
+      "uid" : "87b6a67021a3acdf",
+      "status" : "failed",
+      "statusDetails" : "Failed: No element found using locator: By(css selector, .button--secondary)",
+      "time" : {
+        "start" : 1641289958874,
+        "stop" : 1641289965615,
+        "duration" : 6741
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "995c3e923098b5dd.json",
+  "parameterValues" : [ ]
+}
