@@ -1,0 +1,124 @@
+{
+  "uid" : "3ecb8619cbfc9d1",
+  "name" : "#05 Player cannot continue with 'Take A Break' if a duration is not selected.",
+  "fullName" : "My Account > Gambling Controls > Take A Break.#05 Player cannot continue with 'Take A Break' if a duration is not selected.",
+  "historyId" : "abc099eaed777d604ae3df521b9f1e4c",
+  "time" : {
+    "start" : 1641476269716,
+    "stop" : 1641476279556,
+    "duration" : 9840
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Failed: No element found using locator: By(css selector, .u-action-footer)",
+  "statusTrace" : "NoSuchElementError: No element found using locator: By(css selector, .u-action-footer)\n                    at /Users/ivaninja/dev/eyas-test-automation/node_modules/protractor/built/element.js:814:27\n                    at ManagedPromise.invokeCallback_ (/Users/ivaninja/dev/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:1376:14)\n                    at TaskQueue.execute_ (/Users/ivaninja/dev/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n                    at TaskQueue.executeNext_ (/Users/ivaninja/dev/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n                    at /Users/ivaninja/dev/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2927:27\n                    at /Users/ivaninja/dev/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:668:7\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)Error\n                    at ElementArrayFinder.applyAction_ (/Users/ivaninja/dev/eyas-test-automation/node_modules/protractor/built/element.js:459:27)\n                    at ElementArrayFinder.<computed> [as click] (/Users/ivaninja/dev/eyas-test-automation/node_modules/protractor/built/element.js:91:29)\n                    at ElementFinder.<computed> [as click] (/Users/ivaninja/dev/eyas-test-automation/node_modules/protractor/built/element.js:831:22)\n                    at Modal.submit (/Users/ivaninja/dev/eyas-test-automation/src/test/components/modal.component.js:107:29)\n                    at UserContext.<anonymous> (/Users/ivaninja/dev/eyas-test-automation/src/test/my-account/gambling-controls/take-a-break.spec.js:120:27)\n                From: Task: Run it(\"#05 Player cannot continue with 'Take A Break' if a duration is not selected.\") in control flow\n                    at UserContext.<anonymous> (/Users/ivaninja/dev/eyas-test-automation/node_modules/jasminewd2/index.js:94:19)\n                    at attempt (/Users/ivaninja/dev/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4297:26)\n                    at QueueRunner.run (/Users/ivaninja/dev/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4217:20)\n                    at runNext (/Users/ivaninja/dev/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4257:20)\n                    at /Users/ivaninja/dev/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4264:13\n                    at /Users/ivaninja/dev/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4172:9\n                    at /Users/ivaninja/dev/eyas-test-automation/node_modules/jasminewd2/index.js:64:48\n                    at ControlFlow.emit (/Users/ivaninja/dev/eyas-test-automation/node_modules/selenium-webdriver/lib/events.js:62:21)\n                    at ControlFlow.shutdown_ (/Users/ivaninja/dev/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2674:10)\n                    at /Users/ivaninja/dev/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2599:53\n                From asynchronous test: \n                Error\n                    at Suite.<anonymous> (/Users/ivaninja/dev/eyas-test-automation/src/test/my-account/gambling-controls/take-a-break.spec.js:103:3)\n                    at addSpecsToSuite (/Users/ivaninja/dev/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1107:25)\n                    at Env.describe (/Users/ivaninja/dev/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1074:7)\n                    at describe (/Users/ivaninja/dev/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4399:18)\n                    at Object.<anonymous> (/Users/ivaninja/dev/eyas-test-automation/src/test/my-account/gambling-controls/take-a-break.spec.js:27:1)\n                    at Module._compile (internal/modules/cjs/loader.js:1063:30)\n                    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)\n                    at Module.load (internal/modules/cjs/loader.js:928:32)\n                    at Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Failed: No element found using locator: By(css selector, .u-action-footer)",
+    "statusTrace" : "NoSuchElementError: No element found using locator: By(css selector, .u-action-footer)\n                    at /Users/ivaninja/dev/eyas-test-automation/node_modules/protractor/built/element.js:814:27\n                    at ManagedPromise.invokeCallback_ (/Users/ivaninja/dev/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:1376:14)\n                    at TaskQueue.execute_ (/Users/ivaninja/dev/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n                    at TaskQueue.executeNext_ (/Users/ivaninja/dev/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n                    at /Users/ivaninja/dev/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2927:27\n                    at /Users/ivaninja/dev/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:668:7\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)Error\n                    at ElementArrayFinder.applyAction_ (/Users/ivaninja/dev/eyas-test-automation/node_modules/protractor/built/element.js:459:27)\n                    at ElementArrayFinder.<computed> [as click] (/Users/ivaninja/dev/eyas-test-automation/node_modules/protractor/built/element.js:91:29)\n                    at ElementFinder.<computed> [as click] (/Users/ivaninja/dev/eyas-test-automation/node_modules/protractor/built/element.js:831:22)\n                    at Modal.submit (/Users/ivaninja/dev/eyas-test-automation/src/test/components/modal.component.js:107:29)\n                    at UserContext.<anonymous> (/Users/ivaninja/dev/eyas-test-automation/src/test/my-account/gambling-controls/take-a-break.spec.js:120:27)\n                From: Task: Run it(\"#05 Player cannot continue with 'Take A Break' if a duration is not selected.\") in control flow\n                    at UserContext.<anonymous> (/Users/ivaninja/dev/eyas-test-automation/node_modules/jasminewd2/index.js:94:19)\n                    at attempt (/Users/ivaninja/dev/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4297:26)\n                    at QueueRunner.run (/Users/ivaninja/dev/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4217:20)\n                    at runNext (/Users/ivaninja/dev/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4257:20)\n                    at /Users/ivaninja/dev/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4264:13\n                    at /Users/ivaninja/dev/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4172:9\n                    at /Users/ivaninja/dev/eyas-test-automation/node_modules/jasminewd2/index.js:64:48\n                    at ControlFlow.emit (/Users/ivaninja/dev/eyas-test-automation/node_modules/selenium-webdriver/lib/events.js:62:21)\n                    at ControlFlow.shutdown_ (/Users/ivaninja/dev/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2674:10)\n                    at /Users/ivaninja/dev/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2599:53\n                From asynchronous test: \n                Error\n                    at Suite.<anonymous> (/Users/ivaninja/dev/eyas-test-automation/src/test/my-account/gambling-controls/take-a-break.spec.js:103:3)\n                    at addSpecsToSuite (/Users/ivaninja/dev/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1107:25)\n                    at Env.describe (/Users/ivaninja/dev/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1074:7)\n                    at describe (/Users/ivaninja/dev/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4399:18)\n                    at Object.<anonymous> (/Users/ivaninja/dev/eyas-test-automation/src/test/my-account/gambling-controls/take-a-break.spec.js:27:1)\n                    at Module._compile (internal/modules/cjs/loader.js:1063:30)\n                    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)\n                    at Module.load (internal/modules/cjs/loader.js:928:32)\n                    at Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c3d01339f495c404",
+      "name" : "Screenshot",
+      "source" : "c3d01339f495c404.png",
+      "type" : "image/png",
+      "size" : 581711
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "My Account > Gambling Controls > Take A Break"
+  }, {
+    "name" : "testClass",
+    "value" : "My Account > Gambling Controls > Take A Break"
+  }, {
+    "name" : "testMethod",
+    "value" : "#05 Player cannot continue with 'Take A Break' if a duration is not selected."
+  }, {
+    "name" : "package",
+    "value" : "My Account > Gambling Controls > Take A Break"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "38d1cb43155bf7f8",
+      "status" : "failed",
+      "statusDetails" : "Failed: No element found using locator: By(css selector, .u-action-footer)",
+      "time" : {
+        "start" : 1641475901113,
+        "stop" : 1641475911271,
+        "duration" : 10158
+      }
+    }, {
+      "uid" : "145557ca6c5b3cc9",
+      "status" : "failed",
+      "statusDetails" : "Failed: No element found using locator: By(css selector, .u-action-footer)",
+      "time" : {
+        "start" : 1641292356954,
+        "stop" : 1641292375583,
+        "duration" : 18629
+      }
+    }, {
+      "uid" : "2c9467c5d2b95906",
+      "status" : "failed",
+      "statusDetails" : "Failed: No element found using locator: By(css selector, .u-action-footer)",
+      "time" : {
+        "start" : 1641291614860,
+        "stop" : 1641291634575,
+        "duration" : 19715
+      }
+    }, {
+      "uid" : "f5eb2ddd16dd7ac2",
+      "status" : "failed",
+      "statusDetails" : "Failed: No element found using locator: By(css selector, .u-action-footer)",
+      "time" : {
+        "start" : 1641290491450,
+        "stop" : 1641290507717,
+        "duration" : 16267
+      }
+    }, {
+      "uid" : "18d24b912bda2ecd",
+      "status" : "failed",
+      "statusDetails" : "Failed: No element found using locator: By(css selector, .u-action-footer)",
+      "time" : {
+        "start" : 1641289768908,
+        "stop" : 1641289790384,
+        "duration" : 21476
+      }
+    }, {
+      "uid" : "78e8ffdbb2551a84",
+      "status" : "failed",
+      "statusDetails" : "Failed: Request failed with status code 401",
+      "time" : {
+        "start" : 1641287349892,
+        "stop" : 1641287372345,
+        "duration" : 22453
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "3ecb8619cbfc9d1.json",
+  "parameterValues" : [ ]
+}

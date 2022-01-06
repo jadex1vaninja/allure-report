@@ -1,0 +1,64 @@
+{
+  "uid" : "fb3ff9fdbeed34ad",
+  "name" : "#07 User can opt in to receive Phone marketing preferences.",
+  "fullName" : "Registration > Step 5.#07 User can opt in to receive Phone marketing preferences.",
+  "historyId" : "6a0dbda456c5710ebd72f2314d85282d",
+  "time" : {
+    "start" : 1641291177863,
+    "stop" : 1641291200751,
+    "duration" : 22888
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Failed: Registration Form failed to load.\n                Wait timed out after 20007ms",
+  "statusTrace" : "TimeoutError: Registration Form failed to load.\n                Wait timed out after 20007ms\n                    at /Users/ivaninja/dev/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2201:17\n                    at ManagedPromise.invokeCallback_ (/Users/ivaninja/dev/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:1376:14)\n                    at TaskQueue.execute_ (/Users/ivaninja/dev/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n                    at TaskQueue.executeNext_ (/Users/ivaninja/dev/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n                    at /Users/ivaninja/dev/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2927:27\n                    at /Users/ivaninja/dev/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:668:7\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                From: Task: Registration Form failed to load.\n                    at scheduleWait (/Users/ivaninja/dev/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2188:20)\n                    at ControlFlow.wait (/Users/ivaninja/dev/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2517:12)\n                    at thenableWebDriverProxy.wait (/Users/ivaninja/dev/eyas-test-automation/node_modules/selenium-webdriver/lib/webdriver.js:934:29)\n                    at run (/Users/ivaninja/dev/eyas-test-automation/node_modules/protractor/built/browser.js:58:33)\n                    at ProtractorBrowser.to.<computed> [as wait] (/Users/ivaninja/dev/eyas-test-automation/node_modules/protractor/built/browser.js:66:16)\n                    at Step1.waitForLoad (/Users/ivaninja/dev/eyas-test-automation/src/test/components/registration/registration.component.js:14:19)\n                    at Step1.waitForLoad (/Users/ivaninja/dev/eyas-test-automation/src/test/components/registration/reg-step-1.component.js:51:17)\n                    at Registration.waitForLoad (/Users/ivaninja/dev/eyas-test-automation/src/test/registration/registration.pageObject.js:36:22)\n                    at UserContext.<anonymous> (/Users/ivaninja/dev/eyas-test-automation/src/test/registration/registration-step-5.spec.js:11:22)\n                    at runMicrotasks (<anonymous>)\n                From: Task: Run beforeEach in control flow\n                    at UserContext.<anonymous> (/Users/ivaninja/dev/eyas-test-automation/node_modules/jasminewd2/index.js:94:19)\n                    at attempt (/Users/ivaninja/dev/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4297:26)\n                    at QueueRunner.run (/Users/ivaninja/dev/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4217:20)\n                    at QueueRunner.execute (/Users/ivaninja/dev/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4199:10)\n                    at Spec.queueRunnerFactory (/Users/ivaninja/dev/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:909:35)\n                    at Spec.execute (/Users/ivaninja/dev/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:526:10)\n                    at UserContext.fn (/Users/ivaninja/dev/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:5340:37)\n                    at attempt (/Users/ivaninja/dev/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4297:26)\n                    at QueueRunner.run (/Users/ivaninja/dev/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4217:20)\n                    at runNext (/Users/ivaninja/dev/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4257:20)\n                From asynchronous test: \n                Error\n                    at Object.<anonymous> (/Users/ivaninja/dev/eyas-test-automation/src/test/registration/registration-step-5.spec.js:7:1)\n                    at Module._compile (internal/modules/cjs/loader.js:1063:30)\n                    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)\n                    at Module.load (internal/modules/cjs/loader.js:928:32)\n                    at Function.Module._load (internal/modules/cjs/loader.js:769:14)\n                    at Module.require (internal/modules/cjs/loader.js:952:19)\n                    at require (internal/modules/cjs/helpers.js:88:18)\n                    at /Users/ivaninja/dev/eyas-test-automation/node_modules/jasmine/lib/jasmine.js:93:5\n                    at Array.forEach (<anonymous>)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Failed: Registration Form failed to load.\n                Wait timed out after 20007ms",
+    "statusTrace" : "TimeoutError: Registration Form failed to load.\n                Wait timed out after 20007ms\n                    at /Users/ivaninja/dev/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2201:17\n                    at ManagedPromise.invokeCallback_ (/Users/ivaninja/dev/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:1376:14)\n                    at TaskQueue.execute_ (/Users/ivaninja/dev/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n                    at TaskQueue.executeNext_ (/Users/ivaninja/dev/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n                    at /Users/ivaninja/dev/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2927:27\n                    at /Users/ivaninja/dev/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:668:7\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                From: Task: Registration Form failed to load.\n                    at scheduleWait (/Users/ivaninja/dev/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2188:20)\n                    at ControlFlow.wait (/Users/ivaninja/dev/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2517:12)\n                    at thenableWebDriverProxy.wait (/Users/ivaninja/dev/eyas-test-automation/node_modules/selenium-webdriver/lib/webdriver.js:934:29)\n                    at run (/Users/ivaninja/dev/eyas-test-automation/node_modules/protractor/built/browser.js:58:33)\n                    at ProtractorBrowser.to.<computed> [as wait] (/Users/ivaninja/dev/eyas-test-automation/node_modules/protractor/built/browser.js:66:16)\n                    at Step1.waitForLoad (/Users/ivaninja/dev/eyas-test-automation/src/test/components/registration/registration.component.js:14:19)\n                    at Step1.waitForLoad (/Users/ivaninja/dev/eyas-test-automation/src/test/components/registration/reg-step-1.component.js:51:17)\n                    at Registration.waitForLoad (/Users/ivaninja/dev/eyas-test-automation/src/test/registration/registration.pageObject.js:36:22)\n                    at UserContext.<anonymous> (/Users/ivaninja/dev/eyas-test-automation/src/test/registration/registration-step-5.spec.js:11:22)\n                    at runMicrotasks (<anonymous>)\n                From: Task: Run beforeEach in control flow\n                    at UserContext.<anonymous> (/Users/ivaninja/dev/eyas-test-automation/node_modules/jasminewd2/index.js:94:19)\n                    at attempt (/Users/ivaninja/dev/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4297:26)\n                    at QueueRunner.run (/Users/ivaninja/dev/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4217:20)\n                    at QueueRunner.execute (/Users/ivaninja/dev/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4199:10)\n                    at Spec.queueRunnerFactory (/Users/ivaninja/dev/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:909:35)\n                    at Spec.execute (/Users/ivaninja/dev/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:526:10)\n                    at UserContext.fn (/Users/ivaninja/dev/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:5340:37)\n                    at attempt (/Users/ivaninja/dev/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4297:26)\n                    at QueueRunner.run (/Users/ivaninja/dev/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4217:20)\n                    at runNext (/Users/ivaninja/dev/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4257:20)\n                From asynchronous test: \n                Error\n                    at Object.<anonymous> (/Users/ivaninja/dev/eyas-test-automation/src/test/registration/registration-step-5.spec.js:7:1)\n                    at Module._compile (internal/modules/cjs/loader.js:1063:30)\n                    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)\n                    at Module.load (internal/modules/cjs/loader.js:928:32)\n                    at Function.Module._load (internal/modules/cjs/loader.js:769:14)\n                    at Module.require (internal/modules/cjs/loader.js:952:19)\n                    at require (internal/modules/cjs/helpers.js:88:18)\n                    at /Users/ivaninja/dev/eyas-test-automation/node_modules/jasmine/lib/jasmine.js:93:5\n                    at Array.forEach (<anonymous>)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "748661703f212a57",
+      "name" : "Screenshot",
+      "source" : "748661703f212a57.png",
+      "type" : "image/png",
+      "size" : 434888
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Registration > Step 5"
+  }, {
+    "name" : "testClass",
+    "value" : "Registration > Step 5"
+  }, {
+    "name" : "testMethod",
+    "value" : "#07 User can opt in to receive Phone marketing preferences."
+  }, {
+    "name" : "package",
+    "value" : "Registration > Step 5"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fb3ff9fdbeed34ad.json",
+  "parameterValues" : [ ]
+}

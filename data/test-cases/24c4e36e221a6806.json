@@ -1,0 +1,79 @@
+{
+  "uid" : "24c4e36e221a6806",
+  "name" : "#19 User can select a Country Code from the dropdown menu.",
+  "fullName" : "Registration > Step 4.#19 User can select a Country Code from the dropdown menu.",
+  "historyId" : "ef8d32a8c6754f8b4250c799c61481c0",
+  "time" : {
+    "start" : 1641292264002,
+    "stop" : 1641292287812,
+    "duration" : 23810
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Failed: Registration Step 4 not visible.\n                Wait timed out after 20003ms",
+  "statusTrace" : "TimeoutError: Registration Step 4 not visible.\n                Wait timed out after 20003ms\n                    at /Users/ivaninja/dev/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2201:17\n                    at ManagedPromise.invokeCallback_ (/Users/ivaninja/dev/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:1376:14)\n                    at TaskQueue.execute_ (/Users/ivaninja/dev/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n                    at TaskQueue.executeNext_ (/Users/ivaninja/dev/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n                    at /Users/ivaninja/dev/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2927:27\n                    at /Users/ivaninja/dev/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:668:7\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                From: Task: Registration Step 4 not visible.\n                    at scheduleWait (/Users/ivaninja/dev/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2188:20)\n                    at ControlFlow.wait (/Users/ivaninja/dev/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2517:12)\n                    at thenableWebDriverProxy.wait (/Users/ivaninja/dev/eyas-test-automation/node_modules/selenium-webdriver/lib/webdriver.js:934:29)\n                    at run (/Users/ivaninja/dev/eyas-test-automation/node_modules/protractor/built/browser.js:58:33)\n                    at ProtractorBrowser.to.<computed> [as wait] (/Users/ivaninja/dev/eyas-test-automation/node_modules/protractor/built/browser.js:66:16)\n                    at Step4.waitForLoad (/Users/ivaninja/dev/eyas-test-automation/src/test/components/registration/reg-step-4.component.js:62:19)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                    at UserContext.<anonymous> (/Users/ivaninja/dev/eyas-test-automation/src/test/registration/registration-step-4.spec.js:20:3)\n                From: Task: Run beforeEach in control flow\n                    at UserContext.<anonymous> (/Users/ivaninja/dev/eyas-test-automation/node_modules/jasminewd2/index.js:94:19)\n                    at attempt (/Users/ivaninja/dev/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4297:26)\n                    at QueueRunner.run (/Users/ivaninja/dev/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4217:20)\n                    at QueueRunner.execute (/Users/ivaninja/dev/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4199:10)\n                    at Spec.queueRunnerFactory (/Users/ivaninja/dev/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:909:35)\n                    at Spec.execute (/Users/ivaninja/dev/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:526:10)\n                    at UserContext.fn (/Users/ivaninja/dev/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:5340:37)\n                    at attempt (/Users/ivaninja/dev/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4297:26)\n                    at QueueRunner.run (/Users/ivaninja/dev/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4217:20)\n                    at runNext (/Users/ivaninja/dev/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4257:20)\n                From asynchronous test: \n                Error\n                    at Object.<anonymous> (/Users/ivaninja/dev/eyas-test-automation/src/test/registration/registration-step-4.spec.js:8:1)\n                    at Module._compile (internal/modules/cjs/loader.js:1063:30)\n                    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)\n                    at Module.load (internal/modules/cjs/loader.js:928:32)\n                    at Function.Module._load (internal/modules/cjs/loader.js:769:14)\n                    at Module.require (internal/modules/cjs/loader.js:952:19)\n                    at require (internal/modules/cjs/helpers.js:88:18)\n                    at /Users/ivaninja/dev/eyas-test-automation/node_modules/jasmine/lib/jasmine.js:93:5\n                    at Array.forEach (<anonymous>)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Failed: Registration Step 4 not visible.\n                Wait timed out after 20003ms",
+    "statusTrace" : "TimeoutError: Registration Step 4 not visible.\n                Wait timed out after 20003ms\n                    at /Users/ivaninja/dev/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2201:17\n                    at ManagedPromise.invokeCallback_ (/Users/ivaninja/dev/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:1376:14)\n                    at TaskQueue.execute_ (/Users/ivaninja/dev/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n                    at TaskQueue.executeNext_ (/Users/ivaninja/dev/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n                    at /Users/ivaninja/dev/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2927:27\n                    at /Users/ivaninja/dev/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:668:7\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                From: Task: Registration Step 4 not visible.\n                    at scheduleWait (/Users/ivaninja/dev/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2188:20)\n                    at ControlFlow.wait (/Users/ivaninja/dev/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2517:12)\n                    at thenableWebDriverProxy.wait (/Users/ivaninja/dev/eyas-test-automation/node_modules/selenium-webdriver/lib/webdriver.js:934:29)\n                    at run (/Users/ivaninja/dev/eyas-test-automation/node_modules/protractor/built/browser.js:58:33)\n                    at ProtractorBrowser.to.<computed> [as wait] (/Users/ivaninja/dev/eyas-test-automation/node_modules/protractor/built/browser.js:66:16)\n                    at Step4.waitForLoad (/Users/ivaninja/dev/eyas-test-automation/src/test/components/registration/reg-step-4.component.js:62:19)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                    at UserContext.<anonymous> (/Users/ivaninja/dev/eyas-test-automation/src/test/registration/registration-step-4.spec.js:20:3)\n                From: Task: Run beforeEach in control flow\n                    at UserContext.<anonymous> (/Users/ivaninja/dev/eyas-test-automation/node_modules/jasminewd2/index.js:94:19)\n                    at attempt (/Users/ivaninja/dev/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4297:26)\n                    at QueueRunner.run (/Users/ivaninja/dev/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4217:20)\n                    at QueueRunner.execute (/Users/ivaninja/dev/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4199:10)\n                    at Spec.queueRunnerFactory (/Users/ivaninja/dev/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:909:35)\n                    at Spec.execute (/Users/ivaninja/dev/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:526:10)\n                    at UserContext.fn (/Users/ivaninja/dev/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:5340:37)\n                    at attempt (/Users/ivaninja/dev/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4297:26)\n                    at QueueRunner.run (/Users/ivaninja/dev/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4217:20)\n                    at runNext (/Users/ivaninja/dev/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4257:20)\n                From asynchronous test: \n                Error\n                    at Object.<anonymous> (/Users/ivaninja/dev/eyas-test-automation/src/test/registration/registration-step-4.spec.js:8:1)\n                    at Module._compile (internal/modules/cjs/loader.js:1063:30)\n                    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)\n                    at Module.load (internal/modules/cjs/loader.js:928:32)\n                    at Function.Module._load (internal/modules/cjs/loader.js:769:14)\n                    at Module.require (internal/modules/cjs/loader.js:952:19)\n                    at require (internal/modules/cjs/helpers.js:88:18)\n                    at /Users/ivaninja/dev/eyas-test-automation/node_modules/jasmine/lib/jasmine.js:93:5\n                    at Array.forEach (<anonymous>)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "129458396cda313d",
+      "name" : "Screenshot",
+      "source" : "129458396cda313d.png",
+      "type" : "image/png",
+      "size" : 759309
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Registration > Step 4"
+  }, {
+    "name" : "testClass",
+    "value" : "Registration > Step 4"
+  }, {
+    "name" : "testMethod",
+    "value" : "#19 User can select a Country Code from the dropdown menu."
+  }, {
+    "name" : "package",
+    "value" : "Registration > Step 4"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "e523830eb2b010b3",
+      "status" : "failed",
+      "statusDetails" : "Failed: Registration Step 4 not visible.\n                Wait timed out after 20007ms",
+      "time" : {
+        "start" : 1641290397957,
+        "stop" : 1641290421892,
+        "duration" : 23935
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "24c4e36e221a6806.json",
+  "parameterValues" : [ ]
+}
