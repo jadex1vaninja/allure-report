@@ -1,0 +1,79 @@
+{
+  "uid" : "ebc93d7a081466a6",
+  "name" : "#01 Player can select the 'Take A Break' menu item and is displayed the Take A Break modal.",
+  "fullName" : "My Account > Gambling Controls > Take A Break.#01 Player can select the 'Take A Break' menu item and is displayed the Take A Break modal.",
+  "historyId" : "56975ffe4b7da3284d8725024fd95355",
+  "time" : {
+    "start" : 1641831935330,
+    "stop" : 1641831948788,
+    "duration" : 13458
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expected 'Deposit Limits' to contain 'Account Pause', 'Take A Break modal heading has incorrect text.'.",
+  "statusTrace" : "Error: Failed expectation\n                    at UserContext.<anonymous> (/home/aleksey/Documents/eyas-test-automation/src/test/my-account/gambling-controls/take-a-break.spec.js:46:63)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expected 'Deposit Limits' to contain 'Account Pause', 'Take A Break modal heading has incorrect text.'.",
+    "statusTrace" : "Error: Failed expectation\n                    at UserContext.<anonymous> (/home/aleksey/Documents/eyas-test-automation/src/test/my-account/gambling-controls/take-a-break.spec.js:46:63)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "8afaf07aab03563d",
+      "name" : "Screenshot",
+      "source" : "8afaf07aab03563d.png",
+      "type" : "image/png",
+      "size" : 192428
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "My Account > Gambling Controls > Take A Break"
+  }, {
+    "name" : "testClass",
+    "value" : "My Account > Gambling Controls > Take A Break"
+  }, {
+    "name" : "testMethod",
+    "value" : "#01 Player can select the 'Take A Break' menu item and is displayed the Take A Break modal."
+  }, {
+    "name" : "package",
+    "value" : "My Account > Gambling Controls > Take A Break"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b414fb9405a6b92a",
+      "status" : "failed",
+      "statusDetails" : "Expected 'Deposit Limits' to contain 'Account Pause', 'Take A Break modal heading has incorrect text.'.",
+      "time" : {
+        "start" : 1641827273243,
+        "stop" : 1641827288870,
+        "duration" : 15627
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "ebc93d7a081466a6.json",
+  "parameterValues" : [ ]
+}
