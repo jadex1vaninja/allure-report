@@ -4,275 +4,90 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "Expected 'Account Closure' to contain 'Self-Exclusion', 'Self Exclusion modal heading has incorrect text.'.",
+      "name" : "Expected 'text' to equal 'password'.",
       "children" : [ {
-        "name" : "#01 Player can select the 'Self Exclusion' menu item and is displayed the Self Exclusion modal.",
-        "uid" : "29ecc4fbb038908f",
-        "parentUid" : "f814798094fd7eaa0653b938c8dd5316",
+        "name" : "#14 Player should be able to show/hide their inputs into the password fields.",
+        "uid" : "1ae1fc8a38f0ade1",
+        "parentUid" : "ea6be5213210c95255c0966b6fee83f3",
         "status" : "failed",
         "time" : {
-          "start" : 1641831909491,
-          "stop" : 1641831923038,
-          "duration" : 13547
+          "start" : 1642506644034,
+          "stop" : 1642506657658,
+          "duration" : 13624
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "f814798094fd7eaa0653b938c8dd5316"
+      "uid" : "ea6be5213210c95255c0966b6fee83f3"
     }, {
-      "name" : "Failed: No element found using locator: By(css selector, .u-action-footer)",
+      "name" : "Error: Timeout - Async callback was not invoked within timeout specified by jasmine.DEFAULT_TIMEOUT_INTERVAL.",
       "children" : [ {
-        "name" : "#02 Player can cancel out of the 'Self Exclusion' modal.",
-        "uid" : "cb54259b38fba51a",
-        "parentUid" : "c9a6f28e7c88f0955711be88fba5f6c9",
+        "name" : "Check user is able to exit out of the deposit modal using the x button",
+        "uid" : "f364e350eae9f18",
+        "parentUid" : "529a5c49d07d5715f54949d670a9ff89",
         "status" : "failed",
         "time" : {
-          "start" : 1641831935054,
-          "stop" : 1641831944761,
-          "duration" : 9707
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "#03 Player cannot continue with 'Self Exclusion' if a duration is not selected.",
-        "uid" : "3fa696b4a20fee82",
-        "parentUid" : "c9a6f28e7c88f0955711be88fba5f6c9",
-        "status" : "failed",
-        "time" : {
-          "start" : 1641831944761,
-          "stop" : 1641831955174,
-          "duration" : 10413
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "#02 Player can cancel out of the 'Take A Break' modal.",
-        "uid" : "42b7640cdbef86b7",
-        "parentUid" : "c9a6f28e7c88f0955711be88fba5f6c9",
-        "status" : "failed",
-        "time" : {
-          "start" : 1641831959643,
-          "stop" : 1641831969593,
-          "duration" : 9950
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "#05 Player cannot continue with 'Take A Break' if a duration is not selected.",
-        "uid" : "9316f49ad98f88e6",
-        "parentUid" : "c9a6f28e7c88f0955711be88fba5f6c9",
-        "status" : "failed",
-        "time" : {
-          "start" : 1641831969594,
-          "stop" : 1641831979759,
-          "duration" : 10165
+          "start" : 1642506698028,
+          "stop" : 1642506718028,
+          "duration" : 20000
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "c9a6f28e7c88f0955711be88fba5f6c9"
+      "uid" : "529a5c49d07d5715f54949d670a9ff89"
     }, {
-      "name" : "Expected 'Deposit Limits' to contain 'Account Pause', 'Take A Break modal heading has incorrect text.'.",
+      "name" : "StaleElementReferenceError: stale element reference: element is not attached to the page document\n                  (Session info: headless chrome=97.0.4692.71)\n                For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\n                Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'\n                System info: host: 'Ivans-MacBook-Pro.local', ip: '10.200.0.41', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.1', java.version: '11.0.12'\n                Driver info: driver.version: unknown",
       "children" : [ {
-        "name" : "#01 Player can select the 'Take A Break' menu item and is displayed the Take A Break modal.",
-        "uid" : "ebc93d7a081466a6",
-        "parentUid" : "9d4539beb20c949b51971affd52525df",
+        "name" : "Check user is able to select Instant Bank Transfer and is provided with the correct information for this payment method",
+        "uid" : "1e5e27f7f613d6dc",
+        "parentUid" : "a01ca4604c4e29209c2f1a3c793781bf",
         "status" : "failed",
         "time" : {
-          "start" : 1641831935330,
-          "stop" : 1641831948788,
-          "duration" : 13458
+          "start" : 1642506727891,
+          "stop" : 1642506738013,
+          "duration" : 10122
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "9d4539beb20c949b51971affd52525df"
+      "uid" : "a01ca4604c4e29209c2f1a3c793781bf"
     }, {
-      "name" : "Failed: Index out of bound. Trying to access element at index: 0, but there are only 0 elements that match locator By(css selector, .toggle-button)",
+      "name" : "Failed: Snackbar not visible.\n                Wait timed out after 20001ms",
       "children" : [ {
-        "name" : "#06 Player can select a duration and is taken to the next step of the 'Self Exclusion' modal.",
-        "uid" : "3a851750c5e18dc7",
-        "parentUid" : "9c988fa3f04c5636f2adbda2dd16a9c8",
+        "name" : "#18 Player can submit a blank value in the Deposit Limits.",
+        "uid" : "d80610aa66ae804b",
+        "parentUid" : "3398538f6328343e33e7eca5eca1a587",
         "status" : "failed",
         "time" : {
-          "start" : 1641831955175,
-          "stop" : 1641831965267,
-          "duration" : 10092
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "#07 Player can click the 'Back' button from step 2 of the 'Self Exclusion' modal and is taken back.",
-        "uid" : "36493384cb6f73fd",
-        "parentUid" : "9c988fa3f04c5636f2adbda2dd16a9c8",
-        "status" : "failed",
-        "time" : {
-          "start" : 1641831965267,
-          "stop" : 1641831975236,
-          "duration" : 9969
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "#08 Player can choose to 'Self Exclusion' for 6 Months and should be logged out and unable to sign back into their account.",
-        "uid" : "8353775222272e9f",
-        "parentUid" : "9c988fa3f04c5636f2adbda2dd16a9c8",
-        "status" : "failed",
-        "time" : {
-          "start" : 1641831975236,
-          "stop" : 1641831985614,
-          "duration" : 10378
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "#08 Player can choose to 'Take A Break' a for 1 Day and should be logged out and unable to sign back into their account.",
-        "uid" : "e2dd8407991cd0f4",
-        "parentUid" : "9c988fa3f04c5636f2adbda2dd16a9c8",
-        "status" : "failed",
-        "time" : {
-          "start" : 1641831979761,
-          "stop" : 1641831994079,
-          "duration" : 14318
+          "start" : 1642506895027,
+          "stop" : 1642506926896,
+          "duration" : 31869
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "9c988fa3f04c5636f2adbda2dd16a9c8"
+      "uid" : "3398538f6328343e33e7eca5eca1a587"
     }, {
-      "name" : "Failed: Index out of bound. Trying to access element at index: 1, but there are only 0 elements that match locator By(css selector, .toggle-button)",
+      "name" : "Failed: Modal is still visible.\n                Wait timed out after 10028ms",
       "children" : [ {
-        "name" : "#09 Player can choose to 'Self Exclusion' for 1 Year and should be logged out and unable to sign back into their account.",
-        "uid" : "5dcb27343d8bb764",
-        "parentUid" : "c5a284d916da251dcbefa9a9856bcabc",
+        "name" : "#19 Player can only enter numeric digits into the set Deposit Limit field.",
+        "uid" : "19932ea2232630c7",
+        "parentUid" : "60c201c4e606eda5f4b61bb4e29e9d7e",
         "status" : "failed",
         "time" : {
-          "start" : 1641831985614,
-          "stop" : 1641832000748,
-          "duration" : 15134
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "#09 Player can choose to 'Take A Break' a for 1 Week and should be logged out and unable to sign back into their account.",
-        "uid" : "c08fb2ff03a745c9",
-        "parentUid" : "c5a284d916da251dcbefa9a9856bcabc",
-        "status" : "failed",
-        "time" : {
-          "start" : 1641831994079,
-          "stop" : 1641832009396,
-          "duration" : 15317
+          "start" : 1642506926896,
+          "stop" : 1642506947865,
+          "duration" : 20969
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "c5a284d916da251dcbefa9a9856bcabc"
-    }, {
-      "name" : "Failed: Index out of bound. Trying to access element at index: 2, but there are only 0 elements that match locator By(css selector, .toggle-button)",
-      "children" : [ {
-        "name" : "#10 Player can choose to 'Self Exclusion' for 18 Months and should be logged out and unable to sign back into their account.",
-        "uid" : "20edf09817aa8c02",
-        "parentUid" : "1a50724635fba499edcfad6d02bce069",
-        "status" : "failed",
-        "time" : {
-          "start" : 1641832000748,
-          "stop" : 1641832014264,
-          "duration" : 13516
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "#10 Player can choose to 'Take A Break' a for 1 Month and should be logged out and unable to sign back into their account.",
-        "uid" : "e503f9c1e81fa692",
-        "parentUid" : "1a50724635fba499edcfad6d02bce069",
-        "status" : "failed",
-        "time" : {
-          "start" : 1641832009396,
-          "stop" : 1641832024901,
-          "duration" : 15505
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "1a50724635fba499edcfad6d02bce069"
-    }, {
-      "name" : "Failed: Index out of bound. Trying to access element at index: 3, but there are only 0 elements that match locator By(css selector, .toggle-button)",
-      "children" : [ {
-        "name" : "#11 Player can choose to 'Self Exclude' for 2 years and should be logged out and unable to sign back into their account.",
-        "uid" : "e13bd79f21fe1024",
-        "parentUid" : "7415791550540d517f495d01ce51da4e",
-        "status" : "failed",
-        "time" : {
-          "start" : 1641832014264,
-          "stop" : 1641832026774,
-          "duration" : 12510
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "#11 Player can choose to 'Take A Break' a for 6 weeks and should be logged out and unable to sign back into their account.",
-        "uid" : "86f863ad025b4c1f",
-        "parentUid" : "7415791550540d517f495d01ce51da4e",
-        "status" : "failed",
-        "time" : {
-          "start" : 1641832024901,
-          "stop" : 1641832037278,
-          "duration" : 12377
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "7415791550540d517f495d01ce51da4e"
-    }, {
-      "name" : "Failed: Index out of bound. Trying to access element at index: 4, but there are only 0 elements that match locator By(css selector, .toggle-button)",
-      "children" : [ {
-        "name" : "#12 Player can choose to 'Self Exclude' for 5 years and should be logged out and unable to sign back into their account.",
-        "uid" : "90eb48c33543e5a2",
-        "parentUid" : "d6cb3002c4604adf887c995348343785",
-        "status" : "failed",
-        "time" : {
-          "start" : 1641832026774,
-          "stop" : 1641832039527,
-          "duration" : 12753
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "d6cb3002c4604adf887c995348343785"
-    }, {
-      "name" : "Expected false to be true, 'Checkbox is not clicked'.",
-      "children" : [ {
-        "name" : "#12 User can click on confirm checkbox and click success registration button.",
-        "uid" : "48160782e5b01a5e",
-        "parentUid" : "2c3a8e61526de8bcccaf07426ae3508f",
-        "status" : "failed",
-        "time" : {
-          "start" : 1641832214441,
-          "stop" : 1641832221701,
-          "duration" : 7260
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "2c3a8e61526de8bcccaf07426ae3508f"
+      "uid" : "60c201c4e606eda5f4b61bb4e29e9d7e"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]

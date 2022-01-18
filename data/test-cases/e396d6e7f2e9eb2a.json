@@ -1,0 +1,80 @@
+{
+  "uid" : "e396d6e7f2e9eb2a",
+  "name" : "#03 User can opt in to receive All marketing preferences.",
+  "fullName" : "Registration > Step 4.#03 User can opt in to receive All marketing preferences.",
+  "historyId" : "f45fbe2efcdc6c5ca6835fb629e4dd5d",
+  "time" : {
+    "start" : 1642506625029,
+    "stop" : 1642506631509,
+    "duration" : 6480
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "eed73a21d52a0083",
+      "name" : "Screenshot",
+      "source" : "eed73a21d52a0083.png",
+      "type" : "image/png",
+      "size" : 773433
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Registration > Step 4"
+  }, {
+    "name" : "testClass",
+    "value" : "Registration > Step 4"
+  }, {
+    "name" : "testMethod",
+    "value" : "#03 User can opt in to receive All marketing preferences."
+  }, {
+    "name" : "package",
+    "value" : "Registration > Step 4"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "34772cb8111e9080",
+      "status" : "failed",
+      "statusDetails" : "Failed: stale element reference: element is not attached to the page document\n                  (Session info: headless chrome=97.0.4692.71)\n                For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\n                Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'\n                System info: host: 'Ivans-MacBook-Pro.local', ip: '10.200.0.41', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.1', java.version: '11.0.12'\n                Driver info: driver.version: unknown",
+      "time" : {
+        "start" : 1642501607881,
+        "stop" : 1642501613532,
+        "duration" : 5651
+      }
+    }, {
+      "uid" : "4486ed462ebe2654",
+      "status" : "failed",
+      "statusDetails" : "Failed: No element found using locator: By(css selector, *[id=\"step-content-personal-details\"])",
+      "time" : {
+        "start" : 1642501445094,
+        "stop" : 1642501450322,
+        "duration" : 5228
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e396d6e7f2e9eb2a.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,87 @@
+{
+  "uid" : "a69e47378aaa486e",
+  "name" : "Check user is able to select Phone payment method and is provided with the correct information for this payment method",
+  "fullName" : "My Account -> Deposit.Check user is able to select Phone payment method and is provided with the correct information for this payment method",
+  "historyId" : "ad34c6590edf09159b07d25fa3a25c5a",
+  "time" : {
+    "start" : 1642506738013,
+    "stop" : 1642506746088,
+    "duration" : 8075
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c3b041ab7ba53c8d",
+      "name" : "Screenshot",
+      "source" : "c3b041ab7ba53c8d.png",
+      "type" : "image/png",
+      "size" : 732097
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "My Account -> Deposit"
+  }, {
+    "name" : "testClass",
+    "value" : "My Account -> Deposit"
+  }, {
+    "name" : "testMethod",
+    "value" : "Check user is able to select Phone payment method and is provided with the correct information for this payment method"
+  }, {
+    "name" : "package",
+    "value" : "My Account -> Deposit"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c775eff26dd54a43",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642506338650,
+        "stop" : 1642506353722,
+        "duration" : 15072
+      }
+    }, {
+      "uid" : "b0dc29258ee82413",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642501622597,
+        "stop" : 1642501637123,
+        "duration" : 14526
+      }
+    }, {
+      "uid" : "fe4c9940644c737e",
+      "status" : "failed",
+      "statusDetails" : "NoSuchElementError: Index out of bound. Trying to access element at index: 0, but there are only 0 elements that match locator By(css selector, .tcell)",
+      "time" : {
+        "start" : 1642501201629,
+        "stop" : 1642501219490,
+        "duration" : 17861
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a69e47378aaa486e.json",
+  "parameterValues" : [ ]
+}
