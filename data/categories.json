@@ -4,82 +4,39 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "NoSuchElementError: No element found using locator: By(css selector, .checkbox__icon)",
-      "children" : [ {
-        "name" : "#19 Player can continue with chosen 6 months option to 'Self Exclusion' and confirming modal should display.",
-        "uid" : "204e642ac4222099",
-        "parentUid" : "7416ecf142a6c3741eec34fbbd68d7df",
-        "status" : "failed",
-        "time" : {
-          "start" : 1642767574418,
-          "stop" : 1642767586142,
-          "duration" : 11724
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "7416ecf142a6c3741eec34fbbd68d7df"
-    }, {
-      "name" : "NoSuchElementError: Index out of bound. Trying to access element at index: 0, but there are only 0 elements that match locator By(css selector, .tcell)",
+      "name" : "Error: Timeout - Async callback was not invoked within timeout specified by jasmine.DEFAULT_TIMEOUT_INTERVAL.",
       "children" : [ {
         "name" : "Check user is able to access the deposit modal via the account menu and is displayed with the option to fill in card details by default",
-        "uid" : "d4a19ccca88fcff0",
-        "parentUid" : "c4628bd6266910136fb66bfebae62547",
+        "uid" : "4f557bf7e9c6f0aa",
+        "parentUid" : "529a5c49d07d5715f54949d670a9ff89",
         "status" : "failed",
         "time" : {
-          "start" : 1642767790924,
-          "stop" : 1642767801609,
-          "duration" : 10685
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Check user is able to select Instant Bank Transfer and is provided with the correct information for this payment method",
-        "uid" : "f4147f56ec802e99",
-        "parentUid" : "c4628bd6266910136fb66bfebae62547",
-        "status" : "failed",
-        "time" : {
-          "start" : 1642767821909,
-          "stop" : 1642767831094,
-          "duration" : 9185
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Check user is able to select PayPal payment method and is provided with the correct information for this payment method",
-        "uid" : "adf829763834f807",
-        "parentUid" : "c4628bd6266910136fb66bfebae62547",
-        "status" : "failed",
-        "time" : {
-          "start" : 1642767867232,
-          "stop" : 1642767876382,
-          "duration" : 9150
+          "start" : 1643019837400,
+          "stop" : 1643019861081,
+          "duration" : 23681
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "c4628bd6266910136fb66bfebae62547"
+      "uid" : "529a5c49d07d5715f54949d670a9ff89"
     }, {
-      "name" : "Failed: Deposit iFrame did not display or did not display in time\n                Wait timed out after 30005ms",
+      "name" : "Failed: No element found using locator: By(css selector, .account-tile-list-item__icon)",
       "children" : [ {
-        "name" : "Check user is able to select Phone payment method and is provided with the correct information for this payment method",
-        "uid" : "b750a3e600728ad6",
-        "parentUid" : "2a6a2f2403ce107bfc2b740e1b28270a",
+        "name" : "#1 Player can select to edit their 'Time Limit' and is displayed the Play Reminders modal.",
+        "uid" : "be04ce48d3e89387",
+        "parentUid" : "3743181dc83928c569eec9f307cafe88",
         "status" : "failed",
         "time" : {
-          "start" : 1642767831094,
-          "stop" : 1642767867232,
-          "duration" : 36138
+          "start" : 1643020208587,
+          "stop" : 1643020219981,
+          "duration" : 11394
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "2a6a2f2403ce107bfc2b740e1b28270a"
+      "uid" : "3743181dc83928c569eec9f307cafe88"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]
