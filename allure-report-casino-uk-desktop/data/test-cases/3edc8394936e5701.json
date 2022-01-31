@@ -1,0 +1,79 @@
+{
+  "uid" : "3edc8394936e5701",
+  "name" : "#8 Player can edit their preferences and select just the Phone toggle, which upon saving updates the account area accordingly",
+  "fullName" : "My Profile > Communications Preferences.#8 Player can edit their preferences and select just the Phone toggle, which upon saving updates the account area accordingly",
+  "historyId" : "94cbf891469e6a07d3467520132fccac",
+  "time" : {
+    "start" : 1643621375822,
+    "stop" : 1643621393270,
+    "duration" : 17448
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expected false to be true, 'Phone toggle is not visible'.",
+  "statusTrace" : "Error: Failed expectation\n                    at UserContext.<anonymous> (/home/developer/Downloads/eyas-test-automation/src/test/my-account/settings/comm-preferences.spec.js:385:53)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expected false to be true, 'Phone toggle is not visible'.",
+    "statusTrace" : "Error: Failed expectation\n                    at UserContext.<anonymous> (/home/developer/Downloads/eyas-test-automation/src/test/my-account/settings/comm-preferences.spec.js:385:53)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "da63812097f99a4f",
+      "name" : "Screenshot",
+      "source" : "da63812097f99a4f.png",
+      "type" : "image/png",
+      "size" : 466720
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "My Profile > Communications Preferences"
+  }, {
+    "name" : "testClass",
+    "value" : "My Profile > Communications Preferences"
+  }, {
+    "name" : "testMethod",
+    "value" : "#8 Player can edit their preferences and select just the Phone toggle, which upon saving updates the account area accordingly"
+  }, {
+    "name" : "package",
+    "value" : "My Profile > Communications Preferences"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "89251de7473acde3",
+      "status" : "failed",
+      "statusDetails" : "Expected false to be true, 'Phone toggle is not visible'.",
+      "time" : {
+        "start" : 1643621090078,
+        "stop" : 1643621103595,
+        "duration" : 13517
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "3edc8394936e5701.json",
+  "parameterValues" : [ ]
+}
