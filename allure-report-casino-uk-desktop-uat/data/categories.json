@@ -4,56 +4,39 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "StaleElementReferenceError: stale element reference: element is not attached to the page document\n                  (Session info: headless chrome=97.0.4692.99)\n                For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\n                Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'\n                System info: host: 'smiss-eugen-vostro-5590', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.13.0-27-generic', java.version: '11.0.13'\n                Driver info: driver.version: unknown",
+      "name" : "Expected false to be true, 'Cancel button is not displaying correctly'.",
       "children" : [ {
-        "name" : "#6 Check user is able to select PayPal payment method and is provided with the correct information for this payment method",
-        "uid" : "e610c2e9e899e7e6",
-        "parentUid" : "fa300907327ccb350c84376d17232bf1",
+        "name" : "#3 Player can edit their preferences and exit using the Cancel CTA within the modal discarding changes",
+        "uid" : "8fecf8d60c055105",
+        "parentUid" : "7f5f51b41d5d0e61cb83c6955da9609b",
         "status" : "failed",
         "time" : {
-          "start" : 1643792686376,
-          "stop" : 1643792695971,
-          "duration" : 9595
+          "start" : 1643968893998,
+          "stop" : 1643968904216,
+          "duration" : 10218
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "fa300907327ccb350c84376d17232bf1"
+      "uid" : "7f5f51b41d5d0e61cb83c6955da9609b"
     }, {
-      "name" : "Failed: After player chooses option in self exclusion nothing option selected.\n                Wait timed out after 10028ms",
+      "name" : "Failed: Game Card Details not visible.\n                Wait timed out after 20004ms",
       "children" : [ {
-        "name" : "#12 Player can continue with chosen 6 months option to 'Self Exclusion' and confirming modal should display.",
-        "uid" : "6bedb52a3bc23a6f",
-        "parentUid" : "280abe8df362e9aa99e77df874028b2a",
+        "name" : "#4 Player can see total withdrawable cash balance",
+        "uid" : "ae76d5f1cd38461c",
+        "parentUid" : "0d5ac3bf9215cbc9ab4ae2618b8b8049",
         "status" : "failed",
         "time" : {
-          "start" : 1643792738500,
-          "stop" : 1643792759592,
-          "duration" : 21092
+          "start" : 1643968913106,
+          "stop" : 1643968939248,
+          "duration" : 26142
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "280abe8df362e9aa99e77df874028b2a"
-    }, {
-      "name" : "Failed: After player chooses option in self exclusion nothing option selected.\n                Wait timed out after 10007ms",
-      "children" : [ {
-        "name" : "#18 Player can close the self exclusion modal.",
-        "uid" : "1b7e6b1f086c67a",
-        "parentUid" : "8816c9cfb8878499555d158ca39f1329",
-        "status" : "failed",
-        "time" : {
-          "start" : 1643792821181,
-          "stop" : 1643792842632,
-          "duration" : 21451
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "8816c9cfb8878499555d158ca39f1329"
+      "uid" : "0d5ac3bf9215cbc9ab4ae2618b8b8049"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]
