@@ -4,22 +4,103 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "Failed: No element found using locator: By(css selector, h1)",
+      "name" : "Error: Timeout - Async callback was not invoked within timeout specified by jasmine.DEFAULT_TIMEOUT_INTERVAL.",
       "children" : [ {
-        "name" : "#0 User can come to the terms and conditions page",
-        "uid" : "7a6c12ade8b29f56",
-        "parentUid" : "2c379c3f4f9511c78a96211fc4224c41",
+        "name" : "#4 Player can see safer gambling logos",
+        "uid" : "aa1bde6931575338",
+        "parentUid" : "529a5c49d07d5715f54949d670a9ff89",
         "status" : "failed",
         "time" : {
-          "start" : 1643796933292,
-          "stop" : 1643796938750,
-          "duration" : 5458
+          "start" : 1643978248280,
+          "stop" : 1643978312800,
+          "duration" : 64520
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "#10 Deleting a message from the inbox which is marked as new should decrease the unread message count badge",
+        "uid" : "ae4d95f58b838228",
+        "parentUid" : "529a5c49d07d5715f54949d670a9ff89",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643978384572,
+          "stop" : 1643978415788,
+          "duration" : 31216
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "2c379c3f4f9511c78a96211fc4224c41"
+      "uid" : "529a5c49d07d5715f54949d670a9ff89"
+    }, {
+      "name" : "Expected false to be true, 'Header balance for authenticated user is not displayed.'.",
+      "children" : [ {
+        "name" : "#5 Player can click \"Login\" button, open login window and successfully login.",
+        "uid" : "7ad5d93d16c4a5fb",
+        "parentUid" : "ef5a2032409889d60e0ef1072e00ee81",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643979042690,
+          "stop" : 1643979048833,
+          "duration" : 6143
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ef5a2032409889d60e0ef1072e00ee81"
+    }, {
+      "name" : "Failed: Deposit success message is not visible\n                Wait timed out after 60010ms",
+      "children" : [ {
+        "name" : "#10 User can click on 'Deposit' button opens Deposit window and successfully deposit.",
+        "uid" : "84b725f82b27d6b0",
+        "parentUid" : "bbfcc0484e9ccb6a3f0edc3a565fc29c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643979060431,
+          "stop" : 1643979131149,
+          "duration" : 70718
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bbfcc0484e9ccb6a3f0edc3a565fc29c"
+    }, {
+      "name" : "Failed: Name on card missing\n                Wait timed out after 12002ms",
+      "children" : [ {
+        "name" : "#7 Check user is able to deposit with a valid card and is presented with success modal",
+        "uid" : "9d801c0d056e5022",
+        "parentUid" : "638b5ec6e84a5e3ff1b71b50d0b161ff",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643979128493,
+          "stop" : 1643979149591,
+          "duration" : 21098
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "638b5ec6e84a5e3ff1b71b50d0b161ff"
+    }, {
+      "name" : "Failed: Name on card missing\n                Wait timed out after 12003ms",
+      "children" : [ {
+        "name" : "#8 Check user is displayed with a declined modal when safecharge returns a declined response",
+        "uid" : "d711160386bd4ea5",
+        "parentUid" : "383011a657a10d6e37d9da3c6ddac1b7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643979149591,
+          "stop" : 1643979177337,
+          "duration" : 27746
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "383011a657a10d6e37d9da3c6ddac1b7"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]
