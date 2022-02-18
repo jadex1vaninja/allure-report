@@ -1,0 +1,79 @@
+{
+  "uid" : "781cc4aedd72fb6a",
+  "name" : "#0 User come to the Error 500 page, when service is unavailable",
+  "fullName" : "Service unavailable.#0 User come to the Error 500 page, when service is unavailable",
+  "historyId" : "642a0ddfb22c046921128bea6db0e7a3",
+  "time" : {
+    "start" : 1645198491653,
+    "stop" : 1645198507878,
+    "duration" : 16225
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expected false to be true, 'User cant see header'.",
+  "statusTrace" : "Error: Failed expectation\n                    at UserContext.<anonymous> (/home/developer/Downloads/eyas-test-automation/src/test/error/error500.spec.js:20:37)\n                    at /home/developer/Downloads/eyas-test-automation/node_modules/jasminewd2/index.js:112:25\n                    at new ManagedPromise (/home/developer/Downloads/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:1077:7)\n                    at ControlFlow.promise (/home/developer/Downloads/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2505:12)\n                    at schedulerExecute (/home/developer/Downloads/eyas-test-automation/node_modules/jasminewd2/index.js:95:18)\n                    at TaskQueue.execute_ (/home/developer/Downloads/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n                    at TaskQueue.executeNext_ (/home/developer/Downloads/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n                    at /home/developer/Downloads/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2974:25\n                    at /home/developer/Downloads/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:668:7",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expected false to be true, 'User cant see header'.",
+    "statusTrace" : "Error: Failed expectation\n                    at UserContext.<anonymous> (/home/developer/Downloads/eyas-test-automation/src/test/error/error500.spec.js:20:37)\n                    at /home/developer/Downloads/eyas-test-automation/node_modules/jasminewd2/index.js:112:25\n                    at new ManagedPromise (/home/developer/Downloads/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:1077:7)\n                    at ControlFlow.promise (/home/developer/Downloads/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2505:12)\n                    at schedulerExecute (/home/developer/Downloads/eyas-test-automation/node_modules/jasminewd2/index.js:95:18)\n                    at TaskQueue.execute_ (/home/developer/Downloads/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n                    at TaskQueue.executeNext_ (/home/developer/Downloads/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n                    at /home/developer/Downloads/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2974:25\n                    at /home/developer/Downloads/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:668:7",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c96f9193d88bae2",
+      "name" : "Screenshot",
+      "source" : "c96f9193d88bae2.png",
+      "type" : "image/png",
+      "size" : 185048
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Service unavailable"
+  }, {
+    "name" : "testClass",
+    "value" : "Service unavailable"
+  }, {
+    "name" : "testMethod",
+    "value" : "#0 User come to the Error 500 page, when service is unavailable"
+  }, {
+    "name" : "package",
+    "value" : "Service unavailable"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f7c06a7c22ff519c",
+      "status" : "failed",
+      "statusDetails" : "Expected false to be true, 'User cant see header'.",
+      "time" : {
+        "start" : 1645197608075,
+        "stop" : 1645197623084,
+        "duration" : 15009
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "781cc4aedd72fb6a.json",
+  "parameterValues" : [ ]
+}
