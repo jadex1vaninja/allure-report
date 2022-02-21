@@ -1,0 +1,64 @@
+{
+  "uid" : "25cb2ab0bb1939fd",
+  "name" : "#11 User is displayed with the correct cash balance format in the dropdown card when balance exceeds 9999 (five figure balance)",
+  "fullName" : "Homepage.#11 User is displayed with the correct cash balance format in the dropdown card when balance exceeds 9999 (five figure balance)",
+  "historyId" : "e18e5fcd868ec03c7a0e6ae4f3bbe3d6",
+  "time" : {
+    "start" : 1645466692676,
+    "stop" : 1645466703508,
+    "duration" : 10832
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expected '£12,482.36' to contain '£12.48k', 'Cash amount has incorrect balance after zeroing out'.",
+  "statusTrace" : "Error: Failed expectation\n                    at UserContext.<anonymous> (/home/developer/Downloads/eyas-test-automation/src/test/homepage.spec.js:378:59)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expected '£12,482.36' to contain '£12.48k', 'Cash amount has incorrect balance after zeroing out'.",
+    "statusTrace" : "Error: Failed expectation\n                    at UserContext.<anonymous> (/home/developer/Downloads/eyas-test-automation/src/test/homepage.spec.js:378:59)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3b5cd681e92cc0bb",
+      "name" : "Screenshot",
+      "source" : "3b5cd681e92cc0bb.png",
+      "type" : "image/png",
+      "size" : 420659
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Homepage"
+  }, {
+    "name" : "testClass",
+    "value" : "Homepage"
+  }, {
+    "name" : "testMethod",
+    "value" : "#11 User is displayed with the correct cash balance format in the dropdown card when balance exceeds 9999 (five figure balance)"
+  }, {
+    "name" : "package",
+    "value" : "Homepage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "25cb2ab0bb1939fd.json",
+  "parameterValues" : [ ]
+}

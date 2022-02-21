@@ -1,0 +1,79 @@
+{
+  "uid" : "8d9b56fbdf91f53b",
+  "name" : "#9 Player can successfully update a daily deposit limit in the Deposit Limits Delete modal",
+  "fullName" : "My Account > Gambling Controls > Deposit Limits.#9 Player can successfully update a daily deposit limit in the Deposit Limits Delete modal",
+  "historyId" : "5e4bea88f2818a433e0245b731eaed38",
+  "time" : {
+    "start" : 1645468044237,
+    "stop" : 1645468060028,
+    "duration" : 15791
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expected 'New deposit limit request is ready' to contain 'You have successfully requested to reset your daily deposit limit to the default of no limit. We'll ask you to confirm your new limit in 24 hours.', 'Success snackbar has incorrect text/amount.'.",
+  "statusTrace" : "Error: Failed expectation\n                    at UserContext.<anonymous> (/home/developer/Downloads/eyas-test-automation/src/test/my-account/gambling-controls/deposit-limits.spec.js:319:61)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expected 'New deposit limit request is ready' to contain 'You have successfully requested to reset your daily deposit limit to the default of no limit. We'll ask you to confirm your new limit in 24 hours.', 'Success snackbar has incorrect text/amount.'.",
+    "statusTrace" : "Error: Failed expectation\n                    at UserContext.<anonymous> (/home/developer/Downloads/eyas-test-automation/src/test/my-account/gambling-controls/deposit-limits.spec.js:319:61)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "121369acee31e14d",
+      "name" : "Screenshot",
+      "source" : "121369acee31e14d.png",
+      "type" : "image/png",
+      "size" : 348317
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "My Account > Gambling Controls > Deposit Limits"
+  }, {
+    "name" : "testClass",
+    "value" : "My Account > Gambling Controls > Deposit Limits"
+  }, {
+    "name" : "testMethod",
+    "value" : "#9 Player can successfully update a daily deposit limit in the Deposit Limits Delete modal"
+  }, {
+    "name" : "package",
+    "value" : "My Account > Gambling Controls > Deposit Limits"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "3ed9f38242772899",
+      "status" : "failed",
+      "statusDetails" : "Failed: Snackbar not visible.\n                Wait timed out after 20020ms",
+      "time" : {
+        "start" : 1645466804012,
+        "stop" : 1645466839727,
+        "duration" : 35715
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "8d9b56fbdf91f53b.json",
+  "parameterValues" : [ ]
+}

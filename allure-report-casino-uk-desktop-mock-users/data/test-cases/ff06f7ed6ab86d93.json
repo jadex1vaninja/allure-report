@@ -1,0 +1,79 @@
+{
+  "uid" : "ff06f7ed6ab86d93",
+  "name" : "#7 Balance preview updates correctly upon refresh when a users balance is adjusted",
+  "fullName" : "Homepage.#7 Balance preview updates correctly upon refresh when a users balance is adjusted",
+  "historyId" : "11e442c0dfd9b0de767e93d9be3c529e",
+  "time" : {
+    "start" : 1645467930307,
+    "stop" : 1645467941495,
+    "duration" : 11188
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expected '£37.02' to contain '£37.019999999999996', 'Balance preview has incorrect balance after update'.",
+  "statusTrace" : "Error: Failed expectation\n                    at UserContext.<anonymous> (/home/developer/Downloads/eyas-test-automation/src/test/homepage.spec.js:261:62)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expected '£37.02' to contain '£37.019999999999996', 'Balance preview has incorrect balance after update'.",
+    "statusTrace" : "Error: Failed expectation\n                    at UserContext.<anonymous> (/home/developer/Downloads/eyas-test-automation/src/test/homepage.spec.js:261:62)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "790d53882ffb2e8a",
+      "name" : "Screenshot",
+      "source" : "790d53882ffb2e8a.png",
+      "type" : "image/png",
+      "size" : 545085
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Homepage"
+  }, {
+    "name" : "testClass",
+    "value" : "Homepage"
+  }, {
+    "name" : "testMethod",
+    "value" : "#7 Balance preview updates correctly upon refresh when a users balance is adjusted"
+  }, {
+    "name" : "package",
+    "value" : "Homepage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "500994f90c7012e3",
+      "status" : "failed",
+      "statusDetails" : "Expected '£37.02' to contain '£37.019999999999996', 'Balance preview has incorrect balance after update'.",
+      "time" : {
+        "start" : 1645466646765,
+        "stop" : 1645466657424,
+        "duration" : 10659
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "ff06f7ed6ab86d93.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,79 @@
+{
+  "uid" : "b7a6fc79792e60c2",
+  "name" : "#6 Player can see total bonus balance",
+  "fullName" : "Spin Zone functionality testing.#6 Player can see total bonus balance",
+  "historyId" : "a2db985c7a98ce716ce522c60bcfad6b",
+  "time" : {
+    "start" : 1645468162789,
+    "stop" : 1645468178519,
+    "duration" : 15730
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expected 'Total Bonus Balance\n                £20.00' to contain 'Total Bonus Balance\n                £0.00', 'Total Bonus Balance label contains incorrect text'.",
+  "statusTrace" : "Error: Failed expectation\n                    at UserContext.<anonymous> (/home/developer/Downloads/eyas-test-automation/src/test/spin-zone/spin-zone.spec.js:120:45)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expected 'Total Bonus Balance\n                £20.00' to contain 'Total Bonus Balance\n                £0.00', 'Total Bonus Balance label contains incorrect text'.",
+    "statusTrace" : "Error: Failed expectation\n                    at UserContext.<anonymous> (/home/developer/Downloads/eyas-test-automation/src/test/spin-zone/spin-zone.spec.js:120:45)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9360f78ede0bf95b",
+      "name" : "Screenshot",
+      "source" : "9360f78ede0bf95b.png",
+      "type" : "image/png",
+      "size" : 339832
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Spin Zone functionality testing"
+  }, {
+    "name" : "testClass",
+    "value" : "Spin Zone functionality testing"
+  }, {
+    "name" : "testMethod",
+    "value" : "#6 Player can see total bonus balance"
+  }, {
+    "name" : "package",
+    "value" : "Spin Zone functionality testing"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "ca8da94b89ee0368",
+      "status" : "failed",
+      "statusDetails" : "Expected 'Total Bonus Balance\n                £20.00' to contain 'Total Bonus Balance\n                £0.00', 'Total Bonus Balance label contains incorrect text'.",
+      "time" : {
+        "start" : 1645467564045,
+        "stop" : 1645467578464,
+        "duration" : 14419
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "b7a6fc79792e60c2.json",
+  "parameterValues" : [ ]
+}
