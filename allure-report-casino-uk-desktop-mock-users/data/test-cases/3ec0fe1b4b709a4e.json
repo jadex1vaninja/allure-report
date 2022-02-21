@@ -1,0 +1,96 @@
+{
+  "uid" : "3ec0fe1b4b709a4e",
+  "name" : "#02 Current Password is a mandatory field.",
+  "fullName" : "My Account > Settings > Change Password.#02 Current Password is a mandatory field.",
+  "historyId" : "5623bb25cd67e56790d46eeb7cc83a63",
+  "time" : {
+    "start" : 1645471204706,
+    "stop" : 1645471215614,
+    "duration" : 10908
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5af5489ba0f53762",
+      "name" : "Screenshot",
+      "source" : "5af5489ba0f53762.png",
+      "type" : "image/png",
+      "size" : 215932
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "My Account > Settings > Change Password"
+  }, {
+    "name" : "testClass",
+    "value" : "My Account > Settings > Change Password"
+  }, {
+    "name" : "testMethod",
+    "value" : "#02 Current Password is a mandatory field."
+  }, {
+    "name" : "package",
+    "value" : "My Account > Settings > Change Password"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "2d2c71555deaf323",
+      "status" : "failed",
+      "statusDetails" : "Failed: element click intercepted: Element <div class=\"account-tile account-tile--no-padding\">...</div> is not clickable at point (260, 206). Other element would receive the click: <div class=\"ReactModal__Overlay ReactModal__Overlay--after-open overlay-backdrop touch-drawer__backdrop touch-drawer__backdrop--closeable touch-drawer__backdrop--fade-in\">...</div>\n                  (Session info: chrome=98.0.4758.102)\n                Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'\n                System info: host: 'smiss-eugen-vostro-5590', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.13.0-28-generic', java.version: '11.0.13'\n                Driver info: driver.version: unknown",
+      "time" : {
+        "start" : 1645470990983,
+        "stop" : 1645471000657,
+        "duration" : 9674
+      }
+    }, {
+      "uid" : "b57774bd81a49dd0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645470804623,
+        "stop" : 1645470816004,
+        "duration" : 11381
+      }
+    }, {
+      "uid" : "6d356471afdbde24",
+      "status" : "failed",
+      "statusDetails" : "Failed: login-form is still displayed\n                Wait timed out after 60009ms",
+      "time" : {
+        "start" : 1645468184408,
+        "stop" : 1645468250657,
+        "duration" : 66249
+      }
+    }, {
+      "uid" : "cb8d3a56f458b1d1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645467174703,
+        "stop" : 1645467188593,
+        "duration" : 13890
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3ec0fe1b4b709a4e.json",
+  "parameterValues" : [ ]
+}
