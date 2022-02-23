@@ -1,0 +1,64 @@
+{
+  "uid" : "4f3c45e3fa6e0b05",
+  "name" : "#14 Player can successfully set Deposit Limit to the minimum allowed value and will receive a success toast on submitting the new amount.",
+  "fullName" : "My Account > Gambling Controls > Deposit Limits.#14 Player can successfully set Deposit Limit to the minimum allowed value and will receive a success toast on submitting the new amount.",
+  "historyId" : "ade9ebaae210b01384863caf80861ffd",
+  "time" : {
+    "start" : 1645619112281,
+    "stop" : 1645619131421,
+    "duration" : 19140
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expected 'You have successfully requested to increase your daily deposit limit to £1010. We'll ask you to confirm your new limit in 24 hours.' to contain 'You have successfully requested to increase your daily deposit limit to £10.', 'Success snackbar has incorrect text/amount.'.",
+  "statusTrace" : "Error: Failed expectation\n                    at UserContext.<anonymous> (/home/developer/Downloads/eyas-test-automation/src/test/my-account/gambling-controls/deposit-limits.spec.js:538:63)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expected 'You have successfully requested to increase your daily deposit limit to £1010. We'll ask you to confirm your new limit in 24 hours.' to contain 'You have successfully requested to increase your daily deposit limit to £10.', 'Success snackbar has incorrect text/amount.'.",
+    "statusTrace" : "Error: Failed expectation\n                    at UserContext.<anonymous> (/home/developer/Downloads/eyas-test-automation/src/test/my-account/gambling-controls/deposit-limits.spec.js:538:63)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ee9380872286dc96",
+      "name" : "Screenshot",
+      "source" : "ee9380872286dc96.png",
+      "type" : "image/png",
+      "size" : 618356
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "My Account > Gambling Controls > Deposit Limits"
+  }, {
+    "name" : "testClass",
+    "value" : "My Account > Gambling Controls > Deposit Limits"
+  }, {
+    "name" : "testMethod",
+    "value" : "#14 Player can successfully set Deposit Limit to the minimum allowed value and will receive a success toast on submitting the new amount."
+  }, {
+    "name" : "package",
+    "value" : "My Account > Gambling Controls > Deposit Limits"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4f3c45e3fa6e0b05.json",
+  "parameterValues" : [ ]
+}
