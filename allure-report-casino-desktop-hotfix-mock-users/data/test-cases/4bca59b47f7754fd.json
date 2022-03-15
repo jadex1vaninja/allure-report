@@ -1,0 +1,79 @@
+{
+  "uid" : "4bca59b47f7754fd",
+  "name" : "#1 Player can select take a break menu item from 'Account Closure' and Take A Break contain is displayed.",
+  "fullName" : "My Account > Gambling Controls > Account Closure > Take A Break.#1 Player can select take a break menu item from 'Account Closure' and Take A Break contain is displayed.",
+  "historyId" : "b865eeb2fad0eda6ab0e724334dbef1a",
+  "time" : {
+    "start" : 1647372022260,
+    "stop" : 1647372046164,
+    "duration" : 23904
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expected 'Play Reminders' to contain 'Account Pause', 'Take A Break modal heading has incorrect text.'.",
+  "statusTrace" : "Error: Failed expectation\n                    at UserContext.<anonymous> (/home/developer/Downloads/eyas-test-automation/src/test/my-account/gambling-controls/take-a-break.spec.js:67:63)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expected 'Play Reminders' to contain 'Account Pause', 'Take A Break modal heading has incorrect text.'.",
+    "statusTrace" : "Error: Failed expectation\n                    at UserContext.<anonymous> (/home/developer/Downloads/eyas-test-automation/src/test/my-account/gambling-controls/take-a-break.spec.js:67:63)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "95e8a2acb1e4f3c6",
+      "name" : "Screenshot",
+      "source" : "95e8a2acb1e4f3c6.png",
+      "type" : "image/png",
+      "size" : 216006
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "My Account > Gambling Controls > Account Closure > Take A Break"
+  }, {
+    "name" : "testClass",
+    "value" : "My Account > Gambling Controls > Account Closure > Take A Break"
+  }, {
+    "name" : "testMethod",
+    "value" : "#1 Player can select take a break menu item from 'Account Closure' and Take A Break contain is displayed."
+  }, {
+    "name" : "package",
+    "value" : "My Account > Gambling Controls > Account Closure > Take A Break"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "3163f9c98ab74618",
+      "status" : "failed",
+      "statusDetails" : "Failed: Index out of bound. Trying to access element at index: -2, but there are only 1 elements that match locator By(css selector, .account-tile-list-item--clickable)",
+      "time" : {
+        "start" : 1647370666956,
+        "stop" : 1647370688494,
+        "duration" : 21538
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "4bca59b47f7754fd.json",
+  "parameterValues" : [ ]
+}
