@@ -1,0 +1,79 @@
+{
+  "uid" : "ea26a0fa128bd286",
+  "name" : "#4 Player can see safer gambling logos",
+  "fullName" : "Footer functionality testing.#4 Player can see safer gambling logos",
+  "historyId" : "547d8004e954f8911542e3bbc63afdb1",
+  "time" : {
+    "start" : 1647440789385,
+    "stop" : 1647440831341,
+    "duration" : 41956
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: Timeout - Async callback was not invoked within timeout specified by jasmine.DEFAULT_TIMEOUT_INTERVAL.",
+  "statusTrace" : "Error: Timeout - Async callback was not invoked within timeout specified by jasmine.DEFAULT_TIMEOUT_INTERVAL.\n                    at Timeout._onTimeout (/home/developer/Downloads/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4281:23)\n                    at listOnTimeout (node:internal/timers:557:17)\n                    at processTimers (node:internal/timers:500:7)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Error: Timeout - Async callback was not invoked within timeout specified by jasmine.DEFAULT_TIMEOUT_INTERVAL.",
+    "statusTrace" : "Error: Timeout - Async callback was not invoked within timeout specified by jasmine.DEFAULT_TIMEOUT_INTERVAL.\n                    at Timeout._onTimeout (/home/developer/Downloads/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4281:23)\n                    at listOnTimeout (node:internal/timers:557:17)\n                    at processTimers (node:internal/timers:500:7)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d743e1152b05ce40",
+      "name" : "Screenshot",
+      "source" : "d743e1152b05ce40.png",
+      "type" : "image/png",
+      "size" : 328213
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Footer functionality testing"
+  }, {
+    "name" : "testClass",
+    "value" : "Footer functionality testing"
+  }, {
+    "name" : "testMethod",
+    "value" : "#4 Player can see safer gambling logos"
+  }, {
+    "name" : "package",
+    "value" : "Footer functionality testing"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "e1b52c5480537d27",
+      "status" : "failed",
+      "statusDetails" : "Failed: element click intercepted: Element <a class=\"link link--auto\">...</a> is not clickable at point (499, 835). Other element would receive the click: <div class=\"notification-bar\">...</div>\n                  (Session info: headless chrome=99.0.4844.51)\n                Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'\n                System info: host: 'smiss-eugen-vostro-5590', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.13.0-30-generic', java.version: '11.0.14'\n                Driver info: driver.version: unknown",
+      "time" : {
+        "start" : 1647439203886,
+        "stop" : 1647439219879,
+        "duration" : 15993
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "ea26a0fa128bd286.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,97 @@
+{
+  "uid" : "eca0b631e3105ac4",
+  "name" : "#19 User can select a Country Code from the dropdown menu.",
+  "fullName" : "Registration > Step 3.#19 User can select a Country Code from the dropdown menu.",
+  "historyId" : "4b140d9a9eb1cd27e001ac6a6bf9372d",
+  "time" : {
+    "start" : 1647441189323,
+    "stop" : 1647441194679,
+    "duration" : 5356
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expected '+995' to be '+49', 'Country Code not selected.'.",
+  "statusTrace" : "Error: Failed expectation\n                    at UserContext.<anonymous> (/home/developer/Downloads/eyas-test-automation/src/test/registration/registration-step-4.spec.js:1132:13)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expected '+995' to be '+49', 'Country Code not selected.'.",
+    "statusTrace" : "Error: Failed expectation\n                    at UserContext.<anonymous> (/home/developer/Downloads/eyas-test-automation/src/test/registration/registration-step-4.spec.js:1132:13)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "acc1478a485359ef",
+      "name" : "Screenshot",
+      "source" : "acc1478a485359ef.png",
+      "type" : "image/png",
+      "size" : 66976
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Registration > Step 3"
+  }, {
+    "name" : "testClass",
+    "value" : "Registration > Step 3"
+  }, {
+    "name" : "testMethod",
+    "value" : "#19 User can select a Country Code from the dropdown menu."
+  }, {
+    "name" : "package",
+    "value" : "Registration > Step 3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "fcb1d4b1cfa89cc6",
+      "status" : "failed",
+      "statusDetails" : "Expected '+995' to be '+49', 'Country Code not selected.'.",
+      "time" : {
+        "start" : 1647441158271,
+        "stop" : 1647441164338,
+        "duration" : 6067
+      }
+    }, {
+      "uid" : "af325fffb882a0ee",
+      "status" : "failed",
+      "statusDetails" : "Expected '+995' to be '+49', 'Country Code not selected.'.",
+      "time" : {
+        "start" : 1647440094511,
+        "stop" : 1647440101791,
+        "duration" : 7280
+      }
+    }, {
+      "uid" : "c3875b75edc6953a",
+      "status" : "failed",
+      "statusDetails" : "Expected '+995' to be '+49', 'Country Code not selected.'.",
+      "time" : {
+        "start" : 1647440050525,
+        "stop" : 1647440059142,
+        "duration" : 8617
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "eca0b631e3105ac4.json",
+  "parameterValues" : [ ]
+}

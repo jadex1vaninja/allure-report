@@ -1,0 +1,79 @@
+{
+  "uid" : "940c61606ae0794d",
+  "name" : "#1 Player can select the 'Self Exclusion' menu item and is displayed the Self Exclusion modal.",
+  "fullName" : "My Account > Gambling Controls > Account Closure > Self Exclusion.#1 Player can select the 'Self Exclusion' menu item and is displayed the Self Exclusion modal.",
+  "historyId" : "c590d456d041752a58e74330c57099c7",
+  "time" : {
+    "start" : 1647440874206,
+    "stop" : 1647440900337,
+    "duration" : 26131
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expected 'Account Closure' to contain 'I want to self exclude', 'Self Exclusion modal heading has incorrect text.'.",
+  "statusTrace" : "Error: Failed expectation\n                    at UserContext.<anonymous> (/home/developer/Downloads/eyas-test-automation/src/test/my-account/gambling-controls/self-exclusion.spec.js:70:63)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expected 'Account Closure' to contain 'I want to self exclude', 'Self Exclusion modal heading has incorrect text.'.",
+    "statusTrace" : "Error: Failed expectation\n                    at UserContext.<anonymous> (/home/developer/Downloads/eyas-test-automation/src/test/my-account/gambling-controls/self-exclusion.spec.js:70:63)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a5ffb71321a0e72b",
+      "name" : "Screenshot",
+      "source" : "a5ffb71321a0e72b.png",
+      "type" : "image/png",
+      "size" : 186889
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "My Account > Gambling Controls > Account Closure > Self Exclusion"
+  }, {
+    "name" : "testClass",
+    "value" : "My Account > Gambling Controls > Account Closure > Self Exclusion"
+  }, {
+    "name" : "testMethod",
+    "value" : "#1 Player can select the 'Self Exclusion' menu item and is displayed the Self Exclusion modal."
+  }, {
+    "name" : "package",
+    "value" : "My Account > Gambling Controls > Account Closure > Self Exclusion"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c9922b78305c0bef",
+      "status" : "failed",
+      "statusDetails" : "Expected 'Account Closure' to contain 'I want to self exclude', 'Self Exclusion modal heading has incorrect text.'.",
+      "time" : {
+        "start" : 1647439447067,
+        "stop" : 1647439469740,
+        "duration" : 22673
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "940c61606ae0794d.json",
+  "parameterValues" : [ ]
+}
