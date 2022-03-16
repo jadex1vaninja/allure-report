@@ -1,0 +1,79 @@
+{
+  "uid" : "d3c6a87fd569f41c",
+  "name" : "#15 Player can successfully change Deposit Limit with a decimal value and receive a success toast on submitting the new amount.",
+  "fullName" : "My Account > Gambling Controls > Deposit Limits.#15 Player can successfully change Deposit Limit with a decimal value and receive a success toast on submitting the new amount.",
+  "historyId" : "af378bbedd372cbf8071eded6cd91e8",
+  "time" : {
+    "start" : 1647446035067,
+    "stop" : 1647446073932,
+    "duration" : 38865
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expected 'Remaining £100' to contain 'Remaining £20', 'Daily Deposit Limit has incorrect value.'.",
+  "statusTrace" : "Error: Failed expectation\n                    at UserContext.<anonymous> (/home/developer/Downloads/eyas-test-automation/src/test/my-account/gambling-controls/deposit-limits.spec.js:653:9)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expected 'Remaining £100' to contain 'Remaining £20', 'Daily Deposit Limit has incorrect value.'.",
+    "statusTrace" : "Error: Failed expectation\n                    at UserContext.<anonymous> (/home/developer/Downloads/eyas-test-automation/src/test/my-account/gambling-controls/deposit-limits.spec.js:653:9)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ea02c173914e31e7",
+      "name" : "Screenshot",
+      "source" : "ea02c173914e31e7.png",
+      "type" : "image/png",
+      "size" : 550382
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "My Account > Gambling Controls > Deposit Limits"
+  }, {
+    "name" : "testClass",
+    "value" : "My Account > Gambling Controls > Deposit Limits"
+  }, {
+    "name" : "testMethod",
+    "value" : "#15 Player can successfully change Deposit Limit with a decimal value and receive a success toast on submitting the new amount."
+  }, {
+    "name" : "package",
+    "value" : "My Account > Gambling Controls > Deposit Limits"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "24c29569026ea103",
+      "status" : "failed",
+      "statusDetails" : "Expected 'Remaining £100' to contain 'Remaining £20', 'Daily Deposit Limit has incorrect value.'.",
+      "time" : {
+        "start" : 1647444075277,
+        "stop" : 1647444108889,
+        "duration" : 33612
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "d3c6a87fd569f41c.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,79 @@
+{
+  "uid" : "61345e5bea75f758",
+  "name" : "#1 Player can view their deposit limits.",
+  "fullName" : "My Account > Gambling Controls > Deposit Limits.#1 Player can view their deposit limits.",
+  "historyId" : "4ccf7e5f4fb18271f02d5660719a35ad",
+  "time" : {
+    "start" : 1647445721270,
+    "stop" : 1647445770098,
+    "duration" : 48828
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expected 'Remaining £50' to contain 'Remaining £250', 'Daily Deposit Limit has incorrect value.'.",
+  "statusTrace" : "Error: Failed expectation\n                    at UserContext.<anonymous> (/home/developer/Downloads/eyas-test-automation/src/test/my-account/gambling-controls/deposit-limits.spec.js:116:9)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expected 'Remaining £50' to contain 'Remaining £250', 'Daily Deposit Limit has incorrect value.'.",
+    "statusTrace" : "Error: Failed expectation\n                    at UserContext.<anonymous> (/home/developer/Downloads/eyas-test-automation/src/test/my-account/gambling-controls/deposit-limits.spec.js:116:9)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "229bd6b34ba9ff7c",
+      "name" : "Screenshot",
+      "source" : "229bd6b34ba9ff7c.png",
+      "type" : "image/png",
+      "size" : 524670
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "My Account > Gambling Controls > Deposit Limits"
+  }, {
+    "name" : "testClass",
+    "value" : "My Account > Gambling Controls > Deposit Limits"
+  }, {
+    "name" : "testMethod",
+    "value" : "#1 Player can view their deposit limits."
+  }, {
+    "name" : "package",
+    "value" : "My Account > Gambling Controls > Deposit Limits"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "bd793efe4460a5b9",
+      "status" : "failed",
+      "statusDetails" : "Expected 'Remaining £50' to contain 'Remaining £250', 'Daily Deposit Limit has incorrect value.'.",
+      "time" : {
+        "start" : 1647443742935,
+        "stop" : 1647443798747,
+        "duration" : 55812
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "61345e5bea75f758.json",
+  "parameterValues" : [ ]
+}
