@@ -1,0 +1,80 @@
+{
+  "uid" : "d3ddb17db56f5cd9",
+  "name" : "#2 Player can close the 'Self Exclusion' modal.",
+  "fullName" : "My Account > Gambling Controls > Account Closure > Self Exclusion.#2 Player can close the 'Self Exclusion' modal.",
+  "historyId" : "6b76e18b0b197a1f0dfdc06095b6b2cf",
+  "time" : {
+    "start" : 1647859059891,
+    "stop" : 1647859073485,
+    "duration" : 13594
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "26e9ada3ea7e268c",
+      "name" : "Screenshot",
+      "source" : "26e9ada3ea7e268c.png",
+      "type" : "image/png",
+      "size" : 288411
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "My Account > Gambling Controls > Account Closure > Self Exclusion"
+  }, {
+    "name" : "testClass",
+    "value" : "My Account > Gambling Controls > Account Closure > Self Exclusion"
+  }, {
+    "name" : "testMethod",
+    "value" : "#2 Player can close the 'Self Exclusion' modal."
+  }, {
+    "name" : "package",
+    "value" : "My Account > Gambling Controls > Account Closure > Self Exclusion"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d4d2083f4b0ac510",
+      "status" : "failed",
+      "statusDetails" : "Failed: login-form is still displayed\n                Wait timed out after 60023ms",
+      "time" : {
+        "start" : 1647857048049,
+        "stop" : 1647857118018,
+        "duration" : 69969
+      }
+    }, {
+      "uid" : "a15b673063f23665",
+      "status" : "failed",
+      "statusDetails" : "Failed: unknown error: net::ERR_NAME_NOT_RESOLVED\n                  (Session info: headless chrome=99.0.4844.51)\n                Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'\n                System info: host: 'smiss-eugen-vostro-5590', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.13.0-30-generic', java.version: '11.0.14'\n                Driver info: driver.version: unknown",
+      "time" : {
+        "start" : 1647855027353,
+        "stop" : 1647855057595,
+        "duration" : 30242
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d3ddb17db56f5cd9.json",
+  "parameterValues" : [ ]
+}

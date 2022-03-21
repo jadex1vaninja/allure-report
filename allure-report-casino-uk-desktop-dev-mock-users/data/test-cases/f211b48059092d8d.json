@@ -1,0 +1,107 @@
+{
+  "uid" : "f211b48059092d8d",
+  "name" : "#2 Deep link to deposit limits open login when not logged in before deposit limits",
+  "fullName" : "Deep Link -> Deposit Limits.#2 Deep link to deposit limits open login when not logged in before deposit limits",
+  "historyId" : "f5b52c8ec1f622f510a8bbf0424b53bc",
+  "time" : {
+    "start" : 1647858883880,
+    "stop" : 1647858902990,
+    "duration" : 19110
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "efe5d5583ad2b4b9",
+      "name" : "Screenshot",
+      "source" : "efe5d5583ad2b4b9.png",
+      "type" : "image/png",
+      "size" : 168493
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Deep Link -> Deposit Limits"
+  }, {
+    "name" : "testClass",
+    "value" : "Deep Link -> Deposit Limits"
+  }, {
+    "name" : "testMethod",
+    "value" : "#2 Deep link to deposit limits open login when not logged in before deposit limits"
+  }, {
+    "name" : "package",
+    "value" : "Deep Link -> Deposit Limits"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "1931597b1fba34ba",
+      "status" : "failed",
+      "statusDetails" : "DiscardedTaskError: Task was discarded due to a previous failure: There was an uncaught error in the control flow: TypeError: Cannot read properties of undefined (reading 'home')",
+      "time" : {
+        "start" : 1647858497410,
+        "stop" : 1647858497657,
+        "duration" : 247
+      }
+    }, {
+      "uid" : "c9b59907a4c45269",
+      "status" : "failed",
+      "statusDetails" : "DiscardedTaskError: Task was discarded due to a previous failure: There was an uncaught error in the control flow: TypeError: Cannot read properties of undefined (reading 'home')",
+      "time" : {
+        "start" : 1647858477347,
+        "stop" : 1647858477673,
+        "duration" : 326
+      }
+    }, {
+      "uid" : "16c850c5740c8092",
+      "status" : "failed",
+      "statusDetails" : "Failed: Cannot convert undefined or null to object",
+      "time" : {
+        "start" : 1647858472223,
+        "stop" : 1647858472498,
+        "duration" : 275
+      }
+    }, {
+      "uid" : "7c839738ee0bf854",
+      "status" : "failed",
+      "statusDetails" : "Failed: login-form is still displayed\n                Wait timed out after 60016ms",
+      "time" : {
+        "start" : 1647856638537,
+        "stop" : 1647856713770,
+        "duration" : 75233
+      }
+    }, {
+      "uid" : "17f606b618c14ff7",
+      "status" : "failed",
+      "statusDetails" : "Failed: login-form is still displayed\n                Wait timed out after 60027ms",
+      "time" : {
+        "start" : 1647854861776,
+        "stop" : 1647854938815,
+        "duration" : 77039
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f211b48059092d8d.json",
+  "parameterValues" : [ ]
+}
