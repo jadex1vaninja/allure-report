@@ -1,0 +1,71 @@
+{
+  "uid" : "3c72213c032360bf",
+  "name" : "#9 Player can successfully update a daily deposit limit in the Deposit Limits Delete modal",
+  "fullName" : "My Account > Gambling Controls > Deposit Limits.#9 Player can successfully update a daily deposit limit in the Deposit Limits Delete modal",
+  "historyId" : "5e4bea88f2818a433e0245b731eaed38",
+  "time" : {
+    "start" : 1648100956135,
+    "stop" : 1648100976514,
+    "duration" : 20379
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e9a8908c3c0558d0",
+      "name" : "Screenshot",
+      "source" : "e9a8908c3c0558d0.png",
+      "type" : "image/png",
+      "size" : 415017
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "My Account > Gambling Controls > Deposit Limits"
+  }, {
+    "name" : "testClass",
+    "value" : "My Account > Gambling Controls > Deposit Limits"
+  }, {
+    "name" : "testMethod",
+    "value" : "#9 Player can successfully update a daily deposit limit in the Deposit Limits Delete modal"
+  }, {
+    "name" : "package",
+    "value" : "My Account > Gambling Controls > Deposit Limits"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "9edd260560a21a7a",
+      "status" : "failed",
+      "statusDetails" : "Expected 'New deposit limit request is ready' to contain 'You have successfully requested to reset your daily deposit limit to the default of no limit. We'll ask you to confirm your new limit in 24 hours.', 'Success snackbar has incorrect text/amount.'.",
+      "time" : {
+        "start" : 1648099755932,
+        "stop" : 1648099780356,
+        "duration" : 24424
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3c72213c032360bf.json",
+  "parameterValues" : [ ]
+}
