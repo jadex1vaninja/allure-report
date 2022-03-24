@@ -1,0 +1,79 @@
+{
+  "uid" : "fb3000717dca09bd",
+  "name" : "#15 Player can successfully change Deposit Limit with a decimal value and receive a success toast on submitting the new amount.",
+  "fullName" : "My Account > Gambling Controls > Deposit Limits.#15 Player can successfully change Deposit Limit with a decimal value and receive a success toast on submitting the new amount.",
+  "historyId" : "af378bbedd372cbf8071eded6cd91e8",
+  "time" : {
+    "start" : 1648103554830,
+    "stop" : 1648103575618,
+    "duration" : 20788
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expected 'You have successfully requested to increase your weekly deposit limit to £200.50. We'll ask you to confirm your new limit in 24 hours.' to contain 'You have successfully requested to increase your weekly deposit limit to £500.50. We'll ask you to confirm your new limit in 24 hours.', 'Success snackbar has incorrect text/amount.'.",
+  "statusTrace" : "Error: Failed expectation\n                    at UserContext.<anonymous> (/home/developer/Downloads/eyas-test-automation/src/test/my-account/gambling-controls/deposit-limits.spec.js:646:63)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expected 'You have successfully requested to increase your weekly deposit limit to £200.50. We'll ask you to confirm your new limit in 24 hours.' to contain 'You have successfully requested to increase your weekly deposit limit to £500.50. We'll ask you to confirm your new limit in 24 hours.', 'Success snackbar has incorrect text/amount.'.",
+    "statusTrace" : "Error: Failed expectation\n                    at UserContext.<anonymous> (/home/developer/Downloads/eyas-test-automation/src/test/my-account/gambling-controls/deposit-limits.spec.js:646:63)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ecc0d979db852c09",
+      "name" : "Screenshot",
+      "source" : "ecc0d979db852c09.png",
+      "type" : "image/png",
+      "size" : 418049
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "My Account > Gambling Controls > Deposit Limits"
+  }, {
+    "name" : "testClass",
+    "value" : "My Account > Gambling Controls > Deposit Limits"
+  }, {
+    "name" : "testMethod",
+    "value" : "#15 Player can successfully change Deposit Limit with a decimal value and receive a success toast on submitting the new amount."
+  }, {
+    "name" : "package",
+    "value" : "My Account > Gambling Controls > Deposit Limits"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "52cefb1dc2bc5792",
+      "status" : "failed",
+      "statusDetails" : "Expected 'You have successfully requested to increase your weekly deposit limit to £200.50. We'll ask you to confirm your new limit in 24 hours.' to contain 'You have successfully requested to increase your weekly deposit limit to £500.50. We'll ask you to confirm your new limit in 24 hours.', 'Success snackbar has incorrect text/amount.'.",
+      "time" : {
+        "start" : 1648102303723,
+        "stop" : 1648102331514,
+        "duration" : 27791
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "fb3000717dca09bd.json",
+  "parameterValues" : [ ]
+}
