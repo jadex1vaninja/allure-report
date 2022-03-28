@@ -1,0 +1,79 @@
+{
+  "uid" : "496392e32f3b2917",
+  "name" : "#0 User come to the Error 500 page, when service is unavailable",
+  "fullName" : "Service unavailable.#0 User come to the Error 500 page, when service is unavailable",
+  "historyId" : "642a0ddfb22c046921128bea6db0e7a3",
+  "time" : {
+    "start" : 1648484318581,
+    "stop" : 1648484337823,
+    "duration" : 19242
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expected false to be true, 'User cant see header'.",
+  "statusTrace" : "Error: Failed expectation\n                    at UserContext.<anonymous> (/home/developer/Downloads/eyas-test-automation/src/test/error/error500.spec.js:21:37)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expected false to be true, 'User cant see header'.",
+    "statusTrace" : "Error: Failed expectation\n                    at UserContext.<anonymous> (/home/developer/Downloads/eyas-test-automation/src/test/error/error500.spec.js:21:37)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "86c74a83ffe85b68",
+      "name" : "Screenshot",
+      "source" : "86c74a83ffe85b68.png",
+      "type" : "image/png",
+      "size" : 196277
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Service unavailable"
+  }, {
+    "name" : "testClass",
+    "value" : "Service unavailable"
+  }, {
+    "name" : "testMethod",
+    "value" : "#0 User come to the Error 500 page, when service is unavailable"
+  }, {
+    "name" : "package",
+    "value" : "Service unavailable"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b8b251f2dd2b7c9c",
+      "status" : "failed",
+      "statusDetails" : "Expected false to be true, 'User cant see header'.",
+      "time" : {
+        "start" : 1648483317351,
+        "stop" : 1648483341239,
+        "duration" : 23888
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "496392e32f3b2917.json",
+  "parameterValues" : [ ]
+}

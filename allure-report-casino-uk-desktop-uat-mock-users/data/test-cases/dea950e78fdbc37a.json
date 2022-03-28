@@ -1,0 +1,79 @@
+{
+  "uid" : "dea950e78fdbc37a",
+  "name" : "#13 Player can continue with chosen 3 weeks option to 'Take A Break' and confirming modal should display.",
+  "fullName" : "My Account > Gambling Controls > Account Closure > Take A Break.#13 Player can continue with chosen 3 weeks option to 'Take A Break' and confirming modal should display.",
+  "historyId" : "6f01404da1e876572706fce7a17b8f11",
+  "time" : {
+    "start" : 1648484553581,
+    "stop" : 1648484568545,
+    "duration" : 14964
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expected '4 weeks' to contain '3 weeks', 'In cofirm window after choose 3 weeks for account pause duration take a break does not 3 weeks'.",
+  "statusTrace" : "Error: Failed expectation\n                    at UserContext.<anonymous> (/home/developer/Downloads/eyas-test-automation/src/test/my-account/gambling-controls/take-a-break.spec.js:471:70)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expected '4 weeks' to contain '3 weeks', 'In cofirm window after choose 3 weeks for account pause duration take a break does not 3 weeks'.",
+    "statusTrace" : "Error: Failed expectation\n                    at UserContext.<anonymous> (/home/developer/Downloads/eyas-test-automation/src/test/my-account/gambling-controls/take-a-break.spec.js:471:70)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5a1840143826d016",
+      "name" : "Screenshot",
+      "source" : "5a1840143826d016.png",
+      "type" : "image/png",
+      "size" : 302695
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "My Account > Gambling Controls > Account Closure > Take A Break"
+  }, {
+    "name" : "testClass",
+    "value" : "My Account > Gambling Controls > Account Closure > Take A Break"
+  }, {
+    "name" : "testMethod",
+    "value" : "#13 Player can continue with chosen 3 weeks option to 'Take A Break' and confirming modal should display."
+  }, {
+    "name" : "package",
+    "value" : "My Account > Gambling Controls > Account Closure > Take A Break"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "6fe196c93b7f4e9e",
+      "status" : "failed",
+      "statusDetails" : "Expected '4 weeks' to contain '3 weeks', 'In cofirm window after choose 3 weeks for account pause duration take a break does not 3 weeks'.",
+      "time" : {
+        "start" : 1648483774263,
+        "stop" : 1648483790250,
+        "duration" : 15987
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "dea950e78fdbc37a.json",
+  "parameterValues" : [ ]
+}
