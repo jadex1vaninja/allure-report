@@ -1,0 +1,79 @@
+{
+  "uid" : "fd17cdc9ed84a232",
+  "name" : "#5 User try to click on PLAY CTA of Popular game at Welcome Offer page",
+  "fullName" : "Landing Page/Welcome Offer page.#5 User try to click on PLAY CTA of Popular game at Welcome Offer page",
+  "historyId" : "3876acf51533fbc9c3a5c414f122d93f",
+  "time" : {
+    "start" : 1648487576371,
+    "stop" : 1648487584322,
+    "duration" : 7951
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "NoSuchElementError: No element found using locator: By(css selector, .eyas-game-info)",
+  "statusTrace" : "NoSuchElementError: No element found using locator: By(css selector, .eyas-game-info)\n                    at /home/developer/Downloads/eyas-test-automation/node_modules/protractor/built/element.js:814:27\n                    at ManagedPromise.invokeCallback_ (/home/developer/Downloads/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:1376:14)\n                    at TaskQueue.execute_ (/home/developer/Downloads/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n                    at TaskQueue.executeNext_ (/home/developer/Downloads/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n                    at /home/developer/Downloads/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2927:27\n                    at /home/developer/Downloads/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:668:7\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)Error\n                    at ElementArrayFinder.applyAction_ (/home/developer/Downloads/eyas-test-automation/node_modules/protractor/built/element.js:459:27)\n                    at ElementArrayFinder.<computed> [as isDisplayed] (/home/developer/Downloads/eyas-test-automation/node_modules/protractor/built/element.js:91:29)\n                    at ElementFinder.<computed> [as isDisplayed] (/home/developer/Downloads/eyas-test-automation/node_modules/protractor/built/element.js:831:22)\n                    at UserContext.<anonymous> (/home/developer/Downloads/eyas-test-automation/src/test/landing/landingPage.spec.js:150:51)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "NoSuchElementError: No element found using locator: By(css selector, .eyas-game-info)",
+    "statusTrace" : "NoSuchElementError: No element found using locator: By(css selector, .eyas-game-info)\n                    at /home/developer/Downloads/eyas-test-automation/node_modules/protractor/built/element.js:814:27\n                    at ManagedPromise.invokeCallback_ (/home/developer/Downloads/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:1376:14)\n                    at TaskQueue.execute_ (/home/developer/Downloads/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n                    at TaskQueue.executeNext_ (/home/developer/Downloads/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n                    at /home/developer/Downloads/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2927:27\n                    at /home/developer/Downloads/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:668:7\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)Error\n                    at ElementArrayFinder.applyAction_ (/home/developer/Downloads/eyas-test-automation/node_modules/protractor/built/element.js:459:27)\n                    at ElementArrayFinder.<computed> [as isDisplayed] (/home/developer/Downloads/eyas-test-automation/node_modules/protractor/built/element.js:91:29)\n                    at ElementFinder.<computed> [as isDisplayed] (/home/developer/Downloads/eyas-test-automation/node_modules/protractor/built/element.js:831:22)\n                    at UserContext.<anonymous> (/home/developer/Downloads/eyas-test-automation/src/test/landing/landingPage.spec.js:150:51)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "64cfefcc4e4ed446",
+      "name" : "Screenshot",
+      "source" : "64cfefcc4e4ed446.png",
+      "type" : "image/png",
+      "size" : 35085
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Landing Page/Welcome Offer page"
+  }, {
+    "name" : "testClass",
+    "value" : "Landing Page/Welcome Offer page"
+  }, {
+    "name" : "testMethod",
+    "value" : "#5 User try to click on PLAY CTA of Popular game at Welcome Offer page"
+  }, {
+    "name" : "package",
+    "value" : "Landing Page/Welcome Offer page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "e94b038b9c51899f",
+      "status" : "failed",
+      "statusDetails" : "NoSuchElementError: No element found using locator: By(css selector, .eyas-game-info)",
+      "time" : {
+        "start" : 1648486513795,
+        "stop" : 1648486528514,
+        "duration" : 14719
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "fd17cdc9ed84a232.json",
+  "parameterValues" : [ ]
+}
