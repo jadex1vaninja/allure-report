@@ -1,0 +1,89 @@
+{
+  "uid" : "15e344e70b605042",
+  "name" : "#9 User hover the game card and click on it and login modal appears",
+  "fullName" : "Slots page.#9 User hover the game card and click on it and login modal appears",
+  "historyId" : "9941e9bd1ea15128205d8aa36d32fab1",
+  "time" : {
+    "start" : 1649351872503,
+    "stop" : 1649351875730,
+    "duration" : 3227
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5c80a048684befb2",
+      "name" : "Screenshot",
+      "source" : "5c80a048684befb2.png",
+      "type" : "image/png",
+      "size" : 425649
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Slots page"
+  }, {
+    "name" : "testClass",
+    "value" : "Slots page"
+  }, {
+    "name" : "testMethod",
+    "value" : "#9 User hover the game card and click on it and login modal appears"
+  }, {
+    "name" : "package",
+    "value" : "Slots page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "4cbb657aee6fc91b",
+      "status" : "failed",
+      "statusDetails" : "NoSuchElementError: No element found using locator: By(css selector, .game-card-details)",
+      "time" : {
+        "start" : 1649351826315,
+        "stop" : 1649351829081,
+        "duration" : 2766
+      }
+    }, {
+      "uid" : "9acd6e3412000d6f",
+      "status" : "failed",
+      "statusDetails" : "Failed: home.cookieBar.close is not a function",
+      "time" : {
+        "start" : 1649350477982,
+        "stop" : 1649350482187,
+        "duration" : 4205
+      }
+    }, {
+      "uid" : "c4d3a59943196522",
+      "status" : "failed",
+      "statusDetails" : "Failed: home.cookieBar.close is not a function",
+      "time" : {
+        "start" : 1649349586626,
+        "stop" : 1649349589361,
+        "duration" : 2735
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "15e344e70b605042.json",
+  "parameterValues" : [ ]
+}

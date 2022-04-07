@@ -4,153 +4,564 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "Failed: No element found using locator: By(css selector, .navigation__subnav)",
+      "name" : "Failed: Index out of bound. Trying to access element at index: 0, but there are only 0 elements that match locator By(css selector, .category__navigation-item)",
       "children" : [ {
         "name" : "#2 All active promotions cards are displayed.",
-        "uid" : "6ff0bcc8a9845e39",
-        "parentUid" : "0ebaf0eff75170e5338cf18025a79481",
+        "uid" : "ba39406daecaeb80",
+        "parentUid" : "16acad763d3c06af95237d55554208e7",
         "status" : "failed",
         "time" : {
-          "start" : 1648483883278,
-          "stop" : 1648483893762,
-          "duration" : 10484
+          "start" : 1649349453768,
+          "stop" : 1649349472919,
+          "duration" : 19151
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "#3 Active promotions are displayed in correct order.",
-        "uid" : "d5c0150214dd7ee1",
-        "parentUid" : "0ebaf0eff75170e5338cf18025a79481",
+        "uid" : "9ed2eaff884a605",
+        "parentUid" : "16acad763d3c06af95237d55554208e7",
         "status" : "failed",
         "time" : {
-          "start" : 1648483893762,
-          "stop" : 1648483903691,
-          "duration" : 9929
+          "start" : 1649349472919,
+          "stop" : 1649349487747,
+          "duration" : 14828
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "#4 Bonus History Page is displayed after clicks \"See all Activity\" in Recenty Activity.",
-        "uid" : "5ba4e8bb8b4232c3",
-        "parentUid" : "0ebaf0eff75170e5338cf18025a79481",
+        "uid" : "589ba90f95011afd",
+        "parentUid" : "16acad763d3c06af95237d55554208e7",
         "status" : "failed",
         "time" : {
-          "start" : 1648483903691,
-          "stop" : 1648483914086,
-          "duration" : 10395
+          "start" : 1649349487747,
+          "stop" : 1649349501584,
+          "duration" : 13837
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "#8 Active promotions are excluded from the promotions section.",
-        "uid" : "af7961f9fb669e6b",
-        "parentUid" : "0ebaf0eff75170e5338cf18025a79481",
+        "name" : "#18 User can close confirmation message, return to the calling page and bonus has been claimed.",
+        "uid" : "2771eb4a2bfb1398",
+        "parentUid" : "16acad763d3c06af95237d55554208e7",
         "status" : "failed",
         "time" : {
-          "start" : 1648483953156,
-          "stop" : 1648483976916,
-          "duration" : 23760
+          "start" : 1649349750822,
+          "stop" : 1649349771125,
+          "duration" : 20303
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "0ebaf0eff75170e5338cf18025a79481"
+      "uid" : "16acad763d3c06af95237d55554208e7"
     }, {
-      "name" : "Failed: More Info CTA of promotion card is not displayed for not login user.\n                Wait timed out after 20029ms",
+      "name" : "Expected 'Hake and get' to contain 'Sweet (W)Rap Raffle', 'Promotion title for 1 featured promotion does not appropriate.'.",
+      "children" : [ {
+        "name" : "#5 Featured promotions are displayed in correct order.",
+        "uid" : "8a1a932bf27bb768",
+        "parentUid" : "e097a20404eef7d0fdad183a52410f1c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649349501584,
+          "stop" : 1649349514661,
+          "duration" : 13077
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e097a20404eef7d0fdad183a52410f1c"
+    }, {
+      "name" : "Failed: More Info CTA of promotion card is not displayed for not login user.\n                Wait timed out after 20037ms",
       "children" : [ {
         "name" : "#13 User can go to More Info details after click More Info CTA for authenticated user.",
-        "uid" : "367cbd9ee0a671ef",
-        "parentUid" : "3431df503ccb1a3b02e200fb71101377",
+        "uid" : "921a872809231584",
+        "parentUid" : "7824c5d064ea28eac34d1d32474d9190",
         "status" : "failed",
         "time" : {
-          "start" : 1648484031464,
-          "stop" : 1648484063006,
-          "duration" : 31542
+          "start" : 1649349618788,
+          "stop" : 1649349653300,
+          "duration" : 34512
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "3431df503ccb1a3b02e200fb71101377"
+      "uid" : "7824c5d064ea28eac34d1d32474d9190"
     }, {
-      "name" : "Failed: More Info CTA of promotion card is not displayed for not login user.\n                Wait timed out after 20013ms",
+      "name" : "Failed: More Info CTA of promotion card is not displayed for not login user.\n                Wait timed out after 20036ms",
       "children" : [ {
-        "name" : "#14 User can press Back CTA for More Info page and be taken to the list of promotions.",
-        "uid" : "506dfc98b7385584",
-        "parentUid" : "dd5790d65167228ba36d9569e54560e4",
+        "name" : "#14 User can click OPT IN primary CTA in more info details page and get confirmation modal with all sections.",
+        "uid" : "6c92deceb7d48a95",
+        "parentUid" : "50eb9adda9543d24b81a94bb88ef9e5c",
         "status" : "failed",
         "time" : {
-          "start" : 1648484063006,
-          "stop" : 1648484092077,
-          "duration" : 29071
+          "start" : 1649349653300,
+          "stop" : 1649349684221,
+          "duration" : 30921
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "dd5790d65167228ba36d9569e54560e4"
+      "uid" : "50eb9adda9543d24b81a94bb88ef9e5c"
     }, {
-      "name" : "Failed: No element found using locator: By(css selector, [href=\"/uk/en/help.html\"])",
+      "name" : "Failed: More Info CTA of promotion card is not displayed for not login user.\n                Wait timed out after 20014ms",
       "children" : [ {
-        "name" : "#1 Player can see a light grey bar at the top of the footer",
-        "uid" : "f4f25b1f357320cb",
-        "parentUid" : "7f226b12bcec1ae0fdb164a1be19fcd7",
+        "name" : "#15 User can press Back CTA for More Info page and be taken to the list of promotions.",
+        "uid" : "bed3d27ede89dfa5",
+        "parentUid" : "1f90d8ca1e104a017276f07d36399c3a",
         "status" : "failed",
         "time" : {
-          "start" : 1648484318561,
-          "stop" : 1648484341253,
-          "duration" : 22692
+          "start" : 1649349684222,
+          "stop" : 1649349713361,
+          "duration" : 29139
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "7f226b12bcec1ae0fdb164a1be19fcd7"
+      "uid" : "1f90d8ca1e104a017276f07d36399c3a"
     }, {
-      "name" : "Expected false to be true, 'User cant see header'.",
+      "name" : "Failed: Deposit bonus modal is not visible.\n                Wait timed out after 10007ms",
       "children" : [ {
-        "name" : "#0 User come to the Error 500 page, when service is unavailable",
-        "uid" : "496392e32f3b2917",
-        "parentUid" : "487ae2d08e9e9caf8458afccefd2b7a8",
+        "name" : "#19 User can click DEPOSIT CTA for deposit bonus and open deposit bonus modal with displaying all sections.",
+        "uid" : "fa2afb028a319527",
+        "parentUid" : "6cd1d1e3a0bdc9ddb5ccc6edc88a5283",
         "status" : "failed",
         "time" : {
-          "start" : 1648484318581,
-          "stop" : 1648484337823,
-          "duration" : 19242
+          "start" : 1649349771125,
+          "stop" : 1649349793515,
+          "duration" : 22390
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "487ae2d08e9e9caf8458afccefd2b7a8"
+      "uid" : "6cd1d1e3a0bdc9ddb5ccc6edc88a5283"
+    }, {
+      "name" : "Failed: Deposit bonus modal is not visible.\n                Wait timed out after 10001ms",
+      "children" : [ {
+        "name" : "#20 Error message is displayed after user enters amount that is less than the qualification amount for deposit bonus.",
+        "uid" : "ab5b0f6c79169d41",
+        "parentUid" : "c1a167cbaf923d215f3e32bbd2b2160e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649349793515,
+          "stop" : 1649349815466,
+          "duration" : 21951
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "#24 User can close deposit bonus modal, remove display bonus modal and return to the launch screen.",
+        "uid" : "550c6c4b332a13a4",
+        "parentUid" : "c1a167cbaf923d215f3e32bbd2b2160e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649349860192,
+          "stop" : 1649349882164,
+          "duration" : 21972
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c1a167cbaf923d215f3e32bbd2b2160e"
+    }, {
+      "name" : "Failed: Deposit bonus modal is not visible.\n                Wait timed out after 10000ms",
+      "children" : [ {
+        "name" : "#21 User can click on the terms and conditions link and the terms and conditions are displayed for deposit bonus.",
+        "uid" : "ba2a42cdf847c54b",
+        "parentUid" : "b2846b09e6f2c6990a164857a1d7c7eb",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649349815466,
+          "stop" : 1649349837364,
+          "duration" : 21898
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b2846b09e6f2c6990a164857a1d7c7eb"
+    }, {
+      "name" : "Failed: Deposit bonus modal is not visible.\n                Wait timed out after 10006ms",
+      "children" : [ {
+        "name" : "#23 User can click on the terms and conditions link and the terms and all sections of conditions are displayed for deposit bonus.",
+        "uid" : "a37b40ccb46a134f",
+        "parentUid" : "22a705ace227d308da575f1e326866e1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649349837365,
+          "stop" : 1649349860192,
+          "duration" : 22827
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "22a705ace227d308da575f1e326866e1"
+    }, {
+      "name" : "Failed: Deposit bonus modal is not visible.\n                Wait timed out after 30000ms",
+      "children" : [ {
+        "name" : "#25 User can make bonus deposit.",
+        "uid" : "a1be62a2fc8bb2a6",
+        "parentUid" : "3302117d7435da61824d5585e64d9ce6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649349882164,
+          "stop" : 1649349924392,
+          "duration" : 42228
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3302117d7435da61824d5585e64d9ce6"
+    }, {
+      "name" : "Failed: Accept All Cookie Notification not visible.\n                Wait timed out after 20001ms",
+      "children" : [ {
+        "name" : "#28 Promotion cards are displayed for not login user.",
+        "uid" : "8b7bbd9dce1d527d",
+        "parentUid" : "1f832a0ba0e0f580b2a5f81f0fe608b4",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649349930063,
+          "stop" : 1649349950951,
+          "duration" : 20888
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "#38 All main sections for card are displayed for CLAIM bonus for unauthenticated user.",
+        "uid" : "f257654cd971b0ec",
+        "parentUid" : "1f832a0ba0e0f580b2a5f81f0fe608b4",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649350139998,
+          "stop" : 1649350160919,
+          "duration" : 20921
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1f832a0ba0e0f580b2a5f81f0fe608b4"
+    }, {
+      "name" : "Failed: Accept All Cookie Notification not visible.\n                Wait timed out after 20005ms",
+      "children" : [ {
+        "name" : "#29 Promotions are displayed in correct order for unauthenticated user",
+        "uid" : "9039209f7916fc25",
+        "parentUid" : "195c3cd3be40c1db86d20a0ba8ef4a9c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649349950951,
+          "stop" : 1649349971846,
+          "duration" : 20895
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "#42 Login form appears after press CLAIM CTA for CLAIM bonus of unauthenticated user.",
+        "uid" : "c37b40420d5feafe",
+        "parentUid" : "195c3cd3be40c1db86d20a0ba8ef4a9c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649350224222,
+          "stop" : 1649350246160,
+          "duration" : 21938
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "195c3cd3be40c1db86d20a0ba8ef4a9c"
+    }, {
+      "name" : "Failed: Accept All Cookie Notification not visible.\n                Wait timed out after 20003ms",
+      "children" : [ {
+        "name" : "#30 Promo image of promotion card is displayed for not login user.",
+        "uid" : "1b8896497276168",
+        "parentUid" : "86d870a7729784ff3e63511630a3420a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649349971846,
+          "stop" : 1649349993085,
+          "duration" : 21239
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "86d870a7729784ff3e63511630a3420a"
+    }, {
+      "name" : "Failed: Accept All Cookie Notification not visible.\n                Wait timed out after 20004ms",
+      "children" : [ {
+        "name" : "#31 Applicable the expiry date of promotion card is displayed for not login user.",
+        "uid" : "302a94763d82320a",
+        "parentUid" : "14919f5dc67f8a4b4ffa2c6941ce5f34",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649349993085,
+          "stop" : 1649350013976,
+          "duration" : 20891
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "#34 Relevant CTAs of promotion card are displayed for not login user.",
+        "uid" : "52a351058dad5faa",
+        "parentUid" : "14919f5dc67f8a4b4ffa2c6941ce5f34",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649350056166,
+          "stop" : 1649350077162,
+          "duration" : 20996
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "#43 User can go to More Info details after click More Info CTA.",
+        "uid" : "e20735c92f08c52d",
+        "parentUid" : "14919f5dc67f8a4b4ffa2c6941ce5f34",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649350246160,
+          "stop" : 1649350267828,
+          "duration" : 21668
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "#45 User clicks button OPT IN for already OPTED IN bonus, successfully login and can see drawer \"This promotion is unavailable\".",
+        "uid" : "90506646136962e1",
+        "parentUid" : "14919f5dc67f8a4b4ffa2c6941ce5f34",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649350289557,
+          "stop" : 1649350310441,
+          "duration" : 20884
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "14919f5dc67f8a4b4ffa2c6941ce5f34"
+    }, {
+      "name" : "Failed: Accept All Cookie Notification not visible.\n                Wait timed out after 20000ms",
+      "children" : [ {
+        "name" : "#32 Promo title of promotion card is displayed for not login user.",
+        "uid" : "8a328510589a041c",
+        "parentUid" : "94e1c41a41b765a974fc4a5d6ce45d81",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649350013976,
+          "stop" : 1649350034930,
+          "duration" : 20954
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "#35 Short terms and conditions of promotion card is displayed for not login user.",
+        "uid" : "94357478cc00ec77",
+        "parentUid" : "94e1c41a41b765a974fc4a5d6ce45d81",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649350077163,
+          "stop" : 1649350098160,
+          "duration" : 20997
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "#44 User can see list of promotions after click Back button from more info details.",
+        "uid" : "7bcb45d66419c8a0",
+        "parentUid" : "94e1c41a41b765a974fc4a5d6ce45d81",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649350267828,
+          "stop" : 1649350289557,
+          "duration" : 21729
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "#46 User clicks button CLAIM for already CLAIMED bonus, successfully login and can see drawer \"This promotion is unavailable\".",
+        "uid" : "50d162762b8b87f",
+        "parentUid" : "94e1c41a41b765a974fc4a5d6ce45d81",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649350310441,
+          "stop" : 1649350331401,
+          "duration" : 20960
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "94e1c41a41b765a974fc4a5d6ce45d81"
+    }, {
+      "name" : "Failed: Accept All Cookie Notification not visible.\n                Wait timed out after 20014ms",
+      "children" : [ {
+        "name" : "#33 Short description of promotion card is displayed for not login user.",
+        "uid" : "cd12ddf5015519cc",
+        "parentUid" : "44723b1617630a3eba0f43952c3f2c18",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649350034930,
+          "stop" : 1649350056166,
+          "duration" : 21236
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "44723b1617630a3eba0f43952c3f2c18"
+    }, {
+      "name" : "Failed: Accept All Cookie Notification not visible.\n                Wait timed out after 20002ms",
+      "children" : [ {
+        "name" : "#36 All main sections for card are displayed for OPT IN bonus for unauthenticated user.",
+        "uid" : "1f59a5df47d248d3",
+        "parentUid" : "0e8773573c814f837dcde50b6b6a3be0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649350098160,
+          "stop" : 1649350119064,
+          "duration" : 20904
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "#37 All main sections for card are displayed for DEPOSIT bonus for unauthenticated user.",
+        "uid" : "5ed3e1e5e3e83ba7",
+        "parentUid" : "0e8773573c814f837dcde50b6b6a3be0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649350119064,
+          "stop" : 1649350139998,
+          "duration" : 20934
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "#47 User clicks button DEPOSIT for already DEPOSITED bonus, successfully login and can see drawer \"This promotion is unavailable\".",
+        "uid" : "4945e9a8eb499780",
+        "parentUid" : "0e8773573c814f837dcde50b6b6a3be0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649350331401,
+          "stop" : 1649350352341,
+          "duration" : 20940
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0e8773573c814f837dcde50b6b6a3be0"
+    }, {
+      "name" : "Failed: Accept All Cookie Notification not visible.\n                Wait timed out after 20013ms",
+      "children" : [ {
+        "name" : "#39 User can click see full terms CTA and go to Term and Conditions.",
+        "uid" : "7430dac296caf652",
+        "parentUid" : "8586814964af82e4b760fc401ea48ec3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649350160919,
+          "stop" : 1649350182102,
+          "duration" : 21183
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8586814964af82e4b760fc401ea48ec3"
+    }, {
+      "name" : "Failed: Accept All Cookie Notification not visible.\n                Wait timed out after 20007ms",
+      "children" : [ {
+        "name" : "#40 Login form appears after press OPT IN CTA for OPT IN bonus of unauthenticated user.",
+        "uid" : "7850777a58f83c9b",
+        "parentUid" : "ff9bd5815ca60dad2530c884b2b6402c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649350182102,
+          "stop" : 1649350203211,
+          "duration" : 21109
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ff9bd5815ca60dad2530c884b2b6402c"
+    }, {
+      "name" : "Failed: Accept All Cookie Notification not visible.\n                Wait timed out after 20006ms",
+      "children" : [ {
+        "name" : "#41 Login form appears after press DEPOSIT CTA for DEPOSIT bonus of unauthenticated user.",
+        "uid" : "c46ca2d3f6801f53",
+        "parentUid" : "cf47c830b933a8016c9caa1195d3c6d0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649350203211,
+          "stop" : 1649350224222,
+          "duration" : 21011
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cf47c830b933a8016c9caa1195d3c6d0"
     }, {
       "name" : "Failed: No element found using locator: By(css selector, h1)",
       "children" : [ {
-        "name" : "#0 User can come to the Responsible Gambling page",
-        "uid" : "c2e3460d0e011cb9",
+        "name" : "#0 User can come to the Privacy Policy page",
+        "uid" : "fb3ee771a253b460",
         "parentUid" : "2c379c3f4f9511c78a96211fc4224c41",
         "status" : "failed",
         "time" : {
-          "start" : 1648484318721,
-          "stop" : 1648484351406,
-          "duration" : 32685
+          "start" : 1649350356098,
+          "stop" : 1649350364164,
+          "duration" : 8066
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "#0 User can come to the Responsible Gambling page",
+        "uid" : "88b580681e0b8976",
+        "parentUid" : "2c379c3f4f9511c78a96211fc4224c41",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649350356362,
+          "stop" : 1649350364094,
+          "duration" : 7732
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "#0 User can come to the terms and conditions page",
-        "uid" : "c5cd6aee6c8c1741",
+        "uid" : "4ec934eb70f8da4a",
         "parentUid" : "2c379c3f4f9511c78a96211fc4224c41",
         "status" : "failed",
         "time" : {
-          "start" : 1648484320048,
-          "stop" : 1648484363901,
-          "duration" : 43853
+          "start" : 1649350356480,
+          "stop" : 1649350364251,
+          "duration" : 7771
         },
         "flaky" : false,
         "newFailed" : false,
@@ -158,33 +569,33 @@
       } ],
       "uid" : "2c379c3f4f9511c78a96211fc4224c41"
     }, {
-      "name" : "Expected false to be true, 'Header balance for authenticated user is not displayed.'.",
+      "name" : "Failed: No element found using locator: By(css selector, [href=\"/uk/en/help.html\"])",
       "children" : [ {
-        "name" : "#2 All elements are persisted on 404 error page.",
-        "uid" : "eb0e91858558934f",
-        "parentUid" : "ef5a2032409889d60e0ef1072e00ee81",
+        "name" : "#1 Player can see a light grey bar at the top of the footer",
+        "uid" : "3ad262598cf9ce89",
+        "parentUid" : "7f226b12bcec1ae0fdb164a1be19fcd7",
         "status" : "failed",
         "time" : {
-          "start" : 1648484334344,
-          "stop" : 1648484355150,
-          "duration" : 20806
+          "start" : 1649350356380,
+          "stop" : 1649350363782,
+          "duration" : 7402
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "ef5a2032409889d60e0ef1072e00ee81"
+      "uid" : "7f226b12bcec1ae0fdb164a1be19fcd7"
     }, {
       "name" : "Expected '' to contain 'selected', 'Card payment method is not selected when it should be'.",
       "children" : [ {
         "name" : "#1 Check user is able to access the deposit modal via the account menu and is displayed with the option to fill in card details by default",
-        "uid" : "cd5b4d769835ef5f",
+        "uid" : "667e71f4ec9aa53",
         "parentUid" : "ead6a17dddb2f695caff080f310fd6d1",
         "status" : "failed",
         "time" : {
-          "start" : 1648484350922,
-          "stop" : 1648484397608,
-          "duration" : 46686
+          "start" : 1649350357986,
+          "stop" : 1649350376653,
+          "duration" : 18667
         },
         "flaky" : false,
         "newFailed" : false,
@@ -195,13 +606,13 @@
       "name" : "NoSuchElementError: No element found using locator: By(css selector, .help-content__iframe)",
       "children" : [ {
         "name" : "#1 User can come to the help center from terms and conditions page",
-        "uid" : "ea6ecc92a0060c6b",
+        "uid" : "94bcb2399227d669",
         "parentUid" : "38d2f0721a8fa77e0ecaff8364668f1d",
         "status" : "failed",
         "time" : {
-          "start" : 1648484363901,
-          "stop" : 1648484380205,
-          "duration" : 16304
+          "start" : 1649350364251,
+          "stop" : 1649350370447,
+          "duration" : 6196
         },
         "flaky" : false,
         "newFailed" : false,
@@ -209,106 +620,33 @@
       } ],
       "uid" : "38d2f0721a8fa77e0ecaff8364668f1d"
     }, {
-      "name" : "Failed: No element found using locator: By(css selector, .button--success)",
+      "name" : "Expected 'https://www.nhs.uk/live-well/addiction-support/gambling-addiction/' to contain 'https://www.nhs.uk/live-well/healthy-body/gambling-addiction/', 'Player can't come to the \"Help for problem gambling\" page'.",
       "children" : [ {
-        "name" : "#7 Player can click \"Deposit\" button and open Deposit window.",
-        "uid" : "fdbe0dd474c55fe0",
-        "parentUid" : "8c3929b200c07decb2918baf8530f268",
+        "name" : "#2 User can come to the \"Help for problem gambling\" page from Responsible Gambling page",
+        "uid" : "24c17c8b1ad9158",
+        "parentUid" : "8e929f959a69f8b4d164a5941cc3fd21",
         "status" : "failed",
         "time" : {
-          "start" : 1648484368442,
-          "stop" : 1648484377961,
-          "duration" : 9519
+          "start" : 1649350378156,
+          "stop" : 1649350384012,
+          "duration" : 5856
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "8c3929b200c07decb2918baf8530f268"
-    }, {
-      "name" : "Expected '4 weeks' to contain '3 weeks', 'The third option account pause does not equal 3 weeks.'.",
-      "children" : [ {
-        "name" : "#1 Player can select take a break menu item from 'Account Closure' and Take A Break contain is displayed.",
-        "uid" : "ece0e03b74c0e6b9",
-        "parentUid" : "fa902d0a273f18cb112a827a727a669f",
-        "status" : "failed",
-        "time" : {
-          "start" : 1648484379759,
-          "stop" : 1648484410605,
-          "duration" : 30846
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "#16 Player can press 'BACK' for confirmating modal after chosen for 24 hours 'Take A Break' and should return to previous step.",
-        "uid" : "9cb82f3b46fc1b78",
-        "parentUid" : "fa902d0a273f18cb112a827a727a669f",
-        "status" : "failed",
-        "time" : {
-          "start" : 1648484599547,
-          "stop" : 1648484618614,
-          "duration" : 19067
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "fa902d0a273f18cb112a827a727a669f"
-    }, {
-      "name" : "Failed: element not interactable\n                  (Session info: headless chrome=99.0.4844.84)\n                Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'\n                System info: host: 'smiss-eugen-vostro-5590', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.13.0-37-generic', java.version: '11.0.14'\n                Driver info: driver.version: unknown",
-      "children" : [ {
-        "name" : "#3 Check user is able to fill in details of required fields for card deposits",
-        "uid" : "13429255e8556939",
-        "parentUid" : "14e58845080ca4ec3b7e81a1a2207f95",
-        "status" : "failed",
-        "time" : {
-          "start" : 1648484416321,
-          "stop" : 1648484429096,
-          "duration" : 12775
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "#7 Check user is able to deposit with a valid card and is presented with success modal",
-        "uid" : "e8673d16f0f54caf",
-        "parentUid" : "14e58845080ca4ec3b7e81a1a2207f95",
-        "status" : "failed",
-        "time" : {
-          "start" : 1648484481599,
-          "stop" : 1648484494745,
-          "duration" : 13146
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "#8 Check user is displayed with a declined modal when safecharge returns a declined response",
-        "uid" : "c3644e6ed712b9fc",
-        "parentUid" : "14e58845080ca4ec3b7e81a1a2207f95",
-        "status" : "failed",
-        "time" : {
-          "start" : 1648484494745,
-          "stop" : 1648484508321,
-          "duration" : 13576
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "14e58845080ca4ec3b7e81a1a2207f95"
+      "uid" : "8e929f959a69f8b4d164a5941cc3fd21"
     }, {
       "name" : "Failed: No element found using locator: By(css selector, [data-testid=\"review-step-item-county\"])",
       "children" : [ {
         "name" : "#01 Player can view their contact details.",
-        "uid" : "6f9414efa6f1ecf2",
+        "uid" : "5b85d8f431a4d429",
         "parentUid" : "2f38f14ec112d6f22b1b65be1392ce55",
         "status" : "failed",
         "time" : {
-          "start" : 1648484421084,
-          "stop" : 1648484441250,
-          "duration" : 20166
+          "start" : 1649350391582,
+          "stop" : 1649350408484,
+          "duration" : 16902
         },
         "flaky" : false,
         "newFailed" : false,
@@ -316,284 +654,395 @@
       } ],
       "uid" : "2f38f14ec112d6f22b1b65be1392ce55"
     }, {
-      "name" : "NoSuchElementError: Index out of bound. Trying to access element at index: 2, but there are only 2 elements that match locator By(css selector, .tcell)",
+      "name" : "Failed: element not interactable\n                  (Session info: headless chrome=100.0.4896.75)\n                Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'\n                System info: host: 'smiss-eugen-vostro-5590', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.13.0-37-generic', java.version: '11.0.14'\n                Driver info: driver.version: unknown",
       "children" : [ {
-        "name" : "#4 Check user is able to select Instant Bank Transfer and is provided with the correct information for this payment method",
-        "uid" : "fa4c6a265a33a5ad",
-        "parentUid" : "a0377fded299fbcb13a815eb6d350d24",
+        "name" : "#3 Check user is able to fill in details of required fields for card deposits",
+        "uid" : "56f55d8f59a668ef",
+        "parentUid" : "525c2cdb3c587291960aa33833234807",
         "status" : "failed",
         "time" : {
-          "start" : 1648484429096,
-          "stop" : 1648484442219,
-          "duration" : 13123
+          "start" : 1649350393331,
+          "stop" : 1649350405615,
+          "duration" : 12284
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "#7 Check user is able to deposit with a valid card and is presented with success modal",
+        "uid" : "b791734520cdfd94",
+        "parentUid" : "525c2cdb3c587291960aa33833234807",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649350461527,
+          "stop" : 1649350477062,
+          "duration" : 15535
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "#8 Check user is displayed with a declined modal when safecharge returns a declined response",
+        "uid" : "59a4783a6e693e83",
+        "parentUid" : "525c2cdb3c587291960aa33833234807",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649350477062,
+          "stop" : 1649350493443,
+          "duration" : 16381
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "525c2cdb3c587291960aa33833234807"
+    }, {
+      "name" : "Expected 'I want to self exclude' to contain 'I want to pause my account', 'Take A Break modal heading has incorrect text.'.",
+      "children" : [ {
+        "name" : "#1 Player can select take a break menu item from 'Account Closure' and Take A Break contain is displayed.",
+        "uid" : "9c42cd6191119228",
+        "parentUid" : "3c5a033e8799f0ae0a86dd3ac4aeaf6f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649350401888,
+          "stop" : 1649350422962,
+          "duration" : 21074
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3c5a033e8799f0ae0a86dd3ac4aeaf6f"
+    }, {
+      "name" : "NoSuchElementError: Index out of bound. Trying to access element at index: 0, but there are only 0 elements that match locator By(css selector, .tcell)",
+      "children" : [ {
+        "name" : "#4 Check user is able to select Instant Bank Transfer and is provided with the correct information for this payment method",
+        "uid" : "88779ac605975137",
+        "parentUid" : "c4628bd6266910136fb66bfebae62547",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649350405616,
+          "stop" : 1649350420183,
+          "duration" : 14567
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "#6 Check user is able to select PayPal payment method and is provided with the correct information for this payment method",
-        "uid" : "78c4e95030a42a98",
-        "parentUid" : "a0377fded299fbcb13a815eb6d350d24",
+        "uid" : "de2503abea86cd12",
+        "parentUid" : "c4628bd6266910136fb66bfebae62547",
         "status" : "failed",
         "time" : {
-          "start" : 1648484465695,
-          "stop" : 1648484481599,
-          "duration" : 15904
+          "start" : 1649350446739,
+          "stop" : 1649350461527,
+          "duration" : 14788
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "a0377fded299fbcb13a815eb6d350d24"
+      "uid" : "c4628bd6266910136fb66bfebae62547"
     }, {
-      "name" : "Failed: Phone number field for phone deposit is missing or did not display in time\n                Wait timed out after 12014ms",
+      "name" : "WebDriverError: element click intercepted: Element <h3>...</h3> is not clickable at point (840, 196). Other element would receive the click: <div class=\"notification-wrapper notification-wrapper--disabled-content\">...</div>\n                  (Session info: headless chrome=100.0.4896.75)\n                Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'\n                System info: host: 'smiss-eugen-vostro-5590', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.13.0-37-generic', java.version: '11.0.14'\n                Driver info: driver.version: unknown",
+      "children" : [ {
+        "name" : "#1 When the user clicks to link Privacy Policy user should watches the nex chapters.",
+        "uid" : "407c949dff91df2d",
+        "parentUid" : "3455d7517d34c673373be7db377d602b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649350410383,
+          "stop" : 1649350417732,
+          "duration" : 7349
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3455d7517d34c673373be7db377d602b"
+    }, {
+      "name" : "Failed: element click intercepted: Element <a style=\"text-decoration: underline;\" href=\"https://.../\" title=\"eyasgaming.com\">www.eyasgaming.com</a> is not clickable at point (711, 280). Other element would receive the click: <div class=\"notification-wrapper notification-wrapper--disabled-content\">...</div>\n                  (Session info: headless chrome=100.0.4896.75)\n                Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'\n                System info: host: 'smiss-eugen-vostro-5590', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.13.0-37-generic', java.version: '11.0.14'\n                Driver info: driver.version: unknown",
+      "children" : [ {
+        "name" : "#2 After clicking on the link from 'Introduction to Eyas Gaming', the user should see the page  https://www.eyasgaming.com/.",
+        "uid" : "f075190a7dfc758d",
+        "parentUid" : "0de808c2a5eb7338af13952007d02fe9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649350417732,
+          "stop" : 1649350420479,
+          "duration" : 2747
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0de808c2a5eb7338af13952007d02fe9"
+    }, {
+      "name" : "Failed: Phone number field for phone deposit is missing or did not display in time\n                Wait timed out after 12006ms",
       "children" : [ {
         "name" : "#5 Check user is able to select Phone payment method and is provided with the correct information for this payment method",
-        "uid" : "aba7fc6c0228a4a5",
-        "parentUid" : "f9705dc0fae7ea41dd9e1f8b547883b3",
+        "uid" : "78470668199a22f",
+        "parentUid" : "34f22d09729e0316746ec39556530774",
         "status" : "failed",
         "time" : {
-          "start" : 1648484442219,
-          "stop" : 1648484465695,
-          "duration" : 23476
+          "start" : 1649350420184,
+          "stop" : 1649350446739,
+          "duration" : 26555
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "f9705dc0fae7ea41dd9e1f8b547883b3"
+      "uid" : "34f22d09729e0316746ec39556530774"
+    }, {
+      "name" : "Failed: element click intercepted: Element <a style=\"text-decoration: underline;\" href=\"https://.../\" title=\"www.merkurslots.com\">www.merkurslots.com</a> is not clickable at point (386, 531). Other element would receive the click: <div class=\"notification-wrapper notification-wrapper--disabled-content\">...</div>\n                  (Session info: headless chrome=100.0.4896.75)\n                Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'\n                System info: host: 'smiss-eugen-vostro-5590', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.13.0-37-generic', java.version: '11.0.14'\n                Driver info: driver.version: unknown",
+      "children" : [ {
+        "name" : "#3 After clicking on the first link from 'What personal data do we collect? -> Players', the user should see the page  https://www.merkurslots.com/.",
+        "uid" : "e5dd2c3f5a81c104",
+        "parentUid" : "da15ceaf8d4b2116c4468a8c7c51a061",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649350420479,
+          "stop" : 1649350423056,
+          "duration" : 2577
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "da15ceaf8d4b2116c4468a8c7c51a061"
     }, {
       "name" : "Failed: Index out of bound. Trying to access element at index: 0, but there are only 0 elements that match locator By(css selector, h2)",
       "children" : [ {
         "name" : "#9 User can see Introduction section on terms and conditions page",
-        "uid" : "9c794add0e8bff08",
+        "uid" : "dee8f8db8e4e1861",
         "parentUid" : "99ea0fd29be4fb1d7be3ced6e77a4ae3",
         "status" : "failed",
         "time" : {
-          "start" : 1648484457829,
-          "stop" : 1648484464415,
-          "duration" : 6586
+          "start" : 1649350421722,
+          "stop" : 1649350427696,
+          "duration" : 5974
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "#10 User can see the Terms and Conditions section on terms and conditions page",
-        "uid" : "73840974c4ffb306",
+        "uid" : "19ee238197993cbe",
         "parentUid" : "99ea0fd29be4fb1d7be3ced6e77a4ae3",
         "status" : "failed",
         "time" : {
-          "start" : 1648484464415,
-          "stop" : 1648484469630,
-          "duration" : 5215
+          "start" : 1649350427696,
+          "stop" : 1649350433397,
+          "duration" : 5701
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "#11 User can see the Definitions section on terms and conditions page",
-        "uid" : "bc083b8f553e9664",
+        "uid" : "44b5e9b27ccc9260",
         "parentUid" : "99ea0fd29be4fb1d7be3ced6e77a4ae3",
         "status" : "failed",
         "time" : {
-          "start" : 1648484469630,
-          "stop" : 1648484474824,
-          "duration" : 5194
+          "start" : 1649350433398,
+          "stop" : 1649350439581,
+          "duration" : 6183
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "#12 User can see the Changes to the Terms section on terms and conditions page",
-        "uid" : "59c47e5fb6e7d314",
+        "uid" : "8883883a49e15c58",
         "parentUid" : "99ea0fd29be4fb1d7be3ced6e77a4ae3",
         "status" : "failed",
         "time" : {
-          "start" : 1648484474824,
-          "stop" : 1648484479883,
-          "duration" : 5059
+          "start" : 1649350439581,
+          "stop" : 1649350442643,
+          "duration" : 3062
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "#13 User can see the Other Important Terms section on terms and conditions page",
-        "uid" : "72c8ad8c484d97b9",
+        "uid" : "9da9d930b8c870a1",
         "parentUid" : "99ea0fd29be4fb1d7be3ced6e77a4ae3",
         "status" : "failed",
         "time" : {
-          "start" : 1648484479883,
-          "stop" : 1648484485421,
-          "duration" : 5538
+          "start" : 1649350442643,
+          "stop" : 1649350447948,
+          "duration" : 5305
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "#14 User can see the Your Account section on terms and conditions page",
-        "uid" : "59c839cf3afd6a8a",
+        "uid" : "bddba21c378cc258",
         "parentUid" : "99ea0fd29be4fb1d7be3ced6e77a4ae3",
         "status" : "failed",
         "time" : {
-          "start" : 1648484485421,
-          "stop" : 1648484490317,
-          "duration" : 4896
+          "start" : 1649350447948,
+          "stop" : 1649350453779,
+          "duration" : 5831
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "#15 User can see the Deposits and Withdrawals section on terms and conditions page",
-        "uid" : "2c17d8dc886ad84d",
+        "uid" : "2c011d364827b156",
         "parentUid" : "99ea0fd29be4fb1d7be3ced6e77a4ae3",
         "status" : "failed",
         "time" : {
-          "start" : 1648484490317,
-          "stop" : 1648484495185,
-          "duration" : 4868
+          "start" : 1649350453779,
+          "stop" : 1649350459644,
+          "duration" : 5865
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "#16 User can see the Playing for Real Money section on terms and conditions page",
-        "uid" : "f6dce1768b7f74a6",
+        "uid" : "c5f43240aff97b5e",
         "parentUid" : "99ea0fd29be4fb1d7be3ced6e77a4ae3",
         "status" : "failed",
         "time" : {
-          "start" : 1648484495185,
-          "stop" : 1648484500499,
-          "duration" : 5314
+          "start" : 1649350459644,
+          "stop" : 1649350465300,
+          "duration" : 5656
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "#17 User can see the Errors, Interruptions and Malfunctions section on terms and conditions page",
-        "uid" : "247cdfe054c0caf9",
+        "uid" : "aa700a77caf72804",
         "parentUid" : "99ea0fd29be4fb1d7be3ced6e77a4ae3",
         "status" : "failed",
         "time" : {
-          "start" : 1648484500499,
-          "stop" : 1648484506492,
-          "duration" : 5993
+          "start" : 1649350465300,
+          "stop" : 1649350471483,
+          "duration" : 6183
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "#18 User can see the Anti-Money Laundering section on terms and conditions page",
-        "uid" : "972f69fa4d5d232c",
+        "uid" : "77e2fb7d82efe6c5",
         "parentUid" : "99ea0fd29be4fb1d7be3ced6e77a4ae3",
         "status" : "failed",
         "time" : {
-          "start" : 1648484506492,
-          "stop" : 1648484512037,
-          "duration" : 5545
+          "start" : 1649350471483,
+          "stop" : 1649350477479,
+          "duration" : 5996
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "#19 User can see the Inactive Customer Accounts section on terms and conditions page",
-        "uid" : "4108458dda5646d5",
+        "uid" : "aa0ce536ae5f3345",
         "parentUid" : "99ea0fd29be4fb1d7be3ced6e77a4ae3",
         "status" : "failed",
         "time" : {
-          "start" : 1648484512037,
-          "stop" : 1648484517332,
-          "duration" : 5295
+          "start" : 1649350477479,
+          "stop" : 1649350483330,
+          "duration" : 5851
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "#20 User can see the Suspension/Termination of your Account section on terms and conditions page",
-        "uid" : "a95771dec5a6c587",
+        "uid" : "9eb79b8bd55f9ccb",
         "parentUid" : "99ea0fd29be4fb1d7be3ced6e77a4ae3",
         "status" : "failed",
         "time" : {
-          "start" : 1648484517332,
-          "stop" : 1648484522310,
-          "duration" : 4978
+          "start" : 1649350483330,
+          "stop" : 1649350490873,
+          "duration" : 7543
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "#21 User can see the Responsible Gambling section on terms and conditions page",
-        "uid" : "1cfcfaa37a6252fa",
+        "uid" : "5e5261655ab94e8f",
         "parentUid" : "99ea0fd29be4fb1d7be3ced6e77a4ae3",
         "status" : "failed",
         "time" : {
-          "start" : 1648484522311,
-          "stop" : 1648484527655,
-          "duration" : 5344
+          "start" : 1649350490873,
+          "stop" : 1649350496664,
+          "duration" : 5791
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "#22 User can see the Promotions section on terms and conditions page",
-        "uid" : "d6b2b6f3f9106748",
+        "uid" : "97894828146c6d8",
         "parentUid" : "99ea0fd29be4fb1d7be3ced6e77a4ae3",
         "status" : "failed",
         "time" : {
-          "start" : 1648484527655,
-          "stop" : 1648484532628,
-          "duration" : 4973
+          "start" : 1649350496664,
+          "stop" : 1649350501414,
+          "duration" : 4750
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "#23 User can see the Intellectual Property section on terms and conditions page",
-        "uid" : "bca5582ea879ddfe",
+        "uid" : "4e79a2e80631c73",
         "parentUid" : "99ea0fd29be4fb1d7be3ced6e77a4ae3",
         "status" : "failed",
         "time" : {
-          "start" : 1648484532628,
-          "stop" : 1648484537915,
-          "duration" : 5287
+          "start" : 1649350501414,
+          "stop" : 1649350506166,
+          "duration" : 4752
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "#24 User can see the Limitation of Liability section on terms and conditions page",
-        "uid" : "25ad07ff33fcdfae",
+        "uid" : "e616a30a2c23b4c9",
         "parentUid" : "99ea0fd29be4fb1d7be3ced6e77a4ae3",
         "status" : "failed",
         "time" : {
-          "start" : 1648484537915,
-          "stop" : 1648484542500,
-          "duration" : 4585
+          "start" : 1649350506166,
+          "stop" : 1649350511165,
+          "duration" : 4999
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "#25 User can see the Complaints and disputes section on terms and conditions page",
-        "uid" : "e9d04885a8f38269",
+        "uid" : "847c012f68eedc83",
         "parentUid" : "99ea0fd29be4fb1d7be3ced6e77a4ae3",
         "status" : "failed",
         "time" : {
-          "start" : 1648484542500,
-          "stop" : 1648484547423,
-          "duration" : 4923
+          "start" : 1649350511165,
+          "stop" : 1649350515743,
+          "duration" : 4578
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "#26 User can see the Miscellaneous section on terms and conditions page",
-        "uid" : "ecd6b49eb7829e86",
+        "uid" : "3726f9797e1a67a3",
         "parentUid" : "99ea0fd29be4fb1d7be3ced6e77a4ae3",
         "status" : "failed",
         "time" : {
-          "start" : 1648484547423,
-          "stop" : 1648484553379,
-          "duration" : 5956
+          "start" : 1649350515743,
+          "stop" : 1649350521194,
+          "duration" : 5451
         },
         "flaky" : false,
         "newFailed" : false,
@@ -601,231 +1050,369 @@
       } ],
       "uid" : "99ea0fd29be4fb1d7be3ced6e77a4ae3"
     }, {
-      "name" : "Expected '4 weeks' to contain '3 weeks', 'After player chooses 3 weeks option in take a break not 3 weeks is selected.'.",
+      "name" : "Failed: element click intercepted: Element <a style=\"text-decoration: underline;\" href=\"https://.../\" title=\"www.merkurcasino.com\">www.merkurcasino.com</a> is not clickable at point (392, 549). Other element would receive the click: <div class=\"notification-wrapper notification-wrapper--disabled-content\">...</div>\n                  (Session info: headless chrome=100.0.4896.75)\n                Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'\n                System info: host: 'smiss-eugen-vostro-5590', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.13.0-37-generic', java.version: '11.0.14'\n                Driver info: driver.version: unknown",
+      "children" : [ {
+        "name" : "#4 After clicking on the second link from 'What personal data do we collect? -> Players', the user should see the page  https://www.merkurcasino.com/.",
+        "uid" : "c0b13b7393b29260",
+        "parentUid" : "9a0779ec48cef08f0735b9c2b5092d72",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649350423056,
+          "stop" : 1649350425505,
+          "duration" : 2449
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9a0779ec48cef08f0735b9c2b5092d72"
+    }, {
+      "name" : "Failed: element click intercepted: Element <a style=\"text-decoration: underline;\" href=\"https://.../\" title=\"www.merkurslots.com\">www.merkurslots.com</a> is not clickable at point (386, 893). Other element would receive the click: <div class=\"notification-wrapper__bar\">...</div>\n                  (Session info: headless chrome=100.0.4896.75)\n                Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'\n                System info: host: 'smiss-eugen-vostro-5590', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.13.0-37-generic', java.version: '11.0.14'\n                Driver info: driver.version: unknown",
+      "children" : [ {
+        "name" : "#5 After click one of the links from 'Website Visitors', the user should see new page.",
+        "uid" : "66c290b5e8728e36",
+        "parentUid" : "44640d801b55e22e93588cf48d75eb88",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649350425505,
+          "stop" : 1649350428119,
+          "duration" : 2614
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "44640d801b55e22e93588cf48d75eb88"
+    }, {
+      "name" : "Failed: element click intercepted: Element <a style=\"text-decoration: underline;\" href=\"https://.../\">www.eyasgaming.com</a> is not clickable at point (364, 891). Other element would receive the click: <div class=\"notification-wrapper__bar\">...</div>\n                  (Session info: headless chrome=100.0.4896.75)\n                Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'\n                System info: host: 'smiss-eugen-vostro-5590', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.13.0-37-generic', java.version: '11.0.14'\n                Driver info: driver.version: unknown",
+      "children" : [ {
+        "name" : "#6 After clicking on the link from 'Contact and DPO', the user should see the page  https://www.eyasgaming.com/.",
+        "uid" : "74672cc86f790b00",
+        "parentUid" : "fef5c3b7723b290baa677fb58ed8758c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649350428119,
+          "stop" : 1649350430660,
+          "duration" : 2541
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fef5c3b7723b290baa677fb58ed8758c"
+    }, {
+      "name" : "Failed: No element found using locator: By(css selector, .takeabreak__secondary-btn)",
+      "children" : [ {
+        "name" : "#3 Player can press 'Back' button of the 'Take A Break' modal and then should be displayed previous step.",
+        "uid" : "d81fc9e5701483a0",
+        "parentUid" : "7bf1888e08f1e4b513bf77c3b1b0d1da",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649350442311,
+          "stop" : 1649350458100,
+          "duration" : 15789
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7bf1888e08f1e4b513bf77c3b1b0d1da"
+    }, {
+      "name" : "Failed: After player chooses option in take a break nothing option selected.\n                Wait timed out after 10004ms",
+      "children" : [ {
+        "name" : "#7 Player can choose 24 hours option for 'Take A Break' and this option should be selected.",
+        "uid" : "456b38e2395322cd",
+        "parentUid" : "46cc122d4ff7463f85428ea6095081d0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649350474478,
+          "stop" : 1649350500830,
+          "duration" : 26352
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "46cc122d4ff7463f85428ea6095081d0"
+    }, {
+      "name" : "Failed: After player chooses option in take a break nothing option selected.\n                Wait timed out after 10008ms",
+      "children" : [ {
+        "name" : "#8 Player can choose 1 week option for 'Take A Break' and this option should be selected.",
+        "uid" : "3b84e792b403fe03",
+        "parentUid" : "73a8931c2e59b390313e1e4a116cf6bd",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649350500830,
+          "stop" : 1649350524197,
+          "duration" : 23367
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "73a8931c2e59b390313e1e4a116cf6bd"
+    }, {
+      "name" : "Failed: After player chooses option in take a break nothing option selected.\n                Wait timed out after 10017ms",
       "children" : [ {
         "name" : "#9 Player can choose 3 weeks option for 'Take A Break' and this option should be selected.",
-        "uid" : "e7c4aa26ea4cf73",
-        "parentUid" : "853339c892c482e2d24c00a03e53a215",
+        "uid" : "e78d2c7b5e23f628",
+        "parentUid" : "82280620cf6db1fe8665a20de39fb58d",
         "status" : "failed",
         "time" : {
-          "start" : 1648484489161,
-          "stop" : 1648484505507,
-          "duration" : 16346
+          "start" : 1649350524197,
+          "stop" : 1649350545767,
+          "duration" : 21570
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "853339c892c482e2d24c00a03e53a215"
+      "uid" : "82280620cf6db1fe8665a20de39fb58d"
     }, {
-      "name" : "Error: Timeout - Async callback was not invoked within timeout specified by jasmine.DEFAULT_TIMEOUT_INTERVAL.",
+      "name" : "Failed: After player chooses option in take a break nothing option selected.\n                Wait timed out after 10000ms",
       "children" : [ {
-        "name" : "#10 Deleting a message from the inbox which is marked as new should decrease the unread message count badge",
-        "uid" : "763c418afdd69f9a",
-        "parentUid" : "529a5c49d07d5715f54949d670a9ff89",
+        "name" : "#10 Player can choose 6 weeks option for 'Take A Break' and this option should be selected.",
+        "uid" : "7de5e9203fe0a16c",
+        "parentUid" : "1feb985ae44a677702239b84caa7fa2c",
         "status" : "failed",
         "time" : {
-          "start" : 1648484517579,
-          "stop" : 1648484547500,
-          "duration" : 29921
+          "start" : 1649350545767,
+          "stop" : 1649350566636,
+          "duration" : 20869
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "529a5c49d07d5715f54949d670a9ff89"
+      "uid" : "1feb985ae44a677702239b84caa7fa2c"
     }, {
-      "name" : "Expected '4 weeks' to contain '3 weeks', 'In cofirm window after choose 3 weeks for account pause duration take a break does not 3 weeks'.",
+      "name" : "Failed: After player chooses option in take a break nothing option selected.\n                Wait timed out after 10001ms",
+      "children" : [ {
+        "name" : "#11 Player can continue with chosen 24 hours option to 'Take A Break' and confirming modal should display.",
+        "uid" : "a5b0bc986a7bd32a",
+        "parentUid" : "2796039fdba0a58374e733471159f53c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649350566636,
+          "stop" : 1649350587249,
+          "duration" : 20613
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2796039fdba0a58374e733471159f53c"
+    }, {
+      "name" : "Failed: After player chooses option in take a break nothing option selected.\n                Wait timed out after 10003ms",
+      "children" : [ {
+        "name" : "#12 Player can continue with chosen 1 week option to 'Take A Break' and confirming modal should display.",
+        "uid" : "cf5fbf7bfbb9c6bb",
+        "parentUid" : "1f4290ab6b09c49d810100dcff80926e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649350587249,
+          "stop" : 1649350608238,
+          "duration" : 20989
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1f4290ab6b09c49d810100dcff80926e"
+    }, {
+      "name" : "Failed: After player chooses option in take a break nothing option selected.\n                Wait timed out after 10006ms",
       "children" : [ {
         "name" : "#13 Player can continue with chosen 3 weeks option to 'Take A Break' and confirming modal should display.",
-        "uid" : "dea950e78fdbc37a",
-        "parentUid" : "6daaab07d554bb4fd6c3c03d143d3e04",
+        "uid" : "93d79fc559a2a46a",
+        "parentUid" : "d1da40966e32bb8cd33dae87fe7b3af9",
         "status" : "failed",
         "time" : {
-          "start" : 1648484553581,
-          "stop" : 1648484568545,
-          "duration" : 14964
+          "start" : 1649350608238,
+          "stop" : 1649350629104,
+          "duration" : 20866
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "6daaab07d554bb4fd6c3c03d143d3e04"
+      "uid" : "d1da40966e32bb8cd33dae87fe7b3af9"
     }, {
-      "name" : "Failed: No element found using locator: By(css selector, .account-tile-list-item__content)",
+      "name" : "Failed: After player chooses option in take a break nothing option selected.\n                Wait timed out after 10002ms",
       "children" : [ {
-        "name" : "#1 User can view their Loss limits ",
-        "uid" : "2e2d55e84d32ab01",
-        "parentUid" : "5df5b757799c31ce1d031e7ff2472eaf",
+        "name" : "#14 Player can continue with chosen 6 weeks option to 'Take A Break' and confirming modal should display.",
+        "uid" : "905261ed831cde16",
+        "parentUid" : "88812206ded5f626de707db534285e4e",
         "status" : "failed",
         "time" : {
-          "start" : 1648484564308,
-          "stop" : 1648484579375,
-          "duration" : 15067
+          "start" : 1649350629104,
+          "stop" : 1649350650238,
+          "duration" : 21134
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "5df5b757799c31ce1d031e7ff2472eaf"
+      "uid" : "88812206ded5f626de707db534285e4e"
     }, {
-      "name" : "Failed: home.cookieBar.close is not a function",
+      "name" : "Failed: No element found using locator: By(css selector, .takeabreak__link)",
+      "children" : [ {
+        "name" : "#15 Player can choose to view the 'Self Exclusion' service from the 'Take A Break' modal.",
+        "uid" : "f86f90af7259f3f4",
+        "parentUid" : "1e386df1565bf8438d469062e3f3b18b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649350650238,
+          "stop" : 1649350661164,
+          "duration" : 10926
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1e386df1565bf8438d469062e3f3b18b"
+    }, {
+      "name" : "Failed: After player chooses option in take a break nothing option selected.\n                Wait timed out after 10005ms",
+      "children" : [ {
+        "name" : "#16 Player can press 'BACK' for confirmating modal after chosen for 24 hours 'Take A Break' and should return to previous step.",
+        "uid" : "6c15543ac79a47bd",
+        "parentUid" : "415d84c03fc30dfa1c79961deb06f19c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649350661164,
+          "stop" : 1649350682369,
+          "duration" : 21205
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "415d84c03fc30dfa1c79961deb06f19c"
+    }, {
+      "name" : "Failed: After player chooses option in take a break nothing option selected.\n                Wait timed out after 10018ms",
+      "children" : [ {
+        "name" : "#17 Player can close the take a break modal.",
+        "uid" : "162335b2ba453921",
+        "parentUid" : "1671114eff714b9daa628c2958761bba",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649350682369,
+          "stop" : 1649350703564,
+          "duration" : 21195
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1671114eff714b9daa628c2958761bba"
+    }, {
+      "name" : "NoSuchElementError: Index out of bound. Trying to access element at index: 0, but there are only 0 elements that match locator By(css selector, .game-card-basic__image)",
       "children" : [ {
         "name" : "#1 User can navigates to the slots page and all elements are persisted on the page",
-        "uid" : "3a3e64aac3426680",
-        "parentUid" : "7bb1363d006c245a141c85cae1aab7cb",
+        "uid" : "3e693819c0505a5f",
+        "parentUid" : "8b6ce78277bbd635a8559d44bde972ad",
         "status" : "failed",
         "time" : {
-          "start" : 1648484593071,
-          "stop" : 1648484600621,
-          "duration" : 7550
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "#2 User can see hero banner carousel and can scroll it",
-        "uid" : "998abb5ed2d93c9f",
-        "parentUid" : "7bb1363d006c245a141c85cae1aab7cb",
-        "status" : "failed",
-        "time" : {
-          "start" : 1648484600621,
-          "stop" : 1648484605347,
-          "duration" : 4726
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "#3 User can see static hero banner carousel and can click on it and see game info page",
-        "uid" : "cd8bdb1ce9dd9853",
-        "parentUid" : "7bb1363d006c245a141c85cae1aab7cb",
-        "status" : "failed",
-        "time" : {
-          "start" : 1648484605347,
-          "stop" : 1648484608391,
-          "duration" : 3044
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "#4 User can see game carousel and can scroll it",
-        "uid" : "b5c876140470a42d",
-        "parentUid" : "7bb1363d006c245a141c85cae1aab7cb",
-        "status" : "failed",
-        "time" : {
-          "start" : 1648484608391,
-          "stop" : 1648484611753,
-          "duration" : 3362
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "#5 User can see on hero banner carousel primary button CTA, can click on it and see game info page",
-        "uid" : "8ddfd4f9753590ae",
-        "parentUid" : "7bb1363d006c245a141c85cae1aab7cb",
-        "status" : "failed",
-        "time" : {
-          "start" : 1648484611753,
-          "stop" : 1648484615053,
-          "duration" : 3300
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "#6 User can hover mouse on game card and see all needed elements",
-        "uid" : "571def514bf381e9",
-        "parentUid" : "7bb1363d006c245a141c85cae1aab7cb",
-        "status" : "failed",
-        "time" : {
-          "start" : 1648484615053,
-          "stop" : 1648484619835,
-          "duration" : 4782
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "#7 User hover the game card and click 'Play now' and login modal appears",
-        "uid" : "c85fee5902f1ebde",
-        "parentUid" : "7bb1363d006c245a141c85cae1aab7cb",
-        "status" : "failed",
-        "time" : {
-          "start" : 1648484619835,
-          "stop" : 1648484623314,
-          "duration" : 3479
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "#8 User hover the game card and click on CTA 'INFO' and go to info page, click on JOIN and see register page",
-        "uid" : "9a99572faf4a5ce0",
-        "parentUid" : "7bb1363d006c245a141c85cae1aab7cb",
-        "status" : "failed",
-        "time" : {
-          "start" : 1648484623314,
-          "stop" : 1648484628048,
-          "duration" : 4734
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "#9 User hover the game card and click on it and login modal appears",
-        "uid" : "db3f3aa08579058b",
-        "parentUid" : "7bb1363d006c245a141c85cae1aab7cb",
-        "status" : "failed",
-        "time" : {
-          "start" : 1648484628048,
-          "stop" : 1648484630945,
-          "duration" : 2897
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "#10 User click on category and go to category page",
-        "uid" : "8cbaa814c020cc8b",
-        "parentUid" : "7bb1363d006c245a141c85cae1aab7cb",
-        "status" : "failed",
-        "time" : {
-          "start" : 1648484630945,
-          "stop" : 1648484634021,
-          "duration" : 3076
+          "start" : 1649351852322,
+          "stop" : 1649351855518,
+          "duration" : 3196
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "7bb1363d006c245a141c85cae1aab7cb"
+      "uid" : "8b6ce78277bbd635a8559d44bde972ad"
+    }, {
+      "name" : "Failed: Hero banner carousel button is not visible.\n                Wait timed out after 3010ms",
+      "children" : [ {
+        "name" : "#2 User can see hero banner carousel and can scroll it",
+        "uid" : "b0c229388fac5220",
+        "parentUid" : "48807731053ee834598ee30a76f27d26",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649351855518,
+          "stop" : 1649351859701,
+          "duration" : 4183
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "48807731053ee834598ee30a76f27d26"
+    }, {
+      "name" : "Failed: No element found using locator: By(css selector, [data-testid=\"carousel-next-btn\"])",
+      "children" : [ {
+        "name" : "#4 User can see game carousel and can scroll it",
+        "uid" : "6cc75269815119",
+        "parentUid" : "e2d274bac94e08d8ce3ea2a0f269889a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649351861338,
+          "stop" : 1649351862716,
+          "duration" : 1378
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e2d274bac94e08d8ce3ea2a0f269889a"
+    }, {
+      "name" : "Failed: No element found using locator: By(css selector, .button--primary)",
+      "children" : [ {
+        "name" : "#5 User can see on hero banner carousel primary button CTA, can click on it and see game info page",
+        "uid" : "13429caaf9ebc20",
+        "parentUid" : "8281c0970e273089960e20a30b0c2bf2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649351862716,
+          "stop" : 1649351863982,
+          "duration" : 1266
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8281c0970e273089960e20a30b0c2bf2"
+    }, {
+      "name" : "NoSuchElementError: No element found using locator: By(css selector, [data-testid=\"category-navigation\"])",
+      "children" : [ {
+        "name" : "#10 User click on category and go to category page",
+        "uid" : "cb3e2b1908255721",
+        "parentUid" : "847d75d0b5caa93799233a18145f6438",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649351875730,
+          "stop" : 1649351877683,
+          "duration" : 1953
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "847d75d0b5caa93799233a18145f6438"
     }, {
       "name" : "Failed: No element found using locator: By(css selector, .game-card-details)",
       "children" : [ {
         "name" : "#11 User logged in and hover the game card and click on CTA \"PLAY NOW\" and go to game page",
-        "uid" : "b0b32d386dfe7b0a",
+        "uid" : "6122eb1314ec21d",
         "parentUid" : "fde24e9a96e9300fb5578160fbef1d7d",
         "status" : "failed",
         "time" : {
-          "start" : 1648484634022,
-          "stop" : 1648484642901,
-          "duration" : 8879
+          "start" : 1649351877683,
+          "stop" : 1649351884451,
+          "duration" : 6768
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "#12 User logged in hover the game card  and click on CTA \"INFO\" and go to INFO page and click on \"PLAY NOW\" and see game page",
-        "uid" : "60f2660bcb49641d",
+        "uid" : "4ac8a603057c14c4",
         "parentUid" : "fde24e9a96e9300fb5578160fbef1d7d",
         "status" : "failed",
         "time" : {
-          "start" : 1648484642901,
-          "stop" : 1648484652413,
-          "duration" : 9512
+          "start" : 1649351884451,
+          "stop" : 1649351890921,
+          "duration" : 6470
         },
         "flaky" : false,
         "newFailed" : false,
@@ -836,168 +1423,19 @@
       "name" : "NoSuchElementError: No element found using locator: By(css selector, .game-card-details)",
       "children" : [ {
         "name" : "#13 User logged in and click on game card and game page appears",
-        "uid" : "6681579c74320ac8",
+        "uid" : "b55e32f7b7fda170",
         "parentUid" : "1a266aea4038cf5a6b5e5c10e6a8f3a5",
         "status" : "failed",
         "time" : {
-          "start" : 1648484652413,
-          "stop" : 1648484660895,
-          "duration" : 8482
+          "start" : 1649351890921,
+          "stop" : 1649351897749,
+          "duration" : 6828
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
       "uid" : "1a266aea4038cf5a6b5e5c10e6a8f3a5"
-    }, {
-      "name" : "Failed: Button is not displayed.\n                Wait timed out after 20003ms",
-      "children" : [ {
-        "name" : "#8 User can successfully set a daily loss limit if not already set ",
-        "uid" : "fd4b35da8420c138",
-        "parentUid" : "54ede49b166157b0aa5ddf481a842ad8",
-        "status" : "failed",
-        "time" : {
-          "start" : 1648484675586,
-          "stop" : 1648484706827,
-          "duration" : 31241
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "54ede49b166157b0aa5ddf481a842ad8"
-    }, {
-      "name" : "Failed: No element found using locator: By(css selector, .modal)",
-      "children" : [ {
-        "name" : "#9 User can successfully set a weekly loss limit if not already set ",
-        "uid" : "59b0ba61db5ffdc6",
-        "parentUid" : "91d082bae0fd2dac114691ede674e0d2",
-        "status" : "failed",
-        "time" : {
-          "start" : 1648484706827,
-          "stop" : 1648484718576,
-          "duration" : 11749
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "#10 User can successfully set a monthly loss limit if not already set ",
-        "uid" : "e0b9d007e0cf69ed",
-        "parentUid" : "91d082bae0fd2dac114691ede674e0d2",
-        "status" : "failed",
-        "time" : {
-          "start" : 1648484718576,
-          "stop" : 1648484730123,
-          "duration" : 11547
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "91d082bae0fd2dac114691ede674e0d2"
-    }, {
-      "name" : "Failed: Button is not displayed.\n                Wait timed out after 20006ms",
-      "children" : [ {
-        "name" : "#11 User can successfully set their Loss Limit to the minimum allowed value and will receive a success toast on submitting the new amount. ",
-        "uid" : "51bd5a346927cc38",
-        "parentUid" : "864a18c32ab89872669b4404b5ba6ee1",
-        "status" : "failed",
-        "time" : {
-          "start" : 1648484730123,
-          "stop" : 1648484761117,
-          "duration" : 30994
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "864a18c32ab89872669b4404b5ba6ee1"
-    }, {
-      "name" : "Failed: Modal is displayed.\n                Wait timed out after 20025ms",
-      "children" : [ {
-        "name" : "#12 User can successfully change their Loss Limit with a decimal value and receive a success toast on submitting the new amount. ",
-        "uid" : "33ff11dfdd1af974",
-        "parentUid" : "cff9c7b50adfe9d9538c5da56fa45bca",
-        "status" : "failed",
-        "time" : {
-          "start" : 1648484761117,
-          "stop" : 1648484794984,
-          "duration" : 33867
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "cff9c7b50adfe9d9538c5da56fa45bca"
-    }, {
-      "name" : "Failed: Button is not displayed.\n                Wait timed out after 20002ms",
-      "children" : [ {
-        "name" : "#13 User cannot set a Loss Limit lower than the minimum amount. ",
-        "uid" : "3d93dc60fda9ce1b",
-        "parentUid" : "7081c489b46e479eca849439803d4cb3",
-        "status" : "failed",
-        "time" : {
-          "start" : 1648484794984,
-          "stop" : 1648484826266,
-          "duration" : 31282
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "7081c489b46e479eca849439803d4cb3"
-    }, {
-      "name" : "Failed: Button is not displayed.\n                Wait timed out after 20001ms",
-      "children" : [ {
-        "name" : "#14 User cannot set a Loss Limit higher than the maximum amount. ",
-        "uid" : "6259b95b330dcae7",
-        "parentUid" : "3bfd4f90676991e131643ecbb38ab2a5",
-        "status" : "failed",
-        "time" : {
-          "start" : 1648484826266,
-          "stop" : 1648484857090,
-          "duration" : 30824
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "3bfd4f90676991e131643ecbb38ab2a5"
-    }, {
-      "name" : "Failed: Button is not displayed.\n                Wait timed out after 20005ms",
-      "children" : [ {
-        "name" : "#15 User can submit a blank value in the Loss Limit. ",
-        "uid" : "79004b2669c81143",
-        "parentUid" : "4fb27c27bf41af26ef7edfdf00c75165",
-        "status" : "failed",
-        "time" : {
-          "start" : 1648484857090,
-          "stop" : 1648484888610,
-          "duration" : 31520
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "4fb27c27bf41af26ef7edfdf00c75165"
-    }, {
-      "name" : "Failed: Button is not displayed.\n                Wait timed out after 20008ms",
-      "children" : [ {
-        "name" : "#16 User can only enter numeric digits into the set Loss Limit field. ",
-        "uid" : "f84ddb9cdcad86aa",
-        "parentUid" : "f7b887a3ef88f3f5221a41ed34e26d73",
-        "status" : "failed",
-        "time" : {
-          "start" : 1648484888610,
-          "stop" : 1648484919055,
-          "duration" : 30445
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "f7b887a3ef88f3f5221a41ed34e26d73"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]
