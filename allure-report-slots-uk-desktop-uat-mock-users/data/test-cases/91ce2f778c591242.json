@@ -1,0 +1,79 @@
+{
+  "uid" : "91ce2f778c591242",
+  "name" : "#18 Player can submit a blank value in the Deposit Limits.",
+  "fullName" : "My Account > Gambling Controls > Deposit Limits.#18 Player can submit a blank value in the Deposit Limits.",
+  "historyId" : "bad6e0edfe4d75c54d0ade70ed44e35a",
+  "time" : {
+    "start" : 1649358519196,
+    "stop" : 1649358533605,
+    "duration" : 14409
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expected 'Remaining £200' to contain 'Remaining £500', 'Daily Deposit Limit has incorrect value.'.",
+  "statusTrace" : "Error: Failed expectation\n                    at UserContext.<anonymous> (/home/developer/Downloads/eyas-test-automation/src/test/my-account/gambling-controls/deposit-limits.spec.js:762:9)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expected 'Remaining £200' to contain 'Remaining £500', 'Daily Deposit Limit has incorrect value.'.",
+    "statusTrace" : "Error: Failed expectation\n                    at UserContext.<anonymous> (/home/developer/Downloads/eyas-test-automation/src/test/my-account/gambling-controls/deposit-limits.spec.js:762:9)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "afd37e81364349db",
+      "name" : "Screenshot",
+      "source" : "afd37e81364349db.png",
+      "type" : "image/png",
+      "size" : 325647
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "My Account > Gambling Controls > Deposit Limits"
+  }, {
+    "name" : "testClass",
+    "value" : "My Account > Gambling Controls > Deposit Limits"
+  }, {
+    "name" : "testMethod",
+    "value" : "#18 Player can submit a blank value in the Deposit Limits."
+  }, {
+    "name" : "package",
+    "value" : "My Account > Gambling Controls > Deposit Limits"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "5bc6a46d6f797c0f",
+      "status" : "failed",
+      "statusDetails" : "Expected 'Remaining £200' to contain 'Remaining £500', 'Daily Deposit Limit has incorrect value.'.",
+      "time" : {
+        "start" : 1649357236953,
+        "stop" : 1649357256127,
+        "duration" : 19174
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "91ce2f778c591242.json",
+  "parameterValues" : [ ]
+}
