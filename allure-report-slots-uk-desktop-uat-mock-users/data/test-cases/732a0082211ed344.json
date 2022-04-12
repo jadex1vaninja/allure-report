@@ -1,0 +1,64 @@
+{
+  "uid" : "732a0082211ed344",
+  "name" : "#6 Player can successfully set a 'Time Limit'.",
+  "fullName" : "My Account > Gambling Controls > Play Reminders.#6 Player can successfully set a 'Time Limit'.",
+  "historyId" : "7ae3a999491e2aef0eb2777c8774be5e",
+  "time" : {
+    "start" : 1649755783942,
+    "stop" : 1649756096917,
+    "duration" : 312975
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Failed: timeout: Timed out receiving message from renderer: 299.589\n                  (Session info: headless chrome=100.0.4896.75)\n                Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'\n                System info: host: 'smiss-eugen-vostro-5590', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.13.0-37-generic', java.version: '11.0.14'\n                Driver info: driver.version: unknown",
+  "statusTrace" : "TimeoutError: timeout: Timed out receiving message from renderer: 299.589\n                  (Session info: headless chrome=100.0.4896.75)\n                Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'\n                System info: host: 'smiss-eugen-vostro-5590', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.13.0-37-generic', java.version: '11.0.14'\n                Driver info: driver.version: unknown\n                    at Object.checkLegacyResponse (/home/developer/Downloads/eyas-test-automation/node_modules/selenium-webdriver/lib/error.js:546:15)\n                    at parseHttpResponse (/home/developer/Downloads/eyas-test-automation/node_modules/selenium-webdriver/lib/http.js:509:13)\n                    at /home/developer/Downloads/eyas-test-automation/node_modules/selenium-webdriver/lib/http.js:441:30\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                From: Task: WebDriver.navigate().to(https://merkurslots-com-uat.eyasgaming.net/uk/en/home.html)\n                    at thenableWebDriverProxy.schedule (/home/developer/Downloads/eyas-test-automation/node_modules/selenium-webdriver/lib/webdriver.js:807:17)\n                    at Navigation.to (/home/developer/Downloads/eyas-test-automation/node_modules/selenium-webdriver/lib/webdriver.js:1133:25)\n                    at thenableWebDriverProxy.get (/home/developer/Downloads/eyas-test-automation/node_modules/selenium-webdriver/lib/webdriver.js:988:28)\n                    at ProtractorBrowser.get (/home/developer/Downloads/eyas-test-automation/node_modules/protractor/built/browser.js:653:32)\n                    at Home.navigateTo (/home/developer/Downloads/eyas-test-automation/src/test/home.pageObject.js:57:19)\n                    at UserContext.<anonymous> (/home/developer/Downloads/eyas-test-automation/src/test/my-account/gambling-controls/play-reminders.spec.js:28:14)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                From: Task: Run beforeEach in control flow\n                    at UserContext.<anonymous> (/home/developer/Downloads/eyas-test-automation/node_modules/jasminewd2/index.js:94:19)\n                    at attempt (/home/developer/Downloads/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4297:26)\n                    at QueueRunner.run (/home/developer/Downloads/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4217:20)\n                    at QueueRunner.execute (/home/developer/Downloads/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4199:10)\n                    at Spec.queueRunnerFactory (/home/developer/Downloads/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:909:35)\n                    at Spec.execute (/home/developer/Downloads/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:526:10)\n                    at UserContext.fn (/home/developer/Downloads/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:5340:37)\n                    at attempt (/home/developer/Downloads/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4297:26)\n                    at QueueRunner.run (/home/developer/Downloads/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4217:20)\n                    at runNext (/home/developer/Downloads/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4257:20)\n                From asynchronous test: \n                Error\n                    at Object.<anonymous> (/home/developer/Downloads/eyas-test-automation/src/test/my-account/gambling-controls/play-reminders.spec.js:22:1)\n                    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n                    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n                    at Module.load (node:internal/modules/cjs/loader:981:32)\n                    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n                    at Module.require (node:internal/modules/cjs/loader:1005:19)\n                    at require (node:internal/modules/cjs/helpers:102:18)\n                    at /home/developer/Downloads/eyas-test-automation/node_modules/jasmine/lib/jasmine.js:93:5\n                    at Array.forEach (<anonymous>)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Failed: timeout: Timed out receiving message from renderer: 299.589\n                  (Session info: headless chrome=100.0.4896.75)\n                Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'\n                System info: host: 'smiss-eugen-vostro-5590', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.13.0-37-generic', java.version: '11.0.14'\n                Driver info: driver.version: unknown",
+    "statusTrace" : "TimeoutError: timeout: Timed out receiving message from renderer: 299.589\n                  (Session info: headless chrome=100.0.4896.75)\n                Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'\n                System info: host: 'smiss-eugen-vostro-5590', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.13.0-37-generic', java.version: '11.0.14'\n                Driver info: driver.version: unknown\n                    at Object.checkLegacyResponse (/home/developer/Downloads/eyas-test-automation/node_modules/selenium-webdriver/lib/error.js:546:15)\n                    at parseHttpResponse (/home/developer/Downloads/eyas-test-automation/node_modules/selenium-webdriver/lib/http.js:509:13)\n                    at /home/developer/Downloads/eyas-test-automation/node_modules/selenium-webdriver/lib/http.js:441:30\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                From: Task: WebDriver.navigate().to(https://merkurslots-com-uat.eyasgaming.net/uk/en/home.html)\n                    at thenableWebDriverProxy.schedule (/home/developer/Downloads/eyas-test-automation/node_modules/selenium-webdriver/lib/webdriver.js:807:17)\n                    at Navigation.to (/home/developer/Downloads/eyas-test-automation/node_modules/selenium-webdriver/lib/webdriver.js:1133:25)\n                    at thenableWebDriverProxy.get (/home/developer/Downloads/eyas-test-automation/node_modules/selenium-webdriver/lib/webdriver.js:988:28)\n                    at ProtractorBrowser.get (/home/developer/Downloads/eyas-test-automation/node_modules/protractor/built/browser.js:653:32)\n                    at Home.navigateTo (/home/developer/Downloads/eyas-test-automation/src/test/home.pageObject.js:57:19)\n                    at UserContext.<anonymous> (/home/developer/Downloads/eyas-test-automation/src/test/my-account/gambling-controls/play-reminders.spec.js:28:14)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                From: Task: Run beforeEach in control flow\n                    at UserContext.<anonymous> (/home/developer/Downloads/eyas-test-automation/node_modules/jasminewd2/index.js:94:19)\n                    at attempt (/home/developer/Downloads/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4297:26)\n                    at QueueRunner.run (/home/developer/Downloads/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4217:20)\n                    at QueueRunner.execute (/home/developer/Downloads/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4199:10)\n                    at Spec.queueRunnerFactory (/home/developer/Downloads/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:909:35)\n                    at Spec.execute (/home/developer/Downloads/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:526:10)\n                    at UserContext.fn (/home/developer/Downloads/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:5340:37)\n                    at attempt (/home/developer/Downloads/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4297:26)\n                    at QueueRunner.run (/home/developer/Downloads/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4217:20)\n                    at runNext (/home/developer/Downloads/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4257:20)\n                From asynchronous test: \n                Error\n                    at Object.<anonymous> (/home/developer/Downloads/eyas-test-automation/src/test/my-account/gambling-controls/play-reminders.spec.js:22:1)\n                    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n                    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n                    at Module.load (node:internal/modules/cjs/loader:981:32)\n                    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n                    at Module.require (node:internal/modules/cjs/loader:1005:19)\n                    at require (node:internal/modules/cjs/helpers:102:18)\n                    at /home/developer/Downloads/eyas-test-automation/node_modules/jasmine/lib/jasmine.js:93:5\n                    at Array.forEach (<anonymous>)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "cd69ee54c8a7ec6f",
+      "name" : "Screenshot",
+      "source" : "cd69ee54c8a7ec6f.png",
+      "type" : "image/png",
+      "size" : 860977
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "My Account > Gambling Controls > Play Reminders"
+  }, {
+    "name" : "testClass",
+    "value" : "My Account > Gambling Controls > Play Reminders"
+  }, {
+    "name" : "testMethod",
+    "value" : "#6 Player can successfully set a 'Time Limit'."
+  }, {
+    "name" : "package",
+    "value" : "My Account > Gambling Controls > Play Reminders"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "732a0082211ed344.json",
+  "parameterValues" : [ ]
+}
