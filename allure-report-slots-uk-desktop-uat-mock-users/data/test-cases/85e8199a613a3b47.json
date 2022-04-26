@@ -1,0 +1,79 @@
+{
+  "uid" : "85e8199a613a3b47",
+  "name" : "#8 User can come to the Promotion page from the Shop Welcome page",
+  "fullName" : "Landing Page/Shop Welcome page.#8 User can come to the Promotion page from the Shop Welcome page",
+  "historyId" : "d5124bec4591f84c32a9c95d91347e54",
+  "time" : {
+    "start" : 1650953829218,
+    "stop" : 1650953840655,
+    "duration" : 11437
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "TimeoutError: Landing page has failed to load.\n                Wait timed out after 5000ms",
+  "statusTrace" : "TimeoutError: Landing page has failed to load.\n                Wait timed out after 5000ms\n                    at /home/developer/Downloads/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2201:17\n                    at ManagedPromise.invokeCallback_ (/home/developer/Downloads/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:1376:14)\n                    at TaskQueue.execute_ (/home/developer/Downloads/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n                    at TaskQueue.executeNext_ (/home/developer/Downloads/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n                    at /home/developer/Downloads/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2927:27\n                    at /home/developer/Downloads/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:668:7\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                From: Task: Landing page has failed to load.\n                    at scheduleWait (/home/developer/Downloads/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2188:20)\n                    at ControlFlow.wait (/home/developer/Downloads/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2517:12)\n                    at thenableWebDriverProxy.wait (/home/developer/Downloads/eyas-test-automation/node_modules/selenium-webdriver/lib/webdriver.js:934:29)\n                    at run (/home/developer/Downloads/eyas-test-automation/node_modules/protractor/built/browser.js:58:33)\n                    at ProtractorBrowser.to.<computed> [as wait] (/home/developer/Downloads/eyas-test-automation/node_modules/protractor/built/browser.js:66:16)\n                    at WelcomeGames.waitForLoad (/home/developer/Downloads/eyas-test-automation/src/test/landing/landingPage.pageObject.js:32:19)\n                    at WelcomeGames.navigateTo (/home/developer/Downloads/eyas-test-automation/src/test/landing/welcomeGames.pageObject.js:19:17)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "TimeoutError: Landing page has failed to load.\n                Wait timed out after 5000ms",
+    "statusTrace" : "TimeoutError: Landing page has failed to load.\n                Wait timed out after 5000ms\n                    at /home/developer/Downloads/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2201:17\n                    at ManagedPromise.invokeCallback_ (/home/developer/Downloads/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:1376:14)\n                    at TaskQueue.execute_ (/home/developer/Downloads/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n                    at TaskQueue.executeNext_ (/home/developer/Downloads/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n                    at /home/developer/Downloads/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2927:27\n                    at /home/developer/Downloads/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:668:7\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                From: Task: Landing page has failed to load.\n                    at scheduleWait (/home/developer/Downloads/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2188:20)\n                    at ControlFlow.wait (/home/developer/Downloads/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2517:12)\n                    at thenableWebDriverProxy.wait (/home/developer/Downloads/eyas-test-automation/node_modules/selenium-webdriver/lib/webdriver.js:934:29)\n                    at run (/home/developer/Downloads/eyas-test-automation/node_modules/protractor/built/browser.js:58:33)\n                    at ProtractorBrowser.to.<computed> [as wait] (/home/developer/Downloads/eyas-test-automation/node_modules/protractor/built/browser.js:66:16)\n                    at WelcomeGames.waitForLoad (/home/developer/Downloads/eyas-test-automation/src/test/landing/landingPage.pageObject.js:32:19)\n                    at WelcomeGames.navigateTo (/home/developer/Downloads/eyas-test-automation/src/test/landing/welcomeGames.pageObject.js:19:17)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "cc92f136502a261e",
+      "name" : "Screenshot",
+      "source" : "cc92f136502a261e.png",
+      "type" : "image/png",
+      "size" : 26079
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Landing Page/Shop Welcome page"
+  }, {
+    "name" : "testClass",
+    "value" : "Landing Page/Shop Welcome page"
+  }, {
+    "name" : "testMethod",
+    "value" : "#8 User can come to the Promotion page from the Shop Welcome page"
+  }, {
+    "name" : "package",
+    "value" : "Landing Page/Shop Welcome page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "3f7f0be1333fd1f4",
+      "status" : "failed",
+      "statusDetails" : "TimeoutError: Landing page has failed to load.\n                Wait timed out after 5004ms",
+      "time" : {
+        "start" : 1650952505995,
+        "stop" : 1650952519196,
+        "duration" : 13201
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "85e8199a613a3b47.json",
+  "parameterValues" : [ ]
+}
