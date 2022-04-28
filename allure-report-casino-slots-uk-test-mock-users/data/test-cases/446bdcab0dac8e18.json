@@ -1,0 +1,79 @@
+{
+  "uid" : "446bdcab0dac8e18",
+  "name" : "#11 User logged in and hover the game card and click on CTA \"PLAY NOW\" and go to game page",
+  "fullName" : "Slots page.#11 User logged in and hover the game card and click on CTA \"PLAY NOW\" and go to game page",
+  "historyId" : "9543533ae25295b5add86b5f75048058",
+  "time" : {
+    "start" : 1651152452007,
+    "stop" : 1651152476811,
+    "duration" : 24804
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Failed: Accept All Cookie Notification not visible.\n                Wait timed out after 20011ms",
+  "statusTrace" : "TimeoutError: Accept All Cookie Notification not visible.\n                Wait timed out after 20011ms\n                    at /home/developer/Downloads/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2201:17\n                    at ManagedPromise.invokeCallback_ (/home/developer/Downloads/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:1376:14)\n                    at TaskQueue.execute_ (/home/developer/Downloads/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n                    at TaskQueue.executeNext_ (/home/developer/Downloads/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n                    at /home/developer/Downloads/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2927:27\n                    at /home/developer/Downloads/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:668:7\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                From: Task: Accept All Cookie Notification not visible.\n                    at scheduleWait (/home/developer/Downloads/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2188:20)\n                    at ControlFlow.wait (/home/developer/Downloads/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2517:12)\n                    at thenableWebDriverProxy.wait (/home/developer/Downloads/eyas-test-automation/node_modules/selenium-webdriver/lib/webdriver.js:934:29)\n                    at run (/home/developer/Downloads/eyas-test-automation/node_modules/protractor/built/browser.js:58:33)\n                    at ProtractorBrowser.to.<computed> [as wait] (/home/developer/Downloads/eyas-test-automation/node_modules/protractor/built/browser.js:66:16)\n                    at CookieBar.waitForLoadAcceptAllCookie (/home/developer/Downloads/eyas-test-automation/src/test/components/cookie-notification.component.js:20:19)\n                    at Home.openLoginModal (/home/developer/Downloads/eyas-test-automation/src/test/page.pageObject.js:61:30)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at UserContext.<anonymous> (/home/developer/Downloads/eyas-test-automation/src/test/slots/slotsPage.spec.js:340:5)\n                From: Task: Run it(\"#11 User logged in and hover the game card and click on CTA \"PLAY NOW\" and go to game page\") in control flow\n                    at UserContext.<anonymous> (/home/developer/Downloads/eyas-test-automation/node_modules/jasminewd2/index.js:94:19)\n                    at attempt (/home/developer/Downloads/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4297:26)\n                    at QueueRunner.run (/home/developer/Downloads/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4217:20)\n                    at runNext (/home/developer/Downloads/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4257:20)\n                    at /home/developer/Downloads/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4264:13\n                    at /home/developer/Downloads/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4172:9\n                    at /home/developer/Downloads/eyas-test-automation/node_modules/jasminewd2/index.js:64:48\n                    at ControlFlow.emit (/home/developer/Downloads/eyas-test-automation/node_modules/selenium-webdriver/lib/events.js:62:21)\n                    at ControlFlow.shutdown_ (/home/developer/Downloads/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2674:10)\n                    at /home/developer/Downloads/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2599:53\n                From asynchronous test: \n                Error\n                    at Suite.<anonymous> (/home/developer/Downloads/eyas-test-automation/src/test/slots/slotsPage.spec.js:339:3)\n                    at addSpecsToSuite (/home/developer/Downloads/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1107:25)\n                    at Env.describe (/home/developer/Downloads/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1074:7)\n                    at describe (/home/developer/Downloads/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4399:18)\n                    at Object.<anonymous> (/home/developer/Downloads/eyas-test-automation/src/test/slots/slotsPage.spec.js:35:1)\n                    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n                    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n                    at Module.load (node:internal/modules/cjs/loader:981:32)\n                    at Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Failed: Accept All Cookie Notification not visible.\n                Wait timed out after 20011ms",
+    "statusTrace" : "TimeoutError: Accept All Cookie Notification not visible.\n                Wait timed out after 20011ms\n                    at /home/developer/Downloads/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2201:17\n                    at ManagedPromise.invokeCallback_ (/home/developer/Downloads/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:1376:14)\n                    at TaskQueue.execute_ (/home/developer/Downloads/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n                    at TaskQueue.executeNext_ (/home/developer/Downloads/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n                    at /home/developer/Downloads/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2927:27\n                    at /home/developer/Downloads/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:668:7\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                From: Task: Accept All Cookie Notification not visible.\n                    at scheduleWait (/home/developer/Downloads/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2188:20)\n                    at ControlFlow.wait (/home/developer/Downloads/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2517:12)\n                    at thenableWebDriverProxy.wait (/home/developer/Downloads/eyas-test-automation/node_modules/selenium-webdriver/lib/webdriver.js:934:29)\n                    at run (/home/developer/Downloads/eyas-test-automation/node_modules/protractor/built/browser.js:58:33)\n                    at ProtractorBrowser.to.<computed> [as wait] (/home/developer/Downloads/eyas-test-automation/node_modules/protractor/built/browser.js:66:16)\n                    at CookieBar.waitForLoadAcceptAllCookie (/home/developer/Downloads/eyas-test-automation/src/test/components/cookie-notification.component.js:20:19)\n                    at Home.openLoginModal (/home/developer/Downloads/eyas-test-automation/src/test/page.pageObject.js:61:30)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at UserContext.<anonymous> (/home/developer/Downloads/eyas-test-automation/src/test/slots/slotsPage.spec.js:340:5)\n                From: Task: Run it(\"#11 User logged in and hover the game card and click on CTA \"PLAY NOW\" and go to game page\") in control flow\n                    at UserContext.<anonymous> (/home/developer/Downloads/eyas-test-automation/node_modules/jasminewd2/index.js:94:19)\n                    at attempt (/home/developer/Downloads/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4297:26)\n                    at QueueRunner.run (/home/developer/Downloads/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4217:20)\n                    at runNext (/home/developer/Downloads/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4257:20)\n                    at /home/developer/Downloads/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4264:13\n                    at /home/developer/Downloads/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4172:9\n                    at /home/developer/Downloads/eyas-test-automation/node_modules/jasminewd2/index.js:64:48\n                    at ControlFlow.emit (/home/developer/Downloads/eyas-test-automation/node_modules/selenium-webdriver/lib/events.js:62:21)\n                    at ControlFlow.shutdown_ (/home/developer/Downloads/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2674:10)\n                    at /home/developer/Downloads/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2599:53\n                From asynchronous test: \n                Error\n                    at Suite.<anonymous> (/home/developer/Downloads/eyas-test-automation/src/test/slots/slotsPage.spec.js:339:3)\n                    at addSpecsToSuite (/home/developer/Downloads/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1107:25)\n                    at Env.describe (/home/developer/Downloads/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1074:7)\n                    at describe (/home/developer/Downloads/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4399:18)\n                    at Object.<anonymous> (/home/developer/Downloads/eyas-test-automation/src/test/slots/slotsPage.spec.js:35:1)\n                    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n                    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n                    at Module.load (node:internal/modules/cjs/loader:981:32)\n                    at Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a05b4d9b64fdd863",
+      "name" : "Screenshot",
+      "source" : "a05b4d9b64fdd863.png",
+      "type" : "image/png",
+      "size" : 766548
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Slots page"
+  }, {
+    "name" : "testClass",
+    "value" : "Slots page"
+  }, {
+    "name" : "testMethod",
+    "value" : "#11 User logged in and hover the game card and click on CTA \"PLAY NOW\" and go to game page"
+  }, {
+    "name" : "package",
+    "value" : "Slots page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "863c66cf9ea2b1c4",
+      "status" : "failed",
+      "statusDetails" : "Failed: Accept All Cookie Notification not visible.\n                Wait timed out after 20011ms",
+      "time" : {
+        "start" : 1651151051860,
+        "stop" : 1651151074438,
+        "duration" : 22578
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "446bdcab0dac8e18.json",
+  "parameterValues" : [ ]
+}
