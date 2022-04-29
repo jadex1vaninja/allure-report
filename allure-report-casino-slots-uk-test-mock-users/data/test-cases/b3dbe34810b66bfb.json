@@ -1,0 +1,97 @@
+{
+  "uid" : "b3dbe34810b66bfb",
+  "name" : "#15 Player can successfully change Deposit Limit with a decimal value and receive a success toast on submitting the new amount.",
+  "fullName" : "My Account > Gambling Controls > Deposit Limits.#15 Player can successfully change Deposit Limit with a decimal value and receive a success toast on submitting the new amount.",
+  "historyId" : "af378bbedd372cbf8071eded6cd91e8",
+  "time" : {
+    "start" : 1651226289792,
+    "stop" : 1651226310804,
+    "duration" : 21012
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expected 'You have successfully requested to increase your weekly deposit limit to £200.50. We'll ask you to confirm your new limit in 24 hours.' to contain 'You have successfully requested to increase your weekly deposit limit to £500.50. We'll ask you to confirm your new limit in 24 hours.', 'Success snackbar has incorrect text/amount.'.",
+  "statusTrace" : "Error: Failed expectation\n                    at UserContext.<anonymous> (/home/developer/Downloads/eyas-test-automation/src/test/my-account/gambling-controls/deposit-limits.spec.js:646:63)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expected 'You have successfully requested to increase your weekly deposit limit to £200.50. We'll ask you to confirm your new limit in 24 hours.' to contain 'You have successfully requested to increase your weekly deposit limit to £500.50. We'll ask you to confirm your new limit in 24 hours.', 'Success snackbar has incorrect text/amount.'.",
+    "statusTrace" : "Error: Failed expectation\n                    at UserContext.<anonymous> (/home/developer/Downloads/eyas-test-automation/src/test/my-account/gambling-controls/deposit-limits.spec.js:646:63)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "47e9cef2056290d9",
+      "name" : "Screenshot",
+      "source" : "47e9cef2056290d9.png",
+      "type" : "image/png",
+      "size" : 341196
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "My Account > Gambling Controls > Deposit Limits"
+  }, {
+    "name" : "testClass",
+    "value" : "My Account > Gambling Controls > Deposit Limits"
+  }, {
+    "name" : "testMethod",
+    "value" : "#15 Player can successfully change Deposit Limit with a decimal value and receive a success toast on submitting the new amount."
+  }, {
+    "name" : "package",
+    "value" : "My Account > Gambling Controls > Deposit Limits"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "52d4fcfddf0732d0",
+      "status" : "failed",
+      "statusDetails" : "Expected 'You have successfully requested to increase your weekly deposit limit to £200.50. We'll ask you to confirm your new limit in 24 hours.' to contain 'You have successfully requested to increase your weekly deposit limit to £500.50. We'll ask you to confirm your new limit in 24 hours.', 'Success snackbar has incorrect text/amount.'.",
+      "time" : {
+        "start" : 1651226033325,
+        "stop" : 1651226055943,
+        "duration" : 22618
+      }
+    }, {
+      "uid" : "e1a3d327ab9a6afb",
+      "status" : "failed",
+      "statusDetails" : "Failed: Accept All Cookie Notification not visible.\n                Wait timed out after 20038ms",
+      "time" : {
+        "start" : 1651222886094,
+        "stop" : 1651222911829,
+        "duration" : 25735
+      }
+    }, {
+      "uid" : "b09d8121243b2147",
+      "status" : "failed",
+      "statusDetails" : "Failed: Accept All Cookie Notification not visible.\n                Wait timed out after 20013ms",
+      "time" : {
+        "start" : 1651221112562,
+        "stop" : 1651221138571,
+        "duration" : 26009
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "b3dbe34810b66bfb.json",
+  "parameterValues" : [ ]
+}
