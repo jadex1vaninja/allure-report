@@ -1,0 +1,86 @@
+{
+  "uid" : "84f7c6c1053bf9e1",
+  "name" : "#10 User click on category and go to category page",
+  "fullName" : "Slots page.#10 User click on category and go to category page",
+  "historyId" : "34ff15955a7cfdee3fbcd6bc7fb32867",
+  "time" : {
+    "start" : 1651587500927,
+    "stop" : 1651587504308,
+    "duration" : 3381
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "NoSuchElementError: No element found using locator: By(css selector, [data-testid=\"category-navigation\"])",
+  "statusTrace" : "NoSuchElementError: No element found using locator: By(css selector, [data-testid=\"category-navigation\"])\n                    at /home/developer/Downloads/eyas-test-automation/node_modules/protractor/built/element.js:814:27\n                    at ManagedPromise.invokeCallback_ (/home/developer/Downloads/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:1376:14)\n                    at TaskQueue.execute_ (/home/developer/Downloads/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n                    at TaskQueue.executeNext_ (/home/developer/Downloads/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n                    at /home/developer/Downloads/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2927:27\n                    at /home/developer/Downloads/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:668:7\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)Error\n                    at ElementArrayFinder.applyAction_ (/home/developer/Downloads/eyas-test-automation/node_modules/protractor/built/element.js:459:27)\n                    at ElementArrayFinder.<computed> [as getAttribute] (/home/developer/Downloads/eyas-test-automation/node_modules/protractor/built/element.js:91:29)\n                    at ElementFinder.<computed> [as getAttribute] (/home/developer/Downloads/eyas-test-automation/node_modules/protractor/built/element.js:831:22)\n                    at UserContext.<anonymous> (/home/developer/Downloads/eyas-test-automation/src/test/slots/slotsPage.spec.js:360:48)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "NoSuchElementError: No element found using locator: By(css selector, [data-testid=\"category-navigation\"])",
+    "statusTrace" : "NoSuchElementError: No element found using locator: By(css selector, [data-testid=\"category-navigation\"])\n                    at /home/developer/Downloads/eyas-test-automation/node_modules/protractor/built/element.js:814:27\n                    at ManagedPromise.invokeCallback_ (/home/developer/Downloads/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:1376:14)\n                    at TaskQueue.execute_ (/home/developer/Downloads/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n                    at TaskQueue.executeNext_ (/home/developer/Downloads/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n                    at /home/developer/Downloads/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2927:27\n                    at /home/developer/Downloads/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:668:7\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)Error\n                    at ElementArrayFinder.applyAction_ (/home/developer/Downloads/eyas-test-automation/node_modules/protractor/built/element.js:459:27)\n                    at ElementArrayFinder.<computed> [as getAttribute] (/home/developer/Downloads/eyas-test-automation/node_modules/protractor/built/element.js:91:29)\n                    at ElementFinder.<computed> [as getAttribute] (/home/developer/Downloads/eyas-test-automation/node_modules/protractor/built/element.js:831:22)\n                    at UserContext.<anonymous> (/home/developer/Downloads/eyas-test-automation/src/test/slots/slotsPage.spec.js:360:48)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "cf991195b5a0e6f1",
+      "name" : "Screenshot",
+      "source" : "cf991195b5a0e6f1.png",
+      "type" : "image/png",
+      "size" : 7181
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Slots page"
+  }, {
+    "name" : "testClass",
+    "value" : "Slots page"
+  }, {
+    "name" : "testMethod",
+    "value" : "#10 User click on category and go to category page"
+  }, {
+    "name" : "package",
+    "value" : "Slots page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "aef50e5a9b7a870a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651586618583,
+        "stop" : 1651586622427,
+        "duration" : 3844
+      }
+    }, {
+      "uid" : "a185c9048680ec6b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651581852753,
+        "stop" : 1651581856532,
+        "duration" : 3779
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "84f7c6c1053bf9e1.json",
+  "parameterValues" : [ ]
+}
