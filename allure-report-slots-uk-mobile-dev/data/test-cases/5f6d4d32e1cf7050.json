@@ -1,0 +1,64 @@
+{
+  "uid" : "5f6d4d32e1cf7050",
+  "name" : "#5 User try to click on PLAY CTA of Popular game at Shop Welcome page",
+  "fullName" : "Landing Page/Shop Welcome page.#5 User try to click on PLAY CTA of Popular game at Shop Welcome page",
+  "historyId" : "86f956992e2e469c79eb87ec61cdc4fe",
+  "time" : {
+    "start" : 1651588442681,
+    "stop" : 1651588458384,
+    "duration" : 15703
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "TimeoutError: Landing page Welcome Games has failed to load.\n                Wait timed out after 5003ms",
+  "statusTrace" : "TimeoutError: Landing page Welcome Games has failed to load.\n                Wait timed out after 5003ms\n                    at /home/developer/Downloads/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2201:17\n                    at ManagedPromise.invokeCallback_ (/home/developer/Downloads/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:1376:14)\n                    at TaskQueue.execute_ (/home/developer/Downloads/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n                    at TaskQueue.executeNext_ (/home/developer/Downloads/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n                    at /home/developer/Downloads/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2927:27\n                    at /home/developer/Downloads/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:668:7\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                From: Task: Landing page Welcome Games has failed to load.\n                    at scheduleWait (/home/developer/Downloads/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2188:20)\n                    at ControlFlow.wait (/home/developer/Downloads/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2517:12)\n                    at thenableWebDriverProxy.wait (/home/developer/Downloads/eyas-test-automation/node_modules/selenium-webdriver/lib/webdriver.js:934:29)\n                    at run (/home/developer/Downloads/eyas-test-automation/node_modules/protractor/built/browser.js:58:33)\n                    at ProtractorBrowser.to.<computed> [as wait] (/home/developer/Downloads/eyas-test-automation/node_modules/protractor/built/browser.js:66:16)\n                    at WelcomeGames.waitForLoad (/home/developer/Downloads/eyas-test-automation/src/test/landing/welcomeGames.pageObject.js:23:19)\n                    at UserContext.<anonymous> (/home/developer/Downloads/eyas-test-automation/src/test/landing/landingPage.spec.js:33:12)\n                    at /home/developer/Downloads/eyas-test-automation/node_modules/jasminewd2/index.js:112:25\n                    at new ManagedPromise (/home/developer/Downloads/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:1077:7)\n                    at ControlFlow.promise (/home/developer/Downloads/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2505:12)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "TimeoutError: Landing page Welcome Games has failed to load.\n                Wait timed out after 5003ms",
+    "statusTrace" : "TimeoutError: Landing page Welcome Games has failed to load.\n                Wait timed out after 5003ms\n                    at /home/developer/Downloads/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2201:17\n                    at ManagedPromise.invokeCallback_ (/home/developer/Downloads/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:1376:14)\n                    at TaskQueue.execute_ (/home/developer/Downloads/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n                    at TaskQueue.executeNext_ (/home/developer/Downloads/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n                    at /home/developer/Downloads/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2927:27\n                    at /home/developer/Downloads/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:668:7\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                From: Task: Landing page Welcome Games has failed to load.\n                    at scheduleWait (/home/developer/Downloads/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2188:20)\n                    at ControlFlow.wait (/home/developer/Downloads/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2517:12)\n                    at thenableWebDriverProxy.wait (/home/developer/Downloads/eyas-test-automation/node_modules/selenium-webdriver/lib/webdriver.js:934:29)\n                    at run (/home/developer/Downloads/eyas-test-automation/node_modules/protractor/built/browser.js:58:33)\n                    at ProtractorBrowser.to.<computed> [as wait] (/home/developer/Downloads/eyas-test-automation/node_modules/protractor/built/browser.js:66:16)\n                    at WelcomeGames.waitForLoad (/home/developer/Downloads/eyas-test-automation/src/test/landing/welcomeGames.pageObject.js:23:19)\n                    at UserContext.<anonymous> (/home/developer/Downloads/eyas-test-automation/src/test/landing/landingPage.spec.js:33:12)\n                    at /home/developer/Downloads/eyas-test-automation/node_modules/jasminewd2/index.js:112:25\n                    at new ManagedPromise (/home/developer/Downloads/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:1077:7)\n                    at ControlFlow.promise (/home/developer/Downloads/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2505:12)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "721034905ed6f65f",
+      "name" : "Screenshot",
+      "source" : "721034905ed6f65f.png",
+      "type" : "image/png",
+      "size" : 26079
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Landing Page/Shop Welcome page"
+  }, {
+    "name" : "testClass",
+    "value" : "Landing Page/Shop Welcome page"
+  }, {
+    "name" : "testMethod",
+    "value" : "#5 User try to click on PLAY CTA of Popular game at Shop Welcome page"
+  }, {
+    "name" : "package",
+    "value" : "Landing Page/Shop Welcome page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5f6d4d32e1cf7050.json",
+  "parameterValues" : [ ]
+}
