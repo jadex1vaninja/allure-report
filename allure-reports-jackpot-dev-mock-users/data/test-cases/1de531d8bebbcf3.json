@@ -1,0 +1,79 @@
+{
+  "uid" : "1de531d8bebbcf3",
+  "name" : "#2 User can come to the \"Help for problem gambling\" page from Responsible Gambling page",
+  "fullName" : "Home page => Responsible Gambling page.#2 User can come to the \"Help for problem gambling\" page from Responsible Gambling page",
+  "historyId" : "33ab14b2a64910be6589c09c80f05a5",
+  "time" : {
+    "start" : 1652119116138,
+    "stop" : 1652119124105,
+    "duration" : 7967
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expected 'https://www.nhs.uk/live-well/addiction-support/gambling-addiction/' to contain 'https://www.nhs.uk/live-well/healthy-body/gambling-addiction/', 'Player can't come to the \"Help for problem gambling\" page'.",
+  "statusTrace" : "Error: Failed expectation\n                    at UserContext.<anonymous> (/home/dev/azure/eyas-test-automation/src/test/legal/responsible-gambling.spec.js:89:39)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expected 'https://www.nhs.uk/live-well/addiction-support/gambling-addiction/' to contain 'https://www.nhs.uk/live-well/healthy-body/gambling-addiction/', 'Player can't come to the \"Help for problem gambling\" page'.",
+    "statusTrace" : "Error: Failed expectation\n                    at UserContext.<anonymous> (/home/dev/azure/eyas-test-automation/src/test/legal/responsible-gambling.spec.js:89:39)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c9a33de8eb508c26",
+      "name" : "Screenshot",
+      "source" : "c9a33de8eb508c26.png",
+      "type" : "image/png",
+      "size" : 95772
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Home page => Responsible Gambling page"
+  }, {
+    "name" : "testClass",
+    "value" : "Home page => Responsible Gambling page"
+  }, {
+    "name" : "testMethod",
+    "value" : "#2 User can come to the \"Help for problem gambling\" page from Responsible Gambling page"
+  }, {
+    "name" : "package",
+    "value" : "Home page => Responsible Gambling page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "639854a9bb60da67",
+      "status" : "failed",
+      "statusDetails" : "Expected 'https://www.nhs.uk/live-well/addiction-support/gambling-addiction/' to contain 'https://www.nhs.uk/live-well/healthy-body/gambling-addiction/', 'Player can't come to the \"Help for problem gambling\" page'.",
+      "time" : {
+        "start" : 1652118317398,
+        "stop" : 1652118324074,
+        "duration" : 6676
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "1de531d8bebbcf3.json",
+  "parameterValues" : [ ]
+}
