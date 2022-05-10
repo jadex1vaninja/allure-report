@@ -1,0 +1,79 @@
+{
+  "uid" : "3d699504e8521d76",
+  "name" : "#18 Player can close the self exclusion modal.",
+  "fullName" : "My Account > Gambling Controls > Account Closure > Self Exclusion.#18 Player can close the self exclusion modal.",
+  "historyId" : "7d3d2900d1306a61b7a4e35e66fd8135",
+  "time" : {
+    "start" : 1652164120632,
+    "stop" : 1652164142326,
+    "duration" : 21694
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Failed: After player chooses option in self exclusion nothing option selected.\n                Wait timed out after 10016ms",
+  "statusTrace" : "TimeoutError: After player chooses option in self exclusion nothing option selected.\n                Wait timed out after 10016ms\n                    at /home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2201:17\n                    at ManagedPromise.invokeCallback_ (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:1376:14)\n                    at TaskQueue.execute_ (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n                    at TaskQueue.executeNext_ (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n                    at /home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2927:27\n                    at /home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:668:7\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                From: Task: After player chooses option in self exclusion nothing option selected.\n                    at scheduleWait (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2188:20)\n                    at ControlFlow.wait (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2517:12)\n                    at thenableWebDriverProxy.wait (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/webdriver.js:934:29)\n                    at run (/home/dev/azure/eyas-test-automation/node_modules/protractor/built/browser.js:58:33)\n                    at ProtractorBrowser.to.<computed> [as wait] (/home/dev/azure/eyas-test-automation/node_modules/protractor/built/browser.js:66:16)\n                    at MyAccount.selfExclude (/home/dev/azure/eyas-test-automation/src/test/my-account/my-account.pageObject.js:300:19)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at UserContext.<anonymous> (/home/dev/azure/eyas-test-automation/src/test/my-account/gambling-controls/self-exclusion.spec.js:703:5)\n                From: Task: Run it(\"#18 Player can close the self exclusion modal.\") in control flow\n                    at UserContext.<anonymous> (/home/dev/azure/eyas-test-automation/node_modules/jasminewd2/index.js:94:19)\n                    at attempt (/home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4297:26)\n                    at QueueRunner.run (/home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4217:20)\n                    at runNext (/home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4257:20)\n                    at /home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4264:13\n                    at /home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4172:9\n                    at /home/dev/azure/eyas-test-automation/node_modules/jasminewd2/index.js:64:48\n                    at ControlFlow.emit (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/events.js:62:21)\n                    at ControlFlow.shutdown_ (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2674:10)\n                    at /home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2599:53\n                From asynchronous test: \n                Error\n                    at Suite.<anonymous> (/home/dev/azure/eyas-test-automation/src/test/my-account/gambling-controls/self-exclusion.spec.js:702:3)\n                    at addSpecsToSuite (/home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1107:25)\n                    at Env.describe (/home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1074:7)\n                    at describe (/home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4399:18)\n                    at Object.<anonymous> (/home/dev/azure/eyas-test-automation/src/test/my-account/gambling-controls/self-exclusion.spec.js:48:1)\n                    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n                    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n                    at Module.load (node:internal/modules/cjs/loader:981:32)\n                    at Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Failed: After player chooses option in self exclusion nothing option selected.\n                Wait timed out after 10016ms",
+    "statusTrace" : "TimeoutError: After player chooses option in self exclusion nothing option selected.\n                Wait timed out after 10016ms\n                    at /home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2201:17\n                    at ManagedPromise.invokeCallback_ (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:1376:14)\n                    at TaskQueue.execute_ (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n                    at TaskQueue.executeNext_ (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n                    at /home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2927:27\n                    at /home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:668:7\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                From: Task: After player chooses option in self exclusion nothing option selected.\n                    at scheduleWait (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2188:20)\n                    at ControlFlow.wait (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2517:12)\n                    at thenableWebDriverProxy.wait (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/webdriver.js:934:29)\n                    at run (/home/dev/azure/eyas-test-automation/node_modules/protractor/built/browser.js:58:33)\n                    at ProtractorBrowser.to.<computed> [as wait] (/home/dev/azure/eyas-test-automation/node_modules/protractor/built/browser.js:66:16)\n                    at MyAccount.selfExclude (/home/dev/azure/eyas-test-automation/src/test/my-account/my-account.pageObject.js:300:19)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at UserContext.<anonymous> (/home/dev/azure/eyas-test-automation/src/test/my-account/gambling-controls/self-exclusion.spec.js:703:5)\n                From: Task: Run it(\"#18 Player can close the self exclusion modal.\") in control flow\n                    at UserContext.<anonymous> (/home/dev/azure/eyas-test-automation/node_modules/jasminewd2/index.js:94:19)\n                    at attempt (/home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4297:26)\n                    at QueueRunner.run (/home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4217:20)\n                    at runNext (/home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4257:20)\n                    at /home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4264:13\n                    at /home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4172:9\n                    at /home/dev/azure/eyas-test-automation/node_modules/jasminewd2/index.js:64:48\n                    at ControlFlow.emit (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/events.js:62:21)\n                    at ControlFlow.shutdown_ (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2674:10)\n                    at /home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2599:53\n                From asynchronous test: \n                Error\n                    at Suite.<anonymous> (/home/dev/azure/eyas-test-automation/src/test/my-account/gambling-controls/self-exclusion.spec.js:702:3)\n                    at addSpecsToSuite (/home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1107:25)\n                    at Env.describe (/home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1074:7)\n                    at describe (/home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4399:18)\n                    at Object.<anonymous> (/home/dev/azure/eyas-test-automation/src/test/my-account/gambling-controls/self-exclusion.spec.js:48:1)\n                    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n                    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n                    at Module.load (node:internal/modules/cjs/loader:981:32)\n                    at Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ad9be5a273296c76",
+      "name" : "Screenshot",
+      "source" : "ad9be5a273296c76.png",
+      "type" : "image/png",
+      "size" : 393997
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "My Account > Gambling Controls > Account Closure > Self Exclusion"
+  }, {
+    "name" : "testClass",
+    "value" : "My Account > Gambling Controls > Account Closure > Self Exclusion"
+  }, {
+    "name" : "testMethod",
+    "value" : "#18 Player can close the self exclusion modal."
+  }, {
+    "name" : "package",
+    "value" : "My Account > Gambling Controls > Account Closure > Self Exclusion"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "78e255cc04ae3626",
+      "status" : "failed",
+      "statusDetails" : "Failed: Confirmation checkbox is not dispalayed that is part of self exclusion confirmation modal.\n                Wait timed out after 10007ms",
+      "time" : {
+        "start" : 1652163364989,
+        "stop" : 1652163386927,
+        "duration" : 21938
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "3d699504e8521d76.json",
+  "parameterValues" : [ ]
+}

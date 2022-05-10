@@ -1,0 +1,79 @@
+{
+  "uid" : "83a6fd40fea7a6f",
+  "name" : "#14 Player can select the link to recover their password.",
+  "fullName" : "Log In.#14 Player can select the link to recover their password.",
+  "historyId" : "612c57d9e3668a820479206351bc9aaf",
+  "time" : {
+    "start" : 1652163775474,
+    "stop" : 1652163788560,
+    "duration" : 13086
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Failed: Recover Password step not visible in Login Modal.\n                Wait timed out after 10058ms",
+  "statusTrace" : "TimeoutError: Recover Password step not visible in Login Modal.\n                Wait timed out after 10058ms\n                    at /home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2201:17\n                    at ManagedPromise.invokeCallback_ (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:1376:14)\n                    at TaskQueue.execute_ (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n                    at TaskQueue.executeNext_ (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n                    at /home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2927:27\n                    at /home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:668:7\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                From: Task: Recover Password step not visible in Login Modal.\n                    at scheduleWait (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2188:20)\n                    at ControlFlow.wait (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2517:12)\n                    at thenableWebDriverProxy.wait (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/webdriver.js:934:29)\n                    at run (/home/dev/azure/eyas-test-automation/node_modules/protractor/built/browser.js:58:33)\n                    at ProtractorBrowser.to.<computed> [as wait] (/home/dev/azure/eyas-test-automation/node_modules/protractor/built/browser.js:66:16)\n                    at Home.waitforLoginTransition (/home/dev/azure/eyas-test-automation/src/test/page.pageObject.js:114:21)\n                    at UserContext.<anonymous> (/home/dev/azure/eyas-test-automation/src/test/login.spec.js:315:18)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                From: Task: Run it(\"#14 Player can select the link to recover their password.\") in control flow\n                    at UserContext.<anonymous> (/home/dev/azure/eyas-test-automation/node_modules/jasminewd2/index.js:94:19)\n                    at attempt (/home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4297:26)\n                    at QueueRunner.run (/home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4217:20)\n                    at runNext (/home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4257:20)\n                    at /home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4264:13\n                    at /home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4172:9\n                    at /home/dev/azure/eyas-test-automation/node_modules/jasminewd2/index.js:64:48\n                    at ControlFlow.emit (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/events.js:62:21)\n                    at ControlFlow.shutdown_ (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2674:10)\n                    at /home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2599:53\n                From asynchronous test: \n                Error\n                    at Suite.<anonymous> (/home/dev/azure/eyas-test-automation/src/test/login.spec.js:306:3)\n                    at addSpecsToSuite (/home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1107:25)\n                    at Env.describe (/home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1074:7)\n                    at describe (/home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4399:18)\n                    at Object.<anonymous> (/home/dev/azure/eyas-test-automation/src/test/login.spec.js:39:1)\n                    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n                    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n                    at Module.load (node:internal/modules/cjs/loader:981:32)\n                    at Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Failed: Recover Password step not visible in Login Modal.\n                Wait timed out after 10058ms",
+    "statusTrace" : "TimeoutError: Recover Password step not visible in Login Modal.\n                Wait timed out after 10058ms\n                    at /home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2201:17\n                    at ManagedPromise.invokeCallback_ (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:1376:14)\n                    at TaskQueue.execute_ (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n                    at TaskQueue.executeNext_ (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n                    at /home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2927:27\n                    at /home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:668:7\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                From: Task: Recover Password step not visible in Login Modal.\n                    at scheduleWait (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2188:20)\n                    at ControlFlow.wait (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2517:12)\n                    at thenableWebDriverProxy.wait (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/webdriver.js:934:29)\n                    at run (/home/dev/azure/eyas-test-automation/node_modules/protractor/built/browser.js:58:33)\n                    at ProtractorBrowser.to.<computed> [as wait] (/home/dev/azure/eyas-test-automation/node_modules/protractor/built/browser.js:66:16)\n                    at Home.waitforLoginTransition (/home/dev/azure/eyas-test-automation/src/test/page.pageObject.js:114:21)\n                    at UserContext.<anonymous> (/home/dev/azure/eyas-test-automation/src/test/login.spec.js:315:18)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                From: Task: Run it(\"#14 Player can select the link to recover their password.\") in control flow\n                    at UserContext.<anonymous> (/home/dev/azure/eyas-test-automation/node_modules/jasminewd2/index.js:94:19)\n                    at attempt (/home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4297:26)\n                    at QueueRunner.run (/home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4217:20)\n                    at runNext (/home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4257:20)\n                    at /home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4264:13\n                    at /home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4172:9\n                    at /home/dev/azure/eyas-test-automation/node_modules/jasminewd2/index.js:64:48\n                    at ControlFlow.emit (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/events.js:62:21)\n                    at ControlFlow.shutdown_ (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2674:10)\n                    at /home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2599:53\n                From asynchronous test: \n                Error\n                    at Suite.<anonymous> (/home/dev/azure/eyas-test-automation/src/test/login.spec.js:306:3)\n                    at addSpecsToSuite (/home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1107:25)\n                    at Env.describe (/home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1074:7)\n                    at describe (/home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4399:18)\n                    at Object.<anonymous> (/home/dev/azure/eyas-test-automation/src/test/login.spec.js:39:1)\n                    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n                    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n                    at Module.load (node:internal/modules/cjs/loader:981:32)\n                    at Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f0a34af81d749283",
+      "name" : "Screenshot",
+      "source" : "f0a34af81d749283.png",
+      "type" : "image/png",
+      "size" : 639665
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Log In"
+  }, {
+    "name" : "testClass",
+    "value" : "Log In"
+  }, {
+    "name" : "testMethod",
+    "value" : "#14 Player can select the link to recover their password."
+  }, {
+    "name" : "package",
+    "value" : "Log In"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b017e626c967ac9a",
+      "status" : "failed",
+      "statusDetails" : "Failed: element not interactable\n                  (Session info: headless chrome=101.0.4951.54)\n                Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'\n                System info: host: 'Unknown', ip: 'Unknown', os.name: 'Linux', os.arch: 'amd64', os.version: '5.13.0-40-generic', java.version: '11.0.15'\n                Driver info: driver.version: unknown",
+      "time" : {
+        "start" : 1652163016950,
+        "stop" : 1652163019900,
+        "duration" : 2950
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "83a6fd40fea7a6f.json",
+  "parameterValues" : [ ]
+}
