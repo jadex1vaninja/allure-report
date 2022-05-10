@@ -1,0 +1,78 @@
+{
+  "uid" : "1830c27074bc768b",
+  "name" : "#11 User can click and view the Privacy Policy.",
+  "fullName" : "Registration > Step 4.#11 User can click and view the Privacy Policy.",
+  "historyId" : "6023b3387d60a847d35c0dc5efa58dec",
+  "time" : {
+    "start" : 1652169949665,
+    "stop" : 1652169961700,
+    "duration" : 12035
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expected false to be true, 'Privacy Policy Link links not displayed on Step 4 of Registration process.'.",
+  "statusTrace" : "Error: Failed expectation\n                    at UserContext.<anonymous> (/home/dev/azure/eyas-test-automation/src/test/registration/registration-step-5.spec.js:220:68)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expected false to be true, 'Privacy Policy Link links not displayed on Step 4 of Registration process.'.",
+    "statusTrace" : "Error: Failed expectation\n                    at UserContext.<anonymous> (/home/dev/azure/eyas-test-automation/src/test/registration/registration-step-5.spec.js:220:68)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "bf045c5c23facf93",
+      "name" : "Screenshot",
+      "source" : "bf045c5c23facf93.png",
+      "type" : "image/png",
+      "size" : 313169
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Registration > Step 4"
+  }, {
+    "name" : "testClass",
+    "value" : "Registration > Step 4"
+  }, {
+    "name" : "testMethod",
+    "value" : "#11 User can click and view the Privacy Policy."
+  }, {
+    "name" : "package",
+    "value" : "Registration > Step 4"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b10a0e2df9bd682f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652169340168,
+        "stop" : 1652169356220,
+        "duration" : 16052
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "1830c27074bc768b.json",
+  "parameterValues" : [ ]
+}
