@@ -4,50 +4,33 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "Error: Timeout - Async callback was not invoked within timeout specified by jasmine.DEFAULT_TIMEOUT_INTERVAL.",
+      "name" : "Failed: stale element reference: element is not attached to the page document\n                  (Session info: headless chrome=101.0.4951.54)\n                For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\n                Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'\n                System info: host: 'Unknown', ip: 'Unknown', os.name: 'Linux', os.arch: 'amd64', os.version: '5.13.0-40-generic', java.version: '11.0.15'\n                Driver info: driver.version: unknown",
       "children" : [ {
-        "name" : "#10 Deleting a message from the inbox which is marked as new should decrease the unread message count badge",
-        "uid" : "8fcd8393e2b33f4",
-        "parentUid" : "529a5c49d07d5715f54949d670a9ff89",
+        "name" : "#9 Featured promotions are excluded from the promotions section.",
+        "uid" : "8c5027895dcf7cf3",
+        "parentUid" : "370354ff63bf2e397f66e2fa31ba4b89",
         "status" : "failed",
         "time" : {
-          "start" : 1652191842394,
-          "stop" : 1652191873213,
-          "duration" : 30819
+          "start" : 1652294302455,
+          "stop" : 1652294311274,
+          "duration" : 8819
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "529a5c49d07d5715f54949d670a9ff89"
-    }, {
-      "name" : "Expected false to be true, 'User can't see img error'.",
-      "children" : [ {
-        "name" : "#0 User come to the Location Error page, when service is unavailable",
-        "uid" : "c3ff5b5f6506c65",
-        "parentUid" : "8a60fa58d253321afd84351948f27133",
-        "status" : "failed",
-        "time" : {
-          "start" : 1652193019834,
-          "stop" : 1652193033635,
-          "duration" : 13801
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "8a60fa58d253321afd84351948f27133"
+      "uid" : "370354ff63bf2e397f66e2fa31ba4b89"
     }, {
       "name" : "NoSuchElementError: No element found using locator: By(css selector, [aria-label=\"Logo\"])",
       "children" : [ {
         "name" : "#0 User come to the Error 500 page, when service is unavailable",
-        "uid" : "7ab57b6a2b53c361",
+        "uid" : "1cf1cade12c5351c",
         "parentUid" : "d8dd2faf058ebbdb48a815e117f7c722",
         "status" : "failed",
         "time" : {
-          "start" : 1652193019875,
-          "stop" : 1652193037655,
-          "duration" : 17780
+          "start" : 1652294613248,
+          "stop" : 1652294628392,
+          "duration" : 15144
         },
         "flaky" : false,
         "newFailed" : false,
@@ -55,128 +38,29 @@
       } ],
       "uid" : "d8dd2faf058ebbdb48a815e117f7c722"
     }, {
-      "name" : "Expected 'Privacy Policy' to contain 'Privacy Notice', 'Privacy Policy Page is not displayed'.",
-      "children" : [ {
-        "name" : "#0 User can come to the Privacy Policy page",
-        "uid" : "b222ac530a356ab2",
-        "parentUid" : "351ce9dacf2c46da657732c94f209124",
-        "status" : "failed",
-        "time" : {
-          "start" : 1652193021373,
-          "stop" : 1652193043981,
-          "duration" : 22608
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "351ce9dacf2c46da657732c94f209124"
-    }, {
-      "name" : "Failed: No element found using locator: By(css selector, [aria-label=\"Logo\"])",
-      "children" : [ {
-        "name" : "#1 Content of \"Planned Maintenance\" error page",
-        "uid" : "1e042d48569edaa1",
-        "parentUid" : "670c896ca9075f46790e92d655c9d7f5",
-        "status" : "failed",
-        "time" : {
-          "start" : 1652193026244,
-          "stop" : 1652193029230,
-          "duration" : 2986
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "#2 User can come to the Home page from \"Planned Maintenance\" error page",
-        "uid" : "c8ac322b7b1c85bb",
-        "parentUid" : "670c896ca9075f46790e92d655c9d7f5",
-        "status" : "failed",
-        "time" : {
-          "start" : 1652193029230,
-          "stop" : 1652193030974,
-          "duration" : 1744
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "#1 User can come to the home page from Error 500 page",
-        "uid" : "ba4955c457b22bea",
-        "parentUid" : "670c896ca9075f46790e92d655c9d7f5",
-        "status" : "failed",
-        "time" : {
-          "start" : 1652193037656,
-          "stop" : 1652193040977,
-          "duration" : 3321
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "#3 User can come to the Home page from \"Expired Link\" error page. ",
-        "uid" : "36e687934b215d35",
-        "parentUid" : "670c896ca9075f46790e92d655c9d7f5",
-        "status" : "failed",
-        "time" : {
-          "start" : 1652193038864,
-          "stop" : 1652193041629,
-          "duration" : 2765
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "#2 All elements are persisted on 404 error page.",
-        "uid" : "25ad3c2ca3a90f8d",
-        "parentUid" : "670c896ca9075f46790e92d655c9d7f5",
-        "status" : "failed",
-        "time" : {
-          "start" : 1652193049130,
-          "stop" : 1652193055103,
-          "duration" : 5973
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "#3 Player can click \"Logo\" button and after that it will redirect to Home page.",
-        "uid" : "18e9113e5f0fdece",
-        "parentUid" : "670c896ca9075f46790e92d655c9d7f5",
-        "status" : "failed",
-        "time" : {
-          "start" : 1652193055103,
-          "stop" : 1652193056427,
-          "duration" : 1324
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "670c896ca9075f46790e92d655c9d7f5"
-    }, {
       "name" : "Failed: No element found using locator: By(css selector, h1)",
       "children" : [ {
         "name" : "#0 User can come to the Responsible Gambling page",
-        "uid" : "1ceddb832b0691d3",
+        "uid" : "cc48144d9be79b69",
         "parentUid" : "2c379c3f4f9511c78a96211fc4224c41",
         "status" : "failed",
         "time" : {
-          "start" : 1652193032655,
-          "stop" : 1652193058133,
-          "duration" : 25478
+          "start" : 1652294614990,
+          "stop" : 1652294633906,
+          "duration" : 18916
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "#0 User can come to the terms and conditions page",
-        "uid" : "765876b342fb8109",
+        "uid" : "d9e4ac26056c38e9",
         "parentUid" : "2c379c3f4f9511c78a96211fc4224c41",
         "status" : "failed",
         "time" : {
-          "start" : 1652193038672,
-          "stop" : 1652193056963,
-          "duration" : 18291
+          "start" : 1652294629302,
+          "stop" : 1652294640291,
+          "duration" : 10989
         },
         "flaky" : false,
         "newFailed" : false,
@@ -187,13 +71,13 @@
       "name" : "Failed: No element found using locator: By(css selector, .hamburger-logo__logo)",
       "children" : [ {
         "name" : "#1 The user is on the Location Error page",
-        "uid" : "eb07649adb9a714c",
+        "uid" : "dc830c2b4ca72375",
         "parentUid" : "c0d603a133f7f3bfb903cd7638f99cef",
         "status" : "failed",
         "time" : {
-          "start" : 1652193033636,
-          "stop" : 1652193036503,
-          "duration" : 2867
+          "start" : 1652294622888,
+          "stop" : 1652294624594,
+          "duration" : 1706
         },
         "flaky" : false,
         "newFailed" : false,
@@ -201,16 +85,115 @@
       } ],
       "uid" : "c0d603a133f7f3bfb903cd7638f99cef"
     }, {
+      "name" : "Failed: No element found using locator: By(css selector, [aria-label=\"Logo\"])",
+      "children" : [ {
+        "name" : "#1 Content of \"Planned Maintenance\" error page",
+        "uid" : "7ce80b3a19fce316",
+        "parentUid" : "670c896ca9075f46790e92d655c9d7f5",
+        "status" : "failed",
+        "time" : {
+          "start" : 1652294623957,
+          "stop" : 1652294625413,
+          "duration" : 1456
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "#2 User can come to the Home page from \"Planned Maintenance\" error page",
+        "uid" : "dd4bb46fb679adf5",
+        "parentUid" : "670c896ca9075f46790e92d655c9d7f5",
+        "status" : "failed",
+        "time" : {
+          "start" : 1652294625413,
+          "stop" : 1652294627004,
+          "duration" : 1591
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "#1 User can come to the home page from Error 500 page",
+        "uid" : "80a481341f41365b",
+        "parentUid" : "670c896ca9075f46790e92d655c9d7f5",
+        "status" : "failed",
+        "time" : {
+          "start" : 1652294628392,
+          "stop" : 1652294630178,
+          "duration" : 1786
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "#3 User can come to the Home page from \"Expired Link\" error page. ",
+        "uid" : "682d5c2ab373c51",
+        "parentUid" : "670c896ca9075f46790e92d655c9d7f5",
+        "status" : "failed",
+        "time" : {
+          "start" : 1652294630391,
+          "stop" : 1652294632205,
+          "duration" : 1814
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "#2 All elements are persisted on 404 error page.",
+        "uid" : "453e9c70bf665b15",
+        "parentUid" : "670c896ca9075f46790e92d655c9d7f5",
+        "status" : "failed",
+        "time" : {
+          "start" : 1652294634233,
+          "stop" : 1652294636078,
+          "duration" : 1845
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "#3 Player can click \"Logo\" button and after that it will redirect to Home page.",
+        "uid" : "ba76cc1883d4c1dc",
+        "parentUid" : "670c896ca9075f46790e92d655c9d7f5",
+        "status" : "failed",
+        "time" : {
+          "start" : 1652294636078,
+          "stop" : 1652294637258,
+          "duration" : 1180
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "670c896ca9075f46790e92d655c9d7f5"
+    }, {
+      "name" : "Expected 'Privacy Policy' to contain 'Privacy Notice', 'Privacy Policy Page is not displayed'.",
+      "children" : [ {
+        "name" : "#0 User can come to the Privacy Policy page",
+        "uid" : "8b23625c6b7cd325",
+        "parentUid" : "351ce9dacf2c46da657732c94f209124",
+        "status" : "failed",
+        "time" : {
+          "start" : 1652294626210,
+          "stop" : 1652294637162,
+          "duration" : 10952
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "351ce9dacf2c46da657732c94f209124"
+    }, {
       "name" : "Failed: No element found using locator: By(css selector, .header__nav)",
       "children" : [ {
         "name" : "#2 All elements are persisted on the page. ",
-        "uid" : "935e3f4b69b421f0",
+        "uid" : "4d0cdfd1fed2e676",
         "parentUid" : "8e83f026eb5a38b2fb94f097b04e3313",
         "status" : "failed",
         "time" : {
-          "start" : 1652193036576,
-          "stop" : 1652193038864,
-          "duration" : 2288
+          "start" : 1652294628818,
+          "stop" : 1652294630391,
+          "duration" : 1573
         },
         "flaky" : false,
         "newFailed" : false,
@@ -221,78 +204,78 @@
       "name" : "Failed: No element found using locator: By(css selector, .header__right)",
       "children" : [ {
         "name" : "#4 User can click on Join button and see Register page. ",
-        "uid" : "594888636a470d54",
+        "uid" : "8f267acd07da2b9f",
         "parentUid" : "427b6ca5a51962379bff49ea1995cf88",
         "status" : "failed",
         "time" : {
-          "start" : 1652193041630,
-          "stop" : 1652193043073,
-          "duration" : 1443
+          "start" : 1652294632205,
+          "stop" : 1652294633742,
+          "duration" : 1537
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "#5 User can click on Login button and see Login page. ",
-        "uid" : "98456b61e6c712",
+        "uid" : "6a59d2258a9e642b",
         "parentUid" : "427b6ca5a51962379bff49ea1995cf88",
         "status" : "failed",
         "time" : {
-          "start" : 1652193043073,
-          "stop" : 1652193044809,
-          "duration" : 1736
+          "start" : 1652294633742,
+          "stop" : 1652294636016,
+          "duration" : 2274
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "#4 Player can click \"Join\" button and after that it will redirect to Register page.",
-        "uid" : "c092908bb83c7fe7",
+        "uid" : "c5dd054d35f849be",
         "parentUid" : "427b6ca5a51962379bff49ea1995cf88",
         "status" : "failed",
         "time" : {
-          "start" : 1652193056427,
-          "stop" : 1652193058113,
-          "duration" : 1686
+          "start" : 1652294637258,
+          "stop" : 1652294638282,
+          "duration" : 1024
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "#5 Player can click \"Login\" button, open login window and successfully login.",
-        "uid" : "8fed8047a3f6e567",
+        "uid" : "47dddfeb7eb90b4e",
         "parentUid" : "427b6ca5a51962379bff49ea1995cf88",
         "status" : "failed",
         "time" : {
-          "start" : 1652193058113,
-          "stop" : 1652193059393,
-          "duration" : 1280
+          "start" : 1652294638282,
+          "stop" : 1652294639214,
+          "duration" : 932
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "#7 Player can click \"Deposit\" button and open Deposit window.",
-        "uid" : "50d3cb0a968c33dc",
+        "uid" : "8f75ea134e5d7863",
         "parentUid" : "427b6ca5a51962379bff49ea1995cf88",
         "status" : "failed",
         "time" : {
-          "start" : 1652193062486,
-          "stop" : 1652193064134,
-          "duration" : 1648
+          "start" : 1652294640695,
+          "stop" : 1652294642208,
+          "duration" : 1513
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "#10 User can click on 'Deposit' button opens Deposit window",
-        "uid" : "dcf27b87dee8a203",
+        "uid" : "c9bdc2b1f5ffbe45",
         "parentUid" : "427b6ca5a51962379bff49ea1995cf88",
         "status" : "failed",
         "time" : {
-          "start" : 1652193068076,
-          "stop" : 1652193074224,
-          "duration" : 6148
+          "start" : 1652294653707,
+          "stop" : 1652294655422,
+          "duration" : 1715
         },
         "flaky" : false,
         "newFailed" : false,
@@ -303,13 +286,13 @@
       "name" : "NoSuchElementError: No element found using locator: By(css selector, .help-content__iframe)",
       "children" : [ {
         "name" : "#1 User can come to the help center from terms and conditions page",
-        "uid" : "be4a656337b3de3c",
+        "uid" : "e61ac7cd9d89d8b4",
         "parentUid" : "38d2f0721a8fa77e0ecaff8364668f1d",
         "status" : "failed",
         "time" : {
-          "start" : 1652193056963,
-          "stop" : 1652193064790,
-          "duration" : 7827
+          "start" : 1652294640291,
+          "stop" : 1652294644977,
+          "duration" : 4686
         },
         "flaky" : false,
         "newFailed" : false,
@@ -317,50 +300,33 @@
       } ],
       "uid" : "38d2f0721a8fa77e0ecaff8364668f1d"
     }, {
-      "name" : "Failed: Deposit button is not displayed.\n                Wait timed out after 4005ms",
+      "name" : "Failed: Deposit button is not displayed.\n                Wait timed out after 4002ms",
       "children" : [ {
         "name" : "#9 User can click on 'Back to Login' and open Login window and successfully login.",
-        "uid" : "7dfbfc1168fbc6bc",
-        "parentUid" : "2c5667a0e23f2d8980448c9788f06fc2",
+        "uid" : "8abe8437a97c44c9",
+        "parentUid" : "9030dc24c407f885a0ed5032e4050c18",
         "status" : "failed",
         "time" : {
-          "start" : 1652193059141,
-          "stop" : 1652193068076,
-          "duration" : 8935
+          "start" : 1652294645456,
+          "stop" : 1652294653707,
+          "duration" : 8251
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "2c5667a0e23f2d8980448c9788f06fc2"
-    }, {
-      "name" : "Expected 'Privacy Policy' to contain 'Privacy Notice', 'Incorrect text'.",
-      "children" : [ {
-        "name" : "#1 When the user clicks to link Privacy Policy user should watches the nex chapters.",
-        "uid" : "76cee1354150df83",
-        "parentUid" : "9c853dc887137ce09276987f71198e26",
-        "status" : "failed",
-        "time" : {
-          "start" : 1652193076061,
-          "stop" : 1652193108922,
-          "duration" : 32861
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "9c853dc887137ce09276987f71198e26"
+      "uid" : "9030dc24c407f885a0ed5032e4050c18"
     }, {
       "name" : "Expected 'https://www.nhs.uk/live-well/addiction-support/gambling-addiction/' to contain 'https://www.nhs.uk/live-well/healthy-body/gambling-addiction/', 'Player can't come to the \"Help for problem gambling\" page'.",
       "children" : [ {
         "name" : "#2 User can come to the \"Help for problem gambling\" page from Responsible Gambling page",
-        "uid" : "9db3e46f84059ddb",
+        "uid" : "310decfbe261d7c1",
         "parentUid" : "8e929f959a69f8b4d164a5941cc3fd21",
         "status" : "failed",
         "time" : {
-          "start" : 1652193087111,
-          "stop" : 1652193095296,
-          "duration" : 8185
+          "start" : 1652294645657,
+          "stop" : 1652294652668,
+          "duration" : 7011
         },
         "flaky" : false,
         "newFailed" : false,
@@ -368,16 +334,33 @@
       } ],
       "uid" : "8e929f959a69f8b4d164a5941cc3fd21"
     }, {
+      "name" : "Expected 'Privacy Policy' to contain 'Privacy Notice', 'Incorrect text'.",
+      "children" : [ {
+        "name" : "#1 When the user clicks to link Privacy Policy user should watches the nex chapters.",
+        "uid" : "a8dc9c16ca35e3b2",
+        "parentUid" : "9c853dc887137ce09276987f71198e26",
+        "status" : "failed",
+        "time" : {
+          "start" : 1652294678647,
+          "stop" : 1652294710815,
+          "duration" : 32168
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9c853dc887137ce09276987f71198e26"
+    }, {
       "name" : "Failed: No element found using locator: By(css selector, .button--secondary)",
       "children" : [ {
         "name" : "#01.1 User can leave the registration process by clicking the Home link and click 'Yes I want to leave'.",
-        "uid" : "1bedbc41f4692b04",
+        "uid" : "92a6c5c130d90b47",
         "parentUid" : "b72f19ab2d39564e120cb3ef8bc546a6",
         "status" : "failed",
         "time" : {
-          "start" : 1652193119520,
-          "stop" : 1652193123809,
-          "duration" : 4289
+          "start" : 1652294692418,
+          "stop" : 1652294696766,
+          "duration" : 4348
         },
         "flaky" : false,
         "newFailed" : false,
@@ -385,254 +368,237 @@
       } ],
       "uid" : "b72f19ab2d39564e120cb3ef8bc546a6"
     }, {
-      "name" : "Failed: No element found using locator: By(css selector, [data-testid=\"review-step-item-telephone\"])",
-      "children" : [ {
-        "name" : "#04 Player can update their telephone number.",
-        "uid" : "6adec9b57d3db188",
-        "parentUid" : "4697d4169d7b53942e42a6774cf76d4d",
-        "status" : "failed",
-        "time" : {
-          "start" : 1652193128326,
-          "stop" : 1652193142008,
-          "duration" : 13682
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "4697d4169d7b53942e42a6774cf76d4d"
-    }, {
       "name" : "Failed: Index out of bound. Trying to access element at index: 0, but there are only 0 elements that match locator By(css selector, h2)",
       "children" : [ {
         "name" : "#9 User can see Introduction section on terms and conditions page",
-        "uid" : "e03e90ef0df65fba",
+        "uid" : "a728efefceeead42",
         "parentUid" : "99ea0fd29be4fb1d7be3ced6e77a4ae3",
         "status" : "failed",
         "time" : {
-          "start" : 1652193134743,
-          "stop" : 1652193139850,
-          "duration" : 5107
+          "start" : 1652294701903,
+          "stop" : 1652294706443,
+          "duration" : 4540
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "#10 User can see the Terms and Conditions section on terms and conditions page",
-        "uid" : "c1b900ced9751985",
+        "uid" : "4bfb3bd56dc9785d",
         "parentUid" : "99ea0fd29be4fb1d7be3ced6e77a4ae3",
         "status" : "failed",
         "time" : {
-          "start" : 1652193139850,
-          "stop" : 1652193144636,
-          "duration" : 4786
+          "start" : 1652294706443,
+          "stop" : 1652294710194,
+          "duration" : 3751
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "#11 User can see the Definitions section on terms and conditions page",
-        "uid" : "e98919f79aee792",
+        "uid" : "44501674f4c11a07",
         "parentUid" : "99ea0fd29be4fb1d7be3ced6e77a4ae3",
         "status" : "failed",
         "time" : {
-          "start" : 1652193144636,
-          "stop" : 1652193148734,
-          "duration" : 4098
+          "start" : 1652294710194,
+          "stop" : 1652294713543,
+          "duration" : 3349
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "#12 User can see the Changes to the Terms section on terms and conditions page",
-        "uid" : "ca4ce4e2b0ebba01",
+        "uid" : "a1de276342789a2e",
         "parentUid" : "99ea0fd29be4fb1d7be3ced6e77a4ae3",
         "status" : "failed",
         "time" : {
-          "start" : 1652193148734,
-          "stop" : 1652193154057,
-          "duration" : 5323
+          "start" : 1652294713543,
+          "stop" : 1652294716227,
+          "duration" : 2684
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "#13 User can see the Other Important Terms section on terms and conditions page",
-        "uid" : "196b8884496402c6",
+        "uid" : "9967e106be591894",
         "parentUid" : "99ea0fd29be4fb1d7be3ced6e77a4ae3",
         "status" : "failed",
         "time" : {
-          "start" : 1652193154057,
-          "stop" : 1652193160603,
-          "duration" : 6546
+          "start" : 1652294716227,
+          "stop" : 1652294720822,
+          "duration" : 4595
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "#14 User can see the Your Account section on terms and conditions page",
-        "uid" : "ec1d877f6cd9d238",
+        "uid" : "ad2bd896e208f963",
         "parentUid" : "99ea0fd29be4fb1d7be3ced6e77a4ae3",
         "status" : "failed",
         "time" : {
-          "start" : 1652193160603,
-          "stop" : 1652193165885,
-          "duration" : 5282
+          "start" : 1652294720822,
+          "stop" : 1652294725200,
+          "duration" : 4378
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "#15 User can see the Deposits and Withdrawals section on terms and conditions page",
-        "uid" : "988ef7f8dbd1f68d",
+        "uid" : "1c66297792d0be70",
         "parentUid" : "99ea0fd29be4fb1d7be3ced6e77a4ae3",
         "status" : "failed",
         "time" : {
-          "start" : 1652193165885,
-          "stop" : 1652193170655,
-          "duration" : 4770
+          "start" : 1652294725200,
+          "stop" : 1652294729484,
+          "duration" : 4284
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "#16 User can see the Playing for Real Money section on terms and conditions page",
-        "uid" : "d5267ec1a75bf44",
+        "uid" : "cde3f726c42ebed9",
         "parentUid" : "99ea0fd29be4fb1d7be3ced6e77a4ae3",
         "status" : "failed",
         "time" : {
-          "start" : 1652193170655,
-          "stop" : 1652193175717,
-          "duration" : 5062
+          "start" : 1652294729485,
+          "stop" : 1652294734727,
+          "duration" : 5242
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "#17 User can see the Errors, Interruptions and Malfunctions section on terms and conditions page",
-        "uid" : "4cf8a65e07bc55f5",
+        "uid" : "930507a8c62ffeae",
         "parentUid" : "99ea0fd29be4fb1d7be3ced6e77a4ae3",
         "status" : "failed",
         "time" : {
-          "start" : 1652193175717,
-          "stop" : 1652193180418,
-          "duration" : 4701
+          "start" : 1652294734727,
+          "stop" : 1652294740352,
+          "duration" : 5625
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "#18 User can see the Anti-Money Laundering section on terms and conditions page",
-        "uid" : "ce9771290493de37",
+        "uid" : "4cec8f498d3fc085",
         "parentUid" : "99ea0fd29be4fb1d7be3ced6e77a4ae3",
         "status" : "failed",
         "time" : {
-          "start" : 1652193180418,
-          "stop" : 1652193185030,
-          "duration" : 4612
+          "start" : 1652294740352,
+          "stop" : 1652294744758,
+          "duration" : 4406
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "#19 User can see the Inactive Customer Accounts section on terms and conditions page",
-        "uid" : "5992e0eb24ef5f4c",
+        "uid" : "ed3ba0129cfc10f5",
         "parentUid" : "99ea0fd29be4fb1d7be3ced6e77a4ae3",
         "status" : "failed",
         "time" : {
-          "start" : 1652193185030,
-          "stop" : 1652193188446,
-          "duration" : 3416
+          "start" : 1652294744758,
+          "stop" : 1652294749116,
+          "duration" : 4358
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "#20 User can see the Suspension/Termination of your Account section on terms and conditions page",
-        "uid" : "6282b88c7086ae35",
+        "uid" : "9e8d22f6c7b33ec2",
         "parentUid" : "99ea0fd29be4fb1d7be3ced6e77a4ae3",
         "status" : "failed",
         "time" : {
-          "start" : 1652193188446,
-          "stop" : 1652193192145,
-          "duration" : 3699
+          "start" : 1652294749116,
+          "stop" : 1652294753798,
+          "duration" : 4682
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "#21 User can see the Responsible Gambling section on terms and conditions page",
-        "uid" : "bc9eee6c761b5f53",
+        "uid" : "5d766ead8a0f44a5",
         "parentUid" : "99ea0fd29be4fb1d7be3ced6e77a4ae3",
         "status" : "failed",
         "time" : {
-          "start" : 1652193192145,
-          "stop" : 1652193196029,
-          "duration" : 3884
+          "start" : 1652294753798,
+          "stop" : 1652294758141,
+          "duration" : 4343
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "#22 User can see the Promotions section on terms and conditions page",
-        "uid" : "af55b4e6c0dba89b",
+        "uid" : "f8376ba3df2ceaca",
         "parentUid" : "99ea0fd29be4fb1d7be3ced6e77a4ae3",
         "status" : "failed",
         "time" : {
-          "start" : 1652193196029,
-          "stop" : 1652193199200,
-          "duration" : 3171
+          "start" : 1652294758141,
+          "stop" : 1652294762334,
+          "duration" : 4193
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "#23 User can see the Intellectual Property section on terms and conditions page",
-        "uid" : "69fe55e1ec1552bb",
+        "uid" : "2c7c11e6d52a4cf9",
         "parentUid" : "99ea0fd29be4fb1d7be3ced6e77a4ae3",
         "status" : "failed",
         "time" : {
-          "start" : 1652193199200,
-          "stop" : 1652193203235,
-          "duration" : 4035
+          "start" : 1652294762334,
+          "stop" : 1652294767253,
+          "duration" : 4919
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "#24 User can see the Limitation of Liability section on terms and conditions page",
-        "uid" : "1d59e0e170a86744",
+        "uid" : "3a13e0b09c019aaf",
         "parentUid" : "99ea0fd29be4fb1d7be3ced6e77a4ae3",
         "status" : "failed",
         "time" : {
-          "start" : 1652193203236,
-          "stop" : 1652193206941,
-          "duration" : 3705
+          "start" : 1652294767253,
+          "stop" : 1652294772492,
+          "duration" : 5239
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "#25 User can see the Complaints and disputes section on terms and conditions page",
-        "uid" : "fd6c204698fd4097",
+        "uid" : "8b700c72346461a5",
         "parentUid" : "99ea0fd29be4fb1d7be3ced6e77a4ae3",
         "status" : "failed",
         "time" : {
-          "start" : 1652193206941,
-          "stop" : 1652193210444,
-          "duration" : 3503
+          "start" : 1652294772492,
+          "stop" : 1652294777166,
+          "duration" : 4674
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "#26 User can see the Miscellaneous section on terms and conditions page",
-        "uid" : "58a00bb2e76f08de",
+        "uid" : "74e015573142eb8b",
         "parentUid" : "99ea0fd29be4fb1d7be3ced6e77a4ae3",
         "status" : "failed",
         "time" : {
-          "start" : 1652193210444,
-          "stop" : 1652193213577,
-          "duration" : 3133
+          "start" : 1652294777166,
+          "stop" : 1652294781024,
+          "duration" : 3858
         },
         "flaky" : false,
         "newFailed" : false,
@@ -640,16 +606,33 @@
       } ],
       "uid" : "99ea0fd29be4fb1d7be3ced6e77a4ae3"
     }, {
+      "name" : "Failed: Hero banner carousel button is not visible.\n                Wait timed out after 3022ms",
+      "children" : [ {
+        "name" : "#2 User can see hero banner carousel and can scroll it",
+        "uid" : "9fc2e0446abaf691",
+        "parentUid" : "2e55e51e3126630d476b737bf440eb92",
+        "status" : "failed",
+        "time" : {
+          "start" : 1652294768351,
+          "stop" : 1652294774217,
+          "duration" : 5866
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2e55e51e3126630d476b737bf440eb92"
+    }, {
       "name" : "Failed: Index out of bound. Trying to access element at index: 2, but there are only 2 elements that match locator By(css selector, [data-testid=\"feedback-icon\"])",
       "children" : [ {
         "name" : "#05 Date of Birth is a mandatory field.",
-        "uid" : "be9b6ed9dfd95f30",
+        "uid" : "61086dc228f1e01b",
         "parentUid" : "ec72d05eb029a304d2b1400bca1417d8",
         "status" : "failed",
         "time" : {
-          "start" : 1652193137122,
-          "stop" : 1652193142358,
-          "duration" : 5236
+          "start" : 1652294775872,
+          "stop" : 1652294781462,
+          "duration" : 5590
         },
         "flaky" : false,
         "newFailed" : false,
@@ -657,97 +640,29 @@
       } ],
       "uid" : "ec72d05eb029a304d2b1400bca1417d8"
     }, {
-      "name" : "Failed: Index out of bound. Trying to access element at index: 1, but there are only 1 elements that match locator By(css selector, [data-testid=\"feedback-icon\"])",
+      "name" : "Failed: No element found using locator: By(css selector, .button--primary)",
       "children" : [ {
-        "name" : "#08 User cannot enter invalid characters into step 2 name input fields.",
-        "uid" : "d40281e2de87cf1",
-        "parentUid" : "89afdf5a81b0775449408641b6a5ec07",
+        "name" : "#5 User can see on hero banner carousel primary button CTA, can click on it and see game info page",
+        "uid" : "7eeabf904eff7d3d",
+        "parentUid" : "8281c0970e273089960e20a30b0c2bf2",
         "status" : "failed",
         "time" : {
-          "start" : 1652193151725,
-          "stop" : 1652193158689,
-          "duration" : 6964
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "89afdf5a81b0775449408641b6a5ec07"
-    }, {
-      "name" : "Failed: Deposit iFrame did not display or did not display in time\n                Wait timed out after 120001ms",
-      "children" : [ {
-        "name" : "#1 Check user is able to access the deposit modal via the account menu and is displayed with the option to fill in card details by default",
-        "uid" : "a21f978d9c27e2eb",
-        "parentUid" : "5afeaa7cbc7bf386358369bc5d2d256c",
-        "status" : "failed",
-        "time" : {
-          "start" : 1652193185874,
-          "stop" : 1652193312696,
-          "duration" : 126822
+          "start" : 1652294781265,
+          "stop" : 1652294782505,
+          "duration" : 1240
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "#8 Check user is displayed with a declined modal when safecharge returns a declined response",
-        "uid" : "5bfd66ad28a92d75",
-        "parentUid" : "5afeaa7cbc7bf386358369bc5d2d256c",
-        "status" : "failed",
-        "time" : {
-          "start" : 1652194063220,
-          "stop" : 1652194188490,
-          "duration" : 125270
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "5afeaa7cbc7bf386358369bc5d2d256c"
-    }, {
-      "name" : "Failed: element click intercepted: Element <a href=\"/uk/en/register.html\" class=\"button button--large button--primary button button--full-width\">...</a> is not clickable at point (908, 59). Other element would receive the click: <nav class=\"header__nav\">...</nav>\n                  (Session info: headless chrome=101.0.4951.54)\n                Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'\n                System info: host: 'Unknown', ip: 'Unknown', os.name: 'Linux', os.arch: 'amd64', os.version: '5.13.0-40-generic', java.version: '11.0.15'\n                Driver info: driver.version: unknown",
-      "children" : [ {
-        "name" : "#8 User hover the game card and click on CTA 'INFO' and go to info page, click on JOIN and see register page",
-        "uid" : "bbda2e342d41252e",
-        "parentUid" : "0e0ed8ebf7ba5e9b34ac30408064a099",
-        "status" : "failed",
-        "time" : {
-          "start" : 1652193185917,
-          "stop" : 1652193191048,
-          "duration" : 5131
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "0e0ed8ebf7ba5e9b34ac30408064a099"
-    }, {
-      "name" : "Failed: No element found using locator: By(css selector, .game-card-details)",
-      "children" : [ {
-        "name" : "#11 User logged in and hover the game card and click on CTA \"PLAY NOW\" and go to game page",
-        "uid" : "b4c1cfc4e6cfec1f",
-        "parentUid" : "fde24e9a96e9300fb5578160fbef1d7d",
-        "status" : "failed",
-        "time" : {
-          "start" : 1652193196800,
-          "stop" : 1652193205282,
-          "duration" : 8482
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "fde24e9a96e9300fb5578160fbef1d7d"
-    }, {
-      "name" : "Failed: No element found using locator: By(css selector, .button--primary)",
-      "children" : [ {
         "name" : "#12 User logged in hover the game card  and click on CTA \"INFO\" and go to INFO page and click on \"PLAY NOW\" and see game page",
-        "uid" : "3653875bba6c1f3f",
+        "uid" : "54bc2144115c702f",
         "parentUid" : "8281c0970e273089960e20a30b0c2bf2",
         "status" : "failed",
         "time" : {
-          "start" : 1652193205282,
-          "stop" : 1652193214338,
-          "duration" : 9056
+          "start" : 1652294813965,
+          "stop" : 1652294824158,
+          "duration" : 10193
         },
         "flaky" : false,
         "newFailed" : false,
@@ -755,16 +670,67 @@
       } ],
       "uid" : "8281c0970e273089960e20a30b0c2bf2"
     }, {
+      "name" : "Failed: element click intercepted: Element <a href=\"/uk/en/register.html\" class=\"button button--large button--primary button button--full-width\">...</a> is not clickable at point (908, 59). Other element would receive the click: <nav class=\"header__nav\">...</nav>\n                  (Session info: headless chrome=101.0.4951.54)\n                Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'\n                System info: host: 'Unknown', ip: 'Unknown', os.name: 'Linux', os.arch: 'amd64', os.version: '5.13.0-40-generic', java.version: '11.0.15'\n                Driver info: driver.version: unknown",
+      "children" : [ {
+        "name" : "#8 User hover the game card and click on CTA 'INFO' and go to info page, click on JOIN and see register page",
+        "uid" : "54d05cc7652ae584",
+        "parentUid" : "0e0ed8ebf7ba5e9b34ac30408064a099",
+        "status" : "failed",
+        "time" : {
+          "start" : 1652294790954,
+          "stop" : 1652294797641,
+          "duration" : 6687
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0e0ed8ebf7ba5e9b34ac30408064a099"
+    }, {
+      "name" : "Failed: Index out of bound. Trying to access element at index: 1, but there are only 1 elements that match locator By(css selector, [data-testid=\"feedback-icon\"])",
+      "children" : [ {
+        "name" : "#08 User cannot enter invalid characters into step 2 name input fields.",
+        "uid" : "6549372db294d833",
+        "parentUid" : "89afdf5a81b0775449408641b6a5ec07",
+        "status" : "failed",
+        "time" : {
+          "start" : 1652294791214,
+          "stop" : 1652294796853,
+          "duration" : 5639
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "89afdf5a81b0775449408641b6a5ec07"
+    }, {
+      "name" : "Failed: No element found using locator: By(css selector, .game-card-details)",
+      "children" : [ {
+        "name" : "#11 User logged in and hover the game card and click on CTA \"PLAY NOW\" and go to game page",
+        "uid" : "cd81ff3fdcdf85a4",
+        "parentUid" : "fde24e9a96e9300fb5578160fbef1d7d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1652294804039,
+          "stop" : 1652294813965,
+          "duration" : 9926
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fde24e9a96e9300fb5578160fbef1d7d"
+    }, {
       "name" : "Expected 'You have successfully requested to increase your weekly deposit limit to £200.50. We'll ask you to confirm your new limit in 24 hours.' to contain 'You have successfully requested to increase your weekly deposit limit to £500.50. We'll ask you to confirm your new limit in 24 hours.', 'Success snackbar has incorrect text/amount.'.",
       "children" : [ {
         "name" : "#15 Player can successfully change Deposit Limit with a decimal value and receive a success toast on submitting the new amount.",
-        "uid" : "131d193045be4245",
+        "uid" : "59130e900185e121",
         "parentUid" : "11e8141be4b83cd70541f69ddea97aa8",
         "status" : "failed",
         "time" : {
-          "start" : 1652193265408,
-          "stop" : 1652193284090,
-          "duration" : 18682
+          "start" : 1652294854026,
+          "stop" : 1652294873831,
+          "duration" : 19805
         },
         "flaky" : false,
         "newFailed" : false,
@@ -775,113 +741,19 @@
       "name" : "Expected 'Remaining £200' to contain 'Remaining £500', 'Daily Deposit Limit has incorrect value.'.",
       "children" : [ {
         "name" : "#18 Player can submit a blank value in the Deposit Limits.",
-        "uid" : "408574d97b03d818",
+        "uid" : "c54fa2db829d3a34",
         "parentUid" : "206044bce8881514c38d0ed607422767",
         "status" : "failed",
         "time" : {
-          "start" : 1652193284091,
-          "stop" : 1652193296716,
-          "duration" : 12625
+          "start" : 1652294873831,
+          "stop" : 1652294886315,
+          "duration" : 12484
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
       "uid" : "206044bce8881514c38d0ed607422767"
-    }, {
-      "name" : "Failed: Deposit iFrame did not display or did not display in time\n                Wait timed out after 120003ms",
-      "children" : [ {
-        "name" : "#2 Check user is able to exit out of the deposit modal using the x button",
-        "uid" : "17419523b1138db2",
-        "parentUid" : "b7541b5bdc2f794ecca599867a291ee1",
-        "status" : "failed",
-        "time" : {
-          "start" : 1652193312696,
-          "stop" : 1652193437380,
-          "duration" : 124684
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "#5 Check user is able to select Phone payment method and is provided with the correct information for this payment method",
-        "uid" : "16e141681c14a177",
-        "parentUid" : "b7541b5bdc2f794ecca599867a291ee1",
-        "status" : "failed",
-        "time" : {
-          "start" : 1652193687240,
-          "stop" : 1652193812535,
-          "duration" : 125295
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "b7541b5bdc2f794ecca599867a291ee1"
-    }, {
-      "name" : "Failed: Deposit iFrame did not display or did not display in time\n                Wait timed out after 120008ms",
-      "children" : [ {
-        "name" : "#3 Check user is able to fill in details of required fields for card deposits",
-        "uid" : "936abdeab303cf94",
-        "parentUid" : "dc862f7e7124f538dd9b9c132fd7c34e",
-        "status" : "failed",
-        "time" : {
-          "start" : 1652193437380,
-          "stop" : 1652193562460,
-          "duration" : 125080
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "#7 Check user is able to deposit with a valid card and is presented with success modal",
-        "uid" : "ec351073c50add1b",
-        "parentUid" : "dc862f7e7124f538dd9b9c132fd7c34e",
-        "status" : "failed",
-        "time" : {
-          "start" : 1652193937964,
-          "stop" : 1652194063220,
-          "duration" : 125256
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "dc862f7e7124f538dd9b9c132fd7c34e"
-    }, {
-      "name" : "Failed: Deposit iFrame did not display or did not display in time\n                Wait timed out after 120007ms",
-      "children" : [ {
-        "name" : "#4 Check user is able to select Instant Bank Transfer and is provided with the correct information for this payment method",
-        "uid" : "cc9e4d26be77dcc7",
-        "parentUid" : "79033c406cf11d6dc87c18c2c60d5174",
-        "status" : "failed",
-        "time" : {
-          "start" : 1652193562460,
-          "stop" : 1652193687239,
-          "duration" : 124779
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "79033c406cf11d6dc87c18c2c60d5174"
-    }, {
-      "name" : "Failed: Deposit iFrame did not display or did not display in time\n                Wait timed out after 120006ms",
-      "children" : [ {
-        "name" : "#6 Check user is able to select PayPal payment method and is provided with the correct information for this payment method",
-        "uid" : "731b9aa97e5092d3",
-        "parentUid" : "c9614270c2ab8eeafb876d92eb7e221d",
-        "status" : "failed",
-        "time" : {
-          "start" : 1652193812536,
-          "stop" : 1652193937964,
-          "duration" : 125428
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "c9614270c2ab8eeafb876d92eb7e221d"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]
