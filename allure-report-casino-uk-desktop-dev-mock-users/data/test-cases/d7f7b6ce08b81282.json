@@ -1,0 +1,80 @@
+{
+  "uid" : "d7f7b6ce08b81282",
+  "name" : "#02 Email Address is a mandatory field.",
+  "fullName" : "Log In.#02 Email Address is a mandatory field.",
+  "historyId" : "9ad481ae8faddb94d28df552f7ea7680",
+  "time" : {
+    "start" : 1652454076742,
+    "stop" : 1652454084297,
+    "duration" : 7555
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ba5365781d6a4dc9",
+      "name" : "Screenshot",
+      "source" : "ba5365781d6a4dc9.png",
+      "type" : "image/png",
+      "size" : 663024
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Log In"
+  }, {
+    "name" : "testClass",
+    "value" : "Log In"
+  }, {
+    "name" : "testMethod",
+    "value" : "#02 Email Address is a mandatory field."
+  }, {
+    "name" : "package",
+    "value" : "Log In"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "dc08ad42c8dae4e",
+      "status" : "failed",
+      "statusDetails" : "Failed: login-form is still displayed\n                Wait timed out after 60000ms",
+      "time" : {
+        "start" : 1652453273668,
+        "stop" : 1652453281842,
+        "duration" : 8174
+      }
+    }, {
+      "uid" : "c91df05797237ce2",
+      "status" : "failed",
+      "statusDetails" : "Failed: login-form is still displayed\n                Wait timed out after 60019ms",
+      "time" : {
+        "start" : 1652452416115,
+        "stop" : 1652452425221,
+        "duration" : 9106
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d7f7b6ce08b81282.json",
+  "parameterValues" : [ ]
+}
