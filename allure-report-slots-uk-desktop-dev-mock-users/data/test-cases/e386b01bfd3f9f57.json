@@ -1,0 +1,64 @@
+{
+  "uid" : "e386b01bfd3f9f57",
+  "name" : "#2 User try to Join at Welcome Offer page",
+  "fullName" : "Landing Page/Welcome Offer page.#2 User try to Join at Welcome Offer page",
+  "historyId" : "d2ef260d2cee27d5744519a886b2c172",
+  "time" : {
+    "start" : 1652454846286,
+    "stop" : 1652454861728,
+    "duration" : 15442
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "TimeoutError: Landing page Welcome Offer has failed to load.\n                Wait timed out after 5006ms",
+  "statusTrace" : "TimeoutError: Landing page Welcome Offer has failed to load.\n                Wait timed out after 5006ms\n                    at /home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2201:17\n                    at ManagedPromise.invokeCallback_ (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:1376:14)\n                    at TaskQueue.execute_ (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n                    at TaskQueue.executeNext_ (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n                    at /home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2927:27\n                    at /home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:668:7\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                From: Task: Landing page Welcome Offer has failed to load.\n                    at scheduleWait (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2188:20)\n                    at ControlFlow.wait (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2517:12)\n                    at thenableWebDriverProxy.wait (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/webdriver.js:934:29)\n                    at run (/home/dev/azure/eyas-test-automation/node_modules/protractor/built/browser.js:58:33)\n                    at ProtractorBrowser.to.<computed> [as wait] (/home/dev/azure/eyas-test-automation/node_modules/protractor/built/browser.js:66:16)\n                    at WelcomeOffer.waitForLoad (/home/dev/azure/eyas-test-automation/src/test/landing/welcomeOffer.pageObject.js:23:19)\n                    at UserContext.<anonymous> (/home/dev/azure/eyas-test-automation/src/test/landing/landingPage.spec.js:33:12)\n                    at /home/dev/azure/eyas-test-automation/node_modules/jasminewd2/index.js:112:25\n                    at new ManagedPromise (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:1077:7)\n                    at ControlFlow.promise (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2505:12)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "TimeoutError: Landing page Welcome Offer has failed to load.\n                Wait timed out after 5006ms",
+    "statusTrace" : "TimeoutError: Landing page Welcome Offer has failed to load.\n                Wait timed out after 5006ms\n                    at /home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2201:17\n                    at ManagedPromise.invokeCallback_ (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:1376:14)\n                    at TaskQueue.execute_ (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n                    at TaskQueue.executeNext_ (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n                    at /home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2927:27\n                    at /home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:668:7\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                From: Task: Landing page Welcome Offer has failed to load.\n                    at scheduleWait (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2188:20)\n                    at ControlFlow.wait (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2517:12)\n                    at thenableWebDriverProxy.wait (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/webdriver.js:934:29)\n                    at run (/home/dev/azure/eyas-test-automation/node_modules/protractor/built/browser.js:58:33)\n                    at ProtractorBrowser.to.<computed> [as wait] (/home/dev/azure/eyas-test-automation/node_modules/protractor/built/browser.js:66:16)\n                    at WelcomeOffer.waitForLoad (/home/dev/azure/eyas-test-automation/src/test/landing/welcomeOffer.pageObject.js:23:19)\n                    at UserContext.<anonymous> (/home/dev/azure/eyas-test-automation/src/test/landing/landingPage.spec.js:33:12)\n                    at /home/dev/azure/eyas-test-automation/node_modules/jasminewd2/index.js:112:25\n                    at new ManagedPromise (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:1077:7)\n                    at ControlFlow.promise (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2505:12)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ba543ce166e971f7",
+      "name" : "Screenshot",
+      "source" : "ba543ce166e971f7.png",
+      "type" : "image/png",
+      "size" : 14900
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Landing Page/Welcome Offer page"
+  }, {
+    "name" : "testClass",
+    "value" : "Landing Page/Welcome Offer page"
+  }, {
+    "name" : "testMethod",
+    "value" : "#2 User try to Join at Welcome Offer page"
+  }, {
+    "name" : "package",
+    "value" : "Landing Page/Welcome Offer page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e386b01bfd3f9f57.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,88 @@
+{
+  "uid" : "598b417de240ab5f",
+  "name" : "#2 User can come to the Merkur Slots page from Privacy Policy page",
+  "fullName" : "Home page => Privacy Policy page.#2 User can come to the Merkur Slots page from Privacy Policy page",
+  "historyId" : "38baba581d923caa80d1879bbadebbe1",
+  "time" : {
+    "start" : 1652455968617,
+    "stop" : 1652455984404,
+    "duration" : 15787
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expected 'https://www.merkurslots.com/uk/en/home.html' to contain 'www.merkurslots.com/uk/en/home.html#/', 'Player can'n come to the Merkur Slots page '.",
+  "statusTrace" : "Error: Failed expectation\n                    at UserContext.<anonymous> (/home/dev/azure/eyas-test-automation/src/test/legal/privacy.spec.js:54:39)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expected 'https://www.merkurslots.com/uk/en/home.html' to contain 'www.merkurslots.com/uk/en/home.html#/', 'Player can'n come to the Merkur Slots page '.",
+    "statusTrace" : "Error: Failed expectation\n                    at UserContext.<anonymous> (/home/dev/azure/eyas-test-automation/src/test/legal/privacy.spec.js:54:39)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "1affb82a781aa809",
+      "name" : "Screenshot",
+      "source" : "1affb82a781aa809.png",
+      "type" : "image/png",
+      "size" : 8991
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Home page => Privacy Policy page"
+  }, {
+    "name" : "testClass",
+    "value" : "Home page => Privacy Policy page"
+  }, {
+    "name" : "testMethod",
+    "value" : "#2 User can come to the Merkur Slots page from Privacy Policy page"
+  }, {
+    "name" : "package",
+    "value" : "Home page => Privacy Policy page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c5e5dbeaa853ecb3",
+      "status" : "failed",
+      "statusDetails" : "Expected 'https://www.merkurslots.com/uk/en/home.html' to contain 'www.merkurslots.com/uk/en/home.html#/', 'Player can'n come to the Merkur Slots page '.",
+      "time" : {
+        "start" : 1652455021909,
+        "stop" : 1652455031677,
+        "duration" : 9768
+      }
+    }, {
+      "uid" : "cff512f6d7a85359",
+      "status" : "failed",
+      "statusDetails" : "Failed: Homepage has failed to load.\n                Wait timed out after 20000ms",
+      "time" : {
+        "start" : 1652454875688,
+        "stop" : 1652454895943,
+        "duration" : 20255
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "598b417de240ab5f.json",
+  "parameterValues" : [ ]
+}

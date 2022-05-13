@@ -1,0 +1,79 @@
+{
+  "uid" : "fdce138d54f434e",
+  "name" : "#1 When the user clicks to link Privacy Policy user should watches the nex chapters.",
+  "fullName" : "Privacy Policy.#1 When the user clicks to link Privacy Policy user should watches the nex chapters.",
+  "historyId" : "f73115bafadb5a20171fc778ec07e8ed",
+  "time" : {
+    "start" : 1652456005857,
+    "stop" : 1652456019474,
+    "duration" : 13617
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expected 'Privacy Policy' to contain 'Privacy Notice', 'Incorrect text'.",
+  "statusTrace" : "Error: Failed expectation\n                    at UserContext.<anonymous> (/home/dev/azure/eyas-test-automation/src/test/privacyPolicy/privacyPolicy.spec.js:19:57)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expected 'Privacy Policy' to contain 'Privacy Notice', 'Incorrect text'.",
+    "statusTrace" : "Error: Failed expectation\n                    at UserContext.<anonymous> (/home/dev/azure/eyas-test-automation/src/test/privacyPolicy/privacyPolicy.spec.js:19:57)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "dd10bea11c919102",
+      "name" : "Screenshot",
+      "source" : "dd10bea11c919102.png",
+      "type" : "image/png",
+      "size" : 140366
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Privacy Policy"
+  }, {
+    "name" : "testClass",
+    "value" : "Privacy Policy"
+  }, {
+    "name" : "testMethod",
+    "value" : "#1 When the user clicks to link Privacy Policy user should watches the nex chapters."
+  }, {
+    "name" : "package",
+    "value" : "Privacy Policy"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "ab6e8e424e1ce747",
+      "status" : "failed",
+      "statusDetails" : "Expected 'Privacy Policy' to contain 'Privacy Notice', 'Incorrect text'.",
+      "time" : {
+        "start" : 1652455464169,
+        "stop" : 1652455474259,
+        "duration" : 10090
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "fdce138d54f434e.json",
+  "parameterValues" : [ ]
+}
