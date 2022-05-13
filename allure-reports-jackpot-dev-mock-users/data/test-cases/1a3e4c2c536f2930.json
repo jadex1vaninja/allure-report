@@ -1,0 +1,79 @@
+{
+  "uid" : "1a3e4c2c536f2930",
+  "name" : "#1 Player can select take a break menu item from 'Account Closure' and Take A Break contain is displayed.",
+  "fullName" : "My Account > Gambling Controls > Account Closure > Take A Break.#1 Player can select take a break menu item from 'Account Closure' and Take A Break contain is displayed.",
+  "historyId" : "b865eeb2fad0eda6ab0e724334dbef1a",
+  "time" : {
+    "start" : 1652457671776,
+    "stop" : 1652457685512,
+    "duration" : 13736
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expected 'START PAUSE' to contain 'CONTINUE', 'Take A Break modal continue button has incorrect text.'.",
+  "statusTrace" : "Error: Failed expectation\n                    at UserContext.<anonymous> (/home/dev/azure/eyas-test-automation/src/test/my-account/gambling-controls/take-a-break.spec.js:146:40)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expected 'START PAUSE' to contain 'CONTINUE', 'Take A Break modal continue button has incorrect text.'.",
+    "statusTrace" : "Error: Failed expectation\n                    at UserContext.<anonymous> (/home/dev/azure/eyas-test-automation/src/test/my-account/gambling-controls/take-a-break.spec.js:146:40)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "968ce33be51b12be",
+      "name" : "Screenshot",
+      "source" : "968ce33be51b12be.png",
+      "type" : "image/png",
+      "size" : 274052
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "My Account > Gambling Controls > Account Closure > Take A Break"
+  }, {
+    "name" : "testClass",
+    "value" : "My Account > Gambling Controls > Account Closure > Take A Break"
+  }, {
+    "name" : "testMethod",
+    "value" : "#1 Player can select take a break menu item from 'Account Closure' and Take A Break contain is displayed."
+  }, {
+    "name" : "package",
+    "value" : "My Account > Gambling Controls > Account Closure > Take A Break"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "3a3ca94ed9ad4901",
+      "status" : "failed",
+      "statusDetails" : "Expected 'START PAUSE' to contain 'CONTINUE', 'Take A Break modal continue button has incorrect text.'.",
+      "time" : {
+        "start" : 1652456946870,
+        "stop" : 1652456959101,
+        "duration" : 12231
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "1a3e4c2c536f2930.json",
+  "parameterValues" : [ ]
+}
