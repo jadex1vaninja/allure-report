@@ -4,33 +4,16 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "Error: Timeout - Async callback was not invoked within timeout specified by jasmine.DEFAULT_TIMEOUT_INTERVAL.",
-      "children" : [ {
-        "name" : "#10 Deleting a message from the inbox which is marked as new should decrease the unread message count badge",
-        "uid" : "3cc48f819da30370",
-        "parentUid" : "529a5c49d07d5715f54949d670a9ff89",
-        "status" : "failed",
-        "time" : {
-          "start" : 1652456853692,
-          "stop" : 1652456885507,
-          "duration" : 31815
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "529a5c49d07d5715f54949d670a9ff89"
-    }, {
       "name" : "Expected 'Privacy Policy' to contain 'Privacy Notice', 'Incorrect text'.",
       "children" : [ {
         "name" : "#1 When the user clicks to link Privacy Policy user should watches the nex chapters.",
-        "uid" : "14475f299bfab6b7",
+        "uid" : "9e621fa6f2a542d",
         "parentUid" : "9c853dc887137ce09276987f71198e26",
         "status" : "failed",
         "time" : {
-          "start" : 1652457667033,
-          "stop" : 1652457699975,
-          "duration" : 32942
+          "start" : 1652857703340,
+          "stop" : 1652857738132,
+          "duration" : 34792
         },
         "flaky" : false,
         "newFailed" : false,
@@ -38,29 +21,63 @@
       } ],
       "uid" : "9c853dc887137ce09276987f71198e26"
     }, {
+      "name" : "Failed: No element found using locator: By(css selector, h1)",
+      "children" : [ {
+        "name" : "#0 User can come to the Responsible Gambling page",
+        "uid" : "d9b8cb67ef3e3b4a",
+        "parentUid" : "2c379c3f4f9511c78a96211fc4224c41",
+        "status" : "failed",
+        "time" : {
+          "start" : 1652857703525,
+          "stop" : 1652857712047,
+          "duration" : 8522
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2c379c3f4f9511c78a96211fc4224c41"
+    }, {
+      "name" : "Failed: Slots page Welcome Casino has failed to load.\n                Wait timed out after 20015ms",
+      "children" : [ {
+        "name" : "#1 User can navigates to the slots page and all elements are persisted on the page",
+        "uid" : "4dc31c46c1cd962",
+        "parentUid" : "5d2299dff0912cfa5a87921f44794b03",
+        "status" : "failed",
+        "time" : {
+          "start" : 1652857706515,
+          "stop" : 1652857733879,
+          "duration" : 27364
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5d2299dff0912cfa5a87921f44794b03"
+    }, {
       "name" : "Expected 'START PAUSE' to contain 'CONTINUE', 'Take A Break modal continue button has incorrect text.'.",
       "children" : [ {
         "name" : "#1 Player can select take a break menu item from 'Account Closure' and Take A Break contain is displayed.",
-        "uid" : "1a3e4c2c536f2930",
+        "uid" : "4035845a17664abf",
         "parentUid" : "96abf0b1aa915fa9b1993bc26ff407cb",
         "status" : "failed",
         "time" : {
-          "start" : 1652457671776,
-          "stop" : 1652457685512,
-          "duration" : 13736
+          "start" : 1652857713468,
+          "stop" : 1652857729266,
+          "duration" : 15798
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "#16 Player can press 'BACK' for confirmating modal after chosen for 24 hours 'Take A Break' and should return to previous step.",
-        "uid" : "86c780c7052e799",
+        "uid" : "4812d12cc2d7a461",
         "parentUid" : "96abf0b1aa915fa9b1993bc26ff407cb",
         "status" : "failed",
         "time" : {
-          "start" : 1652457834903,
-          "stop" : 1652457850449,
-          "duration" : 15546
+          "start" : 1652857874182,
+          "stop" : 1652857887295,
+          "duration" : 13113
         },
         "flaky" : false,
         "newFailed" : false,
@@ -68,225 +85,16 @@
       } ],
       "uid" : "96abf0b1aa915fa9b1993bc26ff407cb"
     }, {
-      "name" : "Failed: No element found using locator: By(css selector, .button--secondary)",
-      "children" : [ {
-        "name" : "#01.1 User can leave the registration process by clicking the Home link and click 'Yes I want to leave'.",
-        "uid" : "661a165898957c40",
-        "parentUid" : "b72f19ab2d39564e120cb3ef8bc546a6",
-        "status" : "failed",
-        "time" : {
-          "start" : 1652457682850,
-          "stop" : 1652457688448,
-          "duration" : 5598
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "b72f19ab2d39564e120cb3ef8bc546a6"
-    }, {
-      "name" : "Failed: element click intercepted: Element <button class=\"button button--text button--medium\" type=\"button\">...</button> is not clickable at point (525, 711). Other element would receive the click: <div class=\"ReactModal__Overlay ReactModal__Overlay--after-open overlay-backdrop modal-backdrop\">...</div>\n                  (Session info: headless chrome=101.0.4951.54)\n                Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'\n                System info: host: 'Unknown', ip: 'Unknown', os.name: 'Linux', os.arch: 'amd64', os.version: '5.13.0-40-generic', java.version: '11.0.15'\n                Driver info: driver.version: unknown",
-      "children" : [ {
-        "name" : "#01 Player can navigate to the recover password form and is displayed with the correct fields.",
-        "uid" : "c911823ce9c5d84",
-        "parentUid" : "0f953870673831f927f063eaa9d2c660",
-        "status" : "failed",
-        "time" : {
-          "start" : 1652457685156,
-          "stop" : 1652457689731,
-          "duration" : 4575
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "#02 Player cannot submit a blank email address on the recover password form.",
-        "uid" : "21bd14e70b695703",
-        "parentUid" : "0f953870673831f927f063eaa9d2c660",
-        "status" : "failed",
-        "time" : {
-          "start" : 1652457689731,
-          "stop" : 1652457695970,
-          "duration" : 6239
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "0f953870673831f927f063eaa9d2c660"
-    }, {
-      "name" : "Failed: element not interactable\n                  (Session info: headless chrome=101.0.4951.54)\n                Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'\n                System info: host: 'Unknown', ip: 'Unknown', os.name: 'Linux', os.arch: 'amd64', os.version: '5.13.0-40-generic', java.version: '11.0.15'\n                Driver info: driver.version: unknown",
-      "children" : [ {
-        "name" : "#05 Player receives 'Sent' success feedback on submitting a valid email address.",
-        "uid" : "1a7eb0caf84e0851",
-        "parentUid" : "332f76bdfc1c3d3697a0cb8b9c6bc780",
-        "status" : "failed",
-        "time" : {
-          "start" : 1652457705908,
-          "stop" : 1652457708599,
-          "duration" : 2691
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "#06 Recover Password button displays 'Re-Send Email' text after a successful first attempt.",
-        "uid" : "91df1ea3b919a016",
-        "parentUid" : "332f76bdfc1c3d3697a0cb8b9c6bc780",
-        "status" : "failed",
-        "time" : {
-          "start" : 1652457708599,
-          "stop" : 1652457710799,
-          "duration" : 2200
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "332f76bdfc1c3d3697a0cb8b9c6bc780"
-    }, {
-      "name" : "Failed: Index out of bound. Trying to access element at index: 2, but there are only 2 elements that match locator By(css selector, [data-testid=\"feedback-icon\"])",
-      "children" : [ {
-        "name" : "#05 Date of Birth is a mandatory field.",
-        "uid" : "5ade4b7fa3317c98",
-        "parentUid" : "ec72d05eb029a304d2b1400bca1417d8",
-        "status" : "failed",
-        "time" : {
-          "start" : 1652457740652,
-          "stop" : 1652457746616,
-          "duration" : 5964
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "ec72d05eb029a304d2b1400bca1417d8"
-    }, {
-      "name" : "Failed: Index out of bound. Trying to access element at index: 1, but there are only 1 elements that match locator By(css selector, [data-testid=\"feedback-icon\"])",
-      "children" : [ {
-        "name" : "#08 User cannot enter invalid characters into step 2 name input fields.",
-        "uid" : "557a399e7c150574",
-        "parentUid" : "89afdf5a81b0775449408641b6a5ec07",
-        "status" : "failed",
-        "time" : {
-          "start" : 1652457756783,
-          "stop" : 1652457761286,
-          "duration" : 4503
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "89afdf5a81b0775449408641b6a5ec07"
-    }, {
-      "name" : "Failed: element click intercepted: Element <div class=\"checkbox\">...</div> is not clickable at point (720, 558). Other element would receive the click: <label for=\"marketingOptInTelephone\" class=\"checkbox__label label\" data-testid=\"label-container\">...</label>\n                  (Session info: headless chrome=101.0.4951.54)\n                Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'\n                System info: host: 'Unknown', ip: 'Unknown', os.name: 'Linux', os.arch: 'amd64', os.version: '5.13.0-40-generic', java.version: '11.0.15'\n                Driver info: driver.version: unknown",
-      "children" : [ {
-        "name" : "#3 Player can edit their preferences and exit using the Cancel CTA within the modal discarding changes",
-        "uid" : "ce6806a62249055",
-        "parentUid" : "726727c0575e5df417a8fb27b6e66ab1",
-        "status" : "failed",
-        "time" : {
-          "start" : 1652457758779,
-          "stop" : 1652457769746,
-          "duration" : 10967
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "726727c0575e5df417a8fb27b6e66ab1"
-    }, {
-      "name" : "Expected 'We will be sad to see you go but if you no longer want to receive emails from Jackpot Universe please click on the Unsuscribe button below' to contain 'We will be sad to see you go but if you no longer want to receive emails from MERKUR SLOTS please click on the Unsuscribe button below', 'Unsubscribe paragraph text is not display.'.",
-      "children" : [ {
-        "name" : "#1 Unsubscribe page is displayed with correct content.",
-        "uid" : "998b4e80bd1c828b",
-        "parentUid" : "b67cc33f56989d06d6ec589c52128e9f",
-        "status" : "failed",
-        "time" : {
-          "start" : 1652457763305,
-          "stop" : 1652457771178,
-          "duration" : 7873
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "b67cc33f56989d06d6ec589c52128e9f"
-    }, {
-      "name" : "Expected 'I’m no longer interested in Jackpot Universe' to contain 'I’m no longer interested in MERKUR SLOTS', 'Wrong text in the second radiobox.'.",
-      "children" : [ {
-        "name" : "#3 User can click on ‘Unsubscribe’ button and successfully unsubscribe window will be displayed with the correct content",
-        "uid" : "74102fbfc81e61a",
-        "parentUid" : "79d41ac1e26908b836c4a556a1ea3f63",
-        "status" : "failed",
-        "time" : {
-          "start" : 1652457779514,
-          "stop" : 1652457787934,
-          "duration" : 8420
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "79d41ac1e26908b836c4a556a1ea3f63"
-    }, {
-      "name" : "Expected false to be true, 'Privacy Policy Link links not displayed on Step 4 of Registration process.'.",
-      "children" : [ {
-        "name" : "#11 User can click and view the Privacy Policy.",
-        "uid" : "a9b47f69a4e529de",
-        "parentUid" : "4c6519d46f55b883a2292bd49906348e",
-        "status" : "failed",
-        "time" : {
-          "start" : 1652457814421,
-          "stop" : 1652457828877,
-          "duration" : 14456
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "4c6519d46f55b883a2292bd49906348e"
-    }, {
-      "name" : "Failed: Slots page Welcome Casino has failed to load.\n                Wait timed out after 20006ms",
-      "children" : [ {
-        "name" : "#1 User can navigates to the slots page and all elements are persisted on the page",
-        "uid" : "755f656f68004445",
-        "parentUid" : "04f15348581b27a07e6d672723a3ce75",
-        "status" : "failed",
-        "time" : {
-          "start" : 1652457841939,
-          "stop" : 1652457869897,
-          "duration" : 27958
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "#10 User click on category and go to category page",
-        "uid" : "80f89e0a80265ede",
-        "parentUid" : "04f15348581b27a07e6d672723a3ce75",
-        "status" : "failed",
-        "time" : {
-          "start" : 1652458063030,
-          "stop" : 1652458088724,
-          "duration" : 25694
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "04f15348581b27a07e6d672723a3ce75"
-    }, {
       "name" : "Failed: Slots page Welcome Casino has failed to load.\n                Wait timed out after 20003ms",
       "children" : [ {
         "name" : "#2 User can see hero banner carousel and can scroll it",
-        "uid" : "42701de2966661da",
+        "uid" : "48a0835f2ec114a1",
         "parentUid" : "820de22cad5b3a5bf5f2e189887d01cf",
         "status" : "failed",
         "time" : {
-          "start" : 1652457869898,
-          "stop" : 1652457895839,
-          "duration" : 25941
+          "start" : 1652857733880,
+          "stop" : 1652857760260,
+          "duration" : 26380
         },
         "flaky" : false,
         "newFailed" : false,
@@ -294,29 +102,115 @@
       } ],
       "uid" : "820de22cad5b3a5bf5f2e189887d01cf"
     }, {
-      "name" : "Failed: Slots page Welcome Casino has failed to load.\n                Wait timed out after 20005ms",
+      "name" : "Failed: Slots page Welcome Casino has failed to load.\n                Wait timed out after 20004ms",
       "children" : [ {
         "name" : "#3 User can see static hero banner carousel and can click on it and see game info page",
-        "uid" : "bf41296a76947065",
-        "parentUid" : "69ec5ad77fcf266216fcda674a35c540",
+        "uid" : "5895527ea3a114af",
+        "parentUid" : "14451dd50cf0d4672123bef881f71c3e",
         "status" : "failed",
         "time" : {
-          "start" : 1652457895839,
-          "stop" : 1652457916933,
-          "duration" : 21094
+          "start" : 1652857760260,
+          "stop" : 1652857781105,
+          "duration" : 20845
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "#7 User hover the game card and click 'Play now' and login modal appears",
+        "uid" : "5e2c0936b989e366",
+        "parentUid" : "14451dd50cf0d4672123bef881f71c3e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1652857849228,
+          "stop" : 1652857874969,
+          "duration" : 25741
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "14451dd50cf0d4672123bef881f71c3e"
+    }, {
+      "name" : "Failed: Slots page Welcome Casino has failed to load.\n                Wait timed out after 20002ms",
+      "children" : [ {
+        "name" : "#4 User can see game carousel and can scroll it",
+        "uid" : "6aeb9e97aaea6443",
+        "parentUid" : "9431bff92d21e2aaf48f465d0e3f5b38",
+        "status" : "failed",
+        "time" : {
+          "start" : 1652857781105,
+          "stop" : 1652857802836,
+          "duration" : 21731
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "#5 User can see on hero banner carousel primary button CTA, can click on it and see game info page",
+        "uid" : "27c8b45641abf22e",
+        "parentUid" : "9431bff92d21e2aaf48f465d0e3f5b38",
+        "status" : "failed",
+        "time" : {
+          "start" : 1652857802836,
+          "stop" : 1652857823564,
+          "duration" : 20728
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "#13 User logged in and click on game card and game page appears",
-        "uid" : "11a2fb8cc1f719fe",
+        "uid" : "8dab2b08ea9a5394",
+        "parentUid" : "9431bff92d21e2aaf48f465d0e3f5b38",
+        "status" : "failed",
+        "time" : {
+          "start" : 1652857993695,
+          "stop" : 1652858014431,
+          "duration" : 20736
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9431bff92d21e2aaf48f465d0e3f5b38"
+    }, {
+      "name" : "Failed: Slots page Welcome Casino has failed to load.\n                Wait timed out after 20005ms",
+      "children" : [ {
+        "name" : "#6 User can hover mouse on game card and see all needed elements",
+        "uid" : "264ef2da7a313e7e",
         "parentUid" : "69ec5ad77fcf266216fcda674a35c540",
         "status" : "failed",
         "time" : {
-          "start" : 1652458151469,
-          "stop" : 1652458182481,
-          "duration" : 31012
+          "start" : 1652857823564,
+          "stop" : 1652857849228,
+          "duration" : 25664
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "#11 User logged in and hover the game card and click on CTA \"PLAY NOW\" and go to game page",
+        "uid" : "7f1d96693eae5ff4",
+        "parentUid" : "69ec5ad77fcf266216fcda674a35c540",
+        "status" : "failed",
+        "time" : {
+          "start" : 1652857952260,
+          "stop" : 1652857973013,
+          "duration" : 20753
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "#12 User logged in hover the game card  and click on CTA \"INFO\" and go to INFO page and click on \"PLAY NOW\" and see game page",
+        "uid" : "8b24f4bf8d1ff4e0",
+        "parentUid" : "69ec5ad77fcf266216fcda674a35c540",
+        "status" : "failed",
+        "time" : {
+          "start" : 1652857973013,
+          "stop" : 1652857993695,
+          "duration" : 20682
         },
         "flaky" : false,
         "newFailed" : false,
@@ -324,121 +218,52 @@
       } ],
       "uid" : "69ec5ad77fcf266216fcda674a35c540"
     }, {
-      "name" : "Failed: Slots page Welcome Casino has failed to load.\n                Wait timed out after 20001ms",
-      "children" : [ {
-        "name" : "#4 User can see game carousel and can scroll it",
-        "uid" : "e003a41dd9dbbfdf",
-        "parentUid" : "27d63162ef29c73570f6577b26a8ccc9",
-        "status" : "failed",
-        "time" : {
-          "start" : 1652457916933,
-          "stop" : 1652457938852,
-          "duration" : 21919
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "#6 User can hover mouse on game card and see all needed elements",
-        "uid" : "3d5ff9e19d5c39ac",
-        "parentUid" : "27d63162ef29c73570f6577b26a8ccc9",
-        "status" : "failed",
-        "time" : {
-          "start" : 1652457959486,
-          "stop" : 1652457985024,
-          "duration" : 25538
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "#9 User hover the game card and click on it and login modal appears",
-        "uid" : "9b271e75800ede60",
-        "parentUid" : "27d63162ef29c73570f6577b26a8ccc9",
-        "status" : "failed",
-        "time" : {
-          "start" : 1652458037195,
-          "stop" : 1652458063030,
-          "duration" : 25835
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "#11 User logged in and hover the game card and click on CTA \"PLAY NOW\" and go to game page",
-        "uid" : "e7f9f053247766a1",
-        "parentUid" : "27d63162ef29c73570f6577b26a8ccc9",
-        "status" : "failed",
-        "time" : {
-          "start" : 1652458088724,
-          "stop" : 1652458120339,
-          "duration" : 31615
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "27d63162ef29c73570f6577b26a8ccc9"
-    }, {
-      "name" : "Failed: Slots page Welcome Casino has failed to load.\n                Wait timed out after 20000ms",
-      "children" : [ {
-        "name" : "#5 User can see on hero banner carousel primary button CTA, can click on it and see game info page",
-        "uid" : "b7a0e197da836f47",
-        "parentUid" : "242c89d366ab5e59a39bf22f60985726",
-        "status" : "failed",
-        "time" : {
-          "start" : 1652457938852,
-          "stop" : 1652457959486,
-          "duration" : 20634
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "#7 User hover the game card and click 'Play now' and login modal appears",
-        "uid" : "a0027c782e378876",
-        "parentUid" : "242c89d366ab5e59a39bf22f60985726",
-        "status" : "failed",
-        "time" : {
-          "start" : 1652457985024,
-          "stop" : 1652458011314,
-          "duration" : 26290
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "242c89d366ab5e59a39bf22f60985726"
-    }, {
-      "name" : "Failed: Slots page Welcome Casino has failed to load.\n                Wait timed out after 20004ms",
+      "name" : "Failed: Slots page Welcome Casino has failed to load.\n                Wait timed out after 20006ms",
       "children" : [ {
         "name" : "#8 User hover the game card and click on CTA 'INFO' and go to info page, click on JOIN and see register page",
-        "uid" : "26c39006c4e2867b",
-        "parentUid" : "14451dd50cf0d4672123bef881f71c3e",
+        "uid" : "689fda45c62b3458",
+        "parentUid" : "04f15348581b27a07e6d672723a3ce75",
         "status" : "failed",
         "time" : {
-          "start" : 1652458011314,
-          "stop" : 1652458037194,
-          "duration" : 25880
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "#12 User logged in hover the game card  and click on CTA \"INFO\" and go to INFO page and click on \"PLAY NOW\" and see game page",
-        "uid" : "5bc6e835188d4867",
-        "parentUid" : "14451dd50cf0d4672123bef881f71c3e",
-        "status" : "failed",
-        "time" : {
-          "start" : 1652458120339,
-          "stop" : 1652458151469,
-          "duration" : 31130
+          "start" : 1652857874970,
+          "stop" : 1652857900866,
+          "duration" : 25896
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "14451dd50cf0d4672123bef881f71c3e"
+      "uid" : "04f15348581b27a07e6d672723a3ce75"
+    }, {
+      "name" : "Failed: Slots page Welcome Casino has failed to load.\n                Wait timed out after 20007ms",
+      "children" : [ {
+        "name" : "#9 User hover the game card and click on it and login modal appears",
+        "uid" : "d9440f245e5b21dd",
+        "parentUid" : "0ece717816dc8d4909297d7e163771f1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1652857900866,
+          "stop" : 1652857926600,
+          "duration" : 25734
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "#10 User click on category and go to category page",
+        "uid" : "6a64d1bc8a1a4589",
+        "parentUid" : "0ece717816dc8d4909297d7e163771f1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1652857926600,
+          "stop" : 1652857952260,
+          "duration" : 25660
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0ece717816dc8d4909297d7e163771f1"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]
