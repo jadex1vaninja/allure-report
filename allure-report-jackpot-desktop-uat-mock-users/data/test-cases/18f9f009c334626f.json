@@ -1,0 +1,79 @@
+{
+  "uid" : "18f9f009c334626f",
+  "name" : "#1 Player can select take a break menu item from 'Account Closure' and Take A Break contain is displayed.",
+  "fullName" : "My Account > Gambling Controls > Account Closure > Take A Break.#1 Player can select take a break menu item from 'Account Closure' and Take A Break contain is displayed.",
+  "historyId" : "b865eeb2fad0eda6ab0e724334dbef1a",
+  "time" : {
+    "start" : 1653399518647,
+    "stop" : 1653399537581,
+    "duration" : 18934
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expected 'I want to self exclude' to contain 'I want to pause my account', 'Take A Break modal heading has incorrect text.'.",
+  "statusTrace" : "Error: Failed expectation\n                    at UserContext.<anonymous> (/home/developer/Downloads/eyas-test-automation/src/test/my-account/gambling-controls/take-a-break.spec.js:88:63)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expected 'I want to self exclude' to contain 'I want to pause my account', 'Take A Break modal heading has incorrect text.'.",
+    "statusTrace" : "Error: Failed expectation\n                    at UserContext.<anonymous> (/home/developer/Downloads/eyas-test-automation/src/test/my-account/gambling-controls/take-a-break.spec.js:88:63)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "367d237afdac90dd",
+      "name" : "Screenshot",
+      "source" : "367d237afdac90dd.png",
+      "type" : "image/png",
+      "size" : 365929
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "My Account > Gambling Controls > Account Closure > Take A Break"
+  }, {
+    "name" : "testClass",
+    "value" : "My Account > Gambling Controls > Account Closure > Take A Break"
+  }, {
+    "name" : "testMethod",
+    "value" : "#1 Player can select take a break menu item from 'Account Closure' and Take A Break contain is displayed."
+  }, {
+    "name" : "package",
+    "value" : "My Account > Gambling Controls > Account Closure > Take A Break"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d705eb3b4a2f9b08",
+      "status" : "failed",
+      "statusDetails" : "Expected 'I want to self exclude' to contain 'I want to pause my account', 'Take A Break modal heading has incorrect text.'.",
+      "time" : {
+        "start" : 1653398589964,
+        "stop" : 1653398610856,
+        "duration" : 20892
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "18f9f009c334626f.json",
+  "parameterValues" : [ ]
+}
