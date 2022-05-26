@@ -2,27 +2,287 @@
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "name" : "timeline",
   "children" : [ {
-    "name" : "#02 Player is logged out of site if clearing there cookies.",
-    "uid" : "991f4af442041d42",
+    "name" : "#05 Player can close the login modal.",
+    "uid" : "fc2c1f7a4cb1d004",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1653581053840,
-      "stop" : 1653581059513,
-      "duration" : 5673
+      "start" : 1653582987458,
+      "stop" : 1653582992858,
+      "duration" : 5400
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
-    "name" : "#01 Player can successfully logout.",
-    "uid" : "e0a8c55cc1a0c3e1",
+    "name" : "#07 Player cannot login when entering an incorrect password.",
+    "uid" : "50d69cee075a1cc4",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1653581047392,
-      "stop" : 1653581053840,
-      "duration" : 6448
+      "start" : 1653583066474,
+      "stop" : 1653583072988,
+      "duration" : 6514
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "#04 Player cannot submit blank details on the Login Form.",
+    "uid" : "67fd257533e169a2",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1653582981152,
+      "stop" : 1653582987458,
+      "duration" : 6306
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "#06 Player cannot login when entering an incorrect email address.",
+    "uid" : "6127883fa8caed04",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1653582992858,
+      "stop" : 1653582999041,
+      "duration" : 6183
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "#13 Player should be able to show/hide their input into the Password field.",
+    "uid" : "62d4e4195ff7674f",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1653583011702,
+      "stop" : 1653583016052,
+      "duration" : 4350
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "#12 Players inputs into the password field should be masked by default.",
+    "uid" : "31b01b6e76337e57",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1653583072988,
+      "stop" : 1653583078220,
+      "duration" : 5232
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "#14 Player can select the link to recover their password.",
+    "uid" : "5d2b16042b9f45d4",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1653583016052,
+      "stop" : 1653583020541,
+      "duration" : 4489
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "#05 Player can close the login modal.",
+    "uid" : "72ca7c03aeb15e2e",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1653583055064,
+      "stop" : 1653583060584,
+      "duration" : 5520
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "#07 Player cannot login when entering an incorrect password.",
+    "uid" : "5769f5d10fdfb5ae",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1653582999041,
+      "stop" : 1653583006662,
+      "duration" : 7621
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "#01 Player can open the Log In modal and is displayed with the correct fields.",
+    "uid" : "8d7b6c9cc3f7f02a",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1653583030556,
+      "stop" : 1653583035204,
+      "duration" : 4648
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "#03 Password field is a mandatory field.",
+    "uid" : "e12cdb28a8a8d18a",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1653582974403,
+      "stop" : 1653582981152,
+      "duration" : 6749
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "#14 Player can select the link to recover their password.",
+    "uid" : "7e3cf26cab026595",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1653583082469,
+      "stop" : 1653583087037,
+      "duration" : 4568
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "#01 Player can open the Log In modal and is displayed with the correct fields.",
+    "uid" : "1bc32e7ee15e11fa",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1653582962605,
+      "stop" : 1653582967478,
+      "duration" : 4873
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "#02 Email Address is a mandatory field.",
+    "uid" : "ca169cd8c82443a2",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1653583035204,
+      "stop" : 1653583041785,
+      "duration" : 6581
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "#12 Players inputs into the password field should be masked by default.",
+    "uid" : "c88df3eed2c510e4",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1653583006662,
+      "stop" : 1653583011702,
+      "duration" : 5040
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "#03 Password field is a mandatory field.",
+    "uid" : "85388b5709ae1301",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1653583041785,
+      "stop" : 1653583048275,
+      "duration" : 6490
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "#15 Player can successfully Log In when entering valid details.",
+    "uid" : "9b97caa8f0c27ce8",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1653583020541,
+      "stop" : 1653583027109,
+      "duration" : 6568
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "#02 Email Address is a mandatory field.",
+    "uid" : "addfabfbd2e0415f",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1653582967478,
+      "stop" : 1653582974403,
+      "duration" : 6925
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "#06 Player cannot login when entering an incorrect email address.",
+    "uid" : "c5b86d1c05969040",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1653583060584,
+      "stop" : 1653583066474,
+      "duration" : 5890
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "#15 Player can successfully Log In when entering valid details.",
+    "uid" : "ecc8687b7fe2ab60",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1653583087037,
+      "stop" : 1653583094324,
+      "duration" : 7287
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "#04 Player cannot submit blank details on the Login Form.",
+    "uid" : "735810827e922315",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1653583048275,
+      "stop" : 1653583055064,
+      "duration" : 6789
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "#13 Player should be able to show/hide their input into the Password field.",
+    "uid" : "fb05f0f00d26b147",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1653583078221,
+      "stop" : 1653583082469,
+      "duration" : 4248
     },
     "flaky" : false,
     "newFailed" : false,
