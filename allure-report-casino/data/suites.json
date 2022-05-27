@@ -2,151 +2,34 @@
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
   "name" : "suites",
   "children" : [ {
-    "name" : "Log In",
+    "name" : "Logout",
     "children" : [ {
-      "name" : "#01 Player can open the Log In modal and is displayed with the correct fields.",
-      "uid" : "673a268a5e2b323c",
-      "parentUid" : "c3ecff216bf67638facf1a827f3d5482",
-      "status" : "passed",
+      "name" : "#01 Player can successfully logout.",
+      "uid" : "745f3b61d1541a70",
+      "parentUid" : "7889adc551fb943d344581d130caec92",
+      "status" : "failed",
       "time" : {
-        "start" : 1653583105422,
-        "stop" : 1653583110336,
-        "duration" : 4914
+        "start" : 1653633941605,
+        "stop" : 1653633947779,
+        "duration" : 6174
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
-      "name" : "#02 Email Address is a mandatory field.",
-      "uid" : "5f09d32c65f75088",
-      "parentUid" : "c3ecff216bf67638facf1a827f3d5482",
+      "name" : "#02 Player is logged out of site if clearing there cookies.",
+      "uid" : "750193e350a8bf95",
+      "parentUid" : "7889adc551fb943d344581d130caec92",
       "status" : "passed",
       "time" : {
-        "start" : 1653583110336,
-        "stop" : 1653583117259,
-        "duration" : 6923
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "#03 Password field is a mandatory field.",
-      "uid" : "63b538de7a6c3442",
-      "parentUid" : "c3ecff216bf67638facf1a827f3d5482",
-      "status" : "passed",
-      "time" : {
-        "start" : 1653583117259,
-        "stop" : 1653583124168,
-        "duration" : 6909
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "#04 Player cannot submit blank details on the Login Form.",
-      "uid" : "2e042b6af1350096",
-      "parentUid" : "c3ecff216bf67638facf1a827f3d5482",
-      "status" : "passed",
-      "time" : {
-        "start" : 1653583124168,
-        "stop" : 1653583130975,
-        "duration" : 6807
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "#05 Player can close the login modal.",
-      "uid" : "870905c8d32e06bb",
-      "parentUid" : "c3ecff216bf67638facf1a827f3d5482",
-      "status" : "passed",
-      "time" : {
-        "start" : 1653583130975,
-        "stop" : 1653583137290,
-        "duration" : 6315
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "#06 Player cannot login when entering an incorrect email address.",
-      "uid" : "e6584950884bb827",
-      "parentUid" : "c3ecff216bf67638facf1a827f3d5482",
-      "status" : "passed",
-      "time" : {
-        "start" : 1653583137290,
-        "stop" : 1653583143937,
-        "duration" : 6647
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "#07 Player cannot login when entering an incorrect password.",
-      "uid" : "58e9fa16aefc5204",
-      "parentUid" : "c3ecff216bf67638facf1a827f3d5482",
-      "status" : "passed",
-      "time" : {
-        "start" : 1653583143937,
-        "stop" : 1653583151761,
-        "duration" : 7824
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "#12 Players inputs into the password field should be masked by default.",
-      "uid" : "b5b7bdaf925ca488",
-      "parentUid" : "c3ecff216bf67638facf1a827f3d5482",
-      "status" : "passed",
-      "time" : {
-        "start" : 1653583151761,
-        "stop" : 1653583157605,
-        "duration" : 5844
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "#13 Player should be able to show/hide their input into the Password field.",
-      "uid" : "afeacffe90612e2e",
-      "parentUid" : "c3ecff216bf67638facf1a827f3d5482",
-      "status" : "passed",
-      "time" : {
-        "start" : 1653583157605,
-        "stop" : 1653583162766,
-        "duration" : 5161
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "#14 Player can select the link to recover their password.",
-      "uid" : "1ced28afc3184911",
-      "parentUid" : "c3ecff216bf67638facf1a827f3d5482",
-      "status" : "passed",
-      "time" : {
-        "start" : 1653583162766,
-        "stop" : 1653583168239,
-        "duration" : 5473
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "#15 Player can successfully Log In when entering valid details.",
-      "uid" : "37e82618b2dcbc10",
-      "parentUid" : "c3ecff216bf67638facf1a827f3d5482",
-      "status" : "passed",
-      "time" : {
-        "start" : 1653583168239,
-        "stop" : 1653583176094,
-        "duration" : 7855
+        "start" : 1653633947779,
+        "stop" : 1653633953951,
+        "duration" : 6172
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     } ],
-    "uid" : "c3ecff216bf67638facf1a827f3d5482"
+    "uid" : "7889adc551fb943d344581d130caec92"
   } ]
 }
