@@ -1,0 +1,615 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Failed: stale element reference: element is not attached to the page document\n                  (Session info: headless chrome=102.0.5005.61)\n                For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\n                Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'\n                System info: host: 'Unknown', ip: 'Unknown', os.name: 'Linux', os.arch: 'amd64', os.version: '5.13.0-44-generic', java.version: '11.0.15'\n                Driver info: driver.version: unknown",
+      "children" : [ {
+        "name" : "#8 Active promotions are excluded from the promotions section.",
+        "uid" : "11f01ed644e4f6a1",
+        "parentUid" : "69aa0e66855bf83cfe6bee72fe93bfa6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1653647316935,
+          "stop" : 1653647328007,
+          "duration" : 11072
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "69aa0e66855bf83cfe6bee72fe93bfa6"
+    }, {
+      "name" : "Expected '' to equal '50'.",
+      "children" : [ {
+        "name" : "#22 User can enter amount, go to full terms and conditions, click back button, close full terms conditions and return in deposit modal.",
+        "uid" : "6a6e9d60439773b",
+        "parentUid" : "652748f77ad403380fe967c98b00e280",
+        "status" : "failed",
+        "time" : {
+          "start" : 1653647551130,
+          "stop" : 1653647571436,
+          "duration" : 20306
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "652748f77ad403380fe967c98b00e280"
+    }, {
+      "name" : "Expected '' to contain 'Promotions', 'Title of promotion page has incorrect text for not login user.'.",
+      "children" : [ {
+        "name" : "#27 Promotion page has correct title for not login user.",
+        "uid" : "7b481a2c6c9743f9",
+        "parentUid" : "e3bcf3c5efa3951ff35091c1659cdf8f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1653647622855,
+          "stop" : 1653647626401,
+          "duration" : 3546
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e3bcf3c5efa3951ff35091c1659cdf8f"
+    }, {
+      "name" : "Failed: No element found using locator: By(css selector, .navigation-logout-link__collapsed)",
+      "children" : [ {
+        "name" : "#01 Player can successfully logout.",
+        "uid" : "19a6f20fa0bec83b",
+        "parentUid" : "92398c4f7198be6506218e44558b6c76",
+        "status" : "failed",
+        "time" : {
+          "start" : 1653647715949,
+          "stop" : 1653647730013,
+          "duration" : 14064
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "92398c4f7198be6506218e44558b6c76"
+    }, {
+      "name" : "WebDriverError: element click intercepted: Element <button aria-label=\"Edit\" class=\"button button--text button--medium\" type=\"button\">...</button> is not clickable at point (467, 705). Other element would receive the click: <div class=\"ReactModal__Overlay ReactModal__Overlay--after-open overlay-backdrop modal-backdrop\">...</div>\n                  (Session info: headless chrome=102.0.5005.61)\n                Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'\n                System info: host: 'Unknown', ip: 'Unknown', os.name: 'Linux', os.arch: 'amd64', os.version: '5.13.0-44-generic', java.version: '11.0.15'\n                Driver info: driver.version: unknown",
+      "children" : [ {
+        "name" : "#1 Deep link to edit phone opens when logged in",
+        "uid" : "b0df59426dabfc05",
+        "parentUid" : "133d6eb956c44ffd1b83d9007ed0d4e9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1653647717963,
+          "stop" : 1653647736501,
+          "duration" : 18538
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "#2 Deep link to change password open login when not logged in before change password",
+        "uid" : "f2a39d9f8d38d0c9",
+        "parentUid" : "133d6eb956c44ffd1b83d9007ed0d4e9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1653647736501,
+          "stop" : 1653647751265,
+          "duration" : 14764
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "133d6eb956c44ffd1b83d9007ed0d4e9"
+    }, {
+      "name" : "Failed: Change password modal not shown\n                Wait timed out after 20004ms",
+      "children" : [ {
+        "name" : "#1 Deep link to change password opens when logged in",
+        "uid" : "8a065d29c535aa53",
+        "parentUid" : "0d9d8e10ba91a08d8a99882dc032ed46",
+        "status" : "failed",
+        "time" : {
+          "start" : 1653647719648,
+          "stop" : 1653647756840,
+          "duration" : 37192
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0d9d8e10ba91a08d8a99882dc032ed46"
+    }, {
+      "name" : "Failed: Accept All Cookie Notification not visible.\n                Wait timed out after 20006ms",
+      "children" : [ {
+        "name" : "#2 User can come to the Merkur Slots page from Privacy Policy page",
+        "uid" : "a2670a91df972cc0",
+        "parentUid" : "cf47c830b933a8016c9caa1195d3c6d0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1653647740250,
+          "stop" : 1653647764077,
+          "duration" : 23827
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "#4 User can come to the \"Block Access to Gambling Websites and Apps Worldwide\" page from Responsible Gambling page",
+        "uid" : "b62e52946791db00",
+        "parentUid" : "cf47c830b933a8016c9caa1195d3c6d0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1653647773866,
+          "stop" : 1653647797224,
+          "duration" : 23358
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "#4 User can come to the ICO(Information Commissioner's office) page from Privacy Policy page",
+        "uid" : "680b29950e539b88",
+        "parentUid" : "cf47c830b933a8016c9caa1195d3c6d0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1653647778960,
+          "stop" : 1653647802280,
+          "duration" : 23320
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cf47c830b933a8016c9caa1195d3c6d0"
+    }, {
+      "name" : "Failed: Accept All Cookie Notification not visible.\n                Wait timed out after 20005ms",
+      "children" : [ {
+        "name" : "#2 User can come to the \"Help for problem gambling\" page from Responsible Gambling page",
+        "uid" : "acbccf17bd4d1bb6",
+        "parentUid" : "195c3cd3be40c1db86d20a0ba8ef4a9c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1653647740748,
+          "stop" : 1653647764693,
+          "duration" : 23945
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "#4 User can come to the Responsible Gambling page from terms and conditions page",
+        "uid" : "1e265f366cee2389",
+        "parentUid" : "195c3cd3be40c1db86d20a0ba8ef4a9c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1653647804883,
+          "stop" : 1653647830373,
+          "duration" : 25490
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "195c3cd3be40c1db86d20a0ba8ef4a9c"
+    }, {
+      "name" : "Failed: Change password modal not shown\n                Wait timed out after 20005ms",
+      "children" : [ {
+        "name" : "#2 Deep link to change password open login when not logged in before change password",
+        "uid" : "322b03ad3082772f",
+        "parentUid" : "e35741407e9aa79f68d39e8ffd36a47a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1653647756840,
+          "stop" : 1653647791082,
+          "duration" : 34242
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e35741407e9aa79f68d39e8ffd36a47a"
+    }, {
+      "name" : "Failed: Accept All Cookie Notification not visible.\n                Wait timed out after 20012ms",
+      "children" : [ {
+        "name" : "#2 User can come to the privacy policy page from terms and conditions page",
+        "uid" : "840fb812ebaae4e8",
+        "parentUid" : "faf62692ef61f9d0eb78d47056ca2a35",
+        "status" : "failed",
+        "time" : {
+          "start" : 1653647767749,
+          "stop" : 1653647793191,
+          "duration" : 25442
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "#8 User can come to the eCOGRA page from terms and conditions page",
+        "uid" : "6a44965644f46bf4",
+        "parentUid" : "faf62692ef61f9d0eb78d47056ca2a35",
+        "status" : "failed",
+        "time" : {
+          "start" : 1653647868545,
+          "stop" : 1653647891998,
+          "duration" : 23453
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "faf62692ef61f9d0eb78d47056ca2a35"
+    }, {
+      "name" : "Expected 'I want to self exclude' to contain 'I want to pause my account', 'Take A Break modal heading has incorrect text.'.",
+      "children" : [ {
+        "name" : "#1 Player can select take a break menu item from 'Account Closure' and Take A Break contain is displayed.",
+        "uid" : "6b265f5e45970d32",
+        "parentUid" : "3c5a033e8799f0ae0a86dd3ac4aeaf6f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1653647804785,
+          "stop" : 1653647821717,
+          "duration" : 16932
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3c5a033e8799f0ae0a86dd3ac4aeaf6f"
+    }, {
+      "name" : "Failed: Accept All Cookie Notification not visible.\n                Wait timed out after 20010ms",
+      "children" : [ {
+        "name" : "#6 User can come to the GamCare page from terms and conditions page",
+        "uid" : "dfcc138d5b2d0d",
+        "parentUid" : "245d4fe613008c7ba9c345adbdc1b867",
+        "status" : "failed",
+        "time" : {
+          "start" : 1653647837661,
+          "stop" : 1653647860117,
+          "duration" : 22456
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "245d4fe613008c7ba9c345adbdc1b867"
+    }, {
+      "name" : "Failed: No element found using locator: By(css selector, .takeabreak__secondary-btn)",
+      "children" : [ {
+        "name" : "#3 Player can press 'Back' button of the 'Take A Break' modal and then should be displayed previous step.",
+        "uid" : "20112d315a055f4a",
+        "parentUid" : "7bf1888e08f1e4b513bf77c3b1b0d1da",
+        "status" : "failed",
+        "time" : {
+          "start" : 1653647839095,
+          "stop" : 1653647854619,
+          "duration" : 15524
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7bf1888e08f1e4b513bf77c3b1b0d1da"
+    }, {
+      "name" : "Failed: Accept All Cookie Notification not visible.\n                Wait timed out after 20008ms",
+      "children" : [ {
+        "name" : "#7 After clicking on the first link from 'What personal data do we collect? -> Players', the user should see the page  https://www.merkurslots.com/.",
+        "uid" : "3d5a67a199aa7d54",
+        "parentUid" : "74843955ab08c13d6c4092b531937911",
+        "status" : "failed",
+        "time" : {
+          "start" : 1653647843665,
+          "stop" : 1653647867203,
+          "duration" : 23538
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "#11 The user can use for Malta contact@eyasgaming.com e-mail",
+        "uid" : "3d000287973913e1",
+        "parentUid" : "74843955ab08c13d6c4092b531937911",
+        "status" : "failed",
+        "time" : {
+          "start" : 1653647915736,
+          "stop" : 1653647939041,
+          "duration" : 23305
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "74843955ab08c13d6c4092b531937911"
+    }, {
+      "name" : "Failed: No element found using locator: By(css selector, .takeabreak__footer)",
+      "children" : [ {
+        "name" : "#5 Player cannot continue with 'Take A Break' if a duration is not selected.",
+        "uid" : "21f85d767c46daa9",
+        "parentUid" : "2c91bd4961d76d71cc5f37a6f7c227ad",
+        "status" : "failed",
+        "time" : {
+          "start" : 1653647854621,
+          "stop" : 1653647868906,
+          "duration" : 14285
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2c91bd4961d76d71cc5f37a6f7c227ad"
+    }, {
+      "name" : "Failed: After player chooses option in take a break nothing option selected.\n                Wait timed out after 10009ms",
+      "children" : [ {
+        "name" : "#7 Player can choose 24 hours option for 'Take A Break' and this option should be selected.",
+        "uid" : "b334aa9809142ca8",
+        "parentUid" : "ffe3708884ef44d0a7567c54d27a25fd",
+        "status" : "failed",
+        "time" : {
+          "start" : 1653647868907,
+          "stop" : 1653647894045,
+          "duration" : 25138
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "#11 Player can continue with chosen 24 hours option to 'Take A Break' and confirming modal should display.",
+        "uid" : "7046829353df8aa6",
+        "parentUid" : "ffe3708884ef44d0a7567c54d27a25fd",
+        "status" : "failed",
+        "time" : {
+          "start" : 1653647967543,
+          "stop" : 1653647992984,
+          "duration" : 25441
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ffe3708884ef44d0a7567c54d27a25fd"
+    }, {
+      "name" : "Failed: Accept All Cookie Notification not visible.\n                Wait timed out after 20000ms",
+      "children" : [ {
+        "name" : "#9 After click one of the links from 'Website Visitors', the user should see new page.",
+        "uid" : "321efbeb04e3ec8c",
+        "parentUid" : "94e1c41a41b765a974fc4a5d6ce45d81",
+        "status" : "failed",
+        "time" : {
+          "start" : 1653647878749,
+          "stop" : 1653647905638,
+          "duration" : 26889
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "94e1c41a41b765a974fc4a5d6ce45d81"
+    }, {
+      "name" : "Failed: Request failed with status code 400",
+      "children" : [ {
+        "name" : "#12 Balance preview correctly displays £0.00 if user has no balance",
+        "uid" : "15bbf39bb5c326fe",
+        "parentUid" : "d58f26ac777a5548a1418cbaa13b93c6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1653647889468,
+          "stop" : 1653647895735,
+          "duration" : 6267
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d58f26ac777a5548a1418cbaa13b93c6"
+    }, {
+      "name" : "Failed: After player chooses option in take a break nothing option selected.\n                Wait timed out after 10000ms",
+      "children" : [ {
+        "name" : "#8 Player can choose 1 week option for 'Take A Break' and this option should be selected.",
+        "uid" : "2374b06db78a5164",
+        "parentUid" : "1feb985ae44a677702239b84caa7fa2c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1653647894045,
+          "stop" : 1653647918884,
+          "duration" : 24839
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "#12 Player can continue with chosen 1 week option to 'Take A Break' and confirming modal should display.",
+        "uid" : "9c9192419f454dc",
+        "parentUid" : "1feb985ae44a677702239b84caa7fa2c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1653647992984,
+          "stop" : 1653648016642,
+          "duration" : 23658
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1feb985ae44a677702239b84caa7fa2c"
+    }, {
+      "name" : "Failed: After player chooses option in take a break nothing option selected.\n                Wait timed out after 10013ms",
+      "children" : [ {
+        "name" : "#9 Player can choose 4 weeks option for 'Take A Break' and this option should be selected.",
+        "uid" : "2ed5c25b2fcbdc1",
+        "parentUid" : "61961a36d1f6b532b58b4f63d84e697c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1653647918884,
+          "stop" : 1653647943394,
+          "duration" : 24510
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "61961a36d1f6b532b58b4f63d84e697c"
+    }, {
+      "name" : "Failed: Hero banner carousel button is not visible.\n                Wait timed out after 3018ms",
+      "children" : [ {
+        "name" : "#2 User can see hero banner carousel and can scroll it",
+        "uid" : "b41812adb9e5f825",
+        "parentUid" : "a907d61df0bb0c082d3b33021d6d5807",
+        "status" : "failed",
+        "time" : {
+          "start" : 1653647940369,
+          "stop" : 1653647948449,
+          "duration" : 8080
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a907d61df0bb0c082d3b33021d6d5807"
+    }, {
+      "name" : "Failed: After player chooses option in take a break nothing option selected.\n                Wait timed out after 10005ms",
+      "children" : [ {
+        "name" : "#10 Player can choose 6 weeks option for 'Take A Break' and this option should be selected.",
+        "uid" : "13f9eb3a86659d8f",
+        "parentUid" : "415d84c03fc30dfa1c79961deb06f19c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1653647943395,
+          "stop" : 1653647967542,
+          "duration" : 24147
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "415d84c03fc30dfa1c79961deb06f19c"
+    }, {
+      "name" : "Failed: No element found using locator: By(css selector, *[id=\"_uk_en_legal_terms-and-conditions_jcr_content_root_aemnavcomponent_experiencefragment_root_text\"])",
+      "children" : [ {
+        "name" : "#21 User can see the Responsible Gambling section on terms and conditions page",
+        "uid" : "b143c7a23a5b1e75",
+        "parentUid" : "3154dba0a5bdf001cffc65baa1043d65",
+        "status" : "failed",
+        "time" : {
+          "start" : 1653647978956,
+          "stop" : 1653647984901,
+          "duration" : 5945
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3154dba0a5bdf001cffc65baa1043d65"
+    }, {
+      "name" : "Expected 'You have successfully requested to increase your weekly deposit limit to £200.50. We'll ask you to confirm your new limit in 24 hours.' to contain 'You have successfully requested to increase your weekly deposit limit to £500.50. We'll ask you to confirm your new limit in 24 hours.', 'Success snackbar has incorrect text/amount.'.",
+      "children" : [ {
+        "name" : "#15 Player can successfully change Deposit Limit with a decimal value and receive a success toast on submitting the new amount.",
+        "uid" : "36d72efc45eb466c",
+        "parentUid" : "11e8141be4b83cd70541f69ddea97aa8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1653648006857,
+          "stop" : 1653648030234,
+          "duration" : 23377
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "11e8141be4b83cd70541f69ddea97aa8"
+    }, {
+      "name" : "Failed: After player chooses option in take a break nothing option selected.\n                Wait timed out after 10001ms",
+      "children" : [ {
+        "name" : "#13 Player can continue with chosen 4 weeks option to 'Take A Break' and confirming modal should display.",
+        "uid" : "4d97fa1a9237dc13",
+        "parentUid" : "2796039fdba0a58374e733471159f53c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1653648016642,
+          "stop" : 1653648039369,
+          "duration" : 22727
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "#14 Player can continue with chosen 6 weeks option to 'Take A Break' and confirming modal should display.",
+        "uid" : "5d00fb9acb828a2c",
+        "parentUid" : "2796039fdba0a58374e733471159f53c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1653648039369,
+          "stop" : 1653648060321,
+          "duration" : 20952
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "#16 Player can press 'BACK' for confirmating modal after chosen for 24 hours 'Take A Break' and should return to previous step.",
+        "uid" : "62934f3a9bbd9829",
+        "parentUid" : "2796039fdba0a58374e733471159f53c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1653648071508,
+          "stop" : 1653648092468,
+          "duration" : 20960
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2796039fdba0a58374e733471159f53c"
+    }, {
+      "name" : "Expected 'Remaining £200' to contain 'Remaining £500', 'Daily Deposit Limit has incorrect value.'.",
+      "children" : [ {
+        "name" : "#18 Player can submit a blank value in the Deposit Limits.",
+        "uid" : "22f3dee43bd75cbb",
+        "parentUid" : "206044bce8881514c38d0ed607422767",
+        "status" : "failed",
+        "time" : {
+          "start" : 1653648030236,
+          "stop" : 1653648045354,
+          "duration" : 15118
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "206044bce8881514c38d0ed607422767"
+    }, {
+      "name" : "Failed: No element found using locator: By(css selector, .takeabreak__link)",
+      "children" : [ {
+        "name" : "#15 Player can choose to view the 'Self Exclusion' service from the 'Take A Break' modal.",
+        "uid" : "82cafbb6762ea60d",
+        "parentUid" : "1e386df1565bf8438d469062e3f3b18b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1653648060321,
+          "stop" : 1653648071508,
+          "duration" : 11187
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1e386df1565bf8438d469062e3f3b18b"
+    }, {
+      "name" : "Failed: After player chooses option in take a break nothing option selected.\n                Wait timed out after 10003ms",
+      "children" : [ {
+        "name" : "#17 Player can close the take a break modal.",
+        "uid" : "c712f32ccd91a3c3",
+        "parentUid" : "1f4290ab6b09c49d810100dcff80926e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1653648092468,
+          "stop" : 1653648113792,
+          "duration" : 21324
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1f4290ab6b09c49d810100dcff80926e"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}
