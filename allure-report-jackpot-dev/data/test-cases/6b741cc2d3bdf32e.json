@@ -1,0 +1,79 @@
+{
+  "uid" : "6b741cc2d3bdf32e",
+  "name" : "#01 Player can successfully logout.",
+  "fullName" : "Logout.#01 Player can successfully logout.",
+  "historyId" : "da132ef4045599efb5af2e72f1969e25",
+  "time" : {
+    "start" : 1653969685224,
+    "stop" : 1653969691330,
+    "duration" : 6106
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expected 'Log out\n                Last Log in 31/05/2022 | 07:01' to be 'Log out', 'Logout link has incorrect text.'.",
+  "statusTrace" : "Error: Failed expectation\n                    at UserContext.<anonymous> (/home/dev/azure/eyas-test-automation/src/test/logout.spec.js:55:52)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expected 'Log out\n                Last Log in 31/05/2022 | 07:01' to be 'Log out', 'Logout link has incorrect text.'.",
+    "statusTrace" : "Error: Failed expectation\n                    at UserContext.<anonymous> (/home/dev/azure/eyas-test-automation/src/test/logout.spec.js:55:52)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "8adc746fc1d2d3af",
+      "name" : "Screenshot",
+      "source" : "8adc746fc1d2d3af.png",
+      "type" : "image/png",
+      "size" : 867662
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Logout"
+  }, {
+    "name" : "testClass",
+    "value" : "Logout"
+  }, {
+    "name" : "testMethod",
+    "value" : "#01 Player can successfully logout."
+  }, {
+    "name" : "package",
+    "value" : "Logout"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "eda1d115f967bed5",
+      "status" : "failed",
+      "statusDetails" : "Expected 'Log out\n                Last Log in 31/05/2022 | 07:01' to be 'Log out', 'Logout link has incorrect text.'.",
+      "time" : {
+        "start" : 1653969669353,
+        "stop" : 1653969676137,
+        "duration" : 6784
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "6b741cc2d3bdf32e.json",
+  "parameterValues" : [ ]
+}
