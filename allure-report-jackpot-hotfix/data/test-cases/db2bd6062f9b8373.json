@@ -1,0 +1,79 @@
+{
+  "uid" : "db2bd6062f9b8373",
+  "name" : "#5 User can see on hero banner carousel primary button CTA, can click on it and see game info page",
+  "fullName" : "Slots page.#5 User can see on hero banner carousel primary button CTA, can click on it and see game info page",
+  "historyId" : "37c0f7c9a747cc3a60d4883ce2317f6d",
+  "time" : {
+    "start" : 1654083536154,
+    "stop" : 1654083537119,
+    "duration" : 965
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Failed: No element found using locator: By(css selector, .button--primary)",
+  "statusTrace" : "NoSuchElementError: No element found using locator: By(css selector, .button--primary)\n                    at /home/dev/azure/eyas-test-automation/node_modules/protractor/built/element.js:814:27\n                    at ManagedPromise.invokeCallback_ (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:1376:14)\n                    at TaskQueue.execute_ (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n                    at TaskQueue.executeNext_ (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n                    at /home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2927:27\n                    at /home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:668:7\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)Error\n                    at ElementArrayFinder.applyAction_ (/home/dev/azure/eyas-test-automation/node_modules/protractor/built/element.js:459:27)\n                    at ElementArrayFinder.<computed> [as isDisplayed] (/home/dev/azure/eyas-test-automation/node_modules/protractor/built/element.js:91:29)\n                    at ElementFinder.<computed> [as isDisplayed] (/home/dev/azure/eyas-test-automation/node_modules/protractor/built/element.js:831:22)\n                    at UserContext.<anonymous> (/home/dev/azure/eyas-test-automation/src/test/slots/slotsPage.spec.js:192:42)\n                    at /home/dev/azure/eyas-test-automation/node_modules/jasminewd2/index.js:112:25\n                    at new ManagedPromise (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:1077:7)\n                    at ControlFlow.promise (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2505:12)\n                    at schedulerExecute (/home/dev/azure/eyas-test-automation/node_modules/jasminewd2/index.js:95:18)\n                    at TaskQueue.execute_ (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n                    at TaskQueue.executeNext_ (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n                From: Task: Run it(\"#5 User can see on hero banner carousel primary button CTA, can click on it and see game info page\") in control flow\n                    at UserContext.<anonymous> (/home/dev/azure/eyas-test-automation/node_modules/jasminewd2/index.js:94:19)\n                    at attempt (/home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4297:26)\n                    at QueueRunner.run (/home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4217:20)\n                    at runNext (/home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4257:20)\n                    at /home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4264:13\n                    at /home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4172:9\n                    at /home/dev/azure/eyas-test-automation/node_modules/jasminewd2/index.js:64:48\n                    at ControlFlow.emit (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/events.js:62:21)\n                    at ControlFlow.shutdown_ (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2674:10)\n                    at /home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2599:53\n                From asynchronous test: \n                Error\n                    at Suite.<anonymous> (/home/dev/azure/eyas-test-automation/src/test/slots/slotsPage.spec.js:183:3)\n                    at addSpecsToSuite (/home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1107:25)\n                    at Env.describe (/home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1074:7)\n                    at describe (/home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4399:18)\n                    at Object.<anonymous> (/home/dev/azure/eyas-test-automation/src/test/slots/slotsPage.spec.js:44:1)\n                    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n                    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n                    at Module.load (node:internal/modules/cjs/loader:981:32)\n                    at Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Failed: No element found using locator: By(css selector, .button--primary)",
+    "statusTrace" : "NoSuchElementError: No element found using locator: By(css selector, .button--primary)\n                    at /home/dev/azure/eyas-test-automation/node_modules/protractor/built/element.js:814:27\n                    at ManagedPromise.invokeCallback_ (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:1376:14)\n                    at TaskQueue.execute_ (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n                    at TaskQueue.executeNext_ (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n                    at /home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2927:27\n                    at /home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:668:7\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)Error\n                    at ElementArrayFinder.applyAction_ (/home/dev/azure/eyas-test-automation/node_modules/protractor/built/element.js:459:27)\n                    at ElementArrayFinder.<computed> [as isDisplayed] (/home/dev/azure/eyas-test-automation/node_modules/protractor/built/element.js:91:29)\n                    at ElementFinder.<computed> [as isDisplayed] (/home/dev/azure/eyas-test-automation/node_modules/protractor/built/element.js:831:22)\n                    at UserContext.<anonymous> (/home/dev/azure/eyas-test-automation/src/test/slots/slotsPage.spec.js:192:42)\n                    at /home/dev/azure/eyas-test-automation/node_modules/jasminewd2/index.js:112:25\n                    at new ManagedPromise (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:1077:7)\n                    at ControlFlow.promise (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2505:12)\n                    at schedulerExecute (/home/dev/azure/eyas-test-automation/node_modules/jasminewd2/index.js:95:18)\n                    at TaskQueue.execute_ (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n                    at TaskQueue.executeNext_ (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n                From: Task: Run it(\"#5 User can see on hero banner carousel primary button CTA, can click on it and see game info page\") in control flow\n                    at UserContext.<anonymous> (/home/dev/azure/eyas-test-automation/node_modules/jasminewd2/index.js:94:19)\n                    at attempt (/home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4297:26)\n                    at QueueRunner.run (/home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4217:20)\n                    at runNext (/home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4257:20)\n                    at /home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4264:13\n                    at /home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4172:9\n                    at /home/dev/azure/eyas-test-automation/node_modules/jasminewd2/index.js:64:48\n                    at ControlFlow.emit (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/events.js:62:21)\n                    at ControlFlow.shutdown_ (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2674:10)\n                    at /home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2599:53\n                From asynchronous test: \n                Error\n                    at Suite.<anonymous> (/home/dev/azure/eyas-test-automation/src/test/slots/slotsPage.spec.js:183:3)\n                    at addSpecsToSuite (/home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1107:25)\n                    at Env.describe (/home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1074:7)\n                    at describe (/home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4399:18)\n                    at Object.<anonymous> (/home/dev/azure/eyas-test-automation/src/test/slots/slotsPage.spec.js:44:1)\n                    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n                    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n                    at Module.load (node:internal/modules/cjs/loader:981:32)\n                    at Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "57cdd2af3055575c",
+      "name" : "Screenshot",
+      "source" : "57cdd2af3055575c.png",
+      "type" : "image/png",
+      "size" : 63854
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Slots page"
+  }, {
+    "name" : "testClass",
+    "value" : "Slots page"
+  }, {
+    "name" : "testMethod",
+    "value" : "#5 User can see on hero banner carousel primary button CTA, can click on it and see game info page"
+  }, {
+    "name" : "package",
+    "value" : "Slots page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "842e2ae9d3fc6740",
+      "status" : "failed",
+      "statusDetails" : "Failed: No element found using locator: By(css selector, .button--primary)",
+      "time" : {
+        "start" : 1654083063166,
+        "stop" : 1654083065805,
+        "duration" : 2639
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "db2bd6062f9b8373.json",
+  "parameterValues" : [ ]
+}
