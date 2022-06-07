@@ -1,0 +1,79 @@
+{
+  "uid" : "86edac65d5d37f8e",
+  "name" : "#4 User can see game carousel and can scroll it",
+  "fullName" : "Slots page.#4 User can see game carousel and can scroll it",
+  "historyId" : "591014d289e65375afcb36f9ae4899e9",
+  "time" : {
+    "start" : 1654623286781,
+    "stop" : 1654623290038,
+    "duration" : 3257
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expected false to be true, 'Last game slide is not displayed'.",
+  "statusTrace" : "Error: Failed expectation\n                    at UserContext.<anonymous> (/home/dev/azure/eyas-test-automation/src/test/slots/slotsPage.spec.js:176:57)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expected false to be true, 'Last game slide is not displayed'.",
+    "statusTrace" : "Error: Failed expectation\n                    at UserContext.<anonymous> (/home/dev/azure/eyas-test-automation/src/test/slots/slotsPage.spec.js:176:57)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f2e39008da04aba9",
+      "name" : "Screenshot",
+      "source" : "f2e39008da04aba9.png",
+      "type" : "image/png",
+      "size" : 810580
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Slots page"
+  }, {
+    "name" : "testClass",
+    "value" : "Slots page"
+  }, {
+    "name" : "testMethod",
+    "value" : "#4 User can see game carousel and can scroll it"
+  }, {
+    "name" : "package",
+    "value" : "Slots page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "5e8525cdeb03cb6b",
+      "status" : "failed",
+      "statusDetails" : "Expected false to be true, 'Last game slide is not displayed'.",
+      "time" : {
+        "start" : 1654622920856,
+        "stop" : 1654622923947,
+        "duration" : 3091
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "86edac65d5d37f8e.json",
+  "parameterValues" : [ ]
+}
