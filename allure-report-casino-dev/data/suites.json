@@ -2,34 +2,5957 @@
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
   "name" : "suites",
   "children" : [ {
+    "name" : "Service unavailable",
+    "children" : [ {
+      "name" : "#0 User come to the Location Error page, when service is unavailable",
+      "uid" : "94f10985c046239b",
+      "parentUid" : "adcdd05974025f01fb20b4ab49492397",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654778928809,
+        "stop" : 1654778933709,
+        "duration" : 4900
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#0 User come to the Error 500 page, when service is unavailable",
+      "uid" : "178a67e8ebd9723c",
+      "parentUid" : "adcdd05974025f01fb20b4ab49492397",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654778929157,
+        "stop" : 1654778935011,
+        "duration" : 5854
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#1 The user is on the Location Error page",
+      "uid" : "ae7a40ab8d2aadeb",
+      "parentUid" : "adcdd05974025f01fb20b4ab49492397",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654778933710,
+        "stop" : 1654778935584,
+        "duration" : 1874
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#1 User can come to the home page from Error 500 page",
+      "uid" : "2ab21db411ac8ed1",
+      "parentUid" : "adcdd05974025f01fb20b4ab49492397",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654778935011,
+        "stop" : 1654778938706,
+        "duration" : 3695
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "adcdd05974025f01fb20b4ab49492397"
+  }, {
+    "name" : "User come to the 'Planned Maintenance' error page",
+    "children" : [ {
+      "name" : "#0 User come to the \"Planned Maintenance\" error page",
+      "uid" : "fa373551f7c5f32",
+      "parentUid" : "e52b0c332c4374c0657ead1b7b3aa50b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654778929196,
+        "stop" : 1654778933297,
+        "duration" : 4101
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#1 Content of \"Planned Maintenance\" error page",
+      "uid" : "f01e327f9b67d163",
+      "parentUid" : "e52b0c332c4374c0657ead1b7b3aa50b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654778933297,
+        "stop" : 1654778935189,
+        "duration" : 1892
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#2 User can come to the Home page from \"Planned Maintenance\" error page",
+      "uid" : "cd4548d0bacd38fc",
+      "parentUid" : "e52b0c332c4374c0657ead1b7b3aa50b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654778935189,
+        "stop" : 1654778937043,
+        "duration" : 1854
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "e52b0c332c4374c0657ead1b7b3aa50b"
+  }, {
+    "name" : "Expired Link Error",
+    "children" : [ {
+      "name" : "#1 Expired Link Error page is displayed",
+      "uid" : "cbed9d1eb35a90f6",
+      "parentUid" : "28682ee202b29beaa3c4ec7b2b8d67f1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654778942164,
+        "stop" : 1654778944036,
+        "duration" : 1872
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#2 All elements are persisted on the page. ",
+      "uid" : "be2e84179f8309ff",
+      "parentUid" : "28682ee202b29beaa3c4ec7b2b8d67f1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654778944036,
+        "stop" : 1654778945292,
+        "duration" : 1256
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#3 User can come to the Home page from \"Expired Link\" error page. ",
+      "uid" : "f99f5d2b3893025c",
+      "parentUid" : "28682ee202b29beaa3c4ec7b2b8d67f1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654778945292,
+        "stop" : 1654778947298,
+        "duration" : 2006
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#4 User can click on Join button and see Register page. ",
+      "uid" : "29765da894e6599d",
+      "parentUid" : "28682ee202b29beaa3c4ec7b2b8d67f1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654778947298,
+        "stop" : 1654778949886,
+        "duration" : 2588
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#5 User can click on Login button and see Login page. ",
+      "uid" : "4a7f485ffe1b5587",
+      "parentUid" : "28682ee202b29beaa3c4ec7b2b8d67f1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654778949886,
+        "stop" : 1654778951956,
+        "duration" : 2070
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#6 User can click on Recover Password button and see Reset your password window ",
+      "uid" : "96fbcf9118d8108d",
+      "parentUid" : "28682ee202b29beaa3c4ec7b2b8d67f1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654778951956,
+        "stop" : 1654778954714,
+        "duration" : 2758
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#7 User can click on x button and close reset password window. ",
+      "uid" : "ac55895b532541be",
+      "parentUid" : "28682ee202b29beaa3c4ec7b2b8d67f1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654778954715,
+        "stop" : 1654778957317,
+        "duration" : 2602
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#8 User can enter an email and reset the password (Sent button with a tick will be displayed).",
+      "uid" : "7ef7b255fefeca56",
+      "parentUid" : "28682ee202b29beaa3c4ec7b2b8d67f1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654778957317,
+        "stop" : 1654778962051,
+        "duration" : 4734
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#9 User can click on 'Back to Login' and open Login window and successfully login.",
+      "uid" : "b9d0c873b13f8ef4",
+      "parentUid" : "28682ee202b29beaa3c4ec7b2b8d67f1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654778962051,
+        "stop" : 1654778971377,
+        "duration" : 9326
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#10 User can click on 'Deposit' button opens Deposit window",
+      "uid" : "97d223c5617c29ca",
+      "parentUid" : "28682ee202b29beaa3c4ec7b2b8d67f1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654778971377,
+        "stop" : 1654778982039,
+        "duration" : 10662
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "28682ee202b29beaa3c4ec7b2b8d67f1"
+  }, {
+    "name" : "Landing Page/Welcome Offer page",
+    "children" : [ {
+      "name" : "#1 User come to the Welcome Offer page ",
+      "uid" : "45cde976293d15cc",
+      "parentUid" : "9b2348ed49f3c5360667009270b533b5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654778945496,
+        "stop" : 1654778949180,
+        "duration" : 3684
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#2 User try to Join at Welcome Offer page",
+      "uid" : "313ff81460a92073",
+      "parentUid" : "9b2348ed49f3c5360667009270b533b5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654778949180,
+        "stop" : 1654778952642,
+        "duration" : 3462
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#3 User clicks on \"Be Aware Gambling\" image at Welcome Offer page",
+      "uid" : "9931d38962018dcb",
+      "parentUid" : "9b2348ed49f3c5360667009270b533b5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654778952642,
+        "stop" : 1654778967128,
+        "duration" : 14486
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#4 User clicks on \"Be Aware Gambling\" link at Welcome Offer page",
+      "uid" : "13d2e23b8495820f",
+      "parentUid" : "9b2348ed49f3c5360667009270b533b5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654778967128,
+        "stop" : 1654778971301,
+        "duration" : 4173
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#5 User try to click on PLAY CTA of Popular game at Welcome Offer page",
+      "uid" : "da67889ad8e7a885",
+      "parentUid" : "9b2348ed49f3c5360667009270b533b5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654778971301,
+        "stop" : 1654778977981,
+        "duration" : 6680
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#6 User can click on the WELCOME BONUS FULL TERMS AND CONDITIONS",
+      "uid" : "ba3b10564258fdce",
+      "parentUid" : "9b2348ed49f3c5360667009270b533b5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654778977981,
+        "stop" : 1654778980800,
+        "duration" : 2819
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#7 User can come to the \"Be Gambling Aware\" site from the Welcome Offer page",
+      "uid" : "550a9284c193c6b2",
+      "parentUid" : "9b2348ed49f3c5360667009270b533b5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654778980800,
+        "stop" : 1654778984413,
+        "duration" : 3613
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#8 User can come to the Promotion page from the Welcome Offer page",
+      "uid" : "f94d201287cd1c63",
+      "parentUid" : "9b2348ed49f3c5360667009270b533b5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654778984414,
+        "stop" : 1654778988639,
+        "duration" : 4225
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#9 User can come to the Terms & Conditions page from the Welcome Offer page",
+      "uid" : "564bddfe4b1a7191",
+      "parentUid" : "9b2348ed49f3c5360667009270b533b5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654778988639,
+        "stop" : 1654778991161,
+        "duration" : 2522
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "9b2348ed49f3c5360667009270b533b5"
+  }, {
+    "name" : "Homepage",
+    "children" : [ {
+      "name" : "#1 Player can navigate to the registration page via the 'Join'.",
+      "uid" : "281f644183edb314",
+      "parentUid" : "a42c9f51ba1bf76b8f087ce0758272d2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654778950332,
+        "stop" : 1654778955026,
+        "duration" : 4694
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#2 Authenticated users can preview their balance in the navigation bar",
+      "uid" : "c189a6640046653b",
+      "parentUid" : "a42c9f51ba1bf76b8f087ce0758272d2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654778955026,
+        "stop" : 1654778966977,
+        "duration" : 11951
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#3 The detailed balance card is shown when the dropdown chevron is clicked",
+      "uid" : "bd55f795502f5dc1",
+      "parentUid" : "a42c9f51ba1bf76b8f087ce0758272d2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654778966977,
+        "stop" : 1654778981200,
+        "duration" : 14223
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#4 The details balance card is dismissed when the user clicks it",
+      "uid" : "8dde021cc47acad0",
+      "parentUid" : "a42c9f51ba1bf76b8f087ce0758272d2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654778981200,
+        "stop" : 1654778993784,
+        "duration" : 12584
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#5 The details balance card is dismissed when the user clicks outside the modal",
+      "uid" : "894c8df804f97e2",
+      "parentUid" : "a42c9f51ba1bf76b8f087ce0758272d2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654778993784,
+        "stop" : 1654779006525,
+        "duration" : 12741
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#6 The details balance card is dismissed when the user clicks and drags the footer",
+      "uid" : "5bc0094fa5073012",
+      "parentUid" : "a42c9f51ba1bf76b8f087ce0758272d2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779006525,
+        "stop" : 1654779019947,
+        "duration" : 13422
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#7 Balance preview updates correctly upon refresh when a users balance is adjusted",
+      "uid" : "f32ea1dba0190f2e",
+      "parentUid" : "a42c9f51ba1bf76b8f087ce0758272d2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779019947,
+        "stop" : 1654779033654,
+        "duration" : 13707
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#8 Cash amount is updated correctly in the dropdown details when cash balance is adjusted",
+      "uid" : "ddd1b85dfb290ef2",
+      "parentUid" : "a42c9f51ba1bf76b8f087ce0758272d2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779033654,
+        "stop" : 1654779051675,
+        "duration" : 18021
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#9 Bonus amount is updated correctly in the dropdown details when bonus balance is adjusted",
+      "uid" : "2c950cb8d9f66031",
+      "parentUid" : "a42c9f51ba1bf76b8f087ce0758272d2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779051675,
+        "stop" : 1654779067510,
+        "duration" : 15835
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#10 User is displayed with a shortened balance in the preview section when balance exceeds 9999 (five figure balance)",
+      "uid" : "5f7825940b7a75ce",
+      "parentUid" : "a42c9f51ba1bf76b8f087ce0758272d2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779067511,
+        "stop" : 1654779078200,
+        "duration" : 10689
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#11 User is displayed with the correct cash balance format in the dropdown card when balance exceeds 9999 (five figure balance)",
+      "uid" : "2caa49dd6dfb57e9",
+      "parentUid" : "a42c9f51ba1bf76b8f087ce0758272d2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779078200,
+        "stop" : 1654779090743,
+        "duration" : 12543
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#12 Balance preview correctly displays £0.00 if user has no balance",
+      "uid" : "31d96db4728fa50e",
+      "parentUid" : "a42c9f51ba1bf76b8f087ce0758272d2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779090744,
+        "stop" : 1654779103587,
+        "duration" : 12843
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#13 Balance details still correctly display balance of £0.00 if user has no cash balance",
+      "uid" : "d3366feb8d23a1cc",
+      "parentUid" : "a42c9f51ba1bf76b8f087ce0758272d2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779103587,
+        "stop" : 1654779118023,
+        "duration" : 14436
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#14 Casino amount does not display when total bonus amount is zero and displays correct total balance of £0.00",
+      "uid" : "665ebb35dc94aa02",
+      "parentUid" : "a42c9f51ba1bf76b8f087ce0758272d2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779118023,
+        "stop" : 1654779128938,
+        "duration" : 10915
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "a42c9f51ba1bf76b8f087ce0758272d2"
+  }, {
+    "name" : "Inbox functionality testing",
+    "children" : [ {
+      "name" : "#1 Unread message count is present on Inbox navigation bar icon if player has unread messages",
+      "uid" : "72e7809d7217527",
+      "parentUid" : "b43aacbefc9b314322baed7d29ca656e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654778967561,
+        "stop" : 1654778975283,
+        "duration" : 7722
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#2 Unread message count increases when player receives a new message (requires page refresh)",
+      "uid" : "fcd62313c6183982",
+      "parentUid" : "b43aacbefc9b314322baed7d29ca656e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654778975283,
+        "stop" : 1654778986191,
+        "duration" : 10908
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#3 New messages are marked with a NEW message sticker",
+      "uid" : "28793d5531b1705f",
+      "parentUid" : "b43aacbefc9b314322baed7d29ca656e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654778986191,
+        "stop" : 1654778995494,
+        "duration" : 9303
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#4 Player can see their message list, with messages displaying the correct information (if messages > 1)",
+      "uid" : "cf470a61b2cb1947",
+      "parentUid" : "b43aacbefc9b314322baed7d29ca656e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654778995494,
+        "stop" : 1654779005529,
+        "duration" : 10035
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#5 Player can open message, removing the new badge from a message and decreasing the unread message count badge",
+      "uid" : "22a2fe82fb4a2e",
+      "parentUid" : "b43aacbefc9b314322baed7d29ca656e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779005529,
+        "stop" : 1654779015487,
+        "duration" : 9958
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#6 Player can open message and display the message contents (heading, date/time & body)",
+      "uid" : "5dc9f75d9d798417",
+      "parentUid" : "b43aacbefc9b314322baed7d29ca656e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779015487,
+        "stop" : 1654779026974,
+        "duration" : 11487
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#7 Player can mark a message as read using the message options, removing the new badge from a message and decreasing the unread message count badge",
+      "uid" : "cfdc1342a4eefb0c",
+      "parentUid" : "b43aacbefc9b314322baed7d29ca656e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779026974,
+        "stop" : 1654779041355,
+        "duration" : 14381
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#8 Player with 15 or more messages, view more button is shown",
+      "uid" : "34de3bbc825cb5b8",
+      "parentUid" : "b43aacbefc9b314322baed7d29ca656e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779041355,
+        "stop" : 1654779050348,
+        "duration" : 8993
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#9 Player is presented with an updated list of messages when clicking view more button",
+      "uid" : "fd91ddfc6b53305",
+      "parentUid" : "b43aacbefc9b314322baed7d29ca656e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779050348,
+        "stop" : 1654779064448,
+        "duration" : 14100
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#10 Deleting a message from the inbox which is marked as new should decrease the unread message count badge",
+      "uid" : "9c3881b893bfb089",
+      "parentUid" : "b43aacbefc9b314322baed7d29ca656e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779064448,
+        "stop" : 1654779084623,
+        "duration" : 20175
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#11 Player can delete a message using the message options, removing it from the list",
+      "uid" : "73905494e54beefa",
+      "parentUid" : "b43aacbefc9b314322baed7d29ca656e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779084623,
+        "stop" : 1654779094858,
+        "duration" : 10235
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#12 Player with less than 15 messages should not be able to view more",
+      "uid" : "560587e9f61d5a83",
+      "parentUid" : "b43aacbefc9b314322baed7d29ca656e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779094859,
+        "stop" : 1654779103319,
+        "duration" : 8460
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#13 Unread message count is not present on Inbox navigation bar icon if no messages",
+      "uid" : "ee5643afb02dc322",
+      "parentUid" : "b43aacbefc9b314322baed7d29ca656e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779103319,
+        "stop" : 1654779112637,
+        "duration" : 9318
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#14 Unread message count is not present on Inbox navigation bar icon if player has no unread messages",
+      "uid" : "7e088e810c7d2cca",
+      "parentUid" : "b43aacbefc9b314322baed7d29ca656e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779112637,
+        "stop" : 1654779119764,
+        "duration" : 7127
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#15 Player is presented with an Empty Inbox image if the Inbox is empty (rather than a heading & message list)",
+      "uid" : "d6ec02430a13d806",
+      "parentUid" : "b43aacbefc9b314322baed7d29ca656e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779119764,
+        "stop" : 1654779128974,
+        "duration" : 9210
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "b43aacbefc9b314322baed7d29ca656e"
+  }, {
+    "name" : "Landing Page/Shop Welcome page",
+    "children" : [ {
+      "name" : "#1 User come to the Shop Welcome page ",
+      "uid" : "64ad53fa42d26c1e",
+      "parentUid" : "fc139899c474ceffb034687689425a36",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654778991179,
+        "stop" : 1654778994143,
+        "duration" : 2964
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#2 User try to Join at Shop Welcome page",
+      "uid" : "5557895ee31048dd",
+      "parentUid" : "fc139899c474ceffb034687689425a36",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654778994143,
+        "stop" : 1654778998160,
+        "duration" : 4017
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#3 User clicks on \"Be Aware Gambling\" image at Shop Welcome page",
+      "uid" : "f869155804ea006f",
+      "parentUid" : "fc139899c474ceffb034687689425a36",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654778998160,
+        "stop" : 1654779001566,
+        "duration" : 3406
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#4 User clicks on \"Be Aware Gambling\" link at Shop Welcome page",
+      "uid" : "e1cd5ec8279d14c2",
+      "parentUid" : "fc139899c474ceffb034687689425a36",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779001566,
+        "stop" : 1654779004775,
+        "duration" : 3209
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#5 User try to click on PLAY CTA of Popular game at Shop Welcome page",
+      "uid" : "420f584d28ce39c0",
+      "parentUid" : "fc139899c474ceffb034687689425a36",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779004775,
+        "stop" : 1654779012305,
+        "duration" : 7530
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#6 User can click on the WELCOME BONUS FULL TERMS AND CONDITIONS",
+      "uid" : "8d879f8c86c9c48a",
+      "parentUid" : "fc139899c474ceffb034687689425a36",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779012305,
+        "stop" : 1654779015722,
+        "duration" : 3417
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#7 User can come to the \"Be Gambling Aware\" site from the Shop Welcome page",
+      "uid" : "894a50f5560c3d87",
+      "parentUid" : "fc139899c474ceffb034687689425a36",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779015722,
+        "stop" : 1654779018914,
+        "duration" : 3192
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#8 User can come to the Promotion page from the Shop Welcome page",
+      "uid" : "2f71cf22212199e7",
+      "parentUid" : "fc139899c474ceffb034687689425a36",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779018915,
+        "stop" : 1654779023265,
+        "duration" : 4350
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#9 User can come to the Terms & Conditions page from the Shop Welcome page",
+      "uid" : "a8ed9b730da8625a",
+      "parentUid" : "fc139899c474ceffb034687689425a36",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779023265,
+        "stop" : 1654779026560,
+        "duration" : 3295
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "fc139899c474ceffb034687689425a36"
+  }, {
+    "name" : "Log In",
+    "children" : [ {
+      "name" : "#01 Player can open the Log In modal and is displayed with the correct fields.",
+      "uid" : "f14722362a980dd",
+      "parentUid" : "c3ecff216bf67638facf1a827f3d5482",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779042860,
+        "stop" : 1654779051626,
+        "duration" : 8766
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#02 Email Address is a mandatory field.",
+      "uid" : "e838538ec878de01",
+      "parentUid" : "c3ecff216bf67638facf1a827f3d5482",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779051626,
+        "stop" : 1654779061288,
+        "duration" : 9662
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#03 Password field is a mandatory field.",
+      "uid" : "c2ae75bce6eedf6e",
+      "parentUid" : "c3ecff216bf67638facf1a827f3d5482",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779061288,
+        "stop" : 1654779070024,
+        "duration" : 8736
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#04 Player cannot submit blank details on the Login Form.",
+      "uid" : "11716a5c2b58efa9",
+      "parentUid" : "c3ecff216bf67638facf1a827f3d5482",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779070024,
+        "stop" : 1654779079332,
+        "duration" : 9308
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#05 Player can close the login modal.",
+      "uid" : "9252770accfd9111",
+      "parentUid" : "c3ecff216bf67638facf1a827f3d5482",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779079332,
+        "stop" : 1654779088085,
+        "duration" : 8753
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#06 Player cannot login when entering an incorrect email address.",
+      "uid" : "c658a7a36e6bd025",
+      "parentUid" : "c3ecff216bf67638facf1a827f3d5482",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779088085,
+        "stop" : 1654779097001,
+        "duration" : 8916
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#07 Player cannot login when entering an incorrect password.",
+      "uid" : "996e178bcccebdc",
+      "parentUid" : "c3ecff216bf67638facf1a827f3d5482",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779097001,
+        "stop" : 1654779107287,
+        "duration" : 10286
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#12 Players inputs into the password field should be masked by default.",
+      "uid" : "9014c1e6922cf549",
+      "parentUid" : "c3ecff216bf67638facf1a827f3d5482",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779107288,
+        "stop" : 1654779115207,
+        "duration" : 7919
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#13 Player should be able to show/hide their input into the Password field.",
+      "uid" : "e62782c684fe35f5",
+      "parentUid" : "c3ecff216bf67638facf1a827f3d5482",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779115207,
+        "stop" : 1654779122476,
+        "duration" : 7269
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#14 Player can select the link to recover their password.",
+      "uid" : "98bd44cece29e8cd",
+      "parentUid" : "c3ecff216bf67638facf1a827f3d5482",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779122476,
+        "stop" : 1654779129776,
+        "duration" : 7300
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#15 Player can successfully Log In when entering valid details.",
+      "uid" : "63b7d664c250b0f3",
+      "parentUid" : "c3ecff216bf67638facf1a827f3d5482",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779129776,
+        "stop" : 1654779141283,
+        "duration" : 11507
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "c3ecff216bf67638facf1a827f3d5482"
+  }, {
+    "name" : "Deep Link -> Change Password",
+    "children" : [ {
+      "name" : "#1 Deep link to change password opens when logged in",
+      "uid" : "ba49035f26b91359",
+      "parentUid" : "a1cb80450ca1706ab42486513d403784",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779138910,
+        "stop" : 1654779154183,
+        "duration" : 15273
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#2 Deep link to change password open login when not logged in before change password",
+      "uid" : "4ccae1a7783bc9d5",
+      "parentUid" : "a1cb80450ca1706ab42486513d403784",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779154184,
+        "stop" : 1654779166491,
+        "duration" : 12307
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "a1cb80450ca1706ab42486513d403784"
+  }, {
+    "name" : "Deep Link -> Deposit Limits",
+    "children" : [ {
+      "name" : "#1 Deep link to deposit limits opens when logged in",
+      "uid" : "ceed7797884298aa",
+      "parentUid" : "04dbac7b607fe20f0ca900eb496e2a3c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779143823,
+        "stop" : 1654779157958,
+        "duration" : 14135
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#2 Deep link to deposit limits open login when not logged in before deposit limits",
+      "uid" : "8e4c8f11efc340c8",
+      "parentUid" : "04dbac7b607fe20f0ca900eb496e2a3c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779157958,
+        "stop" : 1654779169359,
+        "duration" : 11401
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "04dbac7b607fe20f0ca900eb496e2a3c"
+  }, {
+    "name" : "Deep Link -> Loss Limits",
+    "children" : [ {
+      "name" : "#1 Deep link to loss limits opens when logged in",
+      "uid" : "2970945346ae653a",
+      "parentUid" : "342d74619c89b96a9e355d480b9affc9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779144239,
+        "stop" : 1654779159345,
+        "duration" : 15106
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#2 Deep link to loss limits open login when not logged in before loss limits",
+      "uid" : "1b83e427191b3f88",
+      "parentUid" : "342d74619c89b96a9e355d480b9affc9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779159345,
+        "stop" : 1654779171507,
+        "duration" : 12162
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "342d74619c89b96a9e355d480b9affc9"
+  }, {
+    "name" : "Deep Link -> Edit Phone",
+    "children" : [ {
+      "name" : "#1 Deep link to edit phone opens when logged in",
+      "uid" : "c07b280c616d5ee",
+      "parentUid" : "7728a1de9799acb5f82a350ce39d6b7f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779147968,
+        "stop" : 1654779164037,
+        "duration" : 16069
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#2 Deep link to change password open login when not logged in before change password",
+      "uid" : "2d6ce2088f07f1a",
+      "parentUid" : "7728a1de9799acb5f82a350ce39d6b7f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779164037,
+        "stop" : 1654779176747,
+        "duration" : 12710
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "7728a1de9799acb5f82a350ce39d6b7f"
+  }, {
+    "name" : "Deep Link -> Play Reminders",
+    "children" : [ {
+      "name" : "#1 Deep link to play reminders opens when logged in",
+      "uid" : "e57f5c520c3c78a5",
+      "parentUid" : "0275a21381d14888ed6d9915e02dbacd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779155368,
+        "stop" : 1654779166865,
+        "duration" : 11497
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#2 Deep link to play reminders open login when not logged in before play reminders",
+      "uid" : "addceead7a02bd91",
+      "parentUid" : "0275a21381d14888ed6d9915e02dbacd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779166865,
+        "stop" : 1654779178261,
+        "duration" : 11396
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "0275a21381d14888ed6d9915e02dbacd"
+  }, {
+    "name" : "My Account > Gambling Controls > Loss Limits",
+    "children" : [ {
+      "name" : "#1 User can view their Loss limits ",
+      "uid" : "d0b1d8388073afc2",
+      "parentUid" : "74053a37b133fd1ce1e9ee220de0a325",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779182825,
+        "stop" : 1654779194819,
+        "duration" : 11994
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#2 User can open the Loss Limits Edit modal on edit icon click ",
+      "uid" : "bcf376ad0ab894bf",
+      "parentUid" : "74053a37b133fd1ce1e9ee220de0a325",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779194819,
+        "stop" : 1654779207905,
+        "duration" : 13086
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#3 User can close the Loss Limits Edit modal",
+      "uid" : "22fe59273ccf083d",
+      "parentUid" : "74053a37b133fd1ce1e9ee220de0a325",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779207905,
+        "stop" : 1654779223341,
+        "duration" : 15436
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#4 User can open the Loss Limits Delete modal on delete icon click ",
+      "uid" : "58424de42511854b",
+      "parentUid" : "74053a37b133fd1ce1e9ee220de0a325",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779223341,
+        "stop" : 1654779236496,
+        "duration" : 13155
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#5 User can close the Loss Limits Delete modal ",
+      "uid" : "ddcf14a55e6d07e",
+      "parentUid" : "74053a37b133fd1ce1e9ee220de0a325",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779236496,
+        "stop" : 1654779251035,
+        "duration" : 14539
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#6 User can successfully update their loss limits in the Loss Limits Delete modal ",
+      "uid" : "168a810d726c7676",
+      "parentUid" : "74053a37b133fd1ce1e9ee220de0a325",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779251035,
+        "stop" : 1654779269040,
+        "duration" : 18005
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#7 User can open the Loss Limits Delete modal on edit icon click and click on edit icon in the input field ",
+      "uid" : "b2c1adf1e0144d64",
+      "parentUid" : "74053a37b133fd1ce1e9ee220de0a325",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779269040,
+        "stop" : 1654779283667,
+        "duration" : 14627
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#8 User can successfully set a daily loss limit if not already set ",
+      "uid" : "b664f162b77b86b8",
+      "parentUid" : "74053a37b133fd1ce1e9ee220de0a325",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779283667,
+        "stop" : 1654779297854,
+        "duration" : 14187
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#9 User can successfully set a weekly loss limit if not already set ",
+      "uid" : "e9b4733fff4c57a2",
+      "parentUid" : "74053a37b133fd1ce1e9ee220de0a325",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779297854,
+        "stop" : 1654779309737,
+        "duration" : 11883
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#10 User can successfully set a monthly loss limit if not already set ",
+      "uid" : "217b1c72602cbfbd",
+      "parentUid" : "74053a37b133fd1ce1e9ee220de0a325",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779309737,
+        "stop" : 1654779321249,
+        "duration" : 11512
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#11 User can successfully set their Loss Limit to the minimum allowed value and will receive a success toast on submitting the new amount. ",
+      "uid" : "6427410108c6cbe4",
+      "parentUid" : "74053a37b133fd1ce1e9ee220de0a325",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1654779321249,
+        "stop" : 1654779321250,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#13 User cannot set a Loss Limit lower than the minimum amount. ",
+      "uid" : "4b46b980cd1791f4",
+      "parentUid" : "74053a37b133fd1ce1e9ee220de0a325",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779321250,
+        "stop" : 1654779338905,
+        "duration" : 17655
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#12 User can successfully change their Loss Limit with a decimal value and receive a success toast on submitting the new amount. ",
+      "uid" : "f9c78ede5b9544b7",
+      "parentUid" : "74053a37b133fd1ce1e9ee220de0a325",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1654779321250,
+        "stop" : 1654779321250,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#14 User cannot set a Loss Limit higher than the maximum amount. ",
+      "uid" : "1d9bf6f83a016a4c",
+      "parentUid" : "74053a37b133fd1ce1e9ee220de0a325",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779338905,
+        "stop" : 1654779354976,
+        "duration" : 16071
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#15 User can submit a blank value in the Loss Limit. ",
+      "uid" : "2071eaab406697dd",
+      "parentUid" : "74053a37b133fd1ce1e9ee220de0a325",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779354976,
+        "stop" : 1654779371320,
+        "duration" : 16344
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#16 User can only enter numeric digits into the set Loss Limit field. ",
+      "uid" : "124a96d3371f5a8d",
+      "parentUid" : "74053a37b133fd1ce1e9ee220de0a325",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779371321,
+        "stop" : 1654779386008,
+        "duration" : 14687
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#17 User can open 'How loss limits work' modal. ",
+      "uid" : "84f54e9266d3ad7a",
+      "parentUid" : "74053a37b133fd1ce1e9ee220de0a325",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779386008,
+        "stop" : 1654779397238,
+        "duration" : 11230
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#18 User can close 'How loss limits work' modal. ",
+      "uid" : "f8a6fe9ccc0b05a7",
+      "parentUid" : "74053a37b133fd1ce1e9ee220de0a325",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779397238,
+        "stop" : 1654779412318,
+        "duration" : 15080
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "74053a37b133fd1ce1e9ee220de0a325"
+  }, {
+    "name" : "My Account > Gambling Controls > Play Reminders",
+    "children" : [ {
+      "name" : "#1 Player can select to edit their 'Time Limit' and is displayed the Play Reminders modal.",
+      "uid" : "e52826debcf0d00f",
+      "parentUid" : "71c21412bab82a6510ddb909834237b1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779185782,
+        "stop" : 1654779202869,
+        "duration" : 17087
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#2 Player can close the 'Time Limit' modal.",
+      "uid" : "51f875683c179244",
+      "parentUid" : "71c21412bab82a6510ddb909834237b1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779202869,
+        "stop" : 1654779219957,
+        "duration" : 17088
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#3 Player can cancel out of the 'Time Limit' modal.",
+      "uid" : "5806820c936faa62",
+      "parentUid" : "71c21412bab82a6510ddb909834237b1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779219957,
+        "stop" : 1654779236432,
+        "duration" : 16475
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#4 Player cannot continue with 'Time Limit' if a limit is not selected.",
+      "uid" : "2cb852b636c77fa2",
+      "parentUid" : "71c21412bab82a6510ddb909834237b1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779236432,
+        "stop" : 1654779250946,
+        "duration" : 14514
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#5 Player can select a time limit from the drop down menu.",
+      "uid" : "66b451ac3d2449bb",
+      "parentUid" : "71c21412bab82a6510ddb909834237b1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779250946,
+        "stop" : 1654779267213,
+        "duration" : 16267
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#6 Player can successfully set a 'Time Limit'.",
+      "uid" : "a1f4ca061b662ef2",
+      "parentUid" : "71c21412bab82a6510ddb909834237b1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779267214,
+        "stop" : 1654779284955,
+        "duration" : 17741
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#7 Player can successfully edit their 'Time Limit'.",
+      "uid" : "e7f27c3d5aa65409",
+      "parentUid" : "71c21412bab82a6510ddb909834237b1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779284955,
+        "stop" : 1654779301832,
+        "duration" : 16877
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#8 Player can successfully delete their 'Time Limit' on delete icon click.",
+      "uid" : "d724225aa8db0c7a",
+      "parentUid" : "71c21412bab82a6510ddb909834237b1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779301832,
+        "stop" : 1654779313797,
+        "duration" : 11965
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "71c21412bab82a6510ddb909834237b1"
+  }, {
+    "name" : "My Account -> Deposit",
+    "children" : [ {
+      "name" : "#1 Check user is able to access the deposit modal via the account menu and is displayed with the option to fill in card details by default",
+      "uid" : "ef826f20a3c43ebf",
+      "parentUid" : "55b8c2d63efd03068b4a5935cd95112e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779269304,
+        "stop" : 1654779284308,
+        "duration" : 15004
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#2 Check user is able to exit out of the deposit modal using the x button",
+      "uid" : "e0ec17340a058f0d",
+      "parentUid" : "55b8c2d63efd03068b4a5935cd95112e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779284308,
+        "stop" : 1654779299897,
+        "duration" : 15589
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#3 Check user is able to fill in details of required fields for card deposits",
+      "uid" : "cf72acc6d99f516d",
+      "parentUid" : "55b8c2d63efd03068b4a5935cd95112e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779299897,
+        "stop" : 1654779312236,
+        "duration" : 12339
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#4 Check user is able to select Instant Bank Transfer and is provided with the correct information for this payment method",
+      "uid" : "ae4f334fbf8ecde4",
+      "parentUid" : "55b8c2d63efd03068b4a5935cd95112e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779312236,
+        "stop" : 1654779324318,
+        "duration" : 12082
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#5 Check user is able to select Phone payment method and is provided with the correct information for this payment method",
+      "uid" : "8ce9ac55b5eb3005",
+      "parentUid" : "55b8c2d63efd03068b4a5935cd95112e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779324318,
+        "stop" : 1654779336738,
+        "duration" : 12420
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#6 Check user is able to select PayPal payment method and is provided with the correct information for this payment method",
+      "uid" : "d83fdd7cb0b78172",
+      "parentUid" : "55b8c2d63efd03068b4a5935cd95112e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779336738,
+        "stop" : 1654779349290,
+        "duration" : 12552
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#7 Check user is able to deposit with a valid card and is presented with success modal",
+      "uid" : "c6ff9699194275f1",
+      "parentUid" : "55b8c2d63efd03068b4a5935cd95112e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779349290,
+        "stop" : 1654779364162,
+        "duration" : 14872
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#8 Check user is displayed with a declined modal when safecharge returns a declined response",
+      "uid" : "e0041600fb4743b4",
+      "parentUid" : "55b8c2d63efd03068b4a5935cd95112e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779364162,
+        "stop" : 1654779385185,
+        "duration" : 21023
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "55b8c2d63efd03068b4a5935cd95112e"
+  }, {
+    "name" : "My Profile > Contact Details",
+    "children" : [ {
+      "name" : "#01 Player can view their contact details.",
+      "uid" : "3f491d70be7da678",
+      "parentUid" : "096ff773a43b0b2c4204decfafacdff2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779325780,
+        "stop" : 1654779336618,
+        "duration" : 10838
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#02 Player can select to edit their telephone number and be presented with an edit modal.",
+      "uid" : "fc0add011e83d556",
+      "parentUid" : "096ff773a43b0b2c4204decfafacdff2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779336618,
+        "stop" : 1654779351263,
+        "duration" : 14645
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#03 Player can select to edit their telephone number and cancel out of the modal.",
+      "uid" : "24c3ae5bd3ffa820",
+      "parentUid" : "096ff773a43b0b2c4204decfafacdff2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779351263,
+        "stop" : 1654779365804,
+        "duration" : 14541
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "# Player can select to edit their telephone number and close the modal to cancel out of the process.",
+      "uid" : "f6fb1b64cae89396",
+      "parentUid" : "096ff773a43b0b2c4204decfafacdff2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779365804,
+        "stop" : 1654779379718,
+        "duration" : 13914
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#04 Player can update their telephone number.",
+      "uid" : "d2bdbf5919ed1399",
+      "parentUid" : "096ff773a43b0b2c4204decfafacdff2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779379719,
+        "stop" : 1654779393960,
+        "duration" : 14241
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#05 Player try to update invalid phone number.",
+      "uid" : "b27a06390fda3105",
+      "parentUid" : "096ff773a43b0b2c4204decfafacdff2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779393960,
+        "stop" : 1654779407810,
+        "duration" : 13850
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#06 Player can update country code number.",
+      "uid" : "9684a4b3008f5e18",
+      "parentUid" : "096ff773a43b0b2c4204decfafacdff2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779407810,
+        "stop" : 1654779423617,
+        "duration" : 15807
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "096ff773a43b0b2c4204decfafacdff2"
+  }, {
+    "name" : "My Profile > Personal Details",
+    "children" : [ {
+      "name" : "#01 Player can view their personal details.",
+      "uid" : "d47a38623ef90398",
+      "parentUid" : "94eabcfdee24aff9201e329dbf6fa746",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779396544,
+        "stop" : 1654779407085,
+        "duration" : 10541
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "94eabcfdee24aff9201e329dbf6fa746"
+  }, {
+    "name" : "Promotions functionality testing. Promotions functionality for authenticated user. Blocks of promotions.",
+    "children" : [ {
+      "name" : "#1 Featured Promotions and Promotions section are displayed.",
+      "uid" : "e84803976c685d86",
+      "parentUid" : "3fe00a6732b6aa7df96a2d7ff1e173d2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779425383,
+        "stop" : 1654779431812,
+        "duration" : 6429
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#2 All active promotions cards are displayed.",
+      "uid" : "e91140a0e5a91744",
+      "parentUid" : "3fe00a6732b6aa7df96a2d7ff1e173d2",
+      "status" : "failed",
+      "time" : {
+        "start" : 1654779431812,
+        "stop" : 1654779466304,
+        "duration" : 34492
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#3 Active promotions are displayed in correct order.",
+      "uid" : "c9dbef42379e7899",
+      "parentUid" : "3fe00a6732b6aa7df96a2d7ff1e173d2",
+      "status" : "failed",
+      "time" : {
+        "start" : 1654779466305,
+        "stop" : 1654779498523,
+        "duration" : 32218
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#4 Bonus History Page is displayed after clicks \"See all Activity\" in Recenty Activity.",
+      "uid" : "f745d5d7741f018a",
+      "parentUid" : "3fe00a6732b6aa7df96a2d7ff1e173d2",
+      "status" : "failed",
+      "time" : {
+        "start" : 1654779498524,
+        "stop" : 1654779530682,
+        "duration" : 32158
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#5 Featured promotions are displayed in correct order.",
+      "uid" : "559cfa142de5a48a",
+      "parentUid" : "3fe00a6732b6aa7df96a2d7ff1e173d2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779530682,
+        "stop" : 1654779542433,
+        "duration" : 11751
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#6 Active promotion is excluded from the featured section.",
+      "uid" : "4afeffb0c7410842",
+      "parentUid" : "3fe00a6732b6aa7df96a2d7ff1e173d2",
+      "status" : "failed",
+      "time" : {
+        "start" : 1654779542433,
+        "stop" : 1654779585582,
+        "duration" : 43149
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#7 Promotions are displayed in correct order.",
+      "uid" : "4aad961daf201cb2",
+      "parentUid" : "3fe00a6732b6aa7df96a2d7ff1e173d2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779585582,
+        "stop" : 1654779597844,
+        "duration" : 12262
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#8 Active promotions are excluded from the promotions section.",
+      "uid" : "975d77ee4179ec77",
+      "parentUid" : "3fe00a6732b6aa7df96a2d7ff1e173d2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779597844,
+        "stop" : 1654779616755,
+        "duration" : 18911
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#9 Featured promotions are excluded from the promotions section.",
+      "uid" : "b9f442b811286fbe",
+      "parentUid" : "3fe00a6732b6aa7df96a2d7ff1e173d2",
+      "status" : "failed",
+      "time" : {
+        "start" : 1654779616755,
+        "stop" : 1654779626595,
+        "duration" : 9840
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "3fe00a6732b6aa7df96a2d7ff1e173d2"
+  }, {
+    "name" : "Recover Password",
+    "children" : [ {
+      "name" : "#01 Player can navigate to the recover password form and is displayed with the correct fields.",
+      "uid" : "6a10ea87cb771245",
+      "parentUid" : "864ef7b8add33a42221918e0b3d6de08",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779433277,
+        "stop" : 1654779439821,
+        "duration" : 6544
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#02 Player cannot submit a blank email address on the recover password form.",
+      "uid" : "90c723aa15cba0b4",
+      "parentUid" : "864ef7b8add33a42221918e0b3d6de08",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779439821,
+        "stop" : 1654779447799,
+        "duration" : 7978
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#03 Player cannot enter an invaild email address.",
+      "uid" : "c45460bd65c0c031",
+      "parentUid" : "864ef7b8add33a42221918e0b3d6de08",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779447799,
+        "stop" : 1654779457335,
+        "duration" : 9536
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#04 Player can select the 'Cancel and Back To Login' link and is displayed the login section.",
+      "uid" : "39df243a5cda0936",
+      "parentUid" : "864ef7b8add33a42221918e0b3d6de08",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779457335,
+        "stop" : 1654779464298,
+        "duration" : 6963
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#05 Player receives 'Sent' success feedback on submitting a valid email address.",
+      "uid" : "b902f53c686bfead",
+      "parentUid" : "864ef7b8add33a42221918e0b3d6de08",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779464298,
+        "stop" : 1654779472656,
+        "duration" : 8358
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#06 Recover Password button displays 'Re-Send Email' text after a successful first attempt.",
+      "uid" : "6436fe711cc45b16",
+      "parentUid" : "864ef7b8add33a42221918e0b3d6de08",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779472656,
+        "stop" : 1654779485219,
+        "duration" : 12563
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#08 Player can submit an email address which does not exist and still receives a success message on submitting the recover password form.",
+      "uid" : "f38c661d899fec34",
+      "parentUid" : "864ef7b8add33a42221918e0b3d6de08",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779485219,
+        "stop" : 1654779494339,
+        "duration" : 9120
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "864ef7b8add33a42221918e0b3d6de08"
+  }, {
+    "name" : "Registration > Step 1",
+    "children" : [ {
+      "name" : "#01 User is displayed the correct content and input fields for Step 1.",
+      "uid" : "534a8ee2c8d06790",
+      "parentUid" : "f9f164a6061257e04a7392d6948dbcb0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779439268,
+        "stop" : 1654779441600,
+        "duration" : 2332
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#01.1 User can leave the registration process by clicking the Home link and click 'Yes I want to leave'.",
+      "uid" : "9732dea599316f4e",
+      "parentUid" : "f9f164a6061257e04a7392d6948dbcb0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779441600,
+        "stop" : 1654779446839,
+        "duration" : 5239
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#02 Email Address is a mandatory field.",
+      "uid" : "5869ea30c8bcadba",
+      "parentUid" : "f9f164a6061257e04a7392d6948dbcb0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779446840,
+        "stop" : 1654779449827,
+        "duration" : 2987
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#03 User is prompted with the 'Account already exists' drawer if they enter an email address that already exists.",
+      "uid" : "1525ee092e3f1abd",
+      "parentUid" : "f9f164a6061257e04a7392d6948dbcb0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779449827,
+        "stop" : 1654779455575,
+        "duration" : 5748
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#04 User can select the 'Recover' button on the 'Account already exists' drawer and is displayed the Recover Password form.",
+      "uid" : "87341e1b3c5ffc0e",
+      "parentUid" : "f9f164a6061257e04a7392d6948dbcb0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779455575,
+        "stop" : 1654779463572,
+        "duration" : 7997
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#05 User can select the 'Login' button on the 'Account already exists' drawer and is displayed the Login form.",
+      "uid" : "7a1476ba50a13568",
+      "parentUid" : "f9f164a6061257e04a7392d6948dbcb0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779463572,
+        "stop" : 1654779470308,
+        "duration" : 6736
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#06 User can not register with an email address that already exists.",
+      "uid" : "3858799cb6a2e0d7",
+      "parentUid" : "f9f164a6061257e04a7392d6948dbcb0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779470308,
+        "stop" : 1654779476273,
+        "duration" : 5965
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#07 User can not enter an invaild email address (no @ sign).",
+      "uid" : "9bda1abfc73e68c0",
+      "parentUid" : "f9f164a6061257e04a7392d6948dbcb0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779476273,
+        "stop" : 1654779479262,
+        "duration" : 2989
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#08 User can not enter an invaild email address (space in email).",
+      "uid" : "67986ebf8ddef791",
+      "parentUid" : "f9f164a6061257e04a7392d6948dbcb0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779479262,
+        "stop" : 1654779482240,
+        "duration" : 2978
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#11 User can successfully enter email address with a combination of valid symbols, numbers and letters.",
+      "uid" : "3bc1ca22ccfad0e",
+      "parentUid" : "f9f164a6061257e04a7392d6948dbcb0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779482240,
+        "stop" : 1654779485538,
+        "duration" : 3298
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#12 User can successfully enter email address with local domain (.de).",
+      "uid" : "4a734dc944d4dada",
+      "parentUid" : "f9f164a6061257e04a7392d6948dbcb0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779485538,
+        "stop" : 1654779489137,
+        "duration" : 3599
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#13 Password is a mandatory field.",
+      "uid" : "d6df5602d4579fc1",
+      "parentUid" : "f9f164a6061257e04a7392d6948dbcb0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779489137,
+        "stop" : 1654779491302,
+        "duration" : 2165
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#23 User cannot continue to next step if their password does not meet the minimum password requirements.",
+      "uid" : "b702d81f50a57999",
+      "parentUid" : "f9f164a6061257e04a7392d6948dbcb0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779491302,
+        "stop" : 1654779494302,
+        "duration" : 3000
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#28 User can enter valid details on Step 1 and progress to Step 2 of the registration process.",
+      "uid" : "b21ae2c65caace58",
+      "parentUid" : "f9f164a6061257e04a7392d6948dbcb0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779494302,
+        "stop" : 1654779497357,
+        "duration" : 3055
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#29 User can successfully enter email address with uppercase letters.",
+      "uid" : "c9f5b75b393114f0",
+      "parentUid" : "f9f164a6061257e04a7392d6948dbcb0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779497357,
+        "stop" : 1654779500753,
+        "duration" : 3396
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "f9f164a6061257e04a7392d6948dbcb0"
+  }, {
+    "name" : "Registration > Step 2",
+    "children" : [ {
+      "name" : "#01 User is displayed the correct content and input fields for Step 2.",
+      "uid" : "e00c2d882a06bebb",
+      "parentUid" : "c7a56c8951c8bbd440242d86660c49fd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779476973,
+        "stop" : 1654779482261,
+        "duration" : 5288
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#03 First Name is a mandatory field.",
+      "uid" : "14d2f249a91d478",
+      "parentUid" : "c7a56c8951c8bbd440242d86660c49fd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779482261,
+        "stop" : 1654779486522,
+        "duration" : 4261
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#04 Last Name is a mandatory field.",
+      "uid" : "54674c9540bf5093",
+      "parentUid" : "c7a56c8951c8bbd440242d86660c49fd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779486522,
+        "stop" : 1654779490853,
+        "duration" : 4331
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#05 Date of Birth is a mandatory field.",
+      "uid" : "2b37e0c6ba3c6465",
+      "parentUid" : "c7a56c8951c8bbd440242d86660c49fd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779490853,
+        "stop" : 1654779495551,
+        "duration" : 4698
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#06 User cannot enter less that 2 characters into step 2 name input fields.",
+      "uid" : "bc3bad8b80e76197",
+      "parentUid" : "c7a56c8951c8bbd440242d86660c49fd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779495551,
+        "stop" : 1654779500143,
+        "duration" : 4592
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#07 User cannot enter numbers into step 2 name input fields.",
+      "uid" : "85f4751815d73d99",
+      "parentUid" : "c7a56c8951c8bbd440242d86660c49fd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779500143,
+        "stop" : 1654779505256,
+        "duration" : 5113
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#08 User cannot enter invalid characters into step 2 name input fields.",
+      "uid" : "9c53d9de3009c6fe",
+      "parentUid" : "c7a56c8951c8bbd440242d86660c49fd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779505257,
+        "stop" : 1654779509832,
+        "duration" : 4575
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#11 User can enter valid details on Step 2 and progress to Step 3 of the registration process.",
+      "uid" : "f273faff5dcbfa",
+      "parentUid" : "c7a56c8951c8bbd440242d86660c49fd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779509832,
+        "stop" : 1654779514343,
+        "duration" : 4511
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#12 User cannot enter an invalid date into the date of birth field.",
+      "uid" : "633d849afed45811",
+      "parentUid" : "c7a56c8951c8bbd440242d86660c49fd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779514343,
+        "stop" : 1654779518836,
+        "duration" : 4493
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "13 User is required to be 18 or over.",
+      "uid" : "27215ceacade5aad",
+      "parentUid" : "c7a56c8951c8bbd440242d86660c49fd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779518836,
+        "stop" : 1654779522883,
+        "duration" : 4047
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#14 User cannot enter invalid characters into the date of birth field.",
+      "uid" : "4852d72db52f477f",
+      "parentUid" : "c7a56c8951c8bbd440242d86660c49fd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779522883,
+        "stop" : 1654779526328,
+        "duration" : 3445
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "c7a56c8951c8bbd440242d86660c49fd"
+  }, {
+    "name" : "Registration > Step 3",
+    "children" : [ {
+      "name" : "#01 User is displayed the correct content and input fields for Step 3.",
+      "uid" : "30eaa3c17a8a2d8",
+      "parentUid" : "dc18a166fbbb8fde42eec53cb4f2a803",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779500674,
+        "stop" : 1654779510561,
+        "duration" : 9887
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#02 User can navigate back to the previous step.",
+      "uid" : "2d7ad16f2e768e53",
+      "parentUid" : "dc18a166fbbb8fde42eec53cb4f2a803",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779510561,
+        "stop" : 1654779524823,
+        "duration" : 14262
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#03 Player can select the Manual Input button and is displayed the address inputs.",
+      "uid" : "d2dd5f6353f575e8",
+      "parentUid" : "dc18a166fbbb8fde42eec53cb4f2a803",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779524823,
+        "stop" : 1654779532728,
+        "duration" : 7905
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#03 Address Line 1 field is a mandatory field.",
+      "uid" : "64a69bd8e1265596",
+      "parentUid" : "dc18a166fbbb8fde42eec53cb4f2a803",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779532728,
+        "stop" : 1654779540539,
+        "duration" : 7811
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#04 City field is a mandatory field.",
+      "uid" : "8f6c4601a4fbdf45",
+      "parentUid" : "dc18a166fbbb8fde42eec53cb4f2a803",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779540539,
+        "stop" : 1654779549247,
+        "duration" : 8708
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#06 Post Code field is a mandatory field.",
+      "uid" : "8c61d4546e831771",
+      "parentUid" : "dc18a166fbbb8fde42eec53cb4f2a803",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779549247,
+        "stop" : 1654779557681,
+        "duration" : 8434
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#07 User cannot enter invalid characters into the Address Line 1 field.",
+      "uid" : "384974cd73559d78",
+      "parentUid" : "dc18a166fbbb8fde42eec53cb4f2a803",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779557681,
+        "stop" : 1654779565725,
+        "duration" : 8044
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#08 User cannot enter invalid characters into the Address Line 2 field.",
+      "uid" : "20639a43870c5c4",
+      "parentUid" : "dc18a166fbbb8fde42eec53cb4f2a803",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779565726,
+        "stop" : 1654779575494,
+        "duration" : 9768
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#09 User cannot enter invalid characters into the City field.",
+      "uid" : "691b54ea5bfa0cd5",
+      "parentUid" : "dc18a166fbbb8fde42eec53cb4f2a803",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779575494,
+        "stop" : 1654779584107,
+        "duration" : 8613
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#11 User cannot enter invalid characters into the Post Code field.",
+      "uid" : "8c1f7baa4756b217",
+      "parentUid" : "dc18a166fbbb8fde42eec53cb4f2a803",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779584107,
+        "stop" : 1654779592102,
+        "duration" : 7995
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#14 User can enter valid details on Step 3 and progress to Step 4 of the registration process.",
+      "uid" : "d71d2e9a99cc174b",
+      "parentUid" : "dc18a166fbbb8fde42eec53cb4f2a803",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779592102,
+        "stop" : 1654779599989,
+        "duration" : 7887
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#15 Phone Number is a mandatory field.",
+      "uid" : "423abd520df8631b",
+      "parentUid" : "dc18a166fbbb8fde42eec53cb4f2a803",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779612528,
+        "stop" : 1654779628862,
+        "duration" : 16334
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#16 Phone Number will display an error when entering non-numeric values into input.",
+      "uid" : "ced6d9ae9f77be8b",
+      "parentUid" : "dc18a166fbbb8fde42eec53cb4f2a803",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779628862,
+        "stop" : 1654779639819,
+        "duration" : 10957
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#17 User cannot enter spaces into Phone Number field.",
+      "uid" : "2825f9a2b9130890",
+      "parentUid" : "dc18a166fbbb8fde42eec53cb4f2a803",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779639819,
+        "stop" : 1654779646967,
+        "duration" : 7148
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#18 Country Code is populated by default.",
+      "uid" : "a90a4f82709e3b06",
+      "parentUid" : "dc18a166fbbb8fde42eec53cb4f2a803",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779646967,
+        "stop" : 1654779653390,
+        "duration" : 6423
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#19 User can select a Country Code from the dropdown menu.",
+      "uid" : "827923f454adea3f",
+      "parentUid" : "dc18a166fbbb8fde42eec53cb4f2a803",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779653390,
+        "stop" : 1654779660975,
+        "duration" : 7585
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "dc18a166fbbb8fde42eec53cb4f2a803"
+  }, {
+    "name" : "Registration > Step 4",
+    "children" : [ {
+      "name" : "#01 User is displayed the correct content and defaut options for Step 4.",
+      "uid" : "8c35af056bbd729",
+      "parentUid" : "9b68b957e5ab8e985bfab331d4081eeb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779507997,
+        "stop" : 1654779517649,
+        "duration" : 9652
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#02 User can navigate back to the previous step.",
+      "uid" : "db0498664448778c",
+      "parentUid" : "9b68b957e5ab8e985bfab331d4081eeb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779517649,
+        "stop" : 1654779535829,
+        "duration" : 18180
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#06 User can opt in to receive Post marketing preferences.",
+      "uid" : "17ebd9948f1f88cf",
+      "parentUid" : "9b68b957e5ab8e985bfab331d4081eeb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779535829,
+        "stop" : 1654779545642,
+        "duration" : 9813
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#07 User can opt in to receive Phone marketing preferences.",
+      "uid" : "197dba52ff6a852a",
+      "parentUid" : "9b68b957e5ab8e985bfab331d4081eeb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779545642,
+        "stop" : 1654779555925,
+        "duration" : 10283
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#08 User can overwrite Select All option and de-select a preference.",
+      "uid" : "523e2583e13cdd14",
+      "parentUid" : "9b68b957e5ab8e985bfab331d4081eeb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779555925,
+        "stop" : 1654779564651,
+        "duration" : 8726
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#10 User can click and view the T&Cs.",
+      "uid" : "99f49bd6422ef653",
+      "parentUid" : "9b68b957e5ab8e985bfab331d4081eeb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779564652,
+        "stop" : 1654779579432,
+        "duration" : 14780
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#11 User can click and view the Privacy Policy.",
+      "uid" : "b6de33c7916a6ae0",
+      "parentUid" : "9b68b957e5ab8e985bfab331d4081eeb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779579432,
+        "stop" : 1654779594439,
+        "duration" : 15007
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#12 User can click on confirm checkbox and click success registration button.",
+      "uid" : "ffcbde51674e1f01",
+      "parentUid" : "9b68b957e5ab8e985bfab331d4081eeb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779594439,
+        "stop" : 1654779603804,
+        "duration" : 9365
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#13 User doesn`t click on confirm checkbox, tries to click success registration button and error text is shown.",
+      "uid" : "310a3e65caea5fe3",
+      "parentUid" : "9b68b957e5ab8e985bfab331d4081eeb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779603804,
+        "stop" : 1654779613842,
+        "duration" : 10038
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#03 User can opt in to receive All marketing preferences.",
+      "uid" : "eae386ab2c94e35",
+      "parentUid" : "9b68b957e5ab8e985bfab331d4081eeb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779613842,
+        "stop" : 1654779622704,
+        "duration" : 8862
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#04 User can opt in to receive Email marketing preferences.",
+      "uid" : "559069b7e712ae33",
+      "parentUid" : "9b68b957e5ab8e985bfab331d4081eeb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779622704,
+        "stop" : 1654779631605,
+        "duration" : 8901
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#05 User can opt in to receive SMS marketing preferences.",
+      "uid" : "c6023219bf640faa",
+      "parentUid" : "9b68b957e5ab8e985bfab331d4081eeb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779631605,
+        "stop" : 1654779642115,
+        "duration" : 10510
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#09 User can select multiple marketing preferences.",
+      "uid" : "692811a88b3104f8",
+      "parentUid" : "9b68b957e5ab8e985bfab331d4081eeb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779642115,
+        "stop" : 1654779650225,
+        "duration" : 8110
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "9b68b957e5ab8e985bfab331d4081eeb"
+  }, {
+    "name" : "Promotions functionality testing. Promotions functionality for authenticated user. Particular promotions.",
+    "children" : [ {
+      "name" : "#10 All main sections for card are displayed for OPT IN bonus.",
+      "uid" : "9803a609a079d5bd",
+      "parentUid" : "4cecdc3407b170c54e975930a34bc6aa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779626610,
+        "stop" : 1654779639273,
+        "duration" : 12663
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#11 All main sections for card are displayed for DEPOSIT bonus.",
+      "uid" : "5e7d007f27c1e371",
+      "parentUid" : "4cecdc3407b170c54e975930a34bc6aa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779639274,
+        "stop" : 1654779651963,
+        "duration" : 12689
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#12 All main sections for card are displayed for CLAIM bonus.",
+      "uid" : "958c6249f6658773",
+      "parentUid" : "4cecdc3407b170c54e975930a34bc6aa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779651963,
+        "stop" : 1654779664053,
+        "duration" : 12090
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#13 User can go to More Info details after click More Info CTA for authenticated user.",
+      "uid" : "1a6b9195b27912b1",
+      "parentUid" : "4cecdc3407b170c54e975930a34bc6aa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779664053,
+        "stop" : 1654779674318,
+        "duration" : 10265
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#14 User can click OPT IN primary CTA in more info details page and get confirmation modal with all sections.",
+      "uid" : "946fbef4a0ed5112",
+      "parentUid" : "4cecdc3407b170c54e975930a34bc6aa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779674318,
+        "stop" : 1654779685643,
+        "duration" : 11325
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#15 User can press Back CTA for More Info page and be taken to the list of promotions.",
+      "uid" : "d5298eeef60ba908",
+      "parentUid" : "4cecdc3407b170c54e975930a34bc6aa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779685643,
+        "stop" : 1654779697490,
+        "duration" : 11847
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#16 User can opt in bonus and get confirmation modal with all sections.",
+      "uid" : "6efb3db6232c3e54",
+      "parentUid" : "4cecdc3407b170c54e975930a34bc6aa",
+      "status" : "failed",
+      "time" : {
+        "start" : 1654779697490,
+        "stop" : 1654779731997,
+        "duration" : 34507
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#17 User can opt in bonus and get modal with all sections, click on the primary CTA and procceds with the journey",
+      "uid" : "27da7226f70d9781",
+      "parentUid" : "4cecdc3407b170c54e975930a34bc6aa",
+      "status" : "failed",
+      "time" : {
+        "start" : 1654779731997,
+        "stop" : 1654779767140,
+        "duration" : 35143
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#18 User can close confirmation message, return to the calling page and bonus has been claimed.",
+      "uid" : "5428cfa5f70a6893",
+      "parentUid" : "4cecdc3407b170c54e975930a34bc6aa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779767140,
+        "stop" : 1654779777630,
+        "duration" : 10490
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#19 User can click DEPOSIT CTA for deposit bonus and open deposit bonus modal with displaying all sections.",
+      "uid" : "7d2aa4a0b0c2cd5a",
+      "parentUid" : "4cecdc3407b170c54e975930a34bc6aa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779777630,
+        "stop" : 1654779791274,
+        "duration" : 13644
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#20 Error message is displayed after user enters amount that is less than the qualification amount for deposit bonus.",
+      "uid" : "2cf07a873dcea608",
+      "parentUid" : "4cecdc3407b170c54e975930a34bc6aa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779791274,
+        "stop" : 1654779806376,
+        "duration" : 15102
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#21 User can click on the terms and conditions link and the terms and conditions are displayed for deposit bonus.",
+      "uid" : "4bc9db4ce2a58474",
+      "parentUid" : "4cecdc3407b170c54e975930a34bc6aa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779806376,
+        "stop" : 1654779819915,
+        "duration" : 13539
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#22 User can enter amount, go to full terms and conditions, click back button, close full terms conditions and return in deposit modal.",
+      "uid" : "f1903b4c90886f12",
+      "parentUid" : "4cecdc3407b170c54e975930a34bc6aa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779819915,
+        "stop" : 1654779837964,
+        "duration" : 18049
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#23 User can click on the terms and conditions link and the terms and all sections of conditions are displayed for deposit bonus.",
+      "uid" : "8a9bb80d5f60e9f1",
+      "parentUid" : "4cecdc3407b170c54e975930a34bc6aa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779837964,
+        "stop" : 1654779851637,
+        "duration" : 13673
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#24 User can close deposit bonus modal, remove display bonus modal and return to the launch screen.",
+      "uid" : "e8ded474d2aecb82",
+      "parentUid" : "4cecdc3407b170c54e975930a34bc6aa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779851637,
+        "stop" : 1654779866176,
+        "duration" : 14539
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#25 User can make bonus deposit.",
+      "uid" : "df6e95405bc0bc9b",
+      "parentUid" : "4cecdc3407b170c54e975930a34bc6aa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779866176,
+        "stop" : 1654779881201,
+        "duration" : 15025
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "4cecdc3407b170c54e975930a34bc6aa"
+  }, {
+    "name" : "Spin Zone functionality testing",
+    "children" : [ {
+      "name" : "#1 Player can see Menu button in the top left of the screen",
+      "uid" : "3da4290e1dea1063",
+      "parentUid" : "061b3d87e6dacb13b448e2611c5acfb8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779631021,
+        "stop" : 1654779646981,
+        "duration" : 15960
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#2 Player can see Resume Game button in the top left of the screen",
+      "uid" : "3df016471db5d16d",
+      "parentUid" : "061b3d87e6dacb13b448e2611c5acfb8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779646981,
+        "stop" : 1654779662121,
+        "duration" : 15140
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#3 Player can close Game menu",
+      "uid" : "c0034262595fdf0b",
+      "parentUid" : "061b3d87e6dacb13b448e2611c5acfb8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779662121,
+        "stop" : 1654779678332,
+        "duration" : 16211
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#4 Player can see total withdrawable cash balance",
+      "uid" : "bd5d73ca02548aab",
+      "parentUid" : "061b3d87e6dacb13b448e2611c5acfb8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779678332,
+        "stop" : 1654779691694,
+        "duration" : 13362
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#5 Player can open 'Deposit' modal",
+      "uid" : "ace591051d8de833",
+      "parentUid" : "061b3d87e6dacb13b448e2611c5acfb8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779691694,
+        "stop" : 1654779707975,
+        "duration" : 16281
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#6 Player can see total bonus balance",
+      "uid" : "9f90eb680c8014ca",
+      "parentUid" : "061b3d87e6dacb13b448e2611c5acfb8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779707975,
+        "stop" : 1654779721592,
+        "duration" : 13617
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#7 Player can see recently played games",
+      "uid" : "51f20c7ea5819ca5",
+      "parentUid" : "061b3d87e6dacb13b448e2611c5acfb8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779721592,
+        "stop" : 1654779735609,
+        "duration" : 14017
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#8 Player can open 'Search Games' modal",
+      "uid" : "721e297cac486502",
+      "parentUid" : "061b3d87e6dacb13b448e2611c5acfb8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779735609,
+        "stop" : 1654779751421,
+        "duration" : 15812
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#9 Player can see Exit Game button in bottom right",
+      "uid" : "23df74ed625eece8",
+      "parentUid" : "061b3d87e6dacb13b448e2611c5acfb8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779751421,
+        "stop" : 1654779765406,
+        "duration" : 13985
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#10 Player can close game",
+      "uid" : "fa7cbcba673acde3",
+      "parentUid" : "061b3d87e6dacb13b448e2611c5acfb8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779765406,
+        "stop" : 1654779780582,
+        "duration" : 15176
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "061b3d87e6dacb13b448e2611c5acfb8"
+  }, {
+    "name" : "UnsubscribePage",
+    "children" : [ {
+      "name" : "#1 Unsubscribe page is displayed with correct content.",
+      "uid" : "39725f8cd75b170c",
+      "parentUid" : "9b3e80a4b659a5a1cf5a2d779faf9404",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779636757,
+        "stop" : 1654779644847,
+        "duration" : 8090
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#2 User can click on ‘I’ve changed my mind’ button and go to home page.",
+      "uid" : "b87a601ae6cb1575",
+      "parentUid" : "9b3e80a4b659a5a1cf5a2d779faf9404",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779644848,
+        "stop" : 1654779652301,
+        "duration" : 7453
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#3 User can click on ‘Unsubscribe’ button and successfully unsubscribe window will be displayed with the correct content",
+      "uid" : "10c16265f9d47dc1",
+      "parentUid" : "9b3e80a4b659a5a1cf5a2d779faf9404",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779652301,
+        "stop" : 1654779660118,
+        "duration" : 7817
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#4 User can check ‘Other’ radio button and the text input will be displayed",
+      "uid" : "a50e56b12d3d73fe",
+      "parentUid" : "9b3e80a4b659a5a1cf5a2d779faf9404",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779660119,
+        "stop" : 1654779667828,
+        "duration" : 7709
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#5 User can check each radio button and submit the answer → result window will be displayed with the correct content",
+      "uid" : "79777818e5ad74a9",
+      "parentUid" : "9b3e80a4b659a5a1cf5a2d779faf9404",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779667828,
+        "stop" : 1654779683342,
+        "duration" : 15514
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#6 User can click on ‘Re-subscribe’ button and success window will be displayed with the correct content",
+      "uid" : "2d7b28d9e2d0148f",
+      "parentUid" : "9b3e80a4b659a5a1cf5a2d779faf9404",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779683342,
+        "stop" : 1654779694099,
+        "duration" : 10757
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#7 User can click on ‘Continue’ button in the ‘Re-subscribe’ success window and the Home page will be displayed.",
+      "uid" : "51559209af2560fc",
+      "parentUid" : "9b3e80a4b659a5a1cf5a2d779faf9404",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779694099,
+        "stop" : 1654779705399,
+        "duration" : 11300
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "9b3e80a4b659a5a1cf5a2d779faf9404"
+  }, {
+    "name" : "Promotions functionality testing. Promotions functionality for unauthenticated user.",
+    "children" : [ {
+      "name" : "#26 Promotion page is displayed for not login user.",
+      "uid" : "f6629151903b64e5",
+      "parentUid" : "213a8100a7f543bb767051f01494c297",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779881210,
+        "stop" : 1654779881816,
+        "duration" : 606
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#27 Promotion page has correct title for not login user.",
+      "uid" : "6cb96f65c234b32a",
+      "parentUid" : "213a8100a7f543bb767051f01494c297",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779881816,
+        "stop" : 1654779883528,
+        "duration" : 1712
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#28 Promotion cards are displayed for not login user.",
+      "uid" : "df682e4e0e6c16b1",
+      "parentUid" : "213a8100a7f543bb767051f01494c297",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779883528,
+        "stop" : 1654779885342,
+        "duration" : 1814
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#29 Promotions are displayed in correct order for unauthenticated user",
+      "uid" : "f7391b7c0481f91d",
+      "parentUid" : "213a8100a7f543bb767051f01494c297",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1654779885342,
+        "stop" : 1654779885343,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#30 Promo image of promotion card is displayed for not login user.",
+      "uid" : "ebc5d40da31ed4bb",
+      "parentUid" : "213a8100a7f543bb767051f01494c297",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779885343,
+        "stop" : 1654779887033,
+        "duration" : 1690
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#31 Applicable the expiry date of promotion card is displayed for not login user.",
+      "uid" : "34113d1a4b54f73e",
+      "parentUid" : "213a8100a7f543bb767051f01494c297",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779887033,
+        "stop" : 1654779888905,
+        "duration" : 1872
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#32 Promo title of promotion card is displayed for not login user.",
+      "uid" : "d4ffb7a69253e70b",
+      "parentUid" : "213a8100a7f543bb767051f01494c297",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779888905,
+        "stop" : 1654779890856,
+        "duration" : 1951
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#33 Short description of promotion card is displayed for not login user.",
+      "uid" : "d2958b0718270544",
+      "parentUid" : "213a8100a7f543bb767051f01494c297",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779890856,
+        "stop" : 1654779892613,
+        "duration" : 1757
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#34 Relevant CTAs of promotion card are displayed for not login user.",
+      "uid" : "c6a3e85f7066f243",
+      "parentUid" : "213a8100a7f543bb767051f01494c297",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779892613,
+        "stop" : 1654779894390,
+        "duration" : 1777
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#35 Short terms and conditions of promotion card is displayed for not login user.",
+      "uid" : "c754f8766ac3deaa",
+      "parentUid" : "213a8100a7f543bb767051f01494c297",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779894390,
+        "stop" : 1654779896166,
+        "duration" : 1776
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#36 All main sections for card are displayed for OPT IN bonus for unauthenticated user.",
+      "uid" : "cd6c3bedf6f409b4",
+      "parentUid" : "213a8100a7f543bb767051f01494c297",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779896166,
+        "stop" : 1654779899607,
+        "duration" : 3441
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#37 All main sections for card are displayed for DEPOSIT bonus for unauthenticated user.",
+      "uid" : "7857a638397f665d",
+      "parentUid" : "213a8100a7f543bb767051f01494c297",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779899607,
+        "stop" : 1654779902247,
+        "duration" : 2640
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#38 All main sections for card are displayed for CLAIM bonus for unauthenticated user.",
+      "uid" : "69dd07b45ead64a7",
+      "parentUid" : "213a8100a7f543bb767051f01494c297",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779902247,
+        "stop" : 1654779905264,
+        "duration" : 3017
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#39 User can click see full terms CTA and go to Term and Conditions.",
+      "uid" : "adc09d0adb9d26de",
+      "parentUid" : "213a8100a7f543bb767051f01494c297",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779905264,
+        "stop" : 1654779907317,
+        "duration" : 2053
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#40 Login form appears after press OPT IN CTA for OPT IN bonus of unauthenticated user.",
+      "uid" : "da39e2addc3838c5",
+      "parentUid" : "213a8100a7f543bb767051f01494c297",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779907317,
+        "stop" : 1654779911011,
+        "duration" : 3694
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#41 Login form appears after press DEPOSIT CTA for DEPOSIT bonus of unauthenticated user.",
+      "uid" : "863bb9024d7e1734",
+      "parentUid" : "213a8100a7f543bb767051f01494c297",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779911011,
+        "stop" : 1654779914184,
+        "duration" : 3173
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#42 Login form appears after press CLAIM CTA for CLAIM bonus of unauthenticated user.",
+      "uid" : "eb096bc46c43b721",
+      "parentUid" : "213a8100a7f543bb767051f01494c297",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779914184,
+        "stop" : 1654779917599,
+        "duration" : 3415
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#43 User can go to More Info details after click More Info CTA.",
+      "uid" : "1e1c5b3088a0b166",
+      "parentUid" : "213a8100a7f543bb767051f01494c297",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779917599,
+        "stop" : 1654779922348,
+        "duration" : 4749
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#44 User can see list of promotions after click Back button from more info details.",
+      "uid" : "3337312edc2bec97",
+      "parentUid" : "213a8100a7f543bb767051f01494c297",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779922348,
+        "stop" : 1654779928500,
+        "duration" : 6152
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#45 User clicks button OPT IN for already OPTED IN bonus, successfully login and can see drawer \"This promotion is unavailable\".",
+      "uid" : "1da07c37212b5172",
+      "parentUid" : "213a8100a7f543bb767051f01494c297",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1654779928500,
+        "stop" : 1654779928501,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#46 User clicks button CLAIM for already CLAIMED bonus, successfully login and can see drawer \"This promotion is unavailable\".",
+      "uid" : "eb0be630ec7861c6",
+      "parentUid" : "213a8100a7f543bb767051f01494c297",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779928501,
+        "stop" : 1654779933435,
+        "duration" : 4934
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#47 User clicks button DEPOSIT for already DEPOSITED bonus, successfully login and can see drawer \"This promotion is unavailable\".",
+      "uid" : "379d223af1eeeaa8",
+      "parentUid" : "213a8100a7f543bb767051f01494c297",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779933435,
+        "stop" : 1654779938449,
+        "duration" : 5014
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "213a8100a7f543bb767051f01494c297"
+  }, {
+    "name" : "Footer functionality testing",
+    "children" : [ {
+      "name" : "#1 Player can see a light grey bar at the top of the footer",
+      "uid" : "12c4ed6e364758a7",
+      "parentUid" : "dc5f5bbdd76747481113983631c16f5e",
+      "status" : "failed",
+      "time" : {
+        "start" : 1654779948846,
+        "stop" : 1654779952503,
+        "duration" : 3657
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#2 Player can see payment logos",
+      "uid" : "4e1f163e9556289",
+      "parentUid" : "dc5f5bbdd76747481113983631c16f5e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779952503,
+        "stop" : 1654779957330,
+        "duration" : 4827
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#3 Player can see partners logos",
+      "uid" : "e97a5460dd1fc44e",
+      "parentUid" : "dc5f5bbdd76747481113983631c16f5e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779957330,
+        "stop" : 1654779962474,
+        "duration" : 5144
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#4 Player can see safer gambling logos",
+      "uid" : "f1654251f650bcd6",
+      "parentUid" : "dc5f5bbdd76747481113983631c16f5e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779962475,
+        "stop" : 1654779977693,
+        "duration" : 15218
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#5 Player can see legal and company information",
+      "uid" : "483c2cacd5986a1f",
+      "parentUid" : "dc5f5bbdd76747481113983631c16f5e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779977693,
+        "stop" : 1654779980102,
+        "duration" : 2409
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "dc5f5bbdd76747481113983631c16f5e"
+  }, {
+    "name" : "Home page => Responsible Gambling page",
+    "children" : [ {
+      "name" : "#0 User can come to the Responsible Gambling page",
+      "uid" : "ba866d28408b91ba",
+      "parentUid" : "a68006b181d851753c2faae5de0c84f5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779949722,
+        "stop" : 1654779958431,
+        "duration" : 8709
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#1 User can come to the Be Gamble Aware page from Responsible Gambling page",
+      "uid" : "3126335cf952f235",
+      "parentUid" : "a68006b181d851753c2faae5de0c84f5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779958431,
+        "stop" : 1654779965608,
+        "duration" : 7177
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#2 User can come to the \"Help for problem gambling\" page from Responsible Gambling page",
+      "uid" : "400a3af476a40d6",
+      "parentUid" : "a68006b181d851753c2faae5de0c84f5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779965608,
+        "stop" : 1654779970718,
+        "duration" : 5110
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#3 User can come to the Gamble Stop page from Responsible Gambling page",
+      "uid" : "b7543e6368401b7",
+      "parentUid" : "a68006b181d851753c2faae5de0c84f5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779970718,
+        "stop" : 1654779975943,
+        "duration" : 5225
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#4 User can come to the \"Block Access to Gambling Websites and Apps Worldwide\" page from Responsible Gambling page",
+      "uid" : "de12fd83a68c37e1",
+      "parentUid" : "a68006b181d851753c2faae5de0c84f5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779975943,
+        "stop" : 1654779982542,
+        "duration" : 6599
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "a68006b181d851753c2faae5de0c84f5"
+  }, {
+    "name" : "Home => Terms & Conditions",
+    "children" : [ {
+      "name" : "#0 User can come to the terms and conditions page",
+      "uid" : "d559d04767cd7573",
+      "parentUid" : "425cb1cc981b402646effc66d40d078e",
+      "status" : "failed",
+      "time" : {
+        "start" : 1654779949802,
+        "stop" : 1654779954419,
+        "duration" : 4617
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#1 User can come to the help center from terms and conditions page",
+      "uid" : "b596c3c6256387e8",
+      "parentUid" : "425cb1cc981b402646effc66d40d078e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779954420,
+        "stop" : 1654779960755,
+        "duration" : 6335
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#2 User can come to the privacy policy page from terms and conditions page",
+      "uid" : "fbbc1234646c00b9",
+      "parentUid" : "425cb1cc981b402646effc66d40d078e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779960755,
+        "stop" : 1654779967033,
+        "duration" : 6278
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#3 User can come to the Gambling commission page from terms and conditions page",
+      "uid" : "73a33ce3e2aefa45",
+      "parentUid" : "425cb1cc981b402646effc66d40d078e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779967033,
+        "stop" : 1654779973047,
+        "duration" : 6014
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#4 User can come to the Responsible Gambling page from terms and conditions page",
+      "uid" : "924ffbb4d436e2d2",
+      "parentUid" : "425cb1cc981b402646effc66d40d078e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779973047,
+        "stop" : 1654779978032,
+        "duration" : 4985
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#5 User can come to the Gamble Aware page from terms and conditions page",
+      "uid" : "4ee62e2b8c440f09",
+      "parentUid" : "425cb1cc981b402646effc66d40d078e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779978033,
+        "stop" : 1654779982129,
+        "duration" : 4096
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#6 User can come to the GamCare page from terms and conditions page",
+      "uid" : "13dc5458c40bb9e2",
+      "parentUid" : "425cb1cc981b402646effc66d40d078e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779982130,
+        "stop" : 1654779990184,
+        "duration" : 8054
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#7 User can come to the GamStop page from terms and conditions page",
+      "uid" : "f7f6d015fc2aed42",
+      "parentUid" : "425cb1cc981b402646effc66d40d078e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779990184,
+        "stop" : 1654780017897,
+        "duration" : 27713
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#8 User can come to the eCOGRA page from terms and conditions page",
+      "uid" : "fb280eba95203a9b",
+      "parentUid" : "425cb1cc981b402646effc66d40d078e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780017897,
+        "stop" : 1654780026386,
+        "duration" : 8489
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#9 User can see Introduction section on terms and conditions page",
+      "uid" : "4816f10286e714b5",
+      "parentUid" : "425cb1cc981b402646effc66d40d078e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780026386,
+        "stop" : 1654780031618,
+        "duration" : 5232
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#10 User can see the Terms and Conditions section on terms and conditions page",
+      "uid" : "106935746a4a2849",
+      "parentUid" : "425cb1cc981b402646effc66d40d078e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780031618,
+        "stop" : 1654780035811,
+        "duration" : 4193
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#11 User can see the Definitions section on terms and conditions page",
+      "uid" : "6bd9e1a1a959192b",
+      "parentUid" : "425cb1cc981b402646effc66d40d078e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780035811,
+        "stop" : 1654780040045,
+        "duration" : 4234
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#12 User can see the Changes to the Terms section on terms and conditions page",
+      "uid" : "4b4dfe196b2e9327",
+      "parentUid" : "425cb1cc981b402646effc66d40d078e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780040045,
+        "stop" : 1654780043815,
+        "duration" : 3770
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#13 User can see the Other Important Terms section on terms and conditions page",
+      "uid" : "79cf789d220b7517",
+      "parentUid" : "425cb1cc981b402646effc66d40d078e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780043815,
+        "stop" : 1654780048197,
+        "duration" : 4382
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#14 User can see the Your Account section on terms and conditions page",
+      "uid" : "fa6286b07de3018e",
+      "parentUid" : "425cb1cc981b402646effc66d40d078e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780048197,
+        "stop" : 1654780051997,
+        "duration" : 3800
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#15 User can see the Deposits and Withdrawals section on terms and conditions page",
+      "uid" : "48dbf7c605234f1c",
+      "parentUid" : "425cb1cc981b402646effc66d40d078e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780051997,
+        "stop" : 1654780056385,
+        "duration" : 4388
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#16 User can see the Playing for Real Money section on terms and conditions page",
+      "uid" : "564f7f5985b1509f",
+      "parentUid" : "425cb1cc981b402646effc66d40d078e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780056385,
+        "stop" : 1654780060551,
+        "duration" : 4166
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#17 User can see the Errors, Interruptions and Malfunctions section on terms and conditions page",
+      "uid" : "668a97062632d53e",
+      "parentUid" : "425cb1cc981b402646effc66d40d078e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780060551,
+        "stop" : 1654780065233,
+        "duration" : 4682
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#18 User can see the Anti-Money Laundering section on terms and conditions page",
+      "uid" : "ce5a2ef25f00ca48",
+      "parentUid" : "425cb1cc981b402646effc66d40d078e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780065233,
+        "stop" : 1654780069412,
+        "duration" : 4179
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#19 User can see the Inactive Customer Accounts section on terms and conditions page",
+      "uid" : "8567af6ce5b6231b",
+      "parentUid" : "425cb1cc981b402646effc66d40d078e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780069412,
+        "stop" : 1654780072920,
+        "duration" : 3508
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#20 User can see the Suspension/Termination of your Account section on terms and conditions page",
+      "uid" : "79ea602db8b8b6ea",
+      "parentUid" : "425cb1cc981b402646effc66d40d078e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780072921,
+        "stop" : 1654780077417,
+        "duration" : 4496
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#21 User can see the Responsible Gambling section on terms and conditions page",
+      "uid" : "aef9a9be593abf92",
+      "parentUid" : "425cb1cc981b402646effc66d40d078e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780077417,
+        "stop" : 1654780081834,
+        "duration" : 4417
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#22 User can see the Promotions section on terms and conditions page",
+      "uid" : "b9b2a6ac63037eca",
+      "parentUid" : "425cb1cc981b402646effc66d40d078e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780081834,
+        "stop" : 1654780086239,
+        "duration" : 4405
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#23 User can see the Intellectual Property section on terms and conditions page",
+      "uid" : "1dc84f761193502",
+      "parentUid" : "425cb1cc981b402646effc66d40d078e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780086239,
+        "stop" : 1654780090634,
+        "duration" : 4395
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#24 User can see the Limitation of Liability section on terms and conditions page",
+      "uid" : "c6c429779b7400c8",
+      "parentUid" : "425cb1cc981b402646effc66d40d078e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780090635,
+        "stop" : 1654780095395,
+        "duration" : 4760
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#25 User can see the Complaints and disputes section on terms and conditions page",
+      "uid" : "68d09496cf95d396",
+      "parentUid" : "425cb1cc981b402646effc66d40d078e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780095395,
+        "stop" : 1654780099321,
+        "duration" : 3926
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#26 User can see the Miscellaneous section on terms and conditions page",
+      "uid" : "a5f78dc6c3103a8e",
+      "parentUid" : "425cb1cc981b402646effc66d40d078e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780099321,
+        "stop" : 1654780103783,
+        "duration" : 4462
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#27 User can opened mail client after clicks/taps on “care@merkurslots.com” ",
+      "uid" : "fc03c3d5392e0850",
+      "parentUid" : "425cb1cc981b402646effc66d40d078e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780103783,
+        "stop" : 1654780107384,
+        "duration" : 3601
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#28 User can opened mail client after clicks/taps on “complaintsMGA@merkurslots.com” ",
+      "uid" : "28422794b2ad79d0",
+      "parentUid" : "425cb1cc981b402646effc66d40d078e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780107385,
+        "stop" : 1654780110606,
+        "duration" : 3221
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "425cb1cc981b402646effc66d40d078e"
+  }, {
+    "name" : "Live Casino",
+    "children" : [ {
+      "name" : "#01 User has not logged in, the user navigates to the live casino page and the live casino page is displayed.",
+      "uid" : "1d1ad5dd408479b6",
+      "parentUid" : "f244dd1b477780e810b8b88f25f62b1c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779956073,
+        "stop" : 1654779959835,
+        "duration" : 3762
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#02 All available categories are displayed and categories can be scrolled.",
+      "uid" : "d1067147850498cd",
+      "parentUid" : "f244dd1b477780e810b8b88f25f62b1c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779959836,
+        "stop" : 1654779962860,
+        "duration" : 3024
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#03 All available game cards are displayed.",
+      "uid" : "3d5238074a3e9e3d",
+      "parentUid" : "f244dd1b477780e810b8b88f25f62b1c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779962860,
+        "stop" : 1654779966158,
+        "duration" : 3298
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#04 Hero carousel slide are displayed.",
+      "uid" : "b292abf0b554cf91",
+      "parentUid" : "f244dd1b477780e810b8b88f25f62b1c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779966158,
+        "stop" : 1654779968694,
+        "duration" : 2536
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#05 Hero banner static carousel will be displayed.",
+      "uid" : "7baac7a1963697b3",
+      "parentUid" : "f244dd1b477780e810b8b88f25f62b1c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779968695,
+        "stop" : 1654779970852,
+        "duration" : 2157
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#06 Game image will be displayed.",
+      "uid" : "ddfea5541695c365",
+      "parentUid" : "f244dd1b477780e810b8b88f25f62b1c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779970852,
+        "stop" : 1654779973571,
+        "duration" : 2719
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#07 The hero carousel slide is displayed, user click on arrow of navigation/swipes hero carousel slide then the content of the carousel will scroll.",
+      "uid" : "e6e63229579de53a",
+      "parentUid" : "f244dd1b477780e810b8b88f25f62b1c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779973571,
+        "stop" : 1654779976223,
+        "duration" : 2652
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#08 User can directed to info page of game after click/taps on hero banner carousel static.",
+      "uid" : "e8442574700b715d",
+      "parentUid" : "f244dd1b477780e810b8b88f25f62b1c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779976223,
+        "stop" : 1654779978500,
+        "duration" : 2277
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#09 All available game cards will be displayed, user click on arrow of navigation/swipes then the game cards of the carousel will scroll.",
+      "uid" : "8d451053d6de6d6",
+      "parentUid" : "f244dd1b477780e810b8b88f25f62b1c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779978500,
+        "stop" : 1654779980951,
+        "duration" : 2451
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#10 Hero carousel slide is displayed then the primary CTA will be VIEW GAMES.",
+      "uid" : "f89a549217ce11f7",
+      "parentUid" : "f244dd1b477780e810b8b88f25f62b1c",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1654779980951,
+        "stop" : 1654779980955,
+        "duration" : 4
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#11 User can go to the category after clicks/taps on CTA VIEW GAMES.",
+      "uid" : "c35ffd667a416bf2",
+      "parentUid" : "f244dd1b477780e810b8b88f25f62b1c",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1654779980955,
+        "stop" : 1654779980956,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#12 Card is displayed, user hover a mouse on that card then the primary CTA will be PLAY NOW, the secondary CTA will be INFO icon, AND the third CTA will be DEMO and available tags will be displayed.",
+      "uid" : "490915c8389059ed",
+      "parentUid" : "f244dd1b477780e810b8b88f25f62b1c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779980956,
+        "stop" : 1654779985648,
+        "duration" : 4692
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#13 Card is displayed, user hover a mouse on that card, the primary CTA is PLAY NOW, user clicks/taps on CTA PLAY NOW then the login modal appears.",
+      "uid" : "5af4ad0234871796",
+      "parentUid" : "f244dd1b477780e810b8b88f25f62b1c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779985648,
+        "stop" : 1654779990589,
+        "duration" : 4941
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#14 Card is displayed, user hover a mouse on that card, the secondary CTA is INFO, user clicks/taps on CTA INFO, user go to info page of the game, user click on CTA JOIN then join modal appears.",
+      "uid" : "ce502c35896fb06e",
+      "parentUid" : "f244dd1b477780e810b8b88f25f62b1c",
+      "status" : "failed",
+      "time" : {
+        "start" : 1654779990589,
+        "stop" : 1654779993446,
+        "duration" : 2857
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#15 Card is displayed, user hover a mouse on that card, the third CTA is DEMO, user clicks/taps on CTA DEMO then the login modal appears.",
+      "uid" : "5b6d50c8d20065f4",
+      "parentUid" : "f244dd1b477780e810b8b88f25f62b1c",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1654779993449,
+        "stop" : 1654779993450,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#16 All available categories will be displayed and user click/taps on category then user go to the category.",
+      "uid" : "d8849b4f2003aea3",
+      "parentUid" : "f244dd1b477780e810b8b88f25f62b1c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779993450,
+        "stop" : 1654780019404,
+        "duration" : 25954
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#17 Login modal can be appears after user clicks/taps on card.",
+      "uid" : "4b6c91b417406700",
+      "parentUid" : "f244dd1b477780e810b8b88f25f62b1c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780019404,
+        "stop" : 1654780025850,
+        "duration" : 6446
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#18 User has logged in, card is displayed, user hov er a mouse on that card, the primary CTA is PLAY NOW, user clicks/taps on CTA PLAY NOW then user go to the game.",
+      "uid" : "2589428acf2594a7",
+      "parentUid" : "f244dd1b477780e810b8b88f25f62b1c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780025850,
+        "stop" : 1654780036641,
+        "duration" : 10791
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#20 User has logged in, card is displayed, user hover a mouse on that card, the third CTA is DEMO, user clicks/taps on CTA DEMO then user go to the demo game.",
+      "uid" : "982b120b465a8b10",
+      "parentUid" : "f244dd1b477780e810b8b88f25f62b1c",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1654780036641,
+        "stop" : 1654780036642,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#19 User has logged in, card is displayed, user hover a mouse on that card, the secondary CTA is INFO, user clicks/taps on CTA INFO, user go to info page of the game, user click on CTA PLAY GAME then user go to the game.",
+      "uid" : "c1da5bf08f826150",
+      "parentUid" : "f244dd1b477780e810b8b88f25f62b1c",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1654780036641,
+        "stop" : 1654780036641,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#21 User has logged in, card is displayed, user clicks/taps on card then the user go to the game.",
+      "uid" : "80e81fc60292ed22",
+      "parentUid" : "f244dd1b477780e810b8b88f25f62b1c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780036642,
+        "stop" : 1654780044522,
+        "duration" : 7880
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "f244dd1b477780e810b8b88f25f62b1c"
+  }, {
+    "name" : "404 error page functionality testing.",
+    "children" : [ {
+      "name" : "#1 404 error page is displayed.",
+      "uid" : "d80437c2a6a142ed",
+      "parentUid" : "b648518f8682522ac91a9379e0d7a391",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779957000,
+        "stop" : 1654779958664,
+        "duration" : 1664
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#2 All elements are persisted on 404 error page.",
+      "uid" : "254674fb73a641ae",
+      "parentUid" : "b648518f8682522ac91a9379e0d7a391",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779958664,
+        "stop" : 1654779965518,
+        "duration" : 6854
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#3 Player can click \"Logo\" button and after that it will redirect to Home page.",
+      "uid" : "f53380752446dd41",
+      "parentUid" : "b648518f8682522ac91a9379e0d7a391",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779965518,
+        "stop" : 1654779967946,
+        "duration" : 2428
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#4 Player can click \"Join\" button and after that it will redirect to Register page.",
+      "uid" : "72c41694d44c6d91",
+      "parentUid" : "b648518f8682522ac91a9379e0d7a391",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779967946,
+        "stop" : 1654779969272,
+        "duration" : 1326
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#5 Player can click \"Login\" button, open login window and successfully login.",
+      "uid" : "34feb27b32267e3f",
+      "parentUid" : "b648518f8682522ac91a9379e0d7a391",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779969272,
+        "stop" : 1654779975006,
+        "duration" : 5734
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#6 Player can click \"Go to lobby\" button and after that it will redirect to Home page.",
+      "uid" : "f1e8043526452ce1",
+      "parentUid" : "b648518f8682522ac91a9379e0d7a391",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779975006,
+        "stop" : 1654779977833,
+        "duration" : 2827
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#7 Player can click \"Deposit\" button and open Deposit window.",
+      "uid" : "d25b2a3ddf080bf4",
+      "parentUid" : "b648518f8682522ac91a9379e0d7a391",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779977833,
+        "stop" : 1654779987135,
+        "duration" : 9302
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "b648518f8682522ac91a9379e0d7a391"
+  }, {
     "name" : "Logout",
     "children" : [ {
       "name" : "#01 Player can successfully logout.",
-      "uid" : "af9bd54d76b774fe",
+      "uid" : "da3f22f54fb531fc",
       "parentUid" : "7889adc551fb943d344581d130caec92",
       "status" : "failed",
       "time" : {
-        "start" : 1654776438694,
-        "stop" : 1654776443760,
-        "duration" : 5066
+        "start" : 1654779957532,
+        "stop" : 1654779966063,
+        "duration" : 8531
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "#02 Player is logged out of site if clearing there cookies.",
-      "uid" : "34cc3fa23f4240df",
+      "uid" : "d8036f754ecb0692",
       "parentUid" : "7889adc551fb943d344581d130caec92",
       "status" : "passed",
       "time" : {
-        "start" : 1654776443760,
-        "stop" : 1654776449533,
-        "duration" : 5773
+        "start" : 1654779966063,
+        "stop" : 1654779975774,
+        "duration" : 9711
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     } ],
     "uid" : "7889adc551fb943d344581d130caec92"
+  }, {
+    "name" : "Home page => Privacy Policy page",
+    "children" : [ {
+      "name" : "#0 User can come to the Privacy Policy page",
+      "uid" : "cb0b3bb70917543f",
+      "parentUid" : "64e5b42b098b4d0dfe9afab827bff937",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779983109,
+        "stop" : 1654779988759,
+        "duration" : 5650
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#1 User can come to the Eyas Gaming page from Privacy Policy page",
+      "uid" : "d58ede0a9bdb7c84",
+      "parentUid" : "64e5b42b098b4d0dfe9afab827bff937",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779988760,
+        "stop" : 1654780019121,
+        "duration" : 30361
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#2 User can come to the Merkur Slots page from Privacy Policy page",
+      "uid" : "757166a2f82ca665",
+      "parentUid" : "64e5b42b098b4d0dfe9afab827bff937",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780019121,
+        "stop" : 1654780030418,
+        "duration" : 11297
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#3 User can come to the Merkur Casino page from Privacy Policy page",
+      "uid" : "3347369036e86a3b",
+      "parentUid" : "64e5b42b098b4d0dfe9afab827bff937",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780030418,
+        "stop" : 1654780040636,
+        "duration" : 10218
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#4 User can come to the ICO(Information Commissioner's office) page from Privacy Policy page",
+      "uid" : "e48f0c7eb6d8506",
+      "parentUid" : "64e5b42b098b4d0dfe9afab827bff937",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780040636,
+        "stop" : 1654780047400,
+        "duration" : 6764
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#5 When the user clicks to link Privacy Policy user should watches the nex chapters.",
+      "uid" : "b522a88f44a1fa8",
+      "parentUid" : "64e5b42b098b4d0dfe9afab827bff937",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780047400,
+        "stop" : 1654780076936,
+        "duration" : 29536
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#6 After clicking on the link from 'Introduction to Eyas Gaming', the user should see the page  https://www.eyasgaming.com/.",
+      "uid" : "5753b02ac92576e4",
+      "parentUid" : "64e5b42b098b4d0dfe9afab827bff937",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780076936,
+        "stop" : 1654780084241,
+        "duration" : 7305
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#7 After clicking on the first link from 'What personal data do we collect? -> Players', the user should see the page  https://www.merkurslots.com/.",
+      "uid" : "e53c677252fec053",
+      "parentUid" : "64e5b42b098b4d0dfe9afab827bff937",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780084241,
+        "stop" : 1654780095810,
+        "duration" : 11569
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#8 After clicking on the second link from 'What personal data do we collect? -> Players', the user should see the page  https://www.merkurcasino.com/.",
+      "uid" : "322197abafbacf4",
+      "parentUid" : "64e5b42b098b4d0dfe9afab827bff937",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780095810,
+        "stop" : 1654780104902,
+        "duration" : 9092
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#9 After click one of the links from 'Website Visitors', the user should see new page.",
+      "uid" : "395ae72f070750d8",
+      "parentUid" : "64e5b42b098b4d0dfe9afab827bff937",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780104902,
+        "stop" : 1654780133387,
+        "duration" : 28485
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#10 After clicking on the link from 'Contact and DPO', the user should see the page  https://www.eyasgaming.com/.",
+      "uid" : "2a319fc88ff4cdfe",
+      "parentUid" : "64e5b42b098b4d0dfe9afab827bff937",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780133387,
+        "stop" : 1654780140120,
+        "duration" : 6733
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#11 The user can use for Malta contact@eyasgaming.com e-mail",
+      "uid" : "2b6816e7a80cb12f",
+      "parentUid" : "64e5b42b098b4d0dfe9afab827bff937",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780140120,
+        "stop" : 1654780145589,
+        "duration" : 5469
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#12 The user can use to contact for DPO regarding any data protection issue dpo@merkurslots.com email",
+      "uid" : "fcdbd21b04990783",
+      "parentUid" : "64e5b42b098b4d0dfe9afab827bff937",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780145589,
+        "stop" : 1654780154979,
+        "duration" : 9390
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "64e5b42b098b4d0dfe9afab827bff937"
+  }, {
+    "name" : "My Account > Gambling Controls > Account Closure > Close my account",
+    "children" : [ {
+      "name" : "#1 User on account closure modal, click next button and see reasons, select reason and see feedback screen.",
+      "uid" : "37b564f10c806d92",
+      "parentUid" : "d8e4423630bffe22d23a3b92e0e95014",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654779993293,
+        "stop" : 1654780030612,
+        "duration" : 37319
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#2 User see feedback screen, types five lines of text and see scroll.",
+      "uid" : "4e02b5b7e785fb64",
+      "parentUid" : "d8e4423630bffe22d23a3b92e0e95014",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780030612,
+        "stop" : 1654780045943,
+        "duration" : 15331
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#3 User has account balance more than the withdrawal limit and click to hyperlink and see cashier and can close it.",
+      "uid" : "6540dc95319f0c8",
+      "parentUid" : "d8e4423630bffe22d23a3b92e0e95014",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780045944,
+        "stop" : 1654780060585,
+        "duration" : 14641
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#4 Blank User go to the final screen and does not see withdrawal message",
+      "uid" : "99742505fd424ba",
+      "parentUid" : "d8e4423630bffe22d23a3b92e0e95014",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780060585,
+        "stop" : 1654780074860,
+        "duration" : 14275
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#5 User has account balance less than the withdrawal limit go to final step and see withdrawal message.",
+      "uid" : "f6bed894da593dc6",
+      "parentUid" : "d8e4423630bffe22d23a3b92e0e95014",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780074860,
+        "stop" : 1654780087418,
+        "duration" : 12558
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#6 User click x and journey is closed",
+      "uid" : "e453f1de1f1f7240",
+      "parentUid" : "d8e4423630bffe22d23a3b92e0e95014",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780087419,
+        "stop" : 1654780100550,
+        "duration" : 13131
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#7 User on final step and click Live chat and see help centre.",
+      "uid" : "e82082cf9c520c07",
+      "parentUid" : "d8e4423630bffe22d23a3b92e0e95014",
+      "status" : "failed",
+      "time" : {
+        "start" : 1654780100551,
+        "stop" : 1654780115125,
+        "duration" : 14574
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#8 User on final step and click Close account then log out.",
+      "uid" : "860ceca5d47f8b8f",
+      "parentUid" : "d8e4423630bffe22d23a3b92e0e95014",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1654780115125,
+        "stop" : 1654780115126,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#9 User has completed the close account journey, attempts to log back in and see failure.",
+      "uid" : "9c9941cef23278a0",
+      "parentUid" : "d8e4423630bffe22d23a3b92e0e95014",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1654780115126,
+        "stop" : 1654780115126,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "d8e4423630bffe22d23a3b92e0e95014"
+  }, {
+    "name" : "My Account > Gambling Controls > Account Closure > Take A Break",
+    "children" : [ {
+      "name" : "#1 Player can select take a break menu item from 'Account Closure' and Take A Break contain is displayed.",
+      "uid" : "e5f711559b2529d9",
+      "parentUid" : "a30c7c09eb727c876becaa7e8fc144b8",
+      "status" : "failed",
+      "time" : {
+        "start" : 1654780018818,
+        "stop" : 1654780033817,
+        "duration" : 14999
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#2 Player can close the take a break modal.",
+      "uid" : "baaae442a1d26260",
+      "parentUid" : "a30c7c09eb727c876becaa7e8fc144b8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780033817,
+        "stop" : 1654780048177,
+        "duration" : 14360
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#3 Player can press 'Back' button of the 'Take A Break' modal and then should be displayed previous step.",
+      "uid" : "d608dd0fa38a27ab",
+      "parentUid" : "a30c7c09eb727c876becaa7e8fc144b8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780048177,
+        "stop" : 1654780062756,
+        "duration" : 14579
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#4 Player cannot continue with 'Take A Break' if a reason is not selected.",
+      "uid" : "936c8b24a0c745cc",
+      "parentUid" : "a30c7c09eb727c876becaa7e8fc144b8",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1654780062756,
+        "stop" : 1654780062757,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#5 Player cannot continue with 'Take A Break' if a duration is not selected.",
+      "uid" : "37c60c33cd48dca7",
+      "parentUid" : "a30c7c09eb727c876becaa7e8fc144b8",
+      "status" : "failed",
+      "time" : {
+        "start" : 1654780062757,
+        "stop" : 1654780075834,
+        "duration" : 13077
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#6 Player can select a reason for taking a break from the drop down menu.",
+      "uid" : "d405006f1fd4b049",
+      "parentUid" : "a30c7c09eb727c876becaa7e8fc144b8",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1654780075834,
+        "stop" : 1654780075834,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#7 Player can choose 24 hours option for 'Take A Break' and this option should be selected.",
+      "uid" : "bf23561cd7f0efca",
+      "parentUid" : "a30c7c09eb727c876becaa7e8fc144b8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780075835,
+        "stop" : 1654780087793,
+        "duration" : 11958
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#8 Player can choose 1 week option for 'Take A Break' and this option should be selected.",
+      "uid" : "2d9efa621fbb0022",
+      "parentUid" : "a30c7c09eb727c876becaa7e8fc144b8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780087793,
+        "stop" : 1654780101241,
+        "duration" : 13448
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#9 Player can choose 4 weeks option for 'Take A Break' and this option should be selected.",
+      "uid" : "18434e70fefaad10",
+      "parentUid" : "a30c7c09eb727c876becaa7e8fc144b8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780101241,
+        "stop" : 1654780113879,
+        "duration" : 12638
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#10 Player can choose 6 weeks option for 'Take A Break' and this option should be selected.",
+      "uid" : "82e8bd778dd0c86b",
+      "parentUid" : "a30c7c09eb727c876becaa7e8fc144b8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780113879,
+        "stop" : 1654780126234,
+        "duration" : 12355
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#11 Player can continue with chosen 24 hours option to 'Take A Break' and confirming modal should display.",
+      "uid" : "b74e0e26e9cf97c4",
+      "parentUid" : "a30c7c09eb727c876becaa7e8fc144b8",
+      "status" : "failed",
+      "time" : {
+        "start" : 1654780126234,
+        "stop" : 1654780139627,
+        "duration" : 13393
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#12 Player can continue with chosen 1 week option to 'Take A Break' and confirming modal should display.",
+      "uid" : "4a3fb9ef5d2fa4df",
+      "parentUid" : "a30c7c09eb727c876becaa7e8fc144b8",
+      "status" : "failed",
+      "time" : {
+        "start" : 1654780139628,
+        "stop" : 1654780153658,
+        "duration" : 14030
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#13 Player can continue with chosen 4 weeks option to 'Take A Break' and confirming modal should display.",
+      "uid" : "3fcf36489be13552",
+      "parentUid" : "a30c7c09eb727c876becaa7e8fc144b8",
+      "status" : "failed",
+      "time" : {
+        "start" : 1654780153658,
+        "stop" : 1654780167194,
+        "duration" : 13536
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#14 Player can continue with chosen 6 weeks option to 'Take A Break' and confirming modal should display.",
+      "uid" : "8db14d9edb551709",
+      "parentUid" : "a30c7c09eb727c876becaa7e8fc144b8",
+      "status" : "failed",
+      "time" : {
+        "start" : 1654780167194,
+        "stop" : 1654780180181,
+        "duration" : 12987
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#15 Player can choose to view the 'Self Exclusion' service from the 'Take A Break' modal.",
+      "uid" : "1adfb84abec2c370",
+      "parentUid" : "a30c7c09eb727c876becaa7e8fc144b8",
+      "status" : "failed",
+      "time" : {
+        "start" : 1654780180181,
+        "stop" : 1654780193903,
+        "duration" : 13722
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#16 Player can press 'BACK' for confirmating modal after chosen for 24 hours 'Take A Break' and should return to previous step.",
+      "uid" : "69083c35b0680ca8",
+      "parentUid" : "a30c7c09eb727c876becaa7e8fc144b8",
+      "status" : "failed",
+      "time" : {
+        "start" : 1654780193903,
+        "stop" : 1654780207872,
+        "duration" : 13969
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#17 Player can close the take a break modal.",
+      "uid" : "a4c3a4f32e1ff6b8",
+      "parentUid" : "a30c7c09eb727c876becaa7e8fc144b8",
+      "status" : "failed",
+      "time" : {
+        "start" : 1654780207872,
+        "stop" : 1654780221024,
+        "duration" : 13152
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#18 Player can press 'CONFIRM' to finish 'Take A Break' a for 24 hours and should be logged out and unable to sign back into their account.",
+      "uid" : "b3581dc13aeb632e",
+      "parentUid" : "a30c7c09eb727c876becaa7e8fc144b8",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1654780221024,
+        "stop" : 1654780221025,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "a30c7c09eb727c876becaa7e8fc144b8"
+  }, {
+    "name" : "My Account > Gambling Controls > Account Closure > Self Exclusion",
+    "children" : [ {
+      "name" : "#1 Player can select the 'Self Exclusion' menu item and is displayed the Self Exclusion modal.",
+      "uid" : "5b036e1050beac0d",
+      "parentUid" : "fddcd445851e3581a68118b5f4d9481a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1654780024905,
+        "stop" : 1654780039900,
+        "duration" : 14995
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#2 Player can close the 'Self Exclusion' modal.",
+      "uid" : "d622f7af4c7e9f3c",
+      "parentUid" : "fddcd445851e3581a68118b5f4d9481a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780039900,
+        "stop" : 1654780055335,
+        "duration" : 15435
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#3 Player can press 'Back' button of the 'Self Exlusion' modal and should return to previous step.",
+      "uid" : "503c8fac30c0e526",
+      "parentUid" : "fddcd445851e3581a68118b5f4d9481a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1654780055335,
+        "stop" : 1654780067755,
+        "duration" : 12420
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#4 Player cannot continue with 'Self Exclusion' if a reason is not selected.",
+      "uid" : "e23e05bb1396dd33",
+      "parentUid" : "fddcd445851e3581a68118b5f4d9481a",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1654780067755,
+        "stop" : 1654780067758,
+        "duration" : 3
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#5 Player cannot continue with 'Self Exclusion' if a duration is not selected.",
+      "uid" : "342168fe2ad233b5",
+      "parentUid" : "fddcd445851e3581a68118b5f4d9481a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780067758,
+        "stop" : 1654780080524,
+        "duration" : 12766
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#6 Player can select a reason for taking self exclusion the drop down menu.",
+      "uid" : "6d67349e5f0f74ef",
+      "parentUid" : "fddcd445851e3581a68118b5f4d9481a",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1654780080524,
+        "stop" : 1654780080526,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#7 Player can choose 6 months option for 'Self Exclusion' and this option should be selected.",
+      "uid" : "ff6db7e4440b2a48",
+      "parentUid" : "fddcd445851e3581a68118b5f4d9481a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780080526,
+        "stop" : 1654780093140,
+        "duration" : 12614
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#8 Player can choose 12 months option for 'Self Exclusion' and this option should be selected.",
+      "uid" : "61d478d0b2e0e46a",
+      "parentUid" : "fddcd445851e3581a68118b5f4d9481a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780093140,
+        "stop" : 1654780106611,
+        "duration" : 13471
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#9 Player can choose 18 months option for 'Self Exclusion' and this option should be selected.",
+      "uid" : "63fa38e9a72c3de4",
+      "parentUid" : "fddcd445851e3581a68118b5f4d9481a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780106612,
+        "stop" : 1654780118257,
+        "duration" : 11645
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#10 Player can choose 2 years option for 'Self Exclusion' and this option should be selected.",
+      "uid" : "df89ffa0f14bf954",
+      "parentUid" : "fddcd445851e3581a68118b5f4d9481a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780118258,
+        "stop" : 1654780130181,
+        "duration" : 11923
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#11 Player can choose 5 years option for 'Self Exclusion' and this option should be selected.",
+      "uid" : "8fed5f6a74b34aad",
+      "parentUid" : "fddcd445851e3581a68118b5f4d9481a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780130181,
+        "stop" : 1654780142231,
+        "duration" : 12050
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#12 Player can continue with chosen 6 months option to 'Self Exclusion' and confirming modal should display.",
+      "uid" : "b0f039162fc6ad0b",
+      "parentUid" : "fddcd445851e3581a68118b5f4d9481a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1654780142231,
+        "stop" : 1654780164024,
+        "duration" : 21793
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#13 Player can continue with chosen 12 months option to 'Self Exclusion' and confirming modal should display.",
+      "uid" : "3b72746d39ef522e",
+      "parentUid" : "fddcd445851e3581a68118b5f4d9481a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1654780164024,
+        "stop" : 1654780186240,
+        "duration" : 22216
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#14 Player can continue with chosen 18 months option to 'Self Exclusion' and confirming modal should display.",
+      "uid" : "5233ffdb250bfdd1",
+      "parentUid" : "fddcd445851e3581a68118b5f4d9481a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1654780186240,
+        "stop" : 1654780208392,
+        "duration" : 22152
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#15 Player can continue with chosen 2 years option to 'Self Exclusion' and confirming modal should display.",
+      "uid" : "462127f0c050700a",
+      "parentUid" : "fddcd445851e3581a68118b5f4d9481a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1654780208392,
+        "stop" : 1654780230468,
+        "duration" : 22076
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#16 Player can continue with chosen 5 years option to 'Self Exclusion' and confirming modal should display.",
+      "uid" : "87826eaca1a8f45a",
+      "parentUid" : "fddcd445851e3581a68118b5f4d9481a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1654780230468,
+        "stop" : 1654780251517,
+        "duration" : 21049
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#17 Player can press 'BACK' for confirmating modal after chosen for 6 months 'Self Exclusion' and should return to previous step.",
+      "uid" : "e2f212ab8cde9ddb",
+      "parentUid" : "fddcd445851e3581a68118b5f4d9481a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1654780251517,
+        "stop" : 1654780272617,
+        "duration" : 21100
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#18 Player can close the self exclusion modal.",
+      "uid" : "3ff2359f3a5121cb",
+      "parentUid" : "fddcd445851e3581a68118b5f4d9481a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1654780272617,
+        "stop" : 1654780294297,
+        "duration" : 21680
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#19 Player can continue with chosen 6 months option to 'Self Exclusion' and confirming modal should display.",
+      "uid" : "5027e3c7b40db4c1",
+      "parentUid" : "fddcd445851e3581a68118b5f4d9481a",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1654780294297,
+        "stop" : 1654780294298,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "fddcd445851e3581a68118b5f4d9481a"
+  }, {
+    "name" : "My Account > Gambling Controls > Deposit Limits",
+    "children" : [ {
+      "name" : "#1 Player can view their deposit limits.",
+      "uid" : "44ab2c4fae2f078e",
+      "parentUid" : "c1241e507322101c86066c7b6b7229b1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780056968,
+        "stop" : 1654780068831,
+        "duration" : 11863
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#2 Player is displayed 'Set Deposit Limit' text if no deposit limits are set.",
+      "uid" : "46f63fdafc55782f",
+      "parentUid" : "c1241e507322101c86066c7b6b7229b1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780068831,
+        "stop" : 1654780079024,
+        "duration" : 10193
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#3 Player can close the Deposit Limits modal.",
+      "uid" : "e0e7a318da1aab10",
+      "parentUid" : "c1241e507322101c86066c7b6b7229b1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780079024,
+        "stop" : 1654780094273,
+        "duration" : 15249
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#4 Player can cancel out of the Deposit Limits modal.",
+      "uid" : "32475d458248dba",
+      "parentUid" : "c1241e507322101c86066c7b6b7229b1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780094274,
+        "stop" : 1654780109286,
+        "duration" : 15012
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#5 Player can open the Deposit Limits Edit modal on edit icon click.",
+      "uid" : "394c56c680bd046a",
+      "parentUid" : "c1241e507322101c86066c7b6b7229b1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780109287,
+        "stop" : 1654780121039,
+        "duration" : 11752
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#6 Player can close the Deposit Limits Edit modal",
+      "uid" : "bf9c4ed5d623b0cb",
+      "parentUid" : "c1241e507322101c86066c7b6b7229b1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780121039,
+        "stop" : 1654780136096,
+        "duration" : 15057
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#7 Player can open the Deposit Limits Delete modal on delete icon click.",
+      "uid" : "a4b030556da6e6e8",
+      "parentUid" : "c1241e507322101c86066c7b6b7229b1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780136096,
+        "stop" : 1654780147872,
+        "duration" : 11776
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#8 Player can close the Deposit Limits Delete modal",
+      "uid" : "d4d55326c7d73f6e",
+      "parentUid" : "c1241e507322101c86066c7b6b7229b1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780147872,
+        "stop" : 1654780162015,
+        "duration" : 14143
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#9 Player can successfully update a daily deposit limit in the Deposit Limits Delete modal",
+      "uid" : "94d1715b9a09a338",
+      "parentUid" : "c1241e507322101c86066c7b6b7229b1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780162015,
+        "stop" : 1654780183625,
+        "duration" : 21610
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#10 Player can successfully set a daily deposit limit if not already set.",
+      "uid" : "ffcce29c6d963e",
+      "parentUid" : "c1241e507322101c86066c7b6b7229b1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780183625,
+        "stop" : 1654780196400,
+        "duration" : 12775
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#11 Player can successfully set a weekly deposit limit if not already set.",
+      "uid" : "b6bf23466ee75dbe",
+      "parentUid" : "c1241e507322101c86066c7b6b7229b1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780196400,
+        "stop" : 1654780208672,
+        "duration" : 12272
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#12 Player can successfully set a monthly deposit limit if not already set.",
+      "uid" : "1cfdbc45e2a70109",
+      "parentUid" : "c1241e507322101c86066c7b6b7229b1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780208672,
+        "stop" : 1654780220781,
+        "duration" : 12109
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#13 Player can open the Deposit Limits Delete modal on delete icon click and click on edit icon in the input field.",
+      "uid" : "1eb5e0a43c8b96b4",
+      "parentUid" : "c1241e507322101c86066c7b6b7229b1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780220781,
+        "stop" : 1654780233909,
+        "duration" : 13128
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#14 Player can successfully set Deposit Limit to the minimum allowed value and will receive a success toast on submitting the new amount.",
+      "uid" : "df8268796f1b5c64",
+      "parentUid" : "c1241e507322101c86066c7b6b7229b1",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1654780233910,
+        "stop" : 1654780233910,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#15 Player can successfully change Deposit Limit with a decimal value and receive a success toast on submitting the new amount.",
+      "uid" : "ba2caf789edd58f4",
+      "parentUid" : "c1241e507322101c86066c7b6b7229b1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780233910,
+        "stop" : 1654780254382,
+        "duration" : 20472
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#16 Player cannot set Deposit Limit lower than the minimum amount.",
+      "uid" : "40f3a406c17d5741",
+      "parentUid" : "c1241e507322101c86066c7b6b7229b1",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1654780254382,
+        "stop" : 1654780254383,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#18 Player can submit a blank value in the Deposit Limits.",
+      "uid" : "efe6da1455d2456c",
+      "parentUid" : "c1241e507322101c86066c7b6b7229b1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780254383,
+        "stop" : 1654780268366,
+        "duration" : 13983
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#17 Player cannot set Deposit Limit higher than the maximum amount.",
+      "uid" : "c04440cd78e06c7e",
+      "parentUid" : "c1241e507322101c86066c7b6b7229b1",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1654780254383,
+        "stop" : 1654780254383,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#19 Player can open 'History' modal.",
+      "uid" : "8ba9a79e320a9f8",
+      "parentUid" : "c1241e507322101c86066c7b6b7229b1",
+      "status" : "failed",
+      "time" : {
+        "start" : 1654780268366,
+        "stop" : 1654780275071,
+        "duration" : 6705
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#20 Player can close 'History' modal.",
+      "uid" : "91790e0ac647b02f",
+      "parentUid" : "c1241e507322101c86066c7b6b7229b1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780275072,
+        "stop" : 1654780288282,
+        "duration" : 13210
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#21 Player can open 'How deposit limits work' modal.",
+      "uid" : "445d84baf565bb9d",
+      "parentUid" : "c1241e507322101c86066c7b6b7229b1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780288282,
+        "stop" : 1654780299520,
+        "duration" : 11238
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#22 Player can close 'How deposit limits work' modal.",
+      "uid" : "57df1ed29ebad2c1",
+      "parentUid" : "c1241e507322101c86066c7b6b7229b1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780299520,
+        "stop" : 1654780312249,
+        "duration" : 12729
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "c1241e507322101c86066c7b6b7229b1"
+  }, {
+    "name" : "My Profile > Communications Preferences",
+    "children" : [ {
+      "name" : "#1 Player can view their communication preferences (default preferences: empty communication preferences and English language)",
+      "uid" : "3c942da70faa6e3",
+      "parentUid" : "72437ddc9921c0227bc8cee1294582a8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780122388,
+        "stop" : 1654780133167,
+        "duration" : 10779
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#2 Player can edit their preferences and exit using the x close button within the modal discarding changes",
+      "uid" : "56bc211e3c7e52c8",
+      "parentUid" : "72437ddc9921c0227bc8cee1294582a8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780133167,
+        "stop" : 1654780144092,
+        "duration" : 10925
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#3 Player can edit their preferences and exit using the Cancel CTA within the modal discarding changes",
+      "uid" : "dd3b89d9102429c2",
+      "parentUid" : "72437ddc9921c0227bc8cee1294582a8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780144092,
+        "stop" : 1654780154759,
+        "duration" : 10667
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#4 Player can edit their preferences and toggle all preferences with the select all toggle, which upon saving updates the account area",
+      "uid" : "ddfddc296e89c800",
+      "parentUid" : "72437ddc9921c0227bc8cee1294582a8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780154759,
+        "stop" : 1654780170513,
+        "duration" : 15754
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#5 Player can edit their preferences and select just the email toggle, which upon saving updates the account area accordingly",
+      "uid" : "fd6b5622d32dcb31",
+      "parentUid" : "72437ddc9921c0227bc8cee1294582a8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780170513,
+        "stop" : 1654780184460,
+        "duration" : 13947
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#6 Player can edit their preferences and select just the Text toggle, which upon saving updates the account area accordingly",
+      "uid" : "f56cfc726d914745",
+      "parentUid" : "72437ddc9921c0227bc8cee1294582a8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780184460,
+        "stop" : 1654780199818,
+        "duration" : 15358
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#7 Player can edit their preferences and select just the Post toggle, which upon saving updates the account area accordingly",
+      "uid" : "d6d902062284ca1d",
+      "parentUid" : "72437ddc9921c0227bc8cee1294582a8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780199818,
+        "stop" : 1654780213915,
+        "duration" : 14097
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#8 Player can edit their preferences and select just the Phone toggle, which upon saving updates the account area accordingly",
+      "uid" : "51b53d66583220d2",
+      "parentUid" : "72437ddc9921c0227bc8cee1294582a8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780213915,
+        "stop" : 1654780226824,
+        "duration" : 12909
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#9 Player can unselect all preferences using the select all toggle (select all toggle already active), which upon saving updates the account area accordingly",
+      "uid" : "2d00256bcc02f58d",
+      "parentUid" : "72437ddc9921c0227bc8cee1294582a8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780226824,
+        "stop" : 1654780241579,
+        "duration" : 14755
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#10 Player can unselect just email preferences using the email toggle (email already toggled on), which upon saving updates the account area accordingly",
+      "uid" : "b3073ada96a13ae3",
+      "parentUid" : "72437ddc9921c0227bc8cee1294582a8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780241579,
+        "stop" : 1654780257101,
+        "duration" : 15522
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#11 Player can uneselect just text preferences using the text toggle (text already toggled on), which upon saving updates the account area accordingly",
+      "uid" : "176fe20e0884334e",
+      "parentUid" : "72437ddc9921c0227bc8cee1294582a8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780257101,
+        "stop" : 1654780271918,
+        "duration" : 14817
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#12 Player can uneselect just phone preferences using the phone toggle (phone already toggled on), which upon saving updates the account area accordingly",
+      "uid" : "bc0d52b1b6c73758",
+      "parentUid" : "72437ddc9921c0227bc8cee1294582a8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780271919,
+        "stop" : 1654780287323,
+        "duration" : 15404
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#13 Player can uneselect just post preferences using the post toggle (post already toggled on), which upon saving updates the account area accordingly",
+      "uid" : "18c73c202b8e2776",
+      "parentUid" : "72437ddc9921c0227bc8cee1294582a8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780287323,
+        "stop" : 1654780302677,
+        "duration" : 15354
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "72437ddc9921c0227bc8cee1294582a8"
+  }, {
+    "name" : "Slots page",
+    "children" : [ {
+      "name" : "#1 User can navigates to the slots page and all elements are persisted on the page",
+      "uid" : "16d9f2c7071aff98",
+      "parentUid" : "5039b0cc24ce04fcef3fcf145d8ae779",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780127666,
+        "stop" : 1654780131529,
+        "duration" : 3863
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#2 User can see hero banner carousel and can scroll it",
+      "uid" : "489fcfb8fd39268d",
+      "parentUid" : "5039b0cc24ce04fcef3fcf145d8ae779",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780131529,
+        "stop" : 1654780134523,
+        "duration" : 2994
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#3 User can see static hero banner carousel and can click on it and see game info page",
+      "uid" : "ec049158489280d3",
+      "parentUid" : "5039b0cc24ce04fcef3fcf145d8ae779",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780134523,
+        "stop" : 1654780137532,
+        "duration" : 3009
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#4 User can see game carousel and can scroll it",
+      "uid" : "7156ebd068be0f93",
+      "parentUid" : "5039b0cc24ce04fcef3fcf145d8ae779",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780137532,
+        "stop" : 1654780141854,
+        "duration" : 4322
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#5 User can see on hero banner carousel primary button CTA, can click on it and see game info page",
+      "uid" : "baabd59c18c35364",
+      "parentUid" : "5039b0cc24ce04fcef3fcf145d8ae779",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780141854,
+        "stop" : 1654780144648,
+        "duration" : 2794
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#6 User can hover mouse on game card and see all needed elements",
+      "uid" : "11756bf7d1800004",
+      "parentUid" : "5039b0cc24ce04fcef3fcf145d8ae779",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780144648,
+        "stop" : 1654780149488,
+        "duration" : 4840
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#7 User hover the game card and click 'Play now' and login modal appears",
+      "uid" : "7f348c8231d325e4",
+      "parentUid" : "5039b0cc24ce04fcef3fcf145d8ae779",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780149488,
+        "stop" : 1654780153509,
+        "duration" : 4021
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#8 User hover the game card and click on CTA 'INFO' and go to info page, click on JOIN and see register page",
+      "uid" : "9c36114abec4a5c9",
+      "parentUid" : "5039b0cc24ce04fcef3fcf145d8ae779",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780153509,
+        "stop" : 1654780160515,
+        "duration" : 7006
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#9 User hover the game card and click on it and login modal appears",
+      "uid" : "80ce3b4644373e05",
+      "parentUid" : "5039b0cc24ce04fcef3fcf145d8ae779",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780160515,
+        "stop" : 1654780165281,
+        "duration" : 4766
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#10 User click on category and go to category page",
+      "uid" : "df86651a83197fe",
+      "parentUid" : "5039b0cc24ce04fcef3fcf145d8ae779",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780165281,
+        "stop" : 1654780168993,
+        "duration" : 3712
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#11 User logged in and hover the game card and click on CTA \"PLAY NOW\" and go to game page",
+      "uid" : "14dcd4c2d79b4a9",
+      "parentUid" : "5039b0cc24ce04fcef3fcf145d8ae779",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780168993,
+        "stop" : 1654780179545,
+        "duration" : 10552
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#12 User logged in hover the game card  and click on CTA \"INFO\" and go to INFO page and click on \"PLAY NOW\" and see game page",
+      "uid" : "d768a3ca5cc354da",
+      "parentUid" : "5039b0cc24ce04fcef3fcf145d8ae779",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780179545,
+        "stop" : 1654780189420,
+        "duration" : 9875
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#13 User logged in and click on game card and game page appears",
+      "uid" : "c0c54fdb04cc628c",
+      "parentUid" : "5039b0cc24ce04fcef3fcf145d8ae779",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780189420,
+        "stop" : 1654780199671,
+        "duration" : 10251
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "5039b0cc24ce04fcef3fcf145d8ae779"
+  }, {
+    "name" : "My Account > Settings > Change Password",
+    "children" : [ {
+      "name" : "#1 Player can close the Change Password modal.",
+      "uid" : "e964287fc7858ef4",
+      "parentUid" : "578667d191051de9fa6b4ea4f518ffc2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780167760,
+        "stop" : 1654780180374,
+        "duration" : 12614
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#2 Player can cancel out of the Change Password modal.",
+      "uid" : "7e2e1167a635738a",
+      "parentUid" : "578667d191051de9fa6b4ea4f518ffc2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780180374,
+        "stop" : 1654780193225,
+        "duration" : 12851
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#3 Current Password is a mandatory field.",
+      "uid" : "97106144b5f7d9d1",
+      "parentUid" : "578667d191051de9fa6b4ea4f518ffc2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780193225,
+        "stop" : 1654780205243,
+        "duration" : 12018
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#4 New Password is a mandatory field.",
+      "uid" : "89b75a0a0b559c34",
+      "parentUid" : "578667d191051de9fa6b4ea4f518ffc2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780205243,
+        "stop" : 1654780216995,
+        "duration" : 11752
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#5 Player cannot submit the Change Password form with blank details.",
+      "uid" : "93f4fb6ed11b016f",
+      "parentUid" : "578667d191051de9fa6b4ea4f518ffc2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780216995,
+        "stop" : 1654780227886,
+        "duration" : 10891
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#6 Player should be displayed an error if they submit the Change Password form with an incorrect Current Password.",
+      "uid" : "67d17115e1ac0ed",
+      "parentUid" : "578667d191051de9fa6b4ea4f518ffc2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780227886,
+        "stop" : 1654780239975,
+        "duration" : 12089
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#7 Player is displayed with the password requirements when they start to enter a new password.",
+      "uid" : "e6fb2073ec7430fc",
+      "parentUid" : "578667d191051de9fa6b4ea4f518ffc2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780239975,
+        "stop" : 1654780250327,
+        "duration" : 10352
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#8 New password must contain a number.",
+      "uid" : "fd8af7b3407bb2a2",
+      "parentUid" : "578667d191051de9fa6b4ea4f518ffc2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780250327,
+        "stop" : 1654780261955,
+        "duration" : 11628
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#9 New password must contain a combination of upper and lower case letters (all upper case).",
+      "uid" : "307afcc45cab8aa6",
+      "parentUid" : "578667d191051de9fa6b4ea4f518ffc2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780261955,
+        "stop" : 1654780273135,
+        "duration" : 11180
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#10 New password must contain a combination of upper and lower case letters (all lower case).",
+      "uid" : "d6eabfa302630b6",
+      "parentUid" : "578667d191051de9fa6b4ea4f518ffc2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780273135,
+        "stop" : 1654780284689,
+        "duration" : 11554
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#11 New password must contain a minimum of 8 characters.",
+      "uid" : "5af8aefce989ff4e",
+      "parentUid" : "578667d191051de9fa6b4ea4f518ffc2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780284689,
+        "stop" : 1654780295605,
+        "duration" : 10916
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#12 New password must not contain email address.",
+      "uid" : "401dfc7032ad126d",
+      "parentUid" : "578667d191051de9fa6b4ea4f518ffc2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780295605,
+        "stop" : 1654780305834,
+        "duration" : 10229
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#13 Player cannot continue to next step if their new password does not meet the minimum password requirements.",
+      "uid" : "df8298f0a16b4815",
+      "parentUid" : "578667d191051de9fa6b4ea4f518ffc2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780305834,
+        "stop" : 1654780315609,
+        "duration" : 9775
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#14 Player inputs into the password fields should be masked by default.",
+      "uid" : "343437500559134f",
+      "parentUid" : "578667d191051de9fa6b4ea4f518ffc2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780315609,
+        "stop" : 1654780325958,
+        "duration" : 10349
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#15 Player should be able to show/hide their inputs into the password fields.",
+      "uid" : "8dfecfc6cd97e34",
+      "parentUid" : "578667d191051de9fa6b4ea4f518ffc2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780325958,
+        "stop" : 1654780338406,
+        "duration" : 12448
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#16 Player can successfully update and sign in with their new password.",
+      "uid" : "ebfcd7b3e03252f7",
+      "parentUid" : "578667d191051de9fa6b4ea4f518ffc2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654780338406,
+        "stop" : 1654780364826,
+        "duration" : 26420
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "578667d191051de9fa6b4ea4f518ffc2"
   } ]
 }
