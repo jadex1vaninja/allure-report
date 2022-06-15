@@ -1,0 +1,71 @@
+{
+  "uid" : "230fa45b6986d457",
+  "name" : "#4 Blank User go to the final screen and does not see withdrawal message",
+  "fullName" : "My Account > Gambling Controls > Account Closure > Close my account.#4 Blank User go to the final screen and does not see withdrawal message",
+  "historyId" : "a0d7635676af4c6c082ec4ac75db9063",
+  "time" : {
+    "start" : 1655282125618,
+    "stop" : 1655282138807,
+    "duration" : 13189
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c975a8568f825265",
+      "name" : "Screenshot",
+      "source" : "c975a8568f825265.png",
+      "type" : "image/png",
+      "size" : 277176
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "My Account > Gambling Controls > Account Closure > Close my account"
+  }, {
+    "name" : "testClass",
+    "value" : "My Account > Gambling Controls > Account Closure > Close my account"
+  }, {
+    "name" : "testMethod",
+    "value" : "#4 Blank User go to the final screen and does not see withdrawal message"
+  }, {
+    "name" : "package",
+    "value" : "My Account > Gambling Controls > Account Closure > Close my account"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "9a531b984b0a8163",
+      "status" : "failed",
+      "statusDetails" : "Failed: element click intercepted: Element <a data-testid=\"navigation-Account-link\" class=\"navigation-link--selected navigation-link--expanded navigation-link\" href=\"/uk/en/home.html?myAccount=true\">...</a> is not clickable at point (120, 404). Other element would receive the click: <h5 class=\"heading heading--5 cookie-preference-control__categories-header\">...</h5>\n                  (Session info: headless chrome=102.0.5005.115)\n                Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'\n                System info: host: 'Unknown', ip: 'Unknown', os.name: 'Linux', os.arch: 'amd64', os.version: '5.13.0-48-generic', java.version: '11.0.15'\n                Driver info: driver.version: unknown",
+      "time" : {
+        "start" : 1655281313481,
+        "stop" : 1655281320748,
+        "duration" : 7267
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "230fa45b6986d457.json",
+  "parameterValues" : [ ]
+}

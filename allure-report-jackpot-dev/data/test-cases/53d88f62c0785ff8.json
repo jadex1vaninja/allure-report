@@ -1,0 +1,79 @@
+{
+  "uid" : "53d88f62c0785ff8",
+  "name" : "#1 User can come to the help center from terms and conditions page",
+  "fullName" : "Home => Terms & Conditions.#1 User can come to the help center from terms and conditions page",
+  "historyId" : "45090708f597746c89b58174e6a21240",
+  "time" : {
+    "start" : 1655280757782,
+    "stop" : 1655280761182,
+    "duration" : 3400
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expected 'https://jackpotuniverse-com-dev.eyasgaming.net/uk/en/legal/terms-and-conditions.html#/' to contain 'https://help.jackpotuniverse.com/hc/en-gb', 'User can't come to the help center page'.",
+  "statusTrace" : "Error: Failed expectation\n                    at UserContext.<anonymous> (/home/dev/azure/eyas-test-automation/src/test/legal/terms.spec.js:76:39)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expected 'https://jackpotuniverse-com-dev.eyasgaming.net/uk/en/legal/terms-and-conditions.html#/' to contain 'https://help.jackpotuniverse.com/hc/en-gb', 'User can't come to the help center page'.",
+    "statusTrace" : "Error: Failed expectation\n                    at UserContext.<anonymous> (/home/dev/azure/eyas-test-automation/src/test/legal/terms.spec.js:76:39)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5ee82b2b256e085e",
+      "name" : "Screenshot",
+      "source" : "5ee82b2b256e085e.png",
+      "type" : "image/png",
+      "size" : 200371
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Home => Terms & Conditions"
+  }, {
+    "name" : "testClass",
+    "value" : "Home => Terms & Conditions"
+  }, {
+    "name" : "testMethod",
+    "value" : "#1 User can come to the help center from terms and conditions page"
+  }, {
+    "name" : "package",
+    "value" : "Home => Terms & Conditions"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "ac9ff4c1db61a6ae",
+      "status" : "failed",
+      "statusDetails" : "Expected 'https://jackpotuniverse-com-dev.eyasgaming.net/uk/en/legal/terms-and-conditions.html#/' to contain 'https://help.jackpotuniverse.com/hc/en-gb', 'User can't come to the help center page'.",
+      "time" : {
+        "start" : 1655279968634,
+        "stop" : 1655279972686,
+        "duration" : 4052
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "53d88f62c0785ff8.json",
+  "parameterValues" : [ ]
+}

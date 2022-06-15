@@ -1,0 +1,71 @@
+{
+  "uid" : "abee3693f2ccc01c",
+  "name" : "#5 User has account balance less than the withdrawal limit go to final step and see withdrawal message.",
+  "fullName" : "My Account > Gambling Controls > Account Closure > Close my account.#5 User has account balance less than the withdrawal limit go to final step and see withdrawal message.",
+  "historyId" : "efe3e1a0230242cb2960e1b512ae710d",
+  "time" : {
+    "start" : 1655283582923,
+    "stop" : 1655283596947,
+    "duration" : 14024
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e3a7e50ee7599638",
+      "name" : "Screenshot",
+      "source" : "e3a7e50ee7599638.png",
+      "type" : "image/png",
+      "size" : 276578
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "My Account > Gambling Controls > Account Closure > Close my account"
+  }, {
+    "name" : "testClass",
+    "value" : "My Account > Gambling Controls > Account Closure > Close my account"
+  }, {
+    "name" : "testMethod",
+    "value" : "#5 User has account balance less than the withdrawal limit go to final step and see withdrawal message."
+  }, {
+    "name" : "package",
+    "value" : "My Account > Gambling Controls > Account Closure > Close my account"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "80196073df799596",
+      "status" : "failed",
+      "statusDetails" : "Failed: Index out of bound. Trying to access element at index: -1, but there are only 0 elements that match locator By(css selector, .account-tile-list-item--clickable)",
+      "time" : {
+        "start" : 1655282708951,
+        "stop" : 1655282722834,
+        "duration" : 13883
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "abee3693f2ccc01c.json",
+  "parameterValues" : [ ]
+}
