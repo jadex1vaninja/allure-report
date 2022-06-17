@@ -1,0 +1,71 @@
+{
+  "uid" : "132ab4b7298f517a",
+  "name" : "#12 Player can successfully set a monthly deposit limit if not already set.",
+  "fullName" : "My Account > Gambling Controls > Deposit Limits.#12 Player can successfully set a monthly deposit limit if not already set.",
+  "historyId" : "ea2b6fb763f64440dfed0d702b72c802",
+  "time" : {
+    "start" : 1655480617904,
+    "stop" : 1655480628338,
+    "duration" : 10434
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "25a53829d473abfc",
+      "name" : "Screenshot",
+      "source" : "25a53829d473abfc.png",
+      "type" : "image/png",
+      "size" : 272434
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "My Account > Gambling Controls > Deposit Limits"
+  }, {
+    "name" : "testClass",
+    "value" : "My Account > Gambling Controls > Deposit Limits"
+  }, {
+    "name" : "testMethod",
+    "value" : "#12 Player can successfully set a monthly deposit limit if not already set."
+  }, {
+    "name" : "package",
+    "value" : "My Account > Gambling Controls > Deposit Limits"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "85597c2515d05b57",
+      "status" : "failed",
+      "statusDetails" : "Failed: No element found using locator: By(css selector, .account-limits)",
+      "time" : {
+        "start" : 1655479810939,
+        "stop" : 1655479825759,
+        "duration" : 14820
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "132ab4b7298f517a.json",
+  "parameterValues" : [ ]
+}
