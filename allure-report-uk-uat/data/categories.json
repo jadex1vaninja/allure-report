@@ -4,33 +4,63 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "Expected '' to equal '100'.",
+      "name" : "Failed: stale element reference: element is not attached to the page document\n                  (Session info: headless chrome=102.0.5005.115)\n                For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\n                Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'\n                System info: host: 'Unknown', ip: 'Unknown', os.name: 'Linux', os.arch: 'amd64', os.version: '5.13.0-51-generic', java.version: '11.0.15'\n                Driver info: driver.version: unknown",
       "children" : [ {
-        "name" : "#22 User can enter amount, go to full terms and conditions, click back button, close full terms conditions and return in deposit modal.",
-        "uid" : "fc97d58ae2af0a3b",
-        "parentUid" : "b4dbeb206295cb704e93fbb739a6d263",
+        "name" : "#6 Active promotion is excluded from the featured section.",
+        "uid" : "4f742b349463a4a2",
+        "parentUid" : "42deb8d2aa2b495f9d7dbde381163ab6",
         "status" : "failed",
         "time" : {
-          "start" : 1655476544765,
-          "stop" : 1655476564782,
-          "duration" : 20017
+          "start" : 1655710288038,
+          "stop" : 1655710298811,
+          "duration" : 10773
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "#18 User has logged in, card is displayed, user hover a mouse on that card, the secondary CTA is INFO, user clicks/taps on CTA INFO, user go to info page of the game, user click on CTA PLAY GAME then user go to the game.",
+        "uid" : "3c38ee9696a3c257",
+        "parentUid" : "42deb8d2aa2b495f9d7dbde381163ab6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1655710872142,
+          "stop" : 1655710882741,
+          "duration" : 10599
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "b4dbeb206295cb704e93fbb739a6d263"
+      "uid" : "42deb8d2aa2b495f9d7dbde381163ab6"
+    }, {
+      "name" : "Expected '' to equal '50'.",
+      "children" : [ {
+        "name" : "#22 User can enter amount, go to full terms and conditions, click back button, close full terms conditions and return in deposit modal.",
+        "uid" : "a1239a75766a0a11",
+        "parentUid" : "652748f77ad403380fe967c98b00e280",
+        "status" : "failed",
+        "time" : {
+          "start" : 1655710599924,
+          "stop" : 1655710620533,
+          "duration" : 20609
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "652748f77ad403380fe967c98b00e280"
     }, {
       "name" : "Expected '' to contain 'Promotions', 'Title of promotion page has incorrect text for not login user.'.",
       "children" : [ {
         "name" : "#27 Promotion page has correct title for not login user.",
-        "uid" : "47c89effc376c2c2",
+        "uid" : "5985f5ac1c4394ff",
         "parentUid" : "e3bcf3c5efa3951ff35091c1659cdf8f",
         "status" : "failed",
         "time" : {
-          "start" : 1655476617249,
-          "stop" : 1655476621432,
-          "duration" : 4183
+          "start" : 1655710673528,
+          "stop" : 1655710677206,
+          "duration" : 3678
         },
         "flaky" : false,
         "newFailed" : false,
@@ -41,13 +71,13 @@
       "name" : "Expected 'I want to self exclude' to contain 'I want to pause my account', 'Take A Break modal heading has incorrect text.'.",
       "children" : [ {
         "name" : "#1 Player can select take a break menu item from 'Account Closure' and Take A Break contain is displayed.",
-        "uid" : "c56ddaafb72951e0",
+        "uid" : "80b68182081cc002",
         "parentUid" : "3c5a033e8799f0ae0a86dd3ac4aeaf6f",
         "status" : "failed",
         "time" : {
-          "start" : 1655476713318,
-          "stop" : 1655476734633,
-          "duration" : 21315
+          "start" : 1655710772304,
+          "stop" : 1655710792651,
+          "duration" : 20347
         },
         "flaky" : false,
         "newFailed" : false,
@@ -55,63 +85,16 @@
       } ],
       "uid" : "3c5a033e8799f0ae0a86dd3ac4aeaf6f"
     }, {
-      "name" : "Failed: Accept All Cookie Notification not visible.\n                Wait timed out after 20000ms",
-      "children" : [ {
-        "name" : "#2 User can come to the privacy policy page from terms and conditions page",
-        "uid" : "893fa74c506063b2",
-        "parentUid" : "94e1c41a41b765a974fc4a5d6ce45d81",
-        "status" : "failed",
-        "time" : {
-          "start" : 1655476731840,
-          "stop" : 1655476756048,
-          "duration" : 24208
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "94e1c41a41b765a974fc4a5d6ce45d81"
-    }, {
-      "name" : "Failed: Accept All Cookie Notification not visible.\n                Wait timed out after 20005ms",
-      "children" : [ {
-        "name" : "#2 User can come to the Merkur Slots page from Privacy Policy page",
-        "uid" : "12c458390e5e340a",
-        "parentUid" : "195c3cd3be40c1db86d20a0ba8ef4a9c",
-        "status" : "failed",
-        "time" : {
-          "start" : 1655476732131,
-          "stop" : 1655476754927,
-          "duration" : 22796
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "#4 User can come to the Responsible Gambling page from terms and conditions page",
-        "uid" : "13b8429f3bc1e4d9",
-        "parentUid" : "195c3cd3be40c1db86d20a0ba8ef4a9c",
-        "status" : "failed",
-        "time" : {
-          "start" : 1655476764791,
-          "stop" : 1655476788036,
-          "duration" : 23245
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "195c3cd3be40c1db86d20a0ba8ef4a9c"
-    }, {
       "name" : "Failed: Accept All Cookie Notification not visible.\n                Wait timed out after 20006ms",
       "children" : [ {
-        "name" : "#2 User can come to the \"Help for problem gambling\" page from Responsible Gambling page",
-        "uid" : "7814ca257787517a",
+        "name" : "#2 User can come to the privacy policy page from terms and conditions page",
+        "uid" : "d6ee47f877d0ac7f",
         "parentUid" : "cf47c830b933a8016c9caa1195d3c6d0",
         "status" : "failed",
         "time" : {
-          "start" : 1655476738021,
-          "stop" : 1655476761439,
-          "duration" : 23418
+          "start" : 1655710791508,
+          "stop" : 1655710816363,
+          "duration" : 24855
         },
         "flaky" : false,
         "newFailed" : false,
@@ -119,33 +102,46 @@
       } ],
       "uid" : "cf47c830b933a8016c9caa1195d3c6d0"
     }, {
-      "name" : "NoSuchElementError: Index out of bound. Trying to access element at index: 1, but there are only 1 elements that match locator By(css selector, li)",
+      "name" : "Failed: Accept All Cookie Notification not visible.\n                Wait timed out after 20012ms",
       "children" : [ {
-        "name" : "#08 The hero carousel slide is displayed, user click on arrow of navigation/swipes hero carousel slide then the content of the carousel will scroll.",
-        "uid" : "4d9eb89509c50d8e",
-        "parentUid" : "56b26576a0e30896258c6f8f5d0bd928",
+        "name" : "#2 User can come to the \"Help for problem gambling\" page from Responsible Gambling page",
+        "uid" : "fdcd5bbc88c5c49f",
+        "parentUid" : "faf62692ef61f9d0eb78d47056ca2a35",
         "status" : "failed",
         "time" : {
-          "start" : 1655476751055,
-          "stop" : 1655476756872,
-          "duration" : 5817
+          "start" : 1655710797893,
+          "stop" : 1655710821207,
+          "duration" : 23314
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "#4 User can come to the Responsible Gambling page from terms and conditions page",
+        "uid" : "7514053b3affaccb",
+        "parentUid" : "faf62692ef61f9d0eb78d47056ca2a35",
+        "status" : "failed",
+        "time" : {
+          "start" : 1655710825239,
+          "stop" : 1655710849513,
+          "duration" : 24274
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "56b26576a0e30896258c6f8f5d0bd928"
+      "uid" : "faf62692ef61f9d0eb78d47056ca2a35"
     }, {
       "name" : "Failed: No element found using locator: By(css selector, .takeabreak__secondary-btn)",
       "children" : [ {
         "name" : "#3 Player can press 'Back' button of the 'Take A Break' modal and then should be displayed previous step.",
-        "uid" : "62ab1ebb57eeea27",
+        "uid" : "62159b552f58603e",
         "parentUid" : "7bf1888e08f1e4b513bf77c3b1b0d1da",
         "status" : "failed",
         "time" : {
-          "start" : 1655476752574,
-          "stop" : 1655476768194,
-          "duration" : 15620
+          "start" : 1655710811274,
+          "stop" : 1655710826887,
+          "duration" : 15613
         },
         "flaky" : false,
         "newFailed" : false,
@@ -153,33 +149,33 @@
       } ],
       "uid" : "7bf1888e08f1e4b513bf77c3b1b0d1da"
     }, {
-      "name" : "Failed: Accept All Cookie Notification not visible.\n                Wait timed out after 20010ms",
+      "name" : "NoSuchElementError: Index out of bound. Trying to access element at index: 1, but there are only 1 elements that match locator By(css selector, li)",
       "children" : [ {
-        "name" : "#4 User can come to the ICO(Information Commissioner's office) page from Privacy Policy page",
-        "uid" : "5f01eb4c3e87e10a",
-        "parentUid" : "245d4fe613008c7ba9c345adbdc1b867",
+        "name" : "#08 The hero carousel slide is displayed, user click on arrow of navigation/swipes hero carousel slide then the content of the carousel will scroll.",
+        "uid" : "1a8555fddf4d06b6",
+        "parentUid" : "56b26576a0e30896258c6f8f5d0bd928",
         "status" : "failed",
         "time" : {
-          "start" : 1655476767345,
-          "stop" : 1655476790617,
-          "duration" : 23272
+          "start" : 1655710813315,
+          "stop" : 1655710818959,
+          "duration" : 5644
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "245d4fe613008c7ba9c345adbdc1b867"
+      "uid" : "56b26576a0e30896258c6f8f5d0bd928"
     }, {
       "name" : "Failed: No element found using locator: By(css selector, .takeabreak__footer)",
       "children" : [ {
         "name" : "#5 Player cannot continue with 'Take A Break' if a duration is not selected.",
-        "uid" : "c87e1d07a605654b",
+        "uid" : "799f56a1ea11c09",
         "parentUid" : "2c91bd4961d76d71cc5f37a6f7c227ad",
         "status" : "failed",
         "time" : {
-          "start" : 1655476768197,
-          "stop" : 1655476783198,
-          "duration" : 15001
+          "start" : 1655710826887,
+          "stop" : 1655710842405,
+          "duration" : 15518
         },
         "flaky" : false,
         "newFailed" : false,
@@ -187,29 +183,63 @@
       } ],
       "uid" : "2c91bd4961d76d71cc5f37a6f7c227ad"
     }, {
-      "name" : "Failed: Accept All Cookie Notification not visible.\n                Wait timed out after 20001ms",
+      "name" : "Failed: Accept All Cookie Notification not visible.\n                Wait timed out after 20009ms",
       "children" : [ {
         "name" : "#4 User can come to the \"Block Access to Gambling Websites and Apps Worldwide\" page from Responsible Gambling page",
-        "uid" : "cd91c7baf46566f4",
-        "parentUid" : "1f832a0ba0e0f580b2a5f81f0fe608b4",
+        "uid" : "44b926d6101c14d1",
+        "parentUid" : "de0a44430cc9e6c7face654acc3585ce",
         "status" : "failed",
         "time" : {
-          "start" : 1655476771448,
-          "stop" : 1655476794584,
-          "duration" : 23136
+          "start" : 1655710831542,
+          "stop" : 1655710854394,
+          "duration" : 22852
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "de0a44430cc9e6c7face654acc3585ce"
+    }, {
+      "name" : "Failed: After player chooses option in take a break nothing option selected.\n                Wait timed out after 10009ms",
+      "children" : [ {
+        "name" : "#7 Player can choose 24 hours option for 'Take A Break' and this option should be selected.",
+        "uid" : "95fba4c884164d63",
+        "parentUid" : "ffe3708884ef44d0a7567c54d27a25fd",
+        "status" : "failed",
+        "time" : {
+          "start" : 1655710842405,
+          "stop" : 1655710867935,
+          "duration" : 25530
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "#9 After click one of the links from 'Website Visitors', the user should see new page.",
-        "uid" : "98f7010962ee29d2",
+        "name" : "#9 Player can choose 4 weeks option for 'Take A Break' and this option should be selected.",
+        "uid" : "d64c263c79052f24",
+        "parentUid" : "ffe3708884ef44d0a7567c54d27a25fd",
+        "status" : "failed",
+        "time" : {
+          "start" : 1655710892446,
+          "stop" : 1655710916791,
+          "duration" : 24345
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ffe3708884ef44d0a7567c54d27a25fd"
+    }, {
+      "name" : "Failed: Accept All Cookie Notification not visible.\n                Wait timed out after 20001ms",
+      "children" : [ {
+        "name" : "#6 User can come to the GamCare page from terms and conditions page",
+        "uid" : "28755f3655da8f06",
         "parentUid" : "1f832a0ba0e0f580b2a5f81f0fe608b4",
         "status" : "failed",
         "time" : {
-          "start" : 1655476862216,
-          "stop" : 1655476889015,
-          "duration" : 26799
+          "start" : 1655710858191,
+          "stop" : 1655710880806,
+          "duration" : 22615
         },
         "flaky" : false,
         "newFailed" : false,
@@ -217,93 +247,16 @@
       } ],
       "uid" : "1f832a0ba0e0f580b2a5f81f0fe608b4"
     }, {
-      "name" : "Failed: After player chooses option in take a break nothing option selected.\n                Wait timed out after 10002ms",
-      "children" : [ {
-        "name" : "#7 Player can choose 24 hours option for 'Take A Break' and this option should be selected.",
-        "uid" : "b153beb769608a03",
-        "parentUid" : "88812206ded5f626de707db534285e4e",
-        "status" : "failed",
-        "time" : {
-          "start" : 1655476783198,
-          "stop" : 1655476808312,
-          "duration" : 25114
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "#8 Player can choose 1 week option for 'Take A Break' and this option should be selected.",
-        "uid" : "f53355357c846e0d",
-        "parentUid" : "88812206ded5f626de707db534285e4e",
-        "status" : "failed",
-        "time" : {
-          "start" : 1655476808312,
-          "stop" : 1655476832651,
-          "duration" : 24339
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "88812206ded5f626de707db534285e4e"
-    }, {
-      "name" : "Failed: No element found using locator: By(css selector, [data-testid=\"review-step-item-telephone\"])",
-      "children" : [ {
-        "name" : "#04 Player can update their telephone number.",
-        "uid" : "459e47f323d81909",
-        "parentUid" : "4697d4169d7b53942e42a6774cf76d4d",
-        "status" : "failed",
-        "time" : {
-          "start" : 1655476784605,
-          "stop" : 1655476802739,
-          "duration" : 18134
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "4697d4169d7b53942e42a6774cf76d4d"
-    }, {
-      "name" : "Failed: Accept All Cookie Notification not visible.\n                Wait timed out after 20003ms",
-      "children" : [ {
-        "name" : "#6 User can come to the GamCare page from terms and conditions page",
-        "uid" : "f46e0c4e09108e6c",
-        "parentUid" : "86d870a7729784ff3e63511630a3420a",
-        "status" : "failed",
-        "time" : {
-          "start" : 1655476795667,
-          "stop" : 1655476817727,
-          "duration" : 22060
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "#8 User can come to the eCOGRA page from terms and conditions page",
-        "uid" : "d101d8c595302a97",
-        "parentUid" : "86d870a7729784ff3e63511630a3420a",
-        "status" : "failed",
-        "time" : {
-          "start" : 1655476824956,
-          "stop" : 1655476848055,
-          "duration" : 23099
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "86d870a7729784ff3e63511630a3420a"
-    }, {
       "name" : "Failed: No element found using locator: By(css selector, .zoomed-game-card)",
       "children" : [ {
         "name" : "#17 User has logged in, card is displayed, user hover a mouse on that card, the primary CTA is PLAY NOW, user clicks/taps on CTA PLAY NOW then user go to the game.",
-        "uid" : "17529b7c5808b32b",
+        "uid" : "e12d6c152c8af316",
         "parentUid" : "59f294144555f4fbf44e48c47e5d97c2",
         "status" : "failed",
         "time" : {
-          "start" : 1655476797418,
-          "stop" : 1655476807635,
-          "duration" : 10217
+          "start" : 1655710861070,
+          "stop" : 1655710872142,
+          "duration" : 11072
         },
         "flaky" : false,
         "newFailed" : false,
@@ -311,110 +264,33 @@
       } ],
       "uid" : "59f294144555f4fbf44e48c47e5d97c2"
     }, {
-      "name" : "Failed: Accept All Cookie Notification not visible.\n                Wait timed out after 20002ms",
+      "name" : "Failed: After player chooses option in take a break nothing option selected.\n                Wait timed out after 10001ms",
       "children" : [ {
-        "name" : "#7 After clicking on the first link from 'What personal data do we collect? -> Players', the user should see the page  https://www.merkurslots.com/.",
-        "uid" : "91c46c04acc84a09",
-        "parentUid" : "0e8773573c814f837dcde50b6b6a3be0",
+        "name" : "#8 Player can choose 1 week option for 'Take A Break' and this option should be selected.",
+        "uid" : "5bdc377a932bf5cb",
+        "parentUid" : "2796039fdba0a58374e733471159f53c",
         "status" : "failed",
         "time" : {
-          "start" : 1655476829053,
-          "stop" : 1655476851105,
-          "duration" : 22052
+          "start" : 1655710867935,
+          "stop" : 1655710892446,
+          "duration" : 24511
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "0e8773573c814f837dcde50b6b6a3be0"
-    }, {
-      "name" : "Failed: After player chooses option in take a break nothing option selected.\n                Wait timed out after 10008ms",
-      "children" : [ {
-        "name" : "#9 Player can choose 4 weeks option for 'Take A Break' and this option should be selected.",
-        "uid" : "9b3a258425a3a9c7",
-        "parentUid" : "73a8931c2e59b390313e1e4a116cf6bd",
-        "status" : "failed",
-        "time" : {
-          "start" : 1655476832651,
-          "stop" : 1655476857009,
-          "duration" : 24358
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "73a8931c2e59b390313e1e4a116cf6bd"
-    }, {
-      "name" : "Failed: No element found using locator: By(css selector, .input__icon input__icon--left)",
-      "children" : [ {
-        "name" : "#01 Player can click on input search and enter Town.",
-        "uid" : "88963bdf123ee317",
-        "parentUid" : "bb4f0844be901530c53e208ccee77a5c",
-        "status" : "failed",
-        "time" : {
-          "start" : 1655476839877,
-          "stop" : 1655476852456,
-          "duration" : 12579
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "bb4f0844be901530c53e208ccee77a5c"
-    }, {
-      "name" : "Failed: After player chooses option in take a break nothing option selected.\n                Wait timed out after 10005ms",
-      "children" : [ {
-        "name" : "#10 Player can choose 6 weeks option for 'Take A Break' and this option should be selected.",
-        "uid" : "25c58480feb506d8",
-        "parentUid" : "415d84c03fc30dfa1c79961deb06f19c",
-        "status" : "failed",
-        "time" : {
-          "start" : 1655476857009,
-          "stop" : 1655476881395,
-          "duration" : 24386
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "#16 Player can press 'BACK' for confirmating modal after chosen for 24 hours 'Take A Break' and should return to previous step.",
-        "uid" : "65a07685cab4d9ab",
-        "parentUid" : "415d84c03fc30dfa1c79961deb06f19c",
-        "status" : "failed",
-        "time" : {
-          "start" : 1655476983898,
-          "stop" : 1655477004612,
-          "duration" : 20714
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "#17 Player can close the take a break modal.",
-        "uid" : "b7709929794cd7ee",
-        "parentUid" : "415d84c03fc30dfa1c79961deb06f19c",
-        "status" : "failed",
-        "time" : {
-          "start" : 1655477004612,
-          "stop" : 1655477025110,
-          "duration" : 20498
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "415d84c03fc30dfa1c79961deb06f19c"
+      "uid" : "2796039fdba0a58374e733471159f53c"
     }, {
       "name" : "NoSuchElementError: No element found using locator: By(css selector, .eyas-game-info)",
       "children" : [ {
         "name" : "#5 User can see on hero banner carousel primary button CTA, can click on it and see game info page",
-        "uid" : "e4d020ac89b1d78f",
+        "uid" : "3089a6593391881e",
         "parentUid" : "eaf7d0b747abd0893b87ba201dfa5701",
         "status" : "failed",
         "time" : {
-          "start" : 1655476858680,
-          "stop" : 1655476864778,
-          "duration" : 6098
+          "start" : 1655710885679,
+          "stop" : 1655710892152,
+          "duration" : 6473
         },
         "flaky" : false,
         "newFailed" : false,
@@ -422,33 +298,16 @@
       } ],
       "uid" : "eaf7d0b747abd0893b87ba201dfa5701"
     }, {
-      "name" : "Failed: After player chooses option in take a break nothing option selected.\n                Wait timed out after 10007ms",
-      "children" : [ {
-        "name" : "#11 Player can continue with chosen 24 hours option to 'Take A Break' and confirming modal should display.",
-        "uid" : "f561ab00b30e10",
-        "parentUid" : "641381275d5e39f130d6d88300c302fe",
-        "status" : "failed",
-        "time" : {
-          "start" : 1655476881395,
-          "stop" : 1655476905697,
-          "duration" : 24302
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "641381275d5e39f130d6d88300c302fe"
-    }, {
       "name" : "Failed: Accept All Cookie Notification not visible.\n                Wait timed out after 20007ms",
       "children" : [ {
-        "name" : "#11 The user can use for Malta contact@eyasgaming.com e-mail",
-        "uid" : "d94bbd3332503f81",
+        "name" : "#8 User can come to the eCOGRA page from terms and conditions page",
+        "uid" : "6f7c7746b99b7fda",
         "parentUid" : "ff9bd5815ca60dad2530c884b2b6402c",
         "status" : "failed",
         "time" : {
-          "start" : 1655476898827,
-          "stop" : 1655476921290,
-          "duration" : 22463
+          "start" : 1655710888820,
+          "stop" : 1655710912251,
+          "duration" : 23431
         },
         "flaky" : false,
         "newFailed" : false,
@@ -456,16 +315,97 @@
       } ],
       "uid" : "ff9bd5815ca60dad2530c884b2b6402c"
     }, {
-      "name" : "Failed: After player chooses option in take a break nothing option selected.\n                Wait timed out after 10000ms",
+      "name" : "Failed: No element found using locator: By(css selector, .input__icon input__icon--left)",
+      "children" : [ {
+        "name" : "#01 Player can click on input search and enter Town.",
+        "uid" : "da2a0b88db1d2c9f",
+        "parentUid" : "bb4f0844be901530c53e208ccee77a5c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1655710896396,
+          "stop" : 1655710909518,
+          "duration" : 13122
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bb4f0844be901530c53e208ccee77a5c"
+    }, {
+      "name" : "Failed: After player chooses option in take a break nothing option selected.\n                Wait timed out after 10003ms",
+      "children" : [ {
+        "name" : "#10 Player can choose 6 weeks option for 'Take A Break' and this option should be selected.",
+        "uid" : "c30504f1852a82dc",
+        "parentUid" : "1f4290ab6b09c49d810100dcff80926e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1655710916791,
+          "stop" : 1655710938909,
+          "duration" : 22118
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1f4290ab6b09c49d810100dcff80926e"
+    }, {
+      "name" : "Failed: After player chooses option in take a break nothing option selected.\n                Wait timed out after 10007ms",
+      "children" : [ {
+        "name" : "#11 Player can continue with chosen 24 hours option to 'Take A Break' and confirming modal should display.",
+        "uid" : "ef87fb0a5536554d",
+        "parentUid" : "641381275d5e39f130d6d88300c302fe",
+        "status" : "failed",
+        "time" : {
+          "start" : 1655710938909,
+          "stop" : 1655710962098,
+          "duration" : 23189
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "#13 Player can continue with chosen 4 weeks option to 'Take A Break' and confirming modal should display.",
+        "uid" : "ebf405151870bfb1",
+        "parentUid" : "641381275d5e39f130d6d88300c302fe",
+        "status" : "failed",
+        "time" : {
+          "start" : 1655710984235,
+          "stop" : 1655711005567,
+          "duration" : 21332
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "641381275d5e39f130d6d88300c302fe"
+    }, {
+      "name" : "Failed: After player chooses option in take a break nothing option selected.\n                Wait timed out after 10002ms",
       "children" : [ {
         "name" : "#12 Player can continue with chosen 1 week option to 'Take A Break' and confirming modal should display.",
-        "uid" : "d08b17c5a388fd19",
+        "uid" : "4cdcef08d3f724b5",
+        "parentUid" : "88812206ded5f626de707db534285e4e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1655710962098,
+          "stop" : 1655710984235,
+          "duration" : 22137
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "88812206ded5f626de707db534285e4e"
+    }, {
+      "name" : "Failed: After player chooses option in take a break nothing option selected.\n                Wait timed out after 10000ms",
+      "children" : [ {
+        "name" : "#14 Player can continue with chosen 6 weeks option to 'Take A Break' and confirming modal should display.",
+        "uid" : "e06a160cbf77d956",
         "parentUid" : "1feb985ae44a677702239b84caa7fa2c",
         "status" : "failed",
         "time" : {
-          "start" : 1655476905697,
-          "stop" : 1655476929531,
-          "duration" : 23834
+          "start" : 1655711005567,
+          "stop" : 1655711028688,
+          "duration" : 23121
         },
         "flaky" : false,
         "newFailed" : false,
@@ -473,29 +413,33 @@
       } ],
       "uid" : "1feb985ae44a677702239b84caa7fa2c"
     }, {
-      "name" : "Failed: After player chooses option in take a break nothing option selected.\n                Wait timed out after 10006ms",
+      "name" : "Failed: No element found using locator: By(css selector, .takeabreak__link)",
       "children" : [ {
-        "name" : "#13 Player can continue with chosen 4 weeks option to 'Take A Break' and confirming modal should display.",
-        "uid" : "1335ff6ae3d354f1",
-        "parentUid" : "d1da40966e32bb8cd33dae87fe7b3af9",
+        "name" : "#15 Player can choose to view the 'Self Exclusion' service from the 'Take A Break' modal.",
+        "uid" : "dd680c9d6196e67e",
+        "parentUid" : "1e386df1565bf8438d469062e3f3b18b",
         "status" : "failed",
         "time" : {
-          "start" : 1655476929531,
-          "stop" : 1655476951615,
-          "duration" : 22084
+          "start" : 1655711028688,
+          "stop" : 1655711039291,
+          "duration" : 10603
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
-      }, {
-        "name" : "#14 Player can continue with chosen 6 weeks option to 'Take A Break' and confirming modal should display.",
-        "uid" : "ad50bb44395f2ba",
+      } ],
+      "uid" : "1e386df1565bf8438d469062e3f3b18b"
+    }, {
+      "name" : "Failed: After player chooses option in take a break nothing option selected.\n                Wait timed out after 10006ms",
+      "children" : [ {
+        "name" : "#16 Player can press 'BACK' for confirmating modal after chosen for 24 hours 'Take A Break' and should return to previous step.",
+        "uid" : "9b0c722bc1e04a30",
         "parentUid" : "d1da40966e32bb8cd33dae87fe7b3af9",
         "status" : "failed",
         "time" : {
-          "start" : 1655476951615,
-          "stop" : 1655476973437,
-          "duration" : 21822
+          "start" : 1655711039291,
+          "stop" : 1655711060235,
+          "duration" : 20944
         },
         "flaky" : false,
         "newFailed" : false,
@@ -503,22 +447,22 @@
       } ],
       "uid" : "d1da40966e32bb8cd33dae87fe7b3af9"
     }, {
-      "name" : "Failed: No element found using locator: By(css selector, .takeabreak__link)",
+      "name" : "Failed: After player chooses option in take a break nothing option selected.\n                Wait timed out after 10004ms",
       "children" : [ {
-        "name" : "#15 Player can choose to view the 'Self Exclusion' service from the 'Take A Break' modal.",
-        "uid" : "2da8ddc291768ff8",
-        "parentUid" : "1e386df1565bf8438d469062e3f3b18b",
+        "name" : "#17 Player can close the take a break modal.",
+        "uid" : "9e6352c23cc108c8",
+        "parentUid" : "46cc122d4ff7463f85428ea6095081d0",
         "status" : "failed",
         "time" : {
-          "start" : 1655476973437,
-          "stop" : 1655476983898,
-          "duration" : 10461
+          "start" : 1655711060235,
+          "stop" : 1655711081203,
+          "duration" : 20968
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "1e386df1565bf8438d469062e3f3b18b"
+      "uid" : "46cc122d4ff7463f85428ea6095081d0"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]
