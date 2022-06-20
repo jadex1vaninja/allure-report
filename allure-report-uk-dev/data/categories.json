@@ -4,16 +4,33 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "Failed: Bonus history is not displayed.\n                Wait timed out after 20001ms",
+      "name" : "Failed: Bonus history is not displayed.\n                Wait timed out after 20016ms",
       "children" : [ {
         "name" : "#2 All active promotions cards are displayed.",
-        "uid" : "120dd974163a7ea8",
+        "uid" : "ddac9f1ee3af390e",
+        "parentUid" : "c873bb764a0d4b31089c38ecbb7cd70b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1655716478722,
+          "stop" : 1655716511215,
+          "duration" : 32493
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c873bb764a0d4b31089c38ecbb7cd70b"
+    }, {
+      "name" : "Failed: Bonus history is not displayed.\n                Wait timed out after 20001ms",
+      "children" : [ {
+        "name" : "#3 Active promotions are displayed in correct order.",
+        "uid" : "f753257a38df37a1",
         "parentUid" : "7935c2bfa3f35d703c0142b4daff349f",
         "status" : "failed",
         "time" : {
-          "start" : 1655481237662,
-          "stop" : 1655481270005,
-          "duration" : 32343
+          "start" : 1655716511216,
+          "stop" : 1655716554270,
+          "duration" : 43054
         },
         "flaky" : false,
         "newFailed" : false,
@@ -21,127 +38,127 @@
       } ],
       "uid" : "7935c2bfa3f35d703c0142b4daff349f"
     }, {
-      "name" : "Failed: Bonus history is not displayed.\n                Wait timed out after 20032ms",
-      "children" : [ {
-        "name" : "#3 Active promotions are displayed in correct order.",
-        "uid" : "ac1e087ee7b1962e",
-        "parentUid" : "d1d2bfc846ff76fb7e4de9534eda2bce",
-        "status" : "failed",
-        "time" : {
-          "start" : 1655481270005,
-          "stop" : 1655481302256,
-          "duration" : 32251
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "d1d2bfc846ff76fb7e4de9534eda2bce"
-    }, {
-      "name" : "Failed: Bonus history is not displayed.\n                Wait timed out after 20021ms",
+      "name" : "Failed: Bonus history is not displayed.\n                Wait timed out after 20011ms",
       "children" : [ {
         "name" : "#4 Bonus History Page is displayed after clicks \"See all Activity\" in Recenty Activity.",
-        "uid" : "8510c71c110a2e15",
-        "parentUid" : "9fb077d6cc2ccc494c5ce20f574786d7",
+        "uid" : "83db1a3da541336f",
+        "parentUid" : "58a0b45d2f1aba62a5af919a8d5a73d1",
         "status" : "failed",
         "time" : {
-          "start" : 1655481302256,
-          "stop" : 1655481334448,
-          "duration" : 32192
+          "start" : 1655716554270,
+          "stop" : 1655716586999,
+          "duration" : 32729
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "9fb077d6cc2ccc494c5ce20f574786d7"
+      "uid" : "58a0b45d2f1aba62a5af919a8d5a73d1"
     }, {
-      "name" : "Expected 'Go Bananas!' to contain 'Surf n Turf', 'Promotion title for 1 featured promotion does not appropriate.'.",
+      "name" : "Expected 'Go Bananas!' to contain 'Make Mondays Great Again', 'Promotion title for 1 featured promotion does not appropriate.'.",
       "children" : [ {
         "name" : "#5 Featured promotions are displayed in correct order.",
-        "uid" : "4af590105dea4a6e",
-        "parentUid" : "988122fcadaccdbbbdec31aec23bd02a",
+        "uid" : "c55788da9a59b4c2",
+        "parentUid" : "47134ac5f65666af899e7fa385f134c9",
         "status" : "failed",
         "time" : {
-          "start" : 1655481334448,
-          "stop" : 1655481346220,
-          "duration" : 11772
+          "start" : 1655716587000,
+          "stop" : 1655716599616,
+          "duration" : 12616
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "988122fcadaccdbbbdec31aec23bd02a"
+      "uid" : "47134ac5f65666af899e7fa385f134c9"
     }, {
-      "name" : "Failed: Deposit bonus modal is not visible.\n                Wait timed out after 10002ms",
+      "name" : "Failed: Deposit bonus modal is not visible.\n                Wait timed out after 10003ms",
       "children" : [ {
         "name" : "#19 User can click DEPOSIT CTA for deposit bonus and open deposit bonus modal with displaying all sections.",
-        "uid" : "608596e36c7a7a",
-        "parentUid" : "2f376d612d4a0a5ae93851c3f0cac431",
+        "uid" : "37d6d93fd54a6898",
+        "parentUid" : "ec23a409d5044a5a83c2db197f0df1f3",
         "status" : "failed",
         "time" : {
-          "start" : 1655481498124,
-          "stop" : 1655481519821,
-          "duration" : 21697
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "2f376d612d4a0a5ae93851c3f0cac431"
-    }, {
-      "name" : "Failed: Deposit bonus modal is not visible.\n                Wait timed out after 10006ms",
-      "children" : [ {
-        "name" : "#20 Error message is displayed after user enters amount that is less than the qualification amount for deposit bonus.",
-        "uid" : "a1e173f07f7d58fa",
-        "parentUid" : "22a705ace227d308da575f1e326866e1",
-        "status" : "failed",
-        "time" : {
-          "start" : 1655481519821,
-          "stop" : 1655481540902,
-          "duration" : 21081
+          "start" : 1655716760559,
+          "stop" : 1655716781951,
+          "duration" : 21392
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "#21 User can click on the terms and conditions link and the terms and conditions are displayed for deposit bonus.",
-        "uid" : "ed3422dffa290bfa",
-        "parentUid" : "22a705ace227d308da575f1e326866e1",
+        "name" : "#24 User can close deposit bonus modal, remove display bonus modal and return to the launch screen.",
+        "uid" : "b693222644885cb5",
+        "parentUid" : "ec23a409d5044a5a83c2db197f0df1f3",
         "status" : "failed",
         "time" : {
-          "start" : 1655481540902,
-          "stop" : 1655481562553,
-          "duration" : 21651
+          "start" : 1655716870814,
+          "stop" : 1655716892556,
+          "duration" : 21742
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "22a705ace227d308da575f1e326866e1"
+      "uid" : "ec23a409d5044a5a83c2db197f0df1f3"
+    }, {
+      "name" : "Failed: Deposit bonus modal is not visible.\n                Wait timed out after 10005ms",
+      "children" : [ {
+        "name" : "#20 Error message is displayed after user enters amount that is less than the qualification amount for deposit bonus.",
+        "uid" : "11cadf81f49f76c",
+        "parentUid" : "5f84a657afd1c18a4bda87bdcb81b957",
+        "status" : "failed",
+        "time" : {
+          "start" : 1655716781951,
+          "stop" : 1655716803188,
+          "duration" : 21237
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5f84a657afd1c18a4bda87bdcb81b957"
+    }, {
+      "name" : "Failed: Deposit bonus modal is not visible.\n                Wait timed out after 10000ms",
+      "children" : [ {
+        "name" : "#21 User can click on the terms and conditions link and the terms and conditions are displayed for deposit bonus.",
+        "uid" : "cedb23f06119d62d",
+        "parentUid" : "b2846b09e6f2c6990a164857a1d7c7eb",
+        "status" : "failed",
+        "time" : {
+          "start" : 1655716803188,
+          "stop" : 1655716826466,
+          "duration" : 23278
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "#22 User can enter amount, go to full terms and conditions, click back button, close full terms conditions and return in deposit modal.",
+        "uid" : "6eedb98f6328459f",
+        "parentUid" : "b2846b09e6f2c6990a164857a1d7c7eb",
+        "status" : "failed",
+        "time" : {
+          "start" : 1655716826466,
+          "stop" : 1655716847928,
+          "duration" : 21462
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b2846b09e6f2c6990a164857a1d7c7eb"
     }, {
       "name" : "Failed: Deposit bonus modal is not visible.\n                Wait timed out after 10001ms",
       "children" : [ {
-        "name" : "#22 User can enter amount, go to full terms and conditions, click back button, close full terms conditions and return in deposit modal.",
-        "uid" : "b99b5579c9a9eb06",
-        "parentUid" : "c1a167cbaf923d215f3e32bbd2b2160e",
-        "status" : "failed",
-        "time" : {
-          "start" : 1655481562553,
-          "stop" : 1655481583778,
-          "duration" : 21225
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
         "name" : "#23 User can click on the terms and conditions link and the terms and all sections of conditions are displayed for deposit bonus.",
-        "uid" : "36174130572877f3",
+        "uid" : "6600df6c5643713b",
         "parentUid" : "c1a167cbaf923d215f3e32bbd2b2160e",
         "status" : "failed",
         "time" : {
-          "start" : 1655481583778,
-          "stop" : 1655481605086,
-          "duration" : 21308
+          "start" : 1655716847928,
+          "stop" : 1655716870814,
+          "duration" : 22886
         },
         "flaky" : false,
         "newFailed" : false,
@@ -149,80 +166,46 @@
       } ],
       "uid" : "c1a167cbaf923d215f3e32bbd2b2160e"
     }, {
-      "name" : "Failed: Deposit bonus modal is not visible.\n                Wait timed out after 10004ms",
-      "children" : [ {
-        "name" : "#24 User can close deposit bonus modal, remove display bonus modal and return to the launch screen.",
-        "uid" : "924750ac0d8ceb42",
-        "parentUid" : "b76e06e043b5b72ed291d7e9583e6187",
-        "status" : "failed",
-        "time" : {
-          "start" : 1655481605086,
-          "stop" : 1655481652113,
-          "duration" : 47027
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "b76e06e043b5b72ed291d7e9583e6187"
-    }, {
-      "name" : "Failed: Deposit bonus modal is not visible.\n                Wait timed out after 30003ms",
+      "name" : "Failed: Deposit bonus modal is not visible.\n                Wait timed out after 30006ms",
       "children" : [ {
         "name" : "#25 User can make bonus deposit.",
-        "uid" : "fd59ca6e3c2374db",
-        "parentUid" : "95201e93892c637285dff2f7922c13e6",
+        "uid" : "11d2831a1043c51e",
+        "parentUid" : "51b21a11a4461f4d4c72a43835aa29ca",
         "status" : "failed",
         "time" : {
-          "start" : 1655481652113,
-          "stop" : 1655481693126,
-          "duration" : 41013
+          "start" : 1655716892556,
+          "stop" : 1655716934334,
+          "duration" : 41778
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "95201e93892c637285dff2f7922c13e6"
+      "uid" : "51b21a11a4461f4d4c72a43835aa29ca"
     }, {
-      "name" : "Failed: No element found using locator: By(css selector, h3)",
+      "name" : "Failed: Index out of bound. Trying to access element at index: -1, but there are only 0 elements that match locator By(css selector, .account-tile-list-item--clickable)",
       "children" : [ {
-        "name" : "#0 User can come to the Responsible Gambling page",
-        "uid" : "12cde9f389dfa8ab",
-        "parentUid" : "d23e28fd43f1861b28a6d275b9988733",
+        "name" : "#1 User on account closure modal, click next button and see reasons, select reason and see feedback screen.",
+        "uid" : "e58c80cde9e2a69f",
+        "parentUid" : "9a5121378dc0066e0f200f3390feba91",
         "status" : "failed",
         "time" : {
-          "start" : 1655481767295,
-          "stop" : 1655481774554,
-          "duration" : 7259
+          "start" : 1655717022275,
+          "stop" : 1655717033009,
+          "duration" : 10734
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "#0 User can come to the terms and conditions page",
-        "uid" : "e41b66b71c8c2f6a",
-        "parentUid" : "d23e28fd43f1861b28a6d275b9988733",
-        "status" : "failed",
-        "time" : {
-          "start" : 1655481768146,
-          "stop" : 1655481772370,
-          "duration" : 4224
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "d23e28fd43f1861b28a6d275b9988733"
-    }, {
-      "name" : "Failed: Index out of bound. Trying to access element at index: -1, but there are only 0 elements that match locator By(css selector, .account-tile-list-item--clickable)",
-      "children" : [ {
-        "name" : "#1 Player can select take a break menu item from 'Account Closure' and Take A Break contain is displayed.",
-        "uid" : "61b0814db3f9b5fe",
+        "name" : "#2 User see feedback screen, types five lines of text and see scroll.",
+        "uid" : "30ce1fb616eb4bf",
         "parentUid" : "9a5121378dc0066e0f200f3390feba91",
         "status" : "failed",
         "time" : {
-          "start" : 1655481772352,
-          "stop" : 1655481783574,
-          "duration" : 11222
+          "start" : 1655717033009,
+          "stop" : 1655717042427,
+          "duration" : 9418
         },
         "flaky" : false,
         "newFailed" : false,
@@ -230,16 +213,46 @@
       } ],
       "uid" : "9a5121378dc0066e0f200f3390feba91"
     }, {
+      "name" : "Expected false to be true, 'Take A Break modal continue button not displayed.'.",
+      "children" : [ {
+        "name" : "#1 Player can select take a break menu item from 'Account Closure' and Take A Break contain is displayed.",
+        "uid" : "7e786ff7d365fe0a",
+        "parentUid" : "8328baf430d2e74688f825ca715b4871",
+        "status" : "failed",
+        "time" : {
+          "start" : 1655717022394,
+          "stop" : 1655717037967,
+          "duration" : 15573
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8328baf430d2e74688f825ca715b4871"
+    }, {
       "name" : "Failed: element click intercepted: Element <a data-testid=\"navigation-Account-link\" class=\"navigation-link--selected navigation-link--expanded navigation-link\" href=\"/uk/en/home.html?myAccount=true\">...</a> is not clickable at point (120, 404). Other element would receive the click: <h5 class=\"heading heading--5 cookie-preference-control__categories-header\">...</h5>\n                  (Session info: headless chrome=102.0.5005.115)\n                Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'\n                System info: host: 'Unknown', ip: 'Unknown', os.name: 'Linux', os.arch: 'amd64', os.version: '5.13.0-51-generic', java.version: '11.0.15'\n                Driver info: driver.version: unknown",
       "children" : [ {
-        "name" : "#3 User has account balance more than the withdrawal limit and click to hyperlink and see cashier and can close it.",
-        "uid" : "f05edb4c2d40d3d3",
+        "name" : "#2 Player is displayed 'Set Deposit Limit' text if no deposit limits are set.",
+        "uid" : "74599e6a0a7281aa",
         "parentUid" : "949f874439e6db52cebe7aed8a610222",
         "status" : "failed",
         "time" : {
-          "start" : 1655481805174,
-          "stop" : 1655481813142,
-          "duration" : 7968
+          "start" : 1655717030504,
+          "stop" : 1655717039524,
+          "duration" : 9020
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "#5 Player can open the Deposit Limits Edit modal on edit icon click.",
+        "uid" : "2995c7beb0371f07",
+        "parentUid" : "949f874439e6db52cebe7aed8a610222",
+        "status" : "failed",
+        "time" : {
+          "start" : 1655717068699,
+          "stop" : 1655717076587,
+          "duration" : 7888
         },
         "flaky" : false,
         "newFailed" : false,
@@ -250,13 +263,13 @@
       "name" : "Failed: No element found using locator: By(css selector, .input__icon input__icon--left)",
       "children" : [ {
         "name" : "#01 Player can click on input search and enter Town.",
-        "uid" : "fa297117ae65a3da",
+        "uid" : "e5a05c8a9aa2c860",
         "parentUid" : "bb4f0844be901530c53e208ccee77a5c",
         "status" : "failed",
         "time" : {
-          "start" : 1655481820921,
-          "stop" : 1655481829110,
-          "duration" : 8189
+          "start" : 1655717130332,
+          "stop" : 1655717137684,
+          "duration" : 7352
         },
         "flaky" : false,
         "newFailed" : false,
@@ -267,13 +280,13 @@
       "name" : "Failed: No element found using locator: By(css selector, .button--secondary)",
       "children" : [ {
         "name" : "#15 Player can choose to view the 'Self Exclusion' service from the 'Take A Break' modal.",
-        "uid" : "a4b19f3e55b03fa0",
+        "uid" : "6e2c5ba393f34d51",
         "parentUid" : "b72f19ab2d39564e120cb3ef8bc546a6",
         "status" : "failed",
         "time" : {
-          "start" : 1655481910315,
-          "stop" : 1655481920897,
-          "duration" : 10582
+          "start" : 1655717174320,
+          "stop" : 1655717186528,
+          "duration" : 12208
         },
         "flaky" : false,
         "newFailed" : false,
