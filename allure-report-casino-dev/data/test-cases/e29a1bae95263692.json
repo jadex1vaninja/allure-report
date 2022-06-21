@@ -1,0 +1,79 @@
+{
+  "uid" : "e29a1bae95263692",
+  "name" : "#7 Player can click \"Deposit\" button and open Deposit window.",
+  "fullName" : "404 error page functionality testing..#7 Player can click \"Deposit\" button and open Deposit window.",
+  "historyId" : "940d40a0a9ad8503888153d0461c3ca3",
+  "time" : {
+    "start" : 1655799329019,
+    "stop" : 1655799339031,
+    "duration" : 10012
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Failed: Confirm selection button is not displayed.\n                Wait timed out after 5018ms",
+  "statusTrace" : "TimeoutError: Confirm selection button is not displayed.\n                Wait timed out after 5018ms\n                    at /home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2201:17\n                    at ManagedPromise.invokeCallback_ (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:1376:14)\n                    at TaskQueue.execute_ (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n                    at TaskQueue.executeNext_ (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n                    at /home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2927:27\n                    at /home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:668:7\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                From: Task: Confirm selection button is not displayed.\n                    at scheduleWait (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2188:20)\n                    at ControlFlow.wait (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2517:12)\n                    at thenableWebDriverProxy.wait (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/webdriver.js:934:29)\n                    at run (/home/dev/azure/eyas-test-automation/node_modules/protractor/built/browser.js:58:33)\n                    at ProtractorBrowser.to.<computed> [as wait] (/home/dev/azure/eyas-test-automation/node_modules/protractor/built/browser.js:66:16)\n                    at suiteSetup (/home/dev/azure/eyas-test-automation/src/helpers/suite-utils.js:49:23)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at UserContext.<anonymous> (/home/dev/azure/eyas-test-automation/src/test/error/error404.spec.js:38:3)\n                From: Task: Run beforeAll in control flow\n                    at UserContext.<anonymous> (/home/dev/azure/eyas-test-automation/node_modules/jasminewd2/index.js:94:19)\n                    at attempt (/home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4297:26)\n                    at QueueRunner.run (/home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4217:20)\n                    at QueueRunner.execute (/home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4199:10)\n                    at queueRunnerFactory (/home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:909:35)\n                    at TreeProcessor.execute (/home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:5187:7)\n                    at Env.execute (/home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:983:17)\n                    at Jasmine.execute (/home/dev/azure/eyas-test-automation/node_modules/jasmine/lib/jasmine.js:200:12)\n                    at /home/dev/azure/eyas-test-automation/node_modules/protractor/built/frameworks/jasmine.js:132:15\n                    at Function.promise (/home/dev/azure/eyas-test-automation/node_modules/protractor/node_modules/q/q.js:682:9)\n                From asynchronous test: \n                Error\n                    at Object.<anonymous> (/home/dev/azure/eyas-test-automation/src/test/error/error404.spec.js:28:1)\n                    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n                    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n                    at Module.load (node:internal/modules/cjs/loader:981:32)\n                    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n                    at Module.require (node:internal/modules/cjs/loader:1005:19)\n                    at require (node:internal/modules/cjs/helpers:102:18)\n                    at /home/dev/azure/eyas-test-automation/node_modules/jasmine/lib/jasmine.js:93:5\n                    at Array.forEach (<anonymous>)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Failed: Confirm selection button is not displayed.\n                Wait timed out after 5018ms",
+    "statusTrace" : "TimeoutError: Confirm selection button is not displayed.\n                Wait timed out after 5018ms\n                    at /home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2201:17\n                    at ManagedPromise.invokeCallback_ (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:1376:14)\n                    at TaskQueue.execute_ (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n                    at TaskQueue.executeNext_ (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n                    at /home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2927:27\n                    at /home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:668:7\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                From: Task: Confirm selection button is not displayed.\n                    at scheduleWait (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2188:20)\n                    at ControlFlow.wait (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2517:12)\n                    at thenableWebDriverProxy.wait (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/webdriver.js:934:29)\n                    at run (/home/dev/azure/eyas-test-automation/node_modules/protractor/built/browser.js:58:33)\n                    at ProtractorBrowser.to.<computed> [as wait] (/home/dev/azure/eyas-test-automation/node_modules/protractor/built/browser.js:66:16)\n                    at suiteSetup (/home/dev/azure/eyas-test-automation/src/helpers/suite-utils.js:49:23)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at UserContext.<anonymous> (/home/dev/azure/eyas-test-automation/src/test/error/error404.spec.js:38:3)\n                From: Task: Run beforeAll in control flow\n                    at UserContext.<anonymous> (/home/dev/azure/eyas-test-automation/node_modules/jasminewd2/index.js:94:19)\n                    at attempt (/home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4297:26)\n                    at QueueRunner.run (/home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4217:20)\n                    at QueueRunner.execute (/home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4199:10)\n                    at queueRunnerFactory (/home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:909:35)\n                    at TreeProcessor.execute (/home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:5187:7)\n                    at Env.execute (/home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:983:17)\n                    at Jasmine.execute (/home/dev/azure/eyas-test-automation/node_modules/jasmine/lib/jasmine.js:200:12)\n                    at /home/dev/azure/eyas-test-automation/node_modules/protractor/built/frameworks/jasmine.js:132:15\n                    at Function.promise (/home/dev/azure/eyas-test-automation/node_modules/protractor/node_modules/q/q.js:682:9)\n                From asynchronous test: \n                Error\n                    at Object.<anonymous> (/home/dev/azure/eyas-test-automation/src/test/error/error404.spec.js:28:1)\n                    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n                    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n                    at Module.load (node:internal/modules/cjs/loader:981:32)\n                    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n                    at Module.require (node:internal/modules/cjs/loader:1005:19)\n                    at require (node:internal/modules/cjs/helpers:102:18)\n                    at /home/dev/azure/eyas-test-automation/node_modules/jasmine/lib/jasmine.js:93:5\n                    at Array.forEach (<anonymous>)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d576a1fac8bcd075",
+      "name" : "Screenshot",
+      "source" : "d576a1fac8bcd075.png",
+      "type" : "image/png",
+      "size" : 87391
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "404 error page functionality testing."
+  }, {
+    "name" : "testClass",
+    "value" : "404 error page functionality testing."
+  }, {
+    "name" : "testMethod",
+    "value" : "#7 Player can click \"Deposit\" button and open Deposit window."
+  }, {
+    "name" : "package",
+    "value" : "404 error page functionality testing."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "290b43d0d857b955",
+      "status" : "failed",
+      "statusDetails" : "Failed: element click intercepted: Element <iframe src=\"https://ppp-test.safecharge.com/ppp/purchase.do?item_open_amount_1=true&amp;item_min_amount_1=10.00&amp;item_max_amount_1=10.00&amp;quick_deposit=0&amp;merchant_id=6257278084347382490&amp;merchant_site_id=213488&amp;time_stamp=2022-06-21+08%3A01%3A23&amp;total_amount=10.00&amp;currency=GBP&amp;checksum=ab6ddb2fce3abade3f938ac8d46f3226&amp;item_name_1=Deposit&amp;item_amount_1=10.00&amp;item_quantity_1=1&amp;version=3.0.0&amp;user_token_id=40734&amp;first_name=Shenol&amp;last_name=Hoines&amp;email=automation_casino_user12%40mailinator.com&amp;address1=High+Street+109&amp;city=Westbury&amp;country=GB&amp;zip=BA13+3BN&amp;userid=automation_casino_user12%40mailinator.com&amp;phone1=%2B44+6912345678&amp;manage_3d_mode=auto&amp;customField1=merkurcasino.com_uk_gbp&amp;customField2=efae2314-b90d-4bd5-a2d7-5e4a796234a1&amp;customField4=True&amp;customField7=5089d255-d14b-4f11-9b40-c3d90fce56ef&amp;customField15=eyg_np01&amp;merchant_unique_id=fA6ZGYUG8Qk1bpRHfe6N&amp;deliveryEmail=automation_casino_user12%40mailinator.com&amp;deliveryTimeFrame=01&amp;reorderItemsInd=02&amp;shipIndicator=07&amp;accountAge=05&amp;accountLastChangeDate=20220216&amp;accountLastChangeInd=04&amp;accountRegistrationDate=20220216&amp;accountSuspiciousActivityInd=01&amp;accountTransactionsCount24H=0&amp;accountTransactionsCount1Y=1&amp;accountPurchasesCount6M=1&amp;accountAddCardAttempts24H=0&amp;merchantLocale=en_GB&amp;isNative=0\" title=\"Deposit\" class=\"deposit-content__iframe\" cd_frame_id_=\"9a32d3a9a077bdac1e54b0a711e81e05\"></iframe> is not clickable at point (850, 357). Other element would receive the click: <div class=\"ReactModal__Overlay ReactModal__Overlay--after-open overlay-backdrop touch-drawer__backdrop touch-drawer__backdrop--closeable touch-drawer__backdrop--fade-in\">...</div>\n                  (Session info: headless chrome=102.0.5005.115)\n                Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'\n                System info: host: 'Unknown', ip: 'Unknown', os.name: 'Linux', os.arch: 'amd64', os.version: '5.13.0-51-generic', java.version: '11.0.15'\n                Driver info: driver.version: unknown",
+      "time" : {
+        "start" : 1655798478132,
+        "stop" : 1655798490908,
+        "duration" : 12776
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "e29a1bae95263692.json",
+  "parameterValues" : [ ]
+}

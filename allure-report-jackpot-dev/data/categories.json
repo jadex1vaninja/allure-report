@@ -4,118 +4,33 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "Failed: Bonus history is not displayed.\n                Wait timed out after 20042ms",
+      "name" : "Error: Timeout - Async callback was not invoked within timeout specified by jasmine.DEFAULT_TIMEOUT_INTERVAL.",
       "children" : [ {
-        "name" : "#2 All active promotions cards are displayed.",
-        "uid" : "5cd25d29bbde8459",
-        "parentUid" : "cb59b88c576fee94c882f7ecd43b020f",
+        "name" : "#10 Deleting a message from the inbox which is marked as new should decrease the unread message count badge",
+        "uid" : "c5933a6539eda3e6",
+        "parentUid" : "529a5c49d07d5715f54949d670a9ff89",
         "status" : "failed",
         "time" : {
-          "start" : 1655787277665,
-          "stop" : 1655787310249,
-          "duration" : 32584
+          "start" : 1655797498415,
+          "stop" : 1655797544023,
+          "duration" : 45608
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "cb59b88c576fee94c882f7ecd43b020f"
-    }, {
-      "name" : "Failed: Bonus history is not displayed.\n                Wait timed out after 20008ms",
-      "children" : [ {
-        "name" : "#3 Active promotions are displayed in correct order.",
-        "uid" : "95fe47cd530bc442",
-        "parentUid" : "449ce9ac051ac9741c1513f25d71c2e7",
-        "status" : "failed",
-        "time" : {
-          "start" : 1655787310249,
-          "stop" : 1655787341969,
-          "duration" : 31720
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "449ce9ac051ac9741c1513f25d71c2e7"
-    }, {
-      "name" : "Failed: Bonus history is not displayed.\n                Wait timed out after 20025ms",
-      "children" : [ {
-        "name" : "#4 Bonus History Page is displayed after clicks \"See all Activity\" in Recenty Activity.",
-        "uid" : "e5c64e095393979f",
-        "parentUid" : "08d0178e4e5707def97685a4f65e1a86",
-        "status" : "failed",
-        "time" : {
-          "start" : 1655787341969,
-          "stop" : 1655787374662,
-          "duration" : 32693
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "08d0178e4e5707def97685a4f65e1a86"
-    }, {
-      "name" : "Failed: Bonus history is not displayed.\n                Wait timed out after 20020ms",
-      "children" : [ {
-        "name" : "#8 Active promotions are excluded from the promotions section.",
-        "uid" : "4209a2385adfb4cb",
-        "parentUid" : "361b4589574f3349932d6907a0bd93a4",
-        "status" : "failed",
-        "time" : {
-          "start" : 1655787407909,
-          "stop" : 1655787450848,
-          "duration" : 42939
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "361b4589574f3349932d6907a0bd93a4"
-    }, {
-      "name" : "Failed: Deposit bonus modal is not visible.\n                Wait timed out after 10005ms",
-      "children" : [ {
-        "name" : "#22 User can enter amount, go to full terms and conditions, click back button, close full terms conditions and return in deposit modal.",
-        "uid" : "e50174401e0dbfb9",
-        "parentUid" : "5f84a657afd1c18a4bda87bdcb81b957",
-        "status" : "failed",
-        "time" : {
-          "start" : 1655787618492,
-          "stop" : 1655787639754,
-          "duration" : 21262
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "5f84a657afd1c18a4bda87bdcb81b957"
-    }, {
-      "name" : "Expected 'Congratulations' to contain 'This promotion is unavailable', 'Drawer notification has incorrect text.'.",
-      "children" : [ {
-        "name" : "#46 User clicks button CLAIM for already CLAIMED bonus, successfully login and can see drawer \"This promotion is unavailable\".",
-        "uid" : "7fad4b04b0b1c708",
-        "parentUid" : "f6250c654b8e9df0fbc199dc850dfaaa",
-        "status" : "failed",
-        "time" : {
-          "start" : 1655787721351,
-          "stop" : 1655787731833,
-          "duration" : 10482
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "f6250c654b8e9df0fbc199dc850dfaaa"
+      "uid" : "529a5c49d07d5715f54949d670a9ff89"
     }, {
       "name" : "Expected false to be true, 'Take A Break modal continue button not displayed.'.",
       "children" : [ {
         "name" : "#1 Player can select take a break menu item from 'Account Closure' and Take A Break contain is displayed.",
-        "uid" : "4a067cf19e77883c",
+        "uid" : "76ee8b00567731ff",
         "parentUid" : "8328baf430d2e74688f825ca715b4871",
         "status" : "failed",
         "time" : {
-          "start" : 1655787744673,
-          "stop" : 1655787761252,
-          "duration" : 16579
+          "start" : 1655798233250,
+          "stop" : 1655798248356,
+          "duration" : 15106
         },
         "flaky" : false,
         "newFailed" : false,
@@ -125,14 +40,27 @@
     }, {
       "name" : "Failed: No element found using locator: By(css selector, [data-testid='navigation-Venues-link'])",
       "children" : [ {
-        "name" : "#01 Player can click on input search and enter Town.",
-        "uid" : "affe919eb98204a",
+        "name" : "#01 Player can click on input search and enter Town. When they expand the view and will see a CTA to ‘Get directions, Get directions, Telephone number, Opening times, More info’",
+        "uid" : "ef324ea08c462dad",
         "parentUid" : "bbae78f8cff635a11a4de070d90d3a7a",
         "status" : "failed",
         "time" : {
-          "start" : 1655787748349,
-          "stop" : 1655787756097,
-          "duration" : 7748
+          "start" : 1655798235238,
+          "stop" : 1655798243096,
+          "duration" : 7858
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "#02 After click  button `More info` user will be redirected to the venues detail page",
+        "uid" : "59649c0fbc369c4b",
+        "parentUid" : "bbae78f8cff635a11a4de070d90d3a7a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1655798243096,
+          "stop" : 1655798250140,
+          "duration" : 7044
         },
         "flaky" : false,
         "newFailed" : false,
@@ -140,33 +68,16 @@
       } ],
       "uid" : "bbae78f8cff635a11a4de070d90d3a7a"
     }, {
-      "name" : "Failed: Index out of bound. Trying to access element at index: -1, but there are only 0 elements that match locator By(css selector, .account-tile-list-item--clickable)",
-      "children" : [ {
-        "name" : "#3 Player can press 'Back' button of the 'Take A Break' modal and then should be displayed previous step.",
-        "uid" : "66fa21ed78e8d27f",
-        "parentUid" : "9a5121378dc0066e0f200f3390feba91",
-        "status" : "failed",
-        "time" : {
-          "start" : 1655787775873,
-          "stop" : 1655787786397,
-          "duration" : 10524
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "9a5121378dc0066e0f200f3390feba91"
-    }, {
       "name" : "Failed: No element found using locator: By(css selector, .zoomed-game-card)",
       "children" : [ {
-        "name" : "#16 Login modal can be appears after user clicks/taps on card.",
-        "uid" : "cb844d6354fc3519",
+        "name" : "#12 Card is displayed, user hover a mouse on that card, the primary CTA is PLAY NOW, user clicks/taps on CTA PLAY NOW then the login modal appears.",
+        "uid" : "4b455d61710ac66",
         "parentUid" : "59f294144555f4fbf44e48c47e5d97c2",
         "status" : "failed",
         "time" : {
-          "start" : 1655787784027,
-          "stop" : 1655787787953,
-          "duration" : 3926
+          "start" : 1655798258702,
+          "stop" : 1655798262264,
+          "duration" : 3562
         },
         "flaky" : false,
         "newFailed" : false,
@@ -174,50 +85,16 @@
       } ],
       "uid" : "59f294144555f4fbf44e48c47e5d97c2"
     }, {
-      "name" : "Failed: After player chooses option in take a break nothing option selected.\n                Wait timed out after 10004ms",
-      "children" : [ {
-        "name" : "#12 Player can continue with chosen 1 week option to 'Take A Break' and confirming modal should display.",
-        "uid" : "12cfae2c0b787b1e",
-        "parentUid" : "46cc122d4ff7463f85428ea6095081d0",
-        "status" : "failed",
-        "time" : {
-          "start" : 1655787855767,
-          "stop" : 1655787876666,
-          "duration" : 20899
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "46cc122d4ff7463f85428ea6095081d0"
-    }, {
-      "name" : "Failed: Request failed with status code 400",
-      "children" : [ {
-        "name" : "#12 Balance preview correctly displays £0.00 if user has no balance",
-        "uid" : "2400f38ba7f1f8d4",
-        "parentUid" : "d58f26ac777a5548a1418cbaa13b93c6",
-        "status" : "failed",
-        "time" : {
-          "start" : 1655787865886,
-          "stop" : 1655787868645,
-          "duration" : 2759
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "d58f26ac777a5548a1418cbaa13b93c6"
-    }, {
       "name" : "Failed: No element found using locator: By(css selector, .button--secondary)",
       "children" : [ {
         "name" : "#15 Player can choose to view the 'Self Exclusion' service from the 'Take A Break' modal.",
-        "uid" : "be5f65beb8779e94",
+        "uid" : "acaeb47575aed03",
         "parentUid" : "b72f19ab2d39564e120cb3ef8bc546a6",
         "status" : "failed",
         "time" : {
-          "start" : 1655787898103,
-          "stop" : 1655787909425,
-          "duration" : 11322
+          "start" : 1655798375979,
+          "stop" : 1655798387402,
+          "duration" : 11423
         },
         "flaky" : false,
         "newFailed" : false,
@@ -228,19 +105,49 @@
       "name" : "Expected 'START PAUSE' to contain 'CONTINUE', 'Take A Break modal continue button has incorrect text.'.",
       "children" : [ {
         "name" : "#16 Player can press 'BACK' for confirmating modal after chosen for 24 hours 'Take A Break' and should return to previous step.",
-        "uid" : "51e9dc98fa03de1e",
+        "uid" : "5cc41a22041768dc",
         "parentUid" : "96abf0b1aa915fa9b1993bc26ff407cb",
         "status" : "failed",
         "time" : {
-          "start" : 1655787909425,
-          "stop" : 1655787922480,
-          "duration" : 13055
+          "start" : 1655798387402,
+          "stop" : 1655798399920,
+          "duration" : 12518
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
       "uid" : "96abf0b1aa915fa9b1993bc26ff407cb"
+    }, {
+      "name" : "Failed: Index out of bound. Trying to access element at index: -1, but there are only 0 elements that match locator By(css selector, .account-tile-list-item--clickable)",
+      "children" : [ {
+        "name" : "#17 Player can close the take a break modal.",
+        "uid" : "77b266097201b92d",
+        "parentUid" : "9a5121378dc0066e0f200f3390feba91",
+        "status" : "failed",
+        "time" : {
+          "start" : 1655798399920,
+          "stop" : 1655798408489,
+          "duration" : 8569
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "#16 Player can continue with chosen 5 years option to 'Self Exclusion' and confirming modal should display.",
+        "uid" : "9c147a63e98e954a",
+        "parentUid" : "9a5121378dc0066e0f200f3390feba91",
+        "status" : "failed",
+        "time" : {
+          "start" : 1655798401070,
+          "stop" : 1655798411408,
+          "duration" : 10338
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9a5121378dc0066e0f200f3390feba91"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]
