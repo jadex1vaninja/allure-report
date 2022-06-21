@@ -7,13 +7,13 @@
       "name" : "Error: Timeout - Async callback was not invoked within timeout specified by jasmine.DEFAULT_TIMEOUT_INTERVAL.",
       "children" : [ {
         "name" : "#10 Deleting a message from the inbox which is marked as new should decrease the unread message count badge",
-        "uid" : "c5933a6539eda3e6",
+        "uid" : "22c60ef06993ef8f",
         "parentUid" : "529a5c49d07d5715f54949d670a9ff89",
         "status" : "failed",
         "time" : {
-          "start" : 1655797498415,
-          "stop" : 1655797544023,
-          "duration" : 45608
+          "start" : 1655812589559,
+          "stop" : 1655812623764,
+          "duration" : 34205
         },
         "flaky" : false,
         "newFailed" : false,
@@ -24,13 +24,13 @@
       "name" : "Expected false to be true, 'Take A Break modal continue button not displayed.'.",
       "children" : [ {
         "name" : "#1 Player can select take a break menu item from 'Account Closure' and Take A Break contain is displayed.",
-        "uid" : "76ee8b00567731ff",
+        "uid" : "6617a556b209f2fc",
         "parentUid" : "8328baf430d2e74688f825ca715b4871",
         "status" : "failed",
         "time" : {
-          "start" : 1655798233250,
-          "stop" : 1655798248356,
-          "duration" : 15106
+          "start" : 1655813509527,
+          "stop" : 1655813525075,
+          "duration" : 15548
         },
         "flaky" : false,
         "newFailed" : false,
@@ -38,63 +38,16 @@
       } ],
       "uid" : "8328baf430d2e74688f825ca715b4871"
     }, {
-      "name" : "Failed: No element found using locator: By(css selector, [data-testid='navigation-Venues-link'])",
-      "children" : [ {
-        "name" : "#01 Player can click on input search and enter Town. When they expand the view and will see a CTA to ‘Get directions, Get directions, Telephone number, Opening times, More info’",
-        "uid" : "ef324ea08c462dad",
-        "parentUid" : "bbae78f8cff635a11a4de070d90d3a7a",
-        "status" : "failed",
-        "time" : {
-          "start" : 1655798235238,
-          "stop" : 1655798243096,
-          "duration" : 7858
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "#02 After click  button `More info` user will be redirected to the venues detail page",
-        "uid" : "59649c0fbc369c4b",
-        "parentUid" : "bbae78f8cff635a11a4de070d90d3a7a",
-        "status" : "failed",
-        "time" : {
-          "start" : 1655798243096,
-          "stop" : 1655798250140,
-          "duration" : 7044
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "bbae78f8cff635a11a4de070d90d3a7a"
-    }, {
-      "name" : "Failed: No element found using locator: By(css selector, .zoomed-game-card)",
-      "children" : [ {
-        "name" : "#12 Card is displayed, user hover a mouse on that card, the primary CTA is PLAY NOW, user clicks/taps on CTA PLAY NOW then the login modal appears.",
-        "uid" : "4b455d61710ac66",
-        "parentUid" : "59f294144555f4fbf44e48c47e5d97c2",
-        "status" : "failed",
-        "time" : {
-          "start" : 1655798258702,
-          "stop" : 1655798262264,
-          "duration" : 3562
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "59f294144555f4fbf44e48c47e5d97c2"
-    }, {
       "name" : "Failed: No element found using locator: By(css selector, .button--secondary)",
       "children" : [ {
         "name" : "#15 Player can choose to view the 'Self Exclusion' service from the 'Take A Break' modal.",
-        "uid" : "acaeb47575aed03",
+        "uid" : "d757caea3956a89d",
         "parentUid" : "b72f19ab2d39564e120cb3ef8bc546a6",
         "status" : "failed",
         "time" : {
-          "start" : 1655798375979,
-          "stop" : 1655798387402,
-          "duration" : 11423
+          "start" : 1655813659794,
+          "stop" : 1655813671998,
+          "duration" : 12204
         },
         "flaky" : false,
         "newFailed" : false,
@@ -105,13 +58,13 @@
       "name" : "Expected 'START PAUSE' to contain 'CONTINUE', 'Take A Break modal continue button has incorrect text.'.",
       "children" : [ {
         "name" : "#16 Player can press 'BACK' for confirmating modal after chosen for 24 hours 'Take A Break' and should return to previous step.",
-        "uid" : "5cc41a22041768dc",
+        "uid" : "792c4c794909a302",
         "parentUid" : "96abf0b1aa915fa9b1993bc26ff407cb",
         "status" : "failed",
         "time" : {
-          "start" : 1655798387402,
-          "stop" : 1655798399920,
-          "duration" : 12518
+          "start" : 1655813671998,
+          "stop" : 1655813685009,
+          "duration" : 13011
         },
         "flaky" : false,
         "newFailed" : false,
@@ -121,33 +74,37 @@
     }, {
       "name" : "Failed: Index out of bound. Trying to access element at index: -1, but there are only 0 elements that match locator By(css selector, .account-tile-list-item--clickable)",
       "children" : [ {
-        "name" : "#17 Player can close the take a break modal.",
-        "uid" : "77b266097201b92d",
+        "name" : "#18 Player can close the self exclusion modal.",
+        "uid" : "c722cbbf4077b913",
         "parentUid" : "9a5121378dc0066e0f200f3390feba91",
         "status" : "failed",
         "time" : {
-          "start" : 1655798399920,
-          "stop" : 1655798408489,
-          "duration" : 8569
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "#16 Player can continue with chosen 5 years option to 'Self Exclusion' and confirming modal should display.",
-        "uid" : "9c147a63e98e954a",
-        "parentUid" : "9a5121378dc0066e0f200f3390feba91",
-        "status" : "failed",
-        "time" : {
-          "start" : 1655798401070,
-          "stop" : 1655798411408,
-          "duration" : 10338
+          "start" : 1655813707348,
+          "stop" : 1655813722687,
+          "duration" : 15339
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
       "uid" : "9a5121378dc0066e0f200f3390feba91"
+    }, {
+      "name" : "Failed: No element found using locator: By(css selector, .account-limits)",
+      "children" : [ {
+        "name" : "#19 Player can open 'History' modal.",
+        "uid" : "495e534555ec9f20",
+        "parentUid" : "ac8e274746908e0e972b16ee7588dffa",
+        "status" : "failed",
+        "time" : {
+          "start" : 1655813712741,
+          "stop" : 1655813726113,
+          "duration" : 13372
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ac8e274746908e0e972b16ee7588dffa"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]
