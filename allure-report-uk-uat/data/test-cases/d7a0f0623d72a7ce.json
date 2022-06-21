@@ -1,0 +1,79 @@
+{
+  "uid" : "d7a0f0623d72a7ce",
+  "name" : "#3 User can come to the Merkur Casino page from Privacy Policy page",
+  "fullName" : "Home page => Privacy Policy page.#3 User can come to the Merkur Casino page from Privacy Policy page",
+  "historyId" : "8fd875802a81d5df48f3e43698354c89",
+  "time" : {
+    "start" : 1655795947982,
+    "stop" : 1655795958781,
+    "duration" : 10799
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expected 'https://www.merkurcasino.com/' to contain 'www.merkurcasino.com/uk/en/home.html#', 'Player can'n come to the Merkur Casino page'.",
+  "statusTrace" : "Error: Failed expectation\n                    at UserContext.<anonymous> (/home/dev/azure/eyas-test-automation/src/test/legal/privacy.spec.js:72:39)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expected 'https://www.merkurcasino.com/' to contain 'www.merkurcasino.com/uk/en/home.html#', 'Player can'n come to the Merkur Casino page'.",
+    "statusTrace" : "Error: Failed expectation\n                    at UserContext.<anonymous> (/home/dev/azure/eyas-test-automation/src/test/legal/privacy.spec.js:72:39)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "deb064889a73a581",
+      "name" : "Screenshot",
+      "source" : "deb064889a73a581.png",
+      "type" : "image/png",
+      "size" : 100898
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Home page => Privacy Policy page"
+  }, {
+    "name" : "testClass",
+    "value" : "Home page => Privacy Policy page"
+  }, {
+    "name" : "testMethod",
+    "value" : "#3 User can come to the Merkur Casino page from Privacy Policy page"
+  }, {
+    "name" : "package",
+    "value" : "Home page => Privacy Policy page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f6737bce208f1e9f",
+      "status" : "failed",
+      "statusDetails" : "Expected 'https://www.merkurcasino.com/' to contain 'www.merkurcasino.com/uk/en/home.html#', 'Player can'n come to the Merkur Casino page'.",
+      "time" : {
+        "start" : 1655794027355,
+        "stop" : 1655794033802,
+        "duration" : 6447
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "d7a0f0623d72a7ce.json",
+  "parameterValues" : [ ]
+}
