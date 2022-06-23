@@ -1,5 +1,94 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Failed: No element found using locator: By(css selector, [href=\"https://www.nhs.uk/live-well/healthy-body/gambling-addiction/\"])",
+      "children" : [ {
+        "name" : "#2 User can come to the \"Help for problem gambling\" page from Responsible Gambling page",
+        "uid" : "4d73ff52356c0583",
+        "parentUid" : "cb1278c9c94f2ed9556faaca8a07d38d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1655975883008,
+          "stop" : 1655975891688,
+          "duration" : 8680
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cb1278c9c94f2ed9556faaca8a07d38d"
+    }, {
+      "name" : "Expected false to be true, 'Take A Break modal continue button not displayed.'.",
+      "children" : [ {
+        "name" : "#1 Player can select take a break menu item from 'Account Closure' and Take A Break contain is displayed.",
+        "uid" : "e08d53c4a676b31",
+        "parentUid" : "8328baf430d2e74688f825ca715b4871",
+        "status" : "failed",
+        "time" : {
+          "start" : 1655975919832,
+          "stop" : 1655975934521,
+          "duration" : 14689
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8328baf430d2e74688f825ca715b4871"
+    }, {
+      "name" : "Failed: Account menu not visible.\n                Wait timed out after 20006ms",
+      "children" : [ {
+        "name" : "#3 User has account balance more than the withdrawal limit and click to hyperlink and see cashier and can close it.",
+        "uid" : "5b0460da6cb23d70",
+        "parentUid" : "869a4dcbfb8551a4788b36d3ee0f7856",
+        "status" : "failed",
+        "time" : {
+          "start" : 1655975960172,
+          "stop" : 1655975987706,
+          "duration" : 27534
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "869a4dcbfb8551a4788b36d3ee0f7856"
+    }, {
+      "name" : "Failed: element click intercepted: Element <a data-testid=\"navigation-Account-link\" class=\"navigation-link--selected navigation-link--expanded navigation-link\" href=\"/uk/en/home.html?myAccount=true\">...</a> is not clickable at point (120, 404). Other element would receive the click: <h5 class=\"heading heading--5 cookie-preference-control__categories-header\">...</h5>\n                  (Session info: headless chrome=103.0.5060.53)\n                Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'\n                System info: host: 'smiss-eugen-vostro-5590', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-27-generic', java.version: '11.0.15'\n                Driver info: driver.version: unknown",
+      "children" : [ {
+        "name" : "#4 Blank User go to the final screen and does not see withdrawal message",
+        "uid" : "6d4bafe25cddf71f",
+        "parentUid" : "3e4be925cf09d9587f47095d37c88f0f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1655975987706,
+          "stop" : 1655975995062,
+          "duration" : 7356
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3e4be925cf09d9587f47095d37c88f0f"
+    }, {
+      "name" : "Failed: No element found using locator: By(css selector, .button--secondary)",
+      "children" : [ {
+        "name" : "#15 Player can choose to view the 'Self Exclusion' service from the 'Take A Break' modal.",
+        "uid" : "c9e392d34a29396e",
+        "parentUid" : "b72f19ab2d39564e120cb3ef8bc546a6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1655976075474,
+          "stop" : 1655976086753,
+          "duration" : 11279
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b72f19ab2d39564e120cb3ef8bc546a6"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
 }

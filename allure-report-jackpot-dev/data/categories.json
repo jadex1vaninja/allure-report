@@ -1,5 +1,128 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Failed: Drawer notification is not displayed.\n                Wait timed out after 10016ms",
+      "children" : [ {
+        "name" : "#46 User clicks button CLAIM for already CLAIMED bonus, successfully login and can see drawer \"This promotion is unavailable\".",
+        "uid" : "9407a6e26e3a12b9",
+        "parentUid" : "a36ebd2e420b9d5553380b4440dd2ef5",
+        "status" : "failed",
+        "time" : {
+          "start" : 1655973151601,
+          "stop" : 1655973170797,
+          "duration" : 19196
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a36ebd2e420b9d5553380b4440dd2ef5"
+    }, {
+      "name" : "Failed: No element found using locator: By(css selector, [data-testid=\"my-bonus-history-bonus-section-TermsAndConditions\"])",
+      "children" : [ {
+        "name" : "#52 User see related information to bonus after clicking on arrow on the right side of bonus for my bonus activity.",
+        "uid" : "75bc02ef43f763b7",
+        "parentUid" : "c21f7aa575f811ecbbb779f62d23b1fb",
+        "status" : "failed",
+        "time" : {
+          "start" : 1655973192035,
+          "stop" : 1655973203697,
+          "duration" : 11662
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c21f7aa575f811ecbbb779f62d23b1fb"
+    }, {
+      "name" : "Expected false to be true, 'Take A Break modal continue button not displayed.'.",
+      "children" : [ {
+        "name" : "#1 Player can select take a break menu item from 'Account Closure' and Take A Break contain is displayed.",
+        "uid" : "587a748937f9411b",
+        "parentUid" : "8328baf430d2e74688f825ca715b4871",
+        "status" : "failed",
+        "time" : {
+          "start" : 1655973268768,
+          "stop" : 1655973282129,
+          "duration" : 13361
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8328baf430d2e74688f825ca715b4871"
+    }, {
+      "name" : "Expected false to be true, 'Header balance for authenticated user is not displayed.'.",
+      "children" : [ {
+        "name" : "#2 All elements are persisted on 404 error page.",
+        "uid" : "b89e4125b961e5d4",
+        "parentUid" : "ef5a2032409889d60e0ef1072e00ee81",
+        "status" : "failed",
+        "time" : {
+          "start" : 1655973269968,
+          "stop" : 1655973275714,
+          "duration" : 5746
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ef5a2032409889d60e0ef1072e00ee81"
+    }, {
+      "name" : "Failed: element click intercepted: Element <div class=\"modal__close-btn\">...</div> is not clickable at point (1049, 275). Other element would receive the click: <div class=\"ReactModal__Overlay ReactModal__Overlay--after-open overlay-backdrop modal-backdrop\">...</div>\n                  (Session info: headless chrome=103.0.5060.53)\n                Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'\n                System info: host: 'smiss-eugen-vostro-5590', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-27-generic', java.version: '11.0.15'\n                Driver info: driver.version: unknown",
+      "children" : [ {
+        "name" : "#3 User has account balance more than the withdrawal limit and click to hyperlink and see cashier and can close it.",
+        "uid" : "a158fa3c4abf0abb",
+        "parentUid" : "11a35afdd9ec4386db9fb6d231c9f9bb",
+        "status" : "failed",
+        "time" : {
+          "start" : 1655973303674,
+          "stop" : 1655973318091,
+          "duration" : 14417
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "11a35afdd9ec4386db9fb6d231c9f9bb"
+    }, {
+      "name" : "Failed: No element found using locator: By(css selector, .button--secondary)",
+      "children" : [ {
+        "name" : "#15 Player can choose to view the 'Self Exclusion' service from the 'Take A Break' modal.",
+        "uid" : "5015d09c71627590",
+        "parentUid" : "b72f19ab2d39564e120cb3ef8bc546a6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1655973401459,
+          "stop" : 1655973412589,
+          "duration" : 11130
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b72f19ab2d39564e120cb3ef8bc546a6"
+    }, {
+      "name" : "Expected 'START PAUSE' to contain 'CONTINUE', 'Take A Break modal continue button has incorrect text.'.",
+      "children" : [ {
+        "name" : "#16 Player can press 'BACK' for confirmating modal after chosen for 24 hours 'Take A Break' and should return to previous step.",
+        "uid" : "4da54f9679965cf6",
+        "parentUid" : "96abf0b1aa915fa9b1993bc26ff407cb",
+        "status" : "failed",
+        "time" : {
+          "start" : 1655973412589,
+          "stop" : 1655973425320,
+          "duration" : 12731
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "96abf0b1aa915fa9b1993bc26ff407cb"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
 }
