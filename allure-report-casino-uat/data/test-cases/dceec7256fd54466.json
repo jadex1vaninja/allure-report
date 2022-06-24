@@ -1,0 +1,79 @@
+{
+  "uid" : "dceec7256fd54466",
+  "name" : "#2 All elements are persisted on 404 error page.",
+  "fullName" : "404 error page functionality testing..#2 All elements are persisted on 404 error page.",
+  "historyId" : "df62bc8eaeca413294be47880f7468da",
+  "time" : {
+    "start" : 1656070386485,
+    "stop" : 1656070393792,
+    "duration" : 7307
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expected false to be true, 'Header balance for authenticated user is not displayed.'.",
+  "statusTrace" : "Error: Failed expectation\n                    at UserContext.<anonymous> (/home/dev/azure/eyas-test-automation/src/test/error/error404.spec.js:98:66)\n                    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expected false to be true, 'Header balance for authenticated user is not displayed.'.",
+    "statusTrace" : "Error: Failed expectation\n                    at UserContext.<anonymous> (/home/dev/azure/eyas-test-automation/src/test/error/error404.spec.js:98:66)\n                    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a268dded945c3908",
+      "name" : "Screenshot",
+      "source" : "a268dded945c3908.png",
+      "type" : "image/png",
+      "size" : 159039
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "404 error page functionality testing."
+  }, {
+    "name" : "testClass",
+    "value" : "404 error page functionality testing."
+  }, {
+    "name" : "testMethod",
+    "value" : "#2 All elements are persisted on 404 error page."
+  }, {
+    "name" : "package",
+    "value" : "404 error page functionality testing."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a94ef0803edc8410",
+      "status" : "failed",
+      "statusDetails" : "Expected false to be true, 'Header balance for authenticated user is not displayed.'.",
+      "time" : {
+        "start" : 1656069295770,
+        "stop" : 1656069322473,
+        "duration" : 26703
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "dceec7256fd54466.json",
+  "parameterValues" : [ ]
+}
