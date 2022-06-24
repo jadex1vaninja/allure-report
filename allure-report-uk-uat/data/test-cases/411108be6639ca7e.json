@@ -1,0 +1,78 @@
+{
+  "uid" : "411108be6639ca7e",
+  "name" : "#2 User can see hero banner carousel and can scroll it",
+  "fullName" : "Slots page.#2 User can see hero banner carousel and can scroll it",
+  "historyId" : "1fb7d5b79bbe9bc27e84c9989ef1e3e6",
+  "time" : {
+    "start" : 1656007097900,
+    "stop" : 1656007103831,
+    "duration" : 5931
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "StaleElementReferenceError: stale element reference: element is not attached to the page document\n                  (Session info: headless chrome=102.0.5005.115)\n                For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\n                Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'\n                System info: host: 'user-48', ip: '192.168.1.107', os.name: 'Linux', os.arch: 'amd64', os.version: '5.13.0-48-generic', java.version: '11.0.15'\n                Driver info: driver.version: unknown",
+  "statusTrace" : "StaleElementReferenceError: stale element reference: element is not attached to the page document\n                  (Session info: headless chrome=102.0.5005.115)\n                For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\n                Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'\n                System info: host: 'user-48', ip: '192.168.1.107', os.name: 'Linux', os.arch: 'amd64', os.version: '5.13.0-48-generic', java.version: '11.0.15'\n                Driver info: driver.version: unknown\n                    at Object.checkLegacyResponse (/home/alex-antipov/Azure/eyas-test-automation/node_modules/selenium-webdriver/lib/error.js:546:15)\n                    at parseHttpResponse (/home/alex-antipov/Azure/eyas-test-automation/node_modules/selenium-webdriver/lib/http.js:509:13)\n                    at /home/alex-antipov/Azure/eyas-test-automation/node_modules/selenium-webdriver/lib/http.js:441:30\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                From: Task: WebElement.isDisplayed()\n                    at thenableWebDriverProxy.schedule (/home/alex-antipov/Azure/eyas-test-automation/node_modules/selenium-webdriver/lib/webdriver.js:807:17)\n                    at WebElement.schedule_ (/home/alex-antipov/Azure/eyas-test-automation/node_modules/selenium-webdriver/lib/webdriver.js:2010:25)\n                    at WebElement.isDisplayed (/home/alex-antipov/Azure/eyas-test-automation/node_modules/selenium-webdriver/lib/webdriver.js:2362:17)\n                    at actionFn (/home/alex-antipov/Azure/eyas-test-automation/node_modules/protractor/built/element.js:89:44)\n                    at Array.map (<anonymous>)\n                    at /home/alex-antipov/Azure/eyas-test-automation/node_modules/protractor/built/element.js:461:65\n                    at ManagedPromise.invokeCallback_ (/home/alex-antipov/Azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:1376:14)\n                    at TaskQueue.execute_ (/home/alex-antipov/Azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n                    at TaskQueue.executeNext_ (/home/alex-antipov/Azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n                    at /home/alex-antipov/Azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2927:27Error\n                    at ElementArrayFinder.applyAction_ (/home/alex-antipov/Azure/eyas-test-automation/node_modules/protractor/built/element.js:459:27)\n                    at ElementArrayFinder.<computed> [as isDisplayed] (/home/alex-antipov/Azure/eyas-test-automation/node_modules/protractor/built/element.js:91:29)\n                    at ElementFinder.<computed> [as isDisplayed] (/home/alex-antipov/Azure/eyas-test-automation/node_modules/protractor/built/element.js:831:22)\n                    at UserContext.<anonymous> (/home/alex-antipov/Azure/eyas-test-automation/src/test/slots/slotsPage.spec.js:109:47)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "StaleElementReferenceError: stale element reference: element is not attached to the page document\n                  (Session info: headless chrome=102.0.5005.115)\n                For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\n                Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'\n                System info: host: 'user-48', ip: '192.168.1.107', os.name: 'Linux', os.arch: 'amd64', os.version: '5.13.0-48-generic', java.version: '11.0.15'\n                Driver info: driver.version: unknown",
+    "statusTrace" : "StaleElementReferenceError: stale element reference: element is not attached to the page document\n                  (Session info: headless chrome=102.0.5005.115)\n                For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\n                Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'\n                System info: host: 'user-48', ip: '192.168.1.107', os.name: 'Linux', os.arch: 'amd64', os.version: '5.13.0-48-generic', java.version: '11.0.15'\n                Driver info: driver.version: unknown\n                    at Object.checkLegacyResponse (/home/alex-antipov/Azure/eyas-test-automation/node_modules/selenium-webdriver/lib/error.js:546:15)\n                    at parseHttpResponse (/home/alex-antipov/Azure/eyas-test-automation/node_modules/selenium-webdriver/lib/http.js:509:13)\n                    at /home/alex-antipov/Azure/eyas-test-automation/node_modules/selenium-webdriver/lib/http.js:441:30\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                From: Task: WebElement.isDisplayed()\n                    at thenableWebDriverProxy.schedule (/home/alex-antipov/Azure/eyas-test-automation/node_modules/selenium-webdriver/lib/webdriver.js:807:17)\n                    at WebElement.schedule_ (/home/alex-antipov/Azure/eyas-test-automation/node_modules/selenium-webdriver/lib/webdriver.js:2010:25)\n                    at WebElement.isDisplayed (/home/alex-antipov/Azure/eyas-test-automation/node_modules/selenium-webdriver/lib/webdriver.js:2362:17)\n                    at actionFn (/home/alex-antipov/Azure/eyas-test-automation/node_modules/protractor/built/element.js:89:44)\n                    at Array.map (<anonymous>)\n                    at /home/alex-antipov/Azure/eyas-test-automation/node_modules/protractor/built/element.js:461:65\n                    at ManagedPromise.invokeCallback_ (/home/alex-antipov/Azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:1376:14)\n                    at TaskQueue.execute_ (/home/alex-antipov/Azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n                    at TaskQueue.executeNext_ (/home/alex-antipov/Azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n                    at /home/alex-antipov/Azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2927:27Error\n                    at ElementArrayFinder.applyAction_ (/home/alex-antipov/Azure/eyas-test-automation/node_modules/protractor/built/element.js:459:27)\n                    at ElementArrayFinder.<computed> [as isDisplayed] (/home/alex-antipov/Azure/eyas-test-automation/node_modules/protractor/built/element.js:91:29)\n                    at ElementFinder.<computed> [as isDisplayed] (/home/alex-antipov/Azure/eyas-test-automation/node_modules/protractor/built/element.js:831:22)\n                    at UserContext.<anonymous> (/home/alex-antipov/Azure/eyas-test-automation/src/test/slots/slotsPage.spec.js:109:47)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a1bbdd90399c02b1",
+      "name" : "Screenshot",
+      "source" : "a1bbdd90399c02b1.png",
+      "type" : "image/png",
+      "size" : 536404
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Slots page"
+  }, {
+    "name" : "testClass",
+    "value" : "Slots page"
+  }, {
+    "name" : "testMethod",
+    "value" : "#2 User can see hero banner carousel and can scroll it"
+  }, {
+    "name" : "package",
+    "value" : "Slots page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a8ef4a225250f291",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656006655769,
+        "stop" : 1656006660711,
+        "duration" : 4942
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "411108be6639ca7e.json",
+  "parameterValues" : [ ]
+}
