@@ -1,0 +1,79 @@
+{
+  "uid" : "ea40c4cb09e15de4",
+  "name" : "#3 Current Password is a mandatory field.",
+  "fullName" : "My Account > Settings > Change Password.#3 Current Password is a mandatory field.",
+  "historyId" : "cb75d976900c80373eb4e641ec788ee9",
+  "time" : {
+    "start" : 1656607031918,
+    "stop" : 1656607041454,
+    "duration" : 9536
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "898cf1eb4a6e7f85",
+      "name" : "Screenshot",
+      "source" : "898cf1eb4a6e7f85.png",
+      "type" : "image/png",
+      "size" : 288298
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "My Account > Settings > Change Password"
+  }, {
+    "name" : "testClass",
+    "value" : "My Account > Settings > Change Password"
+  }, {
+    "name" : "testMethod",
+    "value" : "#3 Current Password is a mandatory field."
+  }, {
+    "name" : "package",
+    "value" : "My Account > Settings > Change Password"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "e90fbd772f44ee1f",
+      "status" : "failed",
+      "statusDetails" : "Failed: login-form is still displayed\n                Wait timed out after 60046ms",
+      "time" : {
+        "start" : 1656589260240,
+        "stop" : 1656589326331,
+        "duration" : 66091
+      }
+    }, {
+      "uid" : "405482589287f759",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656588318618,
+        "stop" : 1656588338733,
+        "duration" : 20115
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ea40c4cb09e15de4.json",
+  "parameterValues" : [ ]
+}

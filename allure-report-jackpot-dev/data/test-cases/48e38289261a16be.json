@@ -1,0 +1,79 @@
+{
+  "uid" : "48e38289261a16be",
+  "name" : "#13 Player cannot continue to next step if their new password does not meet the minimum password requirements.",
+  "fullName" : "My Account > Settings > Change Password.#13 Player cannot continue to next step if their new password does not meet the minimum password requirements.",
+  "historyId" : "fd5c1b8c33e5af30e069d4be830e7650",
+  "time" : {
+    "start" : 1656607129260,
+    "stop" : 1656607138892,
+    "duration" : 9632
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e74ab7f09d91db6e",
+      "name" : "Screenshot",
+      "source" : "e74ab7f09d91db6e.png",
+      "type" : "image/png",
+      "size" : 257621
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "My Account > Settings > Change Password"
+  }, {
+    "name" : "testClass",
+    "value" : "My Account > Settings > Change Password"
+  }, {
+    "name" : "testMethod",
+    "value" : "#13 Player cannot continue to next step if their new password does not meet the minimum password requirements."
+  }, {
+    "name" : "package",
+    "value" : "My Account > Settings > Change Password"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "299a361b55b5ab98",
+      "status" : "failed",
+      "statusDetails" : "Failed: login-form is still displayed\n                Wait timed out after 60019ms",
+      "time" : {
+        "start" : 1656589916096,
+        "stop" : 1656589981019,
+        "duration" : 64923
+      }
+    }, {
+      "uid" : "63e1980118dae8f6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656588519953,
+        "stop" : 1656588538754,
+        "duration" : 18801
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "48e38289261a16be.json",
+  "parameterValues" : [ ]
+}
