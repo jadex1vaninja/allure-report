@@ -1,0 +1,78 @@
+{
+  "uid" : "2f9b7981dc2dc158",
+  "name" : "#11 Player can successfully set a weekly deposit limit if not already set.",
+  "fullName" : "My Account > Gambling Controls > Deposit Limits.#11 Player can successfully set a weekly deposit limit if not already set.",
+  "historyId" : "595b895cf211e841be6fc1883d9f0ade",
+  "time" : {
+    "start" : 1656593989442,
+    "stop" : 1656593998590,
+    "duration" : 9148
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Failed: No element found using locator: By(css selector, .account-limits)",
+  "statusTrace" : "NoSuchElementError: No element found using locator: By(css selector, .account-limits)\n                    at /home/dev/azure/eyas-test-automation/node_modules/protractor/built/element.js:814:27\n                    at ManagedPromise.invokeCallback_ (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:1376:14)\n                    at TaskQueue.execute_ (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n                    at TaskQueue.executeNext_ (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n                    at /home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2927:27\n                    at /home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:668:7\n                    at processTicksAndRejections (node:internal/process/task_queues:95:5)Error\n                    at ElementArrayFinder.applyAction_ (/home/dev/azure/eyas-test-automation/node_modules/protractor/built/element.js:459:27)\n                    at ElementArrayFinder.<computed> [as click] (/home/dev/azure/eyas-test-automation/node_modules/protractor/built/element.js:91:29)\n                    at ElementFinder.<computed> [as click] (/home/dev/azure/eyas-test-automation/node_modules/protractor/built/element.js:831:22)\n                    at MyAccount.addDepositLimit (/home/dev/azure/eyas-test-automation/src/test/my-account/my-account.pageObject.js:173:45)\n                    at UserContext.<anonymous> (/home/dev/azure/eyas-test-automation/src/test/my-account/gambling-controls/deposit-limits.spec.js:404:21)\n                    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n                From: Task: Run it(\"#11 Player can successfully set a weekly deposit limit if not already set.\") in control flow\n                    at UserContext.<anonymous> (/home/dev/azure/eyas-test-automation/node_modules/jasminewd2/index.js:94:19)\n                    at attempt (/home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4297:26)\n                    at QueueRunner.run (/home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4217:20)\n                    at runNext (/home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4257:20)\n                    at /home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4264:13\n                    at /home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4172:9\n                    at /home/dev/azure/eyas-test-automation/node_modules/jasminewd2/index.js:64:48\n                    at ControlFlow.emit (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/events.js:62:21)\n                    at ControlFlow.shutdown_ (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2674:10)\n                    at /home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2599:53\n                From asynchronous test: \n                Error\n                    at Suite.<anonymous> (/home/dev/azure/eyas-test-automation/src/test/my-account/gambling-controls/deposit-limits.spec.js:393:3)\n                    at addSpecsToSuite (/home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1107:25)\n                    at Env.describe (/home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1074:7)\n                    at describe (/home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4399:18)\n                    at Object.<anonymous> (/home/dev/azure/eyas-test-automation/src/test/my-account/gambling-controls/deposit-limits.spec.js:62:1)\n                    at Module._compile (node:internal/modules/cjs/loader:1112:14)\n                    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1166:10)\n                    at Module.load (node:internal/modules/cjs/loader:988:32)\n                    at Function.Module._load (node:internal/modules/cjs/loader:834:12)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Failed: No element found using locator: By(css selector, .account-limits)",
+    "statusTrace" : "NoSuchElementError: No element found using locator: By(css selector, .account-limits)\n                    at /home/dev/azure/eyas-test-automation/node_modules/protractor/built/element.js:814:27\n                    at ManagedPromise.invokeCallback_ (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:1376:14)\n                    at TaskQueue.execute_ (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n                    at TaskQueue.executeNext_ (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n                    at /home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2927:27\n                    at /home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:668:7\n                    at processTicksAndRejections (node:internal/process/task_queues:95:5)Error\n                    at ElementArrayFinder.applyAction_ (/home/dev/azure/eyas-test-automation/node_modules/protractor/built/element.js:459:27)\n                    at ElementArrayFinder.<computed> [as click] (/home/dev/azure/eyas-test-automation/node_modules/protractor/built/element.js:91:29)\n                    at ElementFinder.<computed> [as click] (/home/dev/azure/eyas-test-automation/node_modules/protractor/built/element.js:831:22)\n                    at MyAccount.addDepositLimit (/home/dev/azure/eyas-test-automation/src/test/my-account/my-account.pageObject.js:173:45)\n                    at UserContext.<anonymous> (/home/dev/azure/eyas-test-automation/src/test/my-account/gambling-controls/deposit-limits.spec.js:404:21)\n                    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n                From: Task: Run it(\"#11 Player can successfully set a weekly deposit limit if not already set.\") in control flow\n                    at UserContext.<anonymous> (/home/dev/azure/eyas-test-automation/node_modules/jasminewd2/index.js:94:19)\n                    at attempt (/home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4297:26)\n                    at QueueRunner.run (/home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4217:20)\n                    at runNext (/home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4257:20)\n                    at /home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4264:13\n                    at /home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4172:9\n                    at /home/dev/azure/eyas-test-automation/node_modules/jasminewd2/index.js:64:48\n                    at ControlFlow.emit (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/events.js:62:21)\n                    at ControlFlow.shutdown_ (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2674:10)\n                    at /home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2599:53\n                From asynchronous test: \n                Error\n                    at Suite.<anonymous> (/home/dev/azure/eyas-test-automation/src/test/my-account/gambling-controls/deposit-limits.spec.js:393:3)\n                    at addSpecsToSuite (/home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1107:25)\n                    at Env.describe (/home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1074:7)\n                    at describe (/home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4399:18)\n                    at Object.<anonymous> (/home/dev/azure/eyas-test-automation/src/test/my-account/gambling-controls/deposit-limits.spec.js:62:1)\n                    at Module._compile (node:internal/modules/cjs/loader:1112:14)\n                    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1166:10)\n                    at Module.load (node:internal/modules/cjs/loader:988:32)\n                    at Function.Module._load (node:internal/modules/cjs/loader:834:12)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5662e48dd444ebc3",
+      "name" : "Screenshot",
+      "source" : "5662e48dd444ebc3.png",
+      "type" : "image/png",
+      "size" : 458201
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "My Account > Gambling Controls > Deposit Limits"
+  }, {
+    "name" : "testClass",
+    "value" : "My Account > Gambling Controls > Deposit Limits"
+  }, {
+    "name" : "testMethod",
+    "value" : "#11 Player can successfully set a weekly deposit limit if not already set."
+  }, {
+    "name" : "package",
+    "value" : "My Account > Gambling Controls > Deposit Limits"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "9ae85ac0e5a55107",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656592877012,
+        "stop" : 1656592897939,
+        "duration" : 20927
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "2f9b7981dc2dc158.json",
+  "parameterValues" : [ ]
+}
