@@ -1,0 +1,79 @@
+{
+  "uid" : "dd6467cf44dd02fd",
+  "name" : "#2 Player can cancel out of the Change Password modal.",
+  "fullName" : "My Account > Settings > Change Password.#2 Player can cancel out of the Change Password modal.",
+  "historyId" : "3ee9d717676bbd207be4b895bf1ee52",
+  "time" : {
+    "start" : 1656607022347,
+    "stop" : 1656607031918,
+    "duration" : 9571
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "fb45b0f20faff3",
+      "name" : "Screenshot",
+      "source" : "fb45b0f20faff3.png",
+      "type" : "image/png",
+      "size" : 519048
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "My Account > Settings > Change Password"
+  }, {
+    "name" : "testClass",
+    "value" : "My Account > Settings > Change Password"
+  }, {
+    "name" : "testMethod",
+    "value" : "#2 Player can cancel out of the Change Password modal."
+  }, {
+    "name" : "package",
+    "value" : "My Account > Settings > Change Password"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "22316789ea7fe0dd",
+      "status" : "failed",
+      "statusDetails" : "Failed: login-form is still displayed\n                Wait timed out after 60019ms",
+      "time" : {
+        "start" : 1656589194602,
+        "stop" : 1656589260240,
+        "duration" : 65638
+      }
+    }, {
+      "uid" : "c5bc5e82edd029fa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656588298221,
+        "stop" : 1656588318618,
+        "duration" : 20397
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "dd6467cf44dd02fd.json",
+  "parameterValues" : [ ]
+}
