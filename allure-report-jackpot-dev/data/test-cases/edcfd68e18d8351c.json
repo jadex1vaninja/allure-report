@@ -1,0 +1,79 @@
+{
+  "uid" : "edcfd68e18d8351c",
+  "name" : "#5 Player cannot submit the Change Password form with blank details.",
+  "fullName" : "My Account > Settings > Change Password.#5 Player cannot submit the Change Password form with blank details.",
+  "historyId" : "e89be2c174c23c5502552a9dcf1a5281",
+  "time" : {
+    "start" : 1656607050800,
+    "stop" : 1656607060144,
+    "duration" : 9344
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "daea0dad3c5801b7",
+      "name" : "Screenshot",
+      "source" : "daea0dad3c5801b7.png",
+      "type" : "image/png",
+      "size" : 281734
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "My Account > Settings > Change Password"
+  }, {
+    "name" : "testClass",
+    "value" : "My Account > Settings > Change Password"
+  }, {
+    "name" : "testMethod",
+    "value" : "#5 Player cannot submit the Change Password form with blank details."
+  }, {
+    "name" : "package",
+    "value" : "My Account > Settings > Change Password"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "2c6be3858e8dfb9a",
+      "status" : "failed",
+      "statusDetails" : "Failed: login-form is still displayed\n                Wait timed out after 60012ms",
+      "time" : {
+        "start" : 1656589391850,
+        "stop" : 1656589457344,
+        "duration" : 65494
+      }
+    }, {
+      "uid" : "82ef63aec65f4dcb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656588359505,
+        "stop" : 1656588379134,
+        "duration" : 19629
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "edcfd68e18d8351c.json",
+  "parameterValues" : [ ]
+}

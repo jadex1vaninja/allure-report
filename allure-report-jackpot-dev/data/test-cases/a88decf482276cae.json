@@ -1,0 +1,87 @@
+{
+  "uid" : "a88decf482276cae",
+  "name" : "#13 Balance details still correctly display balance of £0.00 if user has no cash balance",
+  "fullName" : "Homepage.#13 Balance details still correctly display balance of £0.00 if user has no cash balance",
+  "historyId" : "ddbc0d41a4b01fe5007ab0cff532c9ea",
+  "time" : {
+    "start" : 1656602457454,
+    "stop" : 1656602467782,
+    "duration" : 10328
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f16210533ab25529",
+      "name" : "Screenshot",
+      "source" : "f16210533ab25529.png",
+      "type" : "image/png",
+      "size" : 513711
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Homepage"
+  }, {
+    "name" : "testClass",
+    "value" : "Homepage"
+  }, {
+    "name" : "testMethod",
+    "value" : "#13 Balance details still correctly display balance of £0.00 if user has no cash balance"
+  }, {
+    "name" : "package",
+    "value" : "Homepage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "acd6e19aa9ee0d4c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656602326872,
+        "stop" : 1656602337225,
+        "duration" : 10353
+      }
+    }, {
+      "uid" : "7f6c68a8b4bc9ccd",
+      "status" : "failed",
+      "statusDetails" : "Failed: login-form is still displayed\n                Wait timed out after 60040ms",
+      "time" : {
+        "start" : 1656589666940,
+        "stop" : 1656589732446,
+        "duration" : 65506
+      }
+    }, {
+      "uid" : "6efcdab8c26b3673",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656587820350,
+        "stop" : 1656587842063,
+        "duration" : 21713
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a88decf482276cae.json",
+  "parameterValues" : [ ]
+}
