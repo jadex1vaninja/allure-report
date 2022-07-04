@@ -4,150 +4,252 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "Failed: The user should not see Bonus balance category for login user.\n                Wait timed out after 20022ms",
+      "name" : "Failed: Accept All Cookie Cookie Notification still visible.\n                Wait timed out after 20071ms",
       "children" : [ {
-        "name" : "#48 Bonus balance category is not displayed for not logged in user.",
-        "uid" : "1fe89e7d4f9a8b5f",
-        "parentUid" : "b78e36dfae971e6b277138fcc8d79939",
+        "name" : "#24 User can close deposit bonus modal, remove display bonus modal and return to the launch screen.",
+        "uid" : "5f3cca745c7a9c33",
+        "parentUid" : "7d0fce00a060af3eb08bf434bec46d46",
         "status" : "failed",
         "time" : {
-          "start" : 1656837187785,
-          "stop" : 1656837209708,
-          "duration" : 21923
+          "start" : 1656936499138,
+          "stop" : 1656936535476,
+          "duration" : 36338
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "b78e36dfae971e6b277138fcc8d79939"
+      "uid" : "7d0fce00a060af3eb08bf434bec46d46"
+    }, {
+      "name" : "Failed: Accept All Cookie Cookie Notification still visible.\n                Wait timed out after 20025ms",
+      "children" : [ {
+        "name" : "#25 User can make bonus deposit.",
+        "uid" : "a1ebe0646548314f",
+        "parentUid" : "07a23415e7b09935dad55526b7bd8f27",
+        "status" : "failed",
+        "time" : {
+          "start" : 1656936535476,
+          "stop" : 1656936571282,
+          "duration" : 35806
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "07a23415e7b09935dad55526b7bd8f27"
+    }, {
+      "name" : "Failed: Accept All Cookie Cookie Notification still visible.\n                Wait timed out after 20067ms",
+      "children" : [ {
+        "name" : "#26 Promotion page is displayed for not login user.",
+        "uid" : "26e5931cb9deb634",
+        "parentUid" : "85558fa94ae5037bd3587c80f02e8484",
+        "status" : "failed",
+        "time" : {
+          "start" : 1656936571292,
+          "stop" : 1656936592640,
+          "duration" : 21348
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "85558fa94ae5037bd3587c80f02e8484"
+    }, {
+      "name" : "Failed: Accept All Cookie Cookie Notification still visible.\n                Wait timed out after 20072ms",
+      "children" : [ {
+        "name" : "#28 Promotion cards are displayed for not login user.",
+        "uid" : "eaf459874a6ffc27",
+        "parentUid" : "76ec396db7dc0bf0dd1462a6df693a71",
+        "status" : "failed",
+        "time" : {
+          "start" : 1656936592640,
+          "stop" : 1656936615365,
+          "duration" : 22725
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "76ec396db7dc0bf0dd1462a6df693a71"
+    }, {
+      "name" : "Failed: Accept All Cookie Cookie Notification still visible.\n                Wait timed out after 20016ms",
+      "children" : [ {
+        "name" : "#29 Promotions are displayed in correct order for unauthenticated user",
+        "uid" : "1fd59164b485396b",
+        "parentUid" : "1ca301cc0f0503b400d29d8b516fa248",
+        "status" : "failed",
+        "time" : {
+          "start" : 1656936615365,
+          "stop" : 1656936639456,
+          "duration" : 24091
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1ca301cc0f0503b400d29d8b516fa248"
+    }, {
+      "name" : "Failed: Accept All Cookie Cookie Notification still visible.\n                Wait timed out after 20030ms",
+      "children" : [ {
+        "name" : "#30 Promo image of promotion card is displayed for not login user.",
+        "uid" : "83c728be816b8feb",
+        "parentUid" : "56c064cc4ba64322573d35b9a55f574a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1656936639456,
+          "stop" : 1656936662251,
+          "duration" : 22795
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "56c064cc4ba64322573d35b9a55f574a"
+    }, {
+      "name" : "Failed: The user should not see Bonus balance category for login user.\n                Wait timed out after 20066ms",
+      "children" : [ {
+        "name" : "#48 Bonus balance category is not displayed for not logged in user.",
+        "uid" : "35a9e55dbc66445f",
+        "parentUid" : "e26156fc04e098c2ee174e9f6ccf7dca",
+        "status" : "failed",
+        "time" : {
+          "start" : 1656936757456,
+          "stop" : 1656936779763,
+          "duration" : 22307
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e26156fc04e098c2ee174e9f6ccf7dca"
     }, {
       "name" : "Failed: Index out of bound. Trying to access element at index: 0, but there are only 0 elements that match locator By(css selector, .category__navigation-item)",
       "children" : [ {
         "name" : "#50 New bonus sub navigation page is opened after clicking on bonus balance.",
-        "uid" : "ac44e88cb89f9049",
+        "uid" : "250334ef8b1daf1a",
         "parentUid" : "16acad763d3c06af95237d55554208e7",
         "status" : "failed",
         "time" : {
-          "start" : 1656837214403,
-          "stop" : 1656837222579,
-          "duration" : 8176
+          "start" : 1656936784654,
+          "stop" : 1656936792921,
+          "duration" : 8267
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "#51 User see total bonus balance and my bonus activity after clicking on bonus balance.",
-        "uid" : "36081e3d360936be",
+        "uid" : "6a73966756cd9939",
         "parentUid" : "16acad763d3c06af95237d55554208e7",
         "status" : "failed",
         "time" : {
-          "start" : 1656837222579,
-          "stop" : 1656837227520,
-          "duration" : 4941
+          "start" : 1656936792921,
+          "stop" : 1656936797819,
+          "duration" : 4898
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "#52 User see related information to bonus after clicking on arrow on the right side of bonus for my bonus activity.",
-        "uid" : "f280e9195c61d4a4",
+        "uid" : "9101fa125d293da1",
         "parentUid" : "16acad763d3c06af95237d55554208e7",
         "status" : "failed",
         "time" : {
-          "start" : 1656837227520,
-          "stop" : 1656837232754,
-          "duration" : 5234
+          "start" : 1656936797819,
+          "stop" : 1656936802881,
+          "duration" : 5062
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "#53 Cancel drawer is opened after clicking on cancel button for bonus.",
-        "uid" : "c833e4ce3f90faf9",
+        "uid" : "f4add8aeb2602e45",
         "parentUid" : "16acad763d3c06af95237d55554208e7",
         "status" : "failed",
         "time" : {
-          "start" : 1656837232754,
-          "stop" : 1656837237954,
-          "duration" : 5200
+          "start" : 1656936802881,
+          "stop" : 1656936808179,
+          "duration" : 5298
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "#54 Bonus status is canceled after clicking Yes cancel btn for cancel drawer.",
-        "uid" : "ab8d17f4374495f6",
+        "uid" : "1843adf7a14efd3c",
         "parentUid" : "16acad763d3c06af95237d55554208e7",
         "status" : "failed",
         "time" : {
-          "start" : 1656837237954,
-          "stop" : 1656837243113,
-          "duration" : 5159
+          "start" : 1656936808179,
+          "stop" : 1656936813469,
+          "duration" : 5290
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "#55 Related information to bonus is closed after clicking on arrow on the right side of bonus for opened bonus.",
-        "uid" : "8f31533a7ce9571e",
+        "uid" : "5cae6468ffd211a3",
         "parentUid" : "16acad763d3c06af95237d55554208e7",
         "status" : "failed",
         "time" : {
-          "start" : 1656837243113,
-          "stop" : 1656837248332,
-          "duration" : 5219
+          "start" : 1656936813469,
+          "stop" : 1656936818379,
+          "duration" : 4910
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "#56 User see cash and bonus balance after clicking arrow on the right side of bonus for total bonus balance.",
-        "uid" : "d70d3f957dc522b6",
+        "uid" : "89fcda932c885b0d",
         "parentUid" : "16acad763d3c06af95237d55554208e7",
         "status" : "failed",
         "time" : {
-          "start" : 1656837248332,
-          "stop" : 1656837253575,
-          "duration" : 5243
+          "start" : 1656936818379,
+          "stop" : 1656936823500,
+          "duration" : 5121
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "#57 Cash and bonus balance is closed after clicking on arrow for opened bonus balance.",
-        "uid" : "aa3ba19fe9a9f6e",
+        "uid" : "1307888c2002811d",
         "parentUid" : "16acad763d3c06af95237d55554208e7",
         "status" : "failed",
         "time" : {
-          "start" : 1656837253575,
-          "stop" : 1656837258626,
-          "duration" : 5051
+          "start" : 1656936823500,
+          "stop" : 1656936828770,
+          "duration" : 5270
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "#58 User sees bonuses from this range after select data range on calendar.",
-        "uid" : "ad81fefa29a030dc",
+        "uid" : "b84feba247b09d95",
         "parentUid" : "16acad763d3c06af95237d55554208e7",
         "status" : "failed",
         "time" : {
-          "start" : 1656837258626,
-          "stop" : 1656837263755,
-          "duration" : 5129
+          "start" : 1656936828770,
+          "stop" : 1656936833866,
+          "duration" : 5096
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "#59 Bonus is in my bonus activity at bonus sub page after opted in bonus.",
-        "uid" : "9f980f0d510a34a6",
+        "uid" : "3e784dfac0894dcc",
         "parentUid" : "16acad763d3c06af95237d55554208e7",
         "status" : "failed",
         "time" : {
-          "start" : 1656837263755,
-          "stop" : 1656837276811,
-          "duration" : 13056
+          "start" : 1656936833867,
+          "stop" : 1656936846790,
+          "duration" : 12923
         },
         "flaky" : false,
         "newFailed" : false,
@@ -155,46 +257,29 @@
       } ],
       "uid" : "16acad763d3c06af95237d55554208e7"
     }, {
-      "name" : "NoSuchElementError: No element found using locator: By(css selector, .eyas-game-info)",
-      "children" : [ {
-        "name" : "#5 User can see on hero banner carousel primary button CTA, can click on it and see game info page",
-        "uid" : "bf7e89dd7058088f",
-        "parentUid" : "eaf7d0b747abd0893b87ba201dfa5701",
-        "status" : "failed",
-        "time" : {
-          "start" : 1656837311428,
-          "stop" : 1656837317307,
-          "duration" : 5879
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "eaf7d0b747abd0893b87ba201dfa5701"
-    }, {
       "name" : "Failed: No element found using locator: By(css selector, .venue-page)",
       "children" : [ {
         "name" : "#01 User is on an individual venue page and see all elements.",
-        "uid" : "fb970998e6df3050",
+        "uid" : "dbc2bb571edfb8bf",
         "parentUid" : "404e39eb9993c642517e6a71c4b2f030",
         "status" : "failed",
         "time" : {
-          "start" : 1656837348634,
-          "stop" : 1656837354999,
-          "duration" : 6365
+          "start" : 1656936854642,
+          "stop" : 1656936861037,
+          "duration" : 6395
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "#05 After clicking on the location icon, the user will be redirected to the venue details page.",
-        "uid" : "5e0e0d10e6daea4b",
+        "uid" : "83e76fba1c3d63bc",
         "parentUid" : "404e39eb9993c642517e6a71c4b2f030",
         "status" : "failed",
         "time" : {
-          "start" : 1656837381417,
-          "stop" : 1656837381950,
-          "duration" : 533
+          "start" : 1656936889329,
+          "stop" : 1656936889857,
+          "duration" : 528
         },
         "flaky" : false,
         "newFailed" : false,
@@ -202,33 +287,16 @@
       } ],
       "uid" : "404e39eb9993c642517e6a71c4b2f030"
     }, {
-      "name" : "Failed: Phone number field for phone deposit is missing or did not display in time\n                Wait timed out after 12016ms",
-      "children" : [ {
-        "name" : "#5 Check user is able to select Phone payment method and is provided with the correct information for this payment method",
-        "uid" : "53ffe8c7256e7e80",
-        "parentUid" : "7828758a40044aa5c827b2859c92c0bd",
-        "status" : "failed",
-        "time" : {
-          "start" : 1656837349517,
-          "stop" : 1656837376399,
-          "duration" : 26882
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "7828758a40044aa5c827b2859c92c0bd"
-    }, {
       "name" : "Expected '0.5miles' to contain '1MI', 'Closest radius not equal 1 miles.'.",
       "children" : [ {
         "name" : "#01  User can search venue name and see a list of venues in collapsed view.",
-        "uid" : "96137891c62f5862",
+        "uid" : "6cbe92ca9a18b86",
         "parentUid" : "d5f22fe98fe61d771f8fb66a4b9e563a",
         "status" : "failed",
         "time" : {
-          "start" : 1656837360720,
-          "stop" : 1656837371582,
-          "duration" : 10862
+          "start" : 1656936868372,
+          "stop" : 1656936879052,
+          "duration" : 10680
         },
         "flaky" : false,
         "newFailed" : false,
@@ -236,16 +304,33 @@
       } ],
       "uid" : "d5f22fe98fe61d771f8fb66a4b9e563a"
     }, {
+      "name" : "NoSuchElementError: No element found using locator: By(css selector, .eyas-game-info)",
+      "children" : [ {
+        "name" : "#5 User can see on hero banner carousel primary button CTA, can click on it and see game info page",
+        "uid" : "c166f00546631046",
+        "parentUid" : "eaf7d0b747abd0893b87ba201dfa5701",
+        "status" : "failed",
+        "time" : {
+          "start" : 1656936880891,
+          "stop" : 1656936885510,
+          "duration" : 4619
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "eaf7d0b747abd0893b87ba201dfa5701"
+    }, {
       "name" : "Expected '50 miles' to contain '50 MI', 'Radius not equal 50 miles.'.",
       "children" : [ {
         "name" : "#3 User see 8 search results for desktop and 5 for mobile and see pagination panel.",
-        "uid" : "42b26724f61af79e",
+        "uid" : "a1edba611af816d5",
         "parentUid" : "4170536eeb87a93a612ebd7159087db1",
         "status" : "failed",
         "time" : {
-          "start" : 1656837377193,
-          "stop" : 1656837378550,
-          "duration" : 1357
+          "start" : 1656936884659,
+          "stop" : 1656936886346,
+          "duration" : 1687
         },
         "flaky" : false,
         "newFailed" : false,
@@ -256,13 +341,13 @@
       "name" : "Failed: element click intercepted: Element <button class=\"button button--secondary button--small\" type=\"button\">...</button> is not clickable at point (778, 877). Other element would receive the click: <p class=\"paragraph paragraph--m paragraph--no-margin cookie-prompt__text\">...</p>\n                  (Session info: headless chrome=103.0.5060.53)\n                Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'\n                System info: host: 'smiss', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-40-generic', java.version: '11.0.15'\n                Driver info: driver.version: unknown",
       "children" : [ {
         "name" : "#04 After click  button `More info` user will be redirected to the venues detail page.",
-        "uid" : "118f9728a0b174fe",
+        "uid" : "fd084bdbe18c7368",
         "parentUid" : "0311ff6cb49d0c6f4b9be05986b6414c",
         "status" : "failed",
         "time" : {
-          "start" : 1656837378550,
-          "stop" : 1656837381417,
-          "duration" : 2867
+          "start" : 1656936886346,
+          "stop" : 1656936889329,
+          "duration" : 2983
         },
         "flaky" : false,
         "newFailed" : false,
@@ -270,16 +355,101 @@
       } ],
       "uid" : "0311ff6cb49d0c6f4b9be05986b6414c"
     }, {
+      "name" : "Failed: No element found using locator: By(css selector, .game-card-details)",
+      "children" : [ {
+        "name" : "#8 User hover the game card and click on CTA 'INFO' and go to info page, click on JOIN and see register page",
+        "uid" : "f97045e29bd25cfb",
+        "parentUid" : "fde24e9a96e9300fb5578160fbef1d7d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1656936903347,
+          "stop" : 1656936908922,
+          "duration" : 5575
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fde24e9a96e9300fb5578160fbef1d7d"
+    }, {
+      "name" : "NoSuchElementError: No element found using locator: By(css selector, .game-card-details)",
+      "children" : [ {
+        "name" : "#9 User hover the game card and click on it and login modal appears",
+        "uid" : "2b7491cba05e748a",
+        "parentUid" : "1a266aea4038cf5a6b5e5c10e6a8f3a5",
+        "status" : "failed",
+        "time" : {
+          "start" : 1656936908922,
+          "stop" : 1656936914108,
+          "duration" : 5186
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1a266aea4038cf5a6b5e5c10e6a8f3a5"
+    }, {
+      "name" : "NoSuchElementError: No element found using locator: By(css selector, .desktop-game-menu)",
+      "children" : [ {
+        "name" : "#11 User logged in and hover the game card and click on CTA \"PLAY NOW\" and go to game page",
+        "uid" : "48b150edf196a359",
+        "parentUid" : "0a0f17bff58fadd4ac8b911eca0b4f50",
+        "status" : "failed",
+        "time" : {
+          "start" : 1656936917547,
+          "stop" : 1656936940533,
+          "duration" : 22986
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0a0f17bff58fadd4ac8b911eca0b4f50"
+    }, {
+      "name" : "Failed: No element found using locator: By(css selector, [data-testid=\"review-step-item-telephone\"])",
+      "children" : [ {
+        "name" : "#04 Player can update their telephone number.",
+        "uid" : "d3ca121f049617db",
+        "parentUid" : "4697d4169d7b53942e42a6774cf76d4d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1656936926248,
+          "stop" : 1656936944221,
+          "duration" : 17973
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4697d4169d7b53942e42a6774cf76d4d"
+    }, {
+      "name" : "Failed: Phone number field for phone deposit is missing or did not display in time\n                Wait timed out after 12011ms",
+      "children" : [ {
+        "name" : "#5 Check user is able to select Phone payment method and is provided with the correct information for this payment method",
+        "uid" : "341ed685b562cc4c",
+        "parentUid" : "b437a9879d70ee45b62e7c2f96a0daa5",
+        "status" : "failed",
+        "time" : {
+          "start" : 1656936946610,
+          "stop" : 1656936971782,
+          "duration" : 25172
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b437a9879d70ee45b62e7c2f96a0daa5"
+    }, {
       "name" : "Expected 'We’re processing your payment' to contain 'success', 'Modal heading is incorrect'.",
       "children" : [ {
         "name" : "#7 Check user is able to deposit with a valid card and is presented with success modal",
-        "uid" : "90a53be4b5f3ae36",
+        "uid" : "88eef3756f6b1fe4",
         "parentUid" : "d0741d2193b3f39b35f6a3fb3ad247a5",
         "status" : "failed",
         "time" : {
-          "start" : 1656837389559,
-          "stop" : 1656837416122,
-          "duration" : 26563
+          "start" : 1656936983514,
+          "stop" : 1656937007439,
+          "duration" : 23925
         },
         "flaky" : false,
         "newFailed" : false,
