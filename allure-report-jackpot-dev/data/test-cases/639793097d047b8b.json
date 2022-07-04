@@ -1,0 +1,64 @@
+{
+  "uid" : "639793097d047b8b",
+  "name" : "#6 The details balance card is dismissed when the user clicks and drags the footer",
+  "fullName" : "Homepage.#6 The details balance card is dismissed when the user clicks and drags the footer",
+  "historyId" : "144c58a096cd94d066cbc20329717ff",
+  "time" : {
+    "start" : 1656917856882,
+    "stop" : 1656917881235,
+    "duration" : 24353
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Failed: Dropdown card not dimissed correctly\n                Wait timed out after 12024ms",
+  "statusTrace" : "TimeoutError: Dropdown card not dimissed correctly\n                Wait timed out after 12024ms\n                    at /home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2201:17\n                    at ManagedPromise.invokeCallback_ (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:1376:14)\n                    at TaskQueue.execute_ (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n                    at TaskQueue.executeNext_ (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n                    at /home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2927:27\n                    at /home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:668:7\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                From: Task: Dropdown card not dimissed correctly\n                    at scheduleWait (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2188:20)\n                    at ControlFlow.wait (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2517:12)\n                    at thenableWebDriverProxy.wait (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/webdriver.js:934:29)\n                    at run (/home/dev/azure/eyas-test-automation/node_modules/protractor/built/browser.js:58:33)\n                    at ProtractorBrowser.to.<computed> [as wait] (/home/dev/azure/eyas-test-automation/node_modules/protractor/built/browser.js:66:16)\n                    at NavBarBalance.waitForDismissal (/home/dev/azure/eyas-test-automation/src/test/components/navbar-balance.component.js:86:19)\n                    at UserContext.<anonymous> (/home/dev/azure/eyas-test-automation/src/test/homepage.spec.js:247:30)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                From: Task: Run it(\"#6 The details balance card is dismissed when the user clicks and drags the footer\") in control flow\n                    at UserContext.<anonymous> (/home/dev/azure/eyas-test-automation/node_modules/jasminewd2/index.js:94:19)\n                    at attempt (/home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4297:26)\n                    at QueueRunner.run (/home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4217:20)\n                    at runNext (/home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4257:20)\n                    at /home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4264:13\n                    at /home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4172:9\n                    at /home/dev/azure/eyas-test-automation/node_modules/jasminewd2/index.js:64:48\n                    at ControlFlow.emit (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/events.js:62:21)\n                    at ControlFlow.shutdown_ (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2674:10)\n                    at /home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2599:53\n                From asynchronous test: \n                Error\n                    at Suite.<anonymous> (/home/dev/azure/eyas-test-automation/src/test/homepage.spec.js:229:3)\n                    at addSpecsToSuite (/home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1107:25)\n                    at Env.describe (/home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1074:7)\n                    at describe (/home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4399:18)\n                    at Object.<anonymous> (/home/dev/azure/eyas-test-automation/src/test/homepage.spec.js:53:1)\n                    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n                    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n                    at Module.load (node:internal/modules/cjs/loader:981:32)\n                    at Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Failed: Dropdown card not dimissed correctly\n                Wait timed out after 12024ms",
+    "statusTrace" : "TimeoutError: Dropdown card not dimissed correctly\n                Wait timed out after 12024ms\n                    at /home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2201:17\n                    at ManagedPromise.invokeCallback_ (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:1376:14)\n                    at TaskQueue.execute_ (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n                    at TaskQueue.executeNext_ (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n                    at /home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2927:27\n                    at /home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:668:7\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                From: Task: Dropdown card not dimissed correctly\n                    at scheduleWait (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2188:20)\n                    at ControlFlow.wait (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2517:12)\n                    at thenableWebDriverProxy.wait (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/webdriver.js:934:29)\n                    at run (/home/dev/azure/eyas-test-automation/node_modules/protractor/built/browser.js:58:33)\n                    at ProtractorBrowser.to.<computed> [as wait] (/home/dev/azure/eyas-test-automation/node_modules/protractor/built/browser.js:66:16)\n                    at NavBarBalance.waitForDismissal (/home/dev/azure/eyas-test-automation/src/test/components/navbar-balance.component.js:86:19)\n                    at UserContext.<anonymous> (/home/dev/azure/eyas-test-automation/src/test/homepage.spec.js:247:30)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                From: Task: Run it(\"#6 The details balance card is dismissed when the user clicks and drags the footer\") in control flow\n                    at UserContext.<anonymous> (/home/dev/azure/eyas-test-automation/node_modules/jasminewd2/index.js:94:19)\n                    at attempt (/home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4297:26)\n                    at QueueRunner.run (/home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4217:20)\n                    at runNext (/home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4257:20)\n                    at /home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4264:13\n                    at /home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4172:9\n                    at /home/dev/azure/eyas-test-automation/node_modules/jasminewd2/index.js:64:48\n                    at ControlFlow.emit (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/events.js:62:21)\n                    at ControlFlow.shutdown_ (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2674:10)\n                    at /home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2599:53\n                From asynchronous test: \n                Error\n                    at Suite.<anonymous> (/home/dev/azure/eyas-test-automation/src/test/homepage.spec.js:229:3)\n                    at addSpecsToSuite (/home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1107:25)\n                    at Env.describe (/home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1074:7)\n                    at describe (/home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4399:18)\n                    at Object.<anonymous> (/home/dev/azure/eyas-test-automation/src/test/homepage.spec.js:53:1)\n                    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n                    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n                    at Module.load (node:internal/modules/cjs/loader:981:32)\n                    at Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ccf15f25dc7660d7",
+      "name" : "Screenshot",
+      "source" : "ccf15f25dc7660d7.png",
+      "type" : "image/png",
+      "size" : 532669
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Homepage"
+  }, {
+    "name" : "testClass",
+    "value" : "Homepage"
+  }, {
+    "name" : "testMethod",
+    "value" : "#6 The details balance card is dismissed when the user clicks and drags the footer"
+  }, {
+    "name" : "package",
+    "value" : "Homepage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "639793097d047b8b.json",
+  "parameterValues" : [ ]
+}
