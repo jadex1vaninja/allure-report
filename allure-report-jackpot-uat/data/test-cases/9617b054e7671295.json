@@ -1,0 +1,79 @@
+{
+  "uid" : "9617b054e7671295",
+  "name" : "#7 Check user is able to deposit with a valid card and is presented with success modal",
+  "fullName" : "My Account -> Deposit.#7 Check user is able to deposit with a valid card and is presented with success modal",
+  "historyId" : "149c42126c0809a9405e1778300246b8",
+  "time" : {
+    "start" : 1656932669256,
+    "stop" : 1656932697072,
+    "duration" : 27816
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expected 'We’re processing your payment' to contain 'success', 'Modal heading is incorrect'.",
+  "statusTrace" : "Error: Failed expectation\n                    at UserContext.<anonymous> (/home/dev/azure/eyas-test-automation/src/test/my-account/my-account-deposit.spec.js:365:55)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expected 'We’re processing your payment' to contain 'success', 'Modal heading is incorrect'.",
+    "statusTrace" : "Error: Failed expectation\n                    at UserContext.<anonymous> (/home/dev/azure/eyas-test-automation/src/test/my-account/my-account-deposit.spec.js:365:55)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "81ddd02d053869fd",
+      "name" : "Screenshot",
+      "source" : "81ddd02d053869fd.png",
+      "type" : "image/png",
+      "size" : 236811
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "My Account -> Deposit"
+  }, {
+    "name" : "testClass",
+    "value" : "My Account -> Deposit"
+  }, {
+    "name" : "testMethod",
+    "value" : "#7 Check user is able to deposit with a valid card and is presented with success modal"
+  }, {
+    "name" : "package",
+    "value" : "My Account -> Deposit"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "93bbbc254c7a0519",
+      "status" : "failed",
+      "statusDetails" : "Expected 'We’re processing your payment' to contain 'success', 'Modal heading is incorrect'.",
+      "time" : {
+        "start" : 1656931809037,
+        "stop" : 1656931836469,
+        "duration" : 27432
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "9617b054e7671295.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,80 @@
+{
+  "uid" : "80272e3ba839baec",
+  "name" : "#10 User is displayed with a shortened balance in the preview section when balance exceeds 9999 (five figure balance)",
+  "fullName" : "Homepage.#10 User is displayed with a shortened balance in the preview section when balance exceeds 9999 (five figure balance)",
+  "historyId" : "79e766af825b520ce728594317e047f8",
+  "time" : {
+    "start" : 1657006656058,
+    "stop" : 1657006664876,
+    "duration" : 8818
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "2491c8f28d25548c",
+      "name" : "Screenshot",
+      "source" : "2491c8f28d25548c.png",
+      "type" : "image/png",
+      "size" : 582796
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Homepage"
+  }, {
+    "name" : "testClass",
+    "value" : "Homepage"
+  }, {
+    "name" : "testMethod",
+    "value" : "#10 User is displayed with a shortened balance in the preview section when balance exceeds 9999 (five figure balance)"
+  }, {
+    "name" : "package",
+    "value" : "Homepage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "3aef1e973add8d2d",
+      "status" : "failed",
+      "statusDetails" : "Failed: login-form is still displayed\n                Wait timed out after 60004ms",
+      "time" : {
+        "start" : 1656935022330,
+        "stop" : 1656935087751,
+        "duration" : 65421
+      }
+    }, {
+      "uid" : "cb96795327b7d553",
+      "status" : "failed",
+      "statusDetails" : "Failed: login-form is still displayed\n                Wait timed out after 60011ms",
+      "time" : {
+        "start" : 1656933444458,
+        "stop" : 1656933511365,
+        "duration" : 66907
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "80272e3ba839baec.json",
+  "parameterValues" : [ ]
+}
