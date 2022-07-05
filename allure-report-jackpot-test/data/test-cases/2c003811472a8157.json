@@ -1,0 +1,97 @@
+{
+  "uid" : "2c003811472a8157",
+  "name" : "#3 Player can edit their preferences and exit using the Cancel CTA within the modal discarding changes",
+  "fullName" : "My Profile > Communications Preferences.#3 Player can edit their preferences and exit using the Cancel CTA within the modal discarding changes",
+  "historyId" : "1e25b352b7b886cbf279a03a3b0a02ce",
+  "time" : {
+    "start" : 1657008574913,
+    "stop" : 1657008583235,
+    "duration" : 8322
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expected false to be true, 'Cancel button is not displaying correctly'.",
+  "statusTrace" : "Error: Failed expectation\n                    at UserContext.<anonymous> (/home/dev/azure/eyas-test-automation/src/test/my-account/settings/comm-preferences.spec.js:164:54)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expected false to be true, 'Cancel button is not displaying correctly'.",
+    "statusTrace" : "Error: Failed expectation\n                    at UserContext.<anonymous> (/home/dev/azure/eyas-test-automation/src/test/my-account/settings/comm-preferences.spec.js:164:54)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e396d0380de0a3d4",
+      "name" : "Screenshot",
+      "source" : "e396d0380de0a3d4.png",
+      "type" : "image/png",
+      "size" : 440431
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "My Profile > Communications Preferences"
+  }, {
+    "name" : "testClass",
+    "value" : "My Profile > Communications Preferences"
+  }, {
+    "name" : "testMethod",
+    "value" : "#3 Player can edit their preferences and exit using the Cancel CTA within the modal discarding changes"
+  }, {
+    "name" : "package",
+    "value" : "My Profile > Communications Preferences"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f5932161004f800b",
+      "status" : "failed",
+      "statusDetails" : "Expected false to be true, 'Cancel button is not displaying correctly'.",
+      "time" : {
+        "start" : 1657008414446,
+        "stop" : 1657008423337,
+        "duration" : 8891
+      }
+    }, {
+      "uid" : "deace04e3828a0c0",
+      "status" : "failed",
+      "statusDetails" : "Failed: No element found using locator: By(css selector, *[id=\"marketing-details\"])",
+      "time" : {
+        "start" : 1656927053552,
+        "stop" : 1656927063989,
+        "duration" : 10437
+      }
+    }, {
+      "uid" : "e6afdb0c055ec4e2",
+      "status" : "failed",
+      "statusDetails" : "Failed: No element found using locator: By(css selector, *[id=\"marketing-details\"])",
+      "time" : {
+        "start" : 1656926415793,
+        "stop" : 1656926425775,
+        "duration" : 9982
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "2c003811472a8157.json",
+  "parameterValues" : [ ]
+}
