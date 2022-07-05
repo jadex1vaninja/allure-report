@@ -1,0 +1,80 @@
+{
+  "uid" : "d7fa6a9dd0cf24fc",
+  "name" : "#13 Player cannot continue to next step if their new password does not meet the minimum password requirements.",
+  "fullName" : "My Account > Settings > Change Password.#13 Player cannot continue to next step if their new password does not meet the minimum password requirements.",
+  "historyId" : "fd5c1b8c33e5af30e069d4be830e7650",
+  "time" : {
+    "start" : 1657004635959,
+    "stop" : 1657004646093,
+    "duration" : 10134
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e7bde1c1ff7cfd0e",
+      "name" : "Screenshot",
+      "source" : "e7bde1c1ff7cfd0e.png",
+      "type" : "image/png",
+      "size" : 270246
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "My Account > Settings > Change Password"
+  }, {
+    "name" : "testClass",
+    "value" : "My Account > Settings > Change Password"
+  }, {
+    "name" : "testMethod",
+    "value" : "#13 Player cannot continue to next step if their new password does not meet the minimum password requirements."
+  }, {
+    "name" : "package",
+    "value" : "My Account > Settings > Change Password"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "74a824264082a5fa",
+      "status" : "failed",
+      "statusDetails" : "Failed: login-form is still displayed\n                Wait timed out after 60005ms",
+      "time" : {
+        "start" : 1656929753742,
+        "stop" : 1656929818007,
+        "duration" : 64265
+      }
+    }, {
+      "uid" : "2d0f65cb040a2e1d",
+      "status" : "failed",
+      "statusDetails" : "Failed: login-form is still displayed\n                Wait timed out after 60001ms",
+      "time" : {
+        "start" : 1656928513754,
+        "stop" : 1656928577206,
+        "duration" : 63452
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d7fa6a9dd0cf24fc.json",
+  "parameterValues" : [ ]
+}
