@@ -1,0 +1,79 @@
+{
+  "uid" : "f3bc6fdadae804b8",
+  "name" : "#3 User see 8 search results for desktop and 5 for mobile and see pagination panel.",
+  "fullName" : "Venue > Search and expanded view.#3 User see 8 search results for desktop and 5 for mobile and see pagination panel.",
+  "historyId" : "546f139f1e9f0766911d9090fa2358e4",
+  "time" : {
+    "start" : 1656931130581,
+    "stop" : 1656931131676,
+    "duration" : 1095
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expected '50 miles' to contain '50 MI', 'Radius not equal 50 miles.'.",
+  "statusTrace" : "Error: Failed expectation\n                    at UserContext.<anonymous> (/home/dev/azure/eyas-test-automation/src/test/venue/venue-search.spec.js:158:9)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expected '50 miles' to contain '50 MI', 'Radius not equal 50 miles.'.",
+    "statusTrace" : "Error: Failed expectation\n                    at UserContext.<anonymous> (/home/dev/azure/eyas-test-automation/src/test/venue/venue-search.spec.js:158:9)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "bf1d05a634fe9738",
+      "name" : "Screenshot",
+      "source" : "bf1d05a634fe9738.png",
+      "type" : "image/png",
+      "size" : 332188
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Venue > Search and expanded view"
+  }, {
+    "name" : "testClass",
+    "value" : "Venue > Search and expanded view"
+  }, {
+    "name" : "testMethod",
+    "value" : "#3 User see 8 search results for desktop and 5 for mobile and see pagination panel."
+  }, {
+    "name" : "package",
+    "value" : "Venue > Search and expanded view"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "bb240df671805ef7",
+      "status" : "failed",
+      "statusDetails" : "Expected '50 miles' to contain '50 MI', 'Radius not equal 50 miles.'.",
+      "time" : {
+        "start" : 1656930720003,
+        "stop" : 1656930721071,
+        "duration" : 1068
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "f3bc6fdadae804b8.json",
+  "parameterValues" : [ ]
+}
