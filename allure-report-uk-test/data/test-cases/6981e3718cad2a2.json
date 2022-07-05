@@ -1,0 +1,87 @@
+{
+  "uid" : "6981e3718cad2a2",
+  "name" : "#6 User click x and journey is closed",
+  "fullName" : "My Account > Gambling Controls > Account Closure > Close my account.#6 User click x and journey is closed",
+  "historyId" : "b161f3fbc1b897a20e75ac5d2b456085",
+  "time" : {
+    "start" : 1657018853684,
+    "stop" : 1657018865365,
+    "duration" : 11681
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c54bc7633f6fccea",
+      "name" : "Screenshot",
+      "source" : "c54bc7633f6fccea.png",
+      "type" : "image/png",
+      "size" : 308342
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "My Account > Gambling Controls > Account Closure > Close my account"
+  }, {
+    "name" : "testClass",
+    "value" : "My Account > Gambling Controls > Account Closure > Close my account"
+  }, {
+    "name" : "testMethod",
+    "value" : "#6 User click x and journey is closed"
+  }, {
+    "name" : "package",
+    "value" : "My Account > Gambling Controls > Account Closure > Close my account"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "da7b9bacd57fb39a",
+      "status" : "failed",
+      "statusDetails" : "Failed: Index out of bound. Trying to access element at index: -1, but there are only 0 elements that match locator By(css selector, .account-tile-list-item--clickable)",
+      "time" : {
+        "start" : 1657018533413,
+        "stop" : 1657018544381,
+        "duration" : 10968
+      }
+    }, {
+      "uid" : "a2533a8b2ed92aa0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656931024618,
+        "stop" : 1656931037537,
+        "duration" : 12919
+      }
+    }, {
+      "uid" : "73269238835bc6aa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656930304300,
+        "stop" : 1656930316895,
+        "duration" : 12595
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6981e3718cad2a2.json",
+  "parameterValues" : [ ]
+}
