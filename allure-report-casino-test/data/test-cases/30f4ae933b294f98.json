@@ -1,0 +1,88 @@
+{
+  "uid" : "30f4ae933b294f98",
+  "name" : "#4 New Password is a mandatory field.",
+  "fullName" : "My Account > Settings > Change Password.#4 New Password is a mandatory field.",
+  "historyId" : "76703c0ecbb29dd3473a1e0ead11d006",
+  "time" : {
+    "start" : 1657005396046,
+    "stop" : 1657005405593,
+    "duration" : 9547
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "307fe81cb02c3094",
+      "name" : "Screenshot",
+      "source" : "307fe81cb02c3094.png",
+      "type" : "image/png",
+      "size" : 270277
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "My Account > Settings > Change Password"
+  }, {
+    "name" : "testClass",
+    "value" : "My Account > Settings > Change Password"
+  }, {
+    "name" : "testMethod",
+    "value" : "#4 New Password is a mandatory field."
+  }, {
+    "name" : "package",
+    "value" : "My Account > Settings > Change Password"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "284c993bbf50b9a7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657004543327,
+        "stop" : 1657004553424,
+        "duration" : 10097
+      }
+    }, {
+      "uid" : "8faa29e374cdd13b",
+      "status" : "failed",
+      "statusDetails" : "Failed: login-form is still displayed\n                Wait timed out after 60002ms",
+      "time" : {
+        "start" : 1656929180052,
+        "stop" : 1656929243767,
+        "duration" : 63715
+      }
+    }, {
+      "uid" : "4cfdd961fcab4e43",
+      "status" : "failed",
+      "statusDetails" : "Failed: login-form is still displayed\n                Wait timed out after 60020ms",
+      "time" : {
+        "start" : 1656927939347,
+        "stop" : 1656928003699,
+        "duration" : 64352
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "30f4ae933b294f98.json",
+  "parameterValues" : [ ]
+}
