@@ -1,0 +1,89 @@
+{
+  "uid" : "7c8dc4fabbdef485",
+  "name" : "#17 Player can press 'BACK' for confirmating modal after chosen for 6 months 'Self Exclusion' and should return to previous step.",
+  "fullName" : "My Account > Gambling Controls > Account Closure > Self Exclusion.#17 Player can press 'BACK' for confirmating modal after chosen for 6 months 'Self Exclusion' and should return to previous step.",
+  "historyId" : "219f3ae22428b3c4f7e8ffaa54b43241",
+  "time" : {
+    "start" : 1657018424051,
+    "stop" : 1657018439426,
+    "duration" : 15375
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "76c56120ccc779d6",
+      "name" : "Screenshot",
+      "source" : "76c56120ccc779d6.png",
+      "type" : "image/png",
+      "size" : 302798
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "My Account > Gambling Controls > Account Closure > Self Exclusion"
+  }, {
+    "name" : "testClass",
+    "value" : "My Account > Gambling Controls > Account Closure > Self Exclusion"
+  }, {
+    "name" : "testMethod",
+    "value" : "#17 Player can press 'BACK' for confirmating modal after chosen for 6 months 'Self Exclusion' and should return to previous step."
+  }, {
+    "name" : "package",
+    "value" : "My Account > Gambling Controls > Account Closure > Self Exclusion"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "62e3f9a93fde4a48",
+      "status" : "failed",
+      "statusDetails" : "Failed: After player chooses option in self exclusion nothing option selected.\n                Wait timed out after 10003ms",
+      "time" : {
+        "start" : 1657018180780,
+        "stop" : 1657018201524,
+        "duration" : 20744
+      }
+    }, {
+      "uid" : "6cccf0cf1e4c723c",
+      "status" : "failed",
+      "statusDetails" : "Failed: No element found using locator: By(css selector, .button--secondary)",
+      "time" : {
+        "start" : 1656929078327,
+        "stop" : 1656929091525,
+        "duration" : 13198
+      }
+    }, {
+      "uid" : "645e2ec074692af6",
+      "status" : "failed",
+      "statusDetails" : "Failed: No element found using locator: By(css selector, .button--secondary)",
+      "time" : {
+        "start" : 1656927719462,
+        "stop" : 1656927733683,
+        "duration" : 14221
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7c8dc4fabbdef485.json",
+  "parameterValues" : [ ]
+}

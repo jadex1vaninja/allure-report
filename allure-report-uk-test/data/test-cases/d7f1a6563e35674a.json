@@ -1,0 +1,88 @@
+{
+  "uid" : "d7f1a6563e35674a",
+  "name" : "#1 User can come to the help center from terms and conditions page",
+  "fullName" : "Home => Terms & Conditions.#1 User can come to the help center from terms and conditions page",
+  "historyId" : "45090708f597746c89b58174e6a21240",
+  "time" : {
+    "start" : 1657004087713,
+    "stop" : 1657004092103,
+    "duration" : 4390
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b9374e9be24db4d8",
+      "name" : "Screenshot",
+      "source" : "b9374e9be24db4d8.png",
+      "type" : "image/png",
+      "size" : 18292
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Home => Terms & Conditions"
+  }, {
+    "name" : "testClass",
+    "value" : "Home => Terms & Conditions"
+  }, {
+    "name" : "testMethod",
+    "value" : "#1 User can come to the help center from terms and conditions page"
+  }, {
+    "name" : "package",
+    "value" : "Home => Terms & Conditions"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "e2614dc9446b50df",
+      "status" : "failed",
+      "statusDetails" : "Failed: stale element reference: element is not attached to the page document\n                  (Session info: headless chrome=103.0.5060.53)\n                For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\n                Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'\n                System info: host: 'smiss', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-40-generic', java.version: '11.0.15'\n                Driver info: driver.version: unknown",
+      "time" : {
+        "start" : 1657004002757,
+        "stop" : 1657004005236,
+        "duration" : 2479
+      }
+    }, {
+      "uid" : "59be3ffddf75f68b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656930956813,
+        "stop" : 1656930963825,
+        "duration" : 7012
+      }
+    }, {
+      "uid" : "c5e5a71535c17bb5",
+      "status" : "failed",
+      "statusDetails" : "Failed: No element found using locator: By(css selector, [href=\"https://help.merkurslots.com/hc/en-gb\"])",
+      "time" : {
+        "start" : 1656930058984,
+        "stop" : 1656930062469,
+        "duration" : 3485
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d7f1a6563e35674a.json",
+  "parameterValues" : [ ]
+}

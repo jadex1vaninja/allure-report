@@ -1,0 +1,115 @@
+{
+  "uid" : "1fa075bbd8f16920",
+  "name" : "#3 Player can press 'Back' button of the 'Take A Break' modal and then should be displayed previous step.",
+  "fullName" : "My Account > Gambling Controls > Account Closure > Take A Break.#3 Player can press 'Back' button of the 'Take A Break' modal and then should be displayed previous step.",
+  "historyId" : "38b525e30fed447f262312e177cdd2b5",
+  "time" : {
+    "start" : 1657018794934,
+    "stop" : 1657018803557,
+    "duration" : 8623
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Failed: Index out of bound. Trying to access element at index: -1, but there are only 0 elements that match locator By(css selector, .account-tile-list-item--clickable)",
+  "statusTrace" : "NoSuchElementError: Index out of bound. Trying to access element at index: -1, but there are only 0 elements that match locator By(css selector, .account-tile-list-item--clickable)\n                    at /home/dev/azure/eyas-test-automation/node_modules/protractor/built/element.js:274:27\n                    at ManagedPromise.invokeCallback_ (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:1376:14)\n                    at TaskQueue.execute_ (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n                    at TaskQueue.executeNext_ (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n                    at /home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2927:27\n                    at /home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:668:7\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)Error\n                    at ElementArrayFinder.applyAction_ (/home/dev/azure/eyas-test-automation/node_modules/protractor/built/element.js:459:27)\n                    at ElementArrayFinder.<computed> [as click] (/home/dev/azure/eyas-test-automation/node_modules/protractor/built/element.js:91:29)\n                    at ElementFinder.<computed> [as click] (/home/dev/azure/eyas-test-automation/node_modules/protractor/built/element.js:831:22)\n                    at MyAccount.openAccountClosure (/home/dev/azure/eyas-test-automation/src/test/my-account/my-account.pageObject.js:138:51)\n                    at UserContext.<anonymous> (/home/dev/azure/eyas-test-automation/src/test/my-account/gambling-controls/take-a-break.spec.js:49:19)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                From: Task: Run beforeEach in control flow\n                    at UserContext.<anonymous> (/home/dev/azure/eyas-test-automation/node_modules/jasminewd2/index.js:94:19)\n                    at attempt (/home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4297:26)\n                    at QueueRunner.run (/home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4217:20)\n                    at QueueRunner.execute (/home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4199:10)\n                    at Spec.queueRunnerFactory (/home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:909:35)\n                    at Spec.execute (/home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:526:10)\n                    at UserContext.fn (/home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:5340:37)\n                    at attempt (/home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4297:26)\n                    at QueueRunner.run (/home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4217:20)\n                    at runNext (/home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4257:20)\n                From asynchronous test: \n                Error\n                    at Object.<anonymous> (/home/dev/azure/eyas-test-automation/src/test/my-account/gambling-controls/take-a-break.spec.js:32:1)\n                    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n                    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n                    at Module.load (node:internal/modules/cjs/loader:981:32)\n                    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n                    at Module.require (node:internal/modules/cjs/loader:1005:19)\n                    at require (node:internal/modules/cjs/helpers:102:18)\n                    at /home/dev/azure/eyas-test-automation/node_modules/jasmine/lib/jasmine.js:93:5\n                    at Array.forEach (<anonymous>)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Failed: Index out of bound. Trying to access element at index: -1, but there are only 0 elements that match locator By(css selector, .account-tile-list-item--clickable)",
+    "statusTrace" : "NoSuchElementError: Index out of bound. Trying to access element at index: -1, but there are only 0 elements that match locator By(css selector, .account-tile-list-item--clickable)\n                    at /home/dev/azure/eyas-test-automation/node_modules/protractor/built/element.js:274:27\n                    at ManagedPromise.invokeCallback_ (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:1376:14)\n                    at TaskQueue.execute_ (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n                    at TaskQueue.executeNext_ (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n                    at /home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2927:27\n                    at /home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:668:7\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)Error\n                    at ElementArrayFinder.applyAction_ (/home/dev/azure/eyas-test-automation/node_modules/protractor/built/element.js:459:27)\n                    at ElementArrayFinder.<computed> [as click] (/home/dev/azure/eyas-test-automation/node_modules/protractor/built/element.js:91:29)\n                    at ElementFinder.<computed> [as click] (/home/dev/azure/eyas-test-automation/node_modules/protractor/built/element.js:831:22)\n                    at MyAccount.openAccountClosure (/home/dev/azure/eyas-test-automation/src/test/my-account/my-account.pageObject.js:138:51)\n                    at UserContext.<anonymous> (/home/dev/azure/eyas-test-automation/src/test/my-account/gambling-controls/take-a-break.spec.js:49:19)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                From: Task: Run beforeEach in control flow\n                    at UserContext.<anonymous> (/home/dev/azure/eyas-test-automation/node_modules/jasminewd2/index.js:94:19)\n                    at attempt (/home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4297:26)\n                    at QueueRunner.run (/home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4217:20)\n                    at QueueRunner.execute (/home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4199:10)\n                    at Spec.queueRunnerFactory (/home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:909:35)\n                    at Spec.execute (/home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:526:10)\n                    at UserContext.fn (/home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:5340:37)\n                    at attempt (/home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4297:26)\n                    at QueueRunner.run (/home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4217:20)\n                    at runNext (/home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4257:20)\n                From asynchronous test: \n                Error\n                    at Object.<anonymous> (/home/dev/azure/eyas-test-automation/src/test/my-account/gambling-controls/take-a-break.spec.js:32:1)\n                    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n                    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n                    at Module.load (node:internal/modules/cjs/loader:981:32)\n                    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n                    at Module.require (node:internal/modules/cjs/loader:1005:19)\n                    at require (node:internal/modules/cjs/helpers:102:18)\n                    at /home/dev/azure/eyas-test-automation/node_modules/jasmine/lib/jasmine.js:93:5\n                    at Array.forEach (<anonymous>)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7914c0bf3c3a345d",
+      "name" : "Screenshot",
+      "source" : "7914c0bf3c3a345d.png",
+      "type" : "image/png",
+      "size" : 190923
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "My Account > Gambling Controls > Account Closure > Take A Break"
+  }, {
+    "name" : "testClass",
+    "value" : "My Account > Gambling Controls > Account Closure > Take A Break"
+  }, {
+    "name" : "testMethod",
+    "value" : "#3 Player can press 'Back' button of the 'Take A Break' modal and then should be displayed previous step."
+  }, {
+    "name" : "package",
+    "value" : "My Account > Gambling Controls > Account Closure > Take A Break"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "7c070ef1a64cbfa2",
+      "status" : "failed",
+      "statusDetails" : "Failed: No element found using locator: By(css selector, .takeabreak__secondary-btn)",
+      "time" : {
+        "start" : 1657018494328,
+        "stop" : 1657018506217,
+        "duration" : 11889
+      }
+    }, {
+      "uid" : "bebc5d4e2593ac7c",
+      "status" : "failed",
+      "statusDetails" : "Failed: No element found using locator: By(css selector, .takeabreak__secondary-btn)",
+      "time" : {
+        "start" : 1657015785104,
+        "stop" : 1657015795120,
+        "duration" : 10016
+      }
+    }, {
+      "uid" : "19cb61e595f0c23c",
+      "status" : "failed",
+      "statusDetails" : "Failed: No element found using locator: By(css selector, .takeabreak__secondary-btn)",
+      "time" : {
+        "start" : 1657015606635,
+        "stop" : 1657015616227,
+        "duration" : 9592
+      }
+    }, {
+      "uid" : "b56e3b08ce3cb11e",
+      "status" : "failed",
+      "statusDetails" : "Failed: No element found using locator: By(css selector, .takeabreak__secondary-btn)",
+      "time" : {
+        "start" : 1656930980784,
+        "stop" : 1656930994169,
+        "duration" : 13385
+      }
+    }, {
+      "uid" : "626cb80e24b64994",
+      "status" : "failed",
+      "statusDetails" : "Failed: No element found using locator: By(css selector, .takeabreak__secondary-btn)",
+      "time" : {
+        "start" : 1656930302251,
+        "stop" : 1656930313931,
+        "duration" : 11680
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "1fa075bbd8f16920.json",
+  "parameterValues" : [ ]
+}

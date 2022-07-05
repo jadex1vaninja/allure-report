@@ -1,0 +1,88 @@
+{
+  "uid" : "262749984ad6dc8a",
+  "name" : "#8 New password must contain a number.",
+  "fullName" : "My Account > Settings > Change Password.#8 New password must contain a number.",
+  "historyId" : "da2e9fc7f3e047e1f516dcca138820f6",
+  "time" : {
+    "start" : 1657005436861,
+    "stop" : 1657005446894,
+    "duration" : 10033
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "407eab2c9fe1e2b5",
+      "name" : "Screenshot",
+      "source" : "407eab2c9fe1e2b5.png",
+      "type" : "image/png",
+      "size" : 269388
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "My Account > Settings > Change Password"
+  }, {
+    "name" : "testClass",
+    "value" : "My Account > Settings > Change Password"
+  }, {
+    "name" : "testMethod",
+    "value" : "#8 New password must contain a number."
+  }, {
+    "name" : "package",
+    "value" : "My Account > Settings > Change Password"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "9d553aaed284ae69",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657004585093,
+        "stop" : 1657004595380,
+        "duration" : 10287
+      }
+    }, {
+      "uid" : "5636063416d450c9",
+      "status" : "failed",
+      "statusDetails" : "Failed: login-form is still displayed\n                Wait timed out after 60007ms",
+      "time" : {
+        "start" : 1656929435730,
+        "stop" : 1656929499526,
+        "duration" : 63796
+      }
+    }, {
+      "uid" : "8018f530dacde570",
+      "status" : "failed",
+      "statusDetails" : "Failed: login-form is still displayed\n                Wait timed out after 60007ms",
+      "time" : {
+        "start" : 1656928196213,
+        "stop" : 1656928259889,
+        "duration" : 63676
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "262749984ad6dc8a.json",
+  "parameterValues" : [ ]
+}
