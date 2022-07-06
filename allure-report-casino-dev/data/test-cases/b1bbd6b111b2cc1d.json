@@ -1,0 +1,80 @@
+{
+  "uid" : "b1bbd6b111b2cc1d",
+  "name" : "#14 Player inputs into the password fields should be masked by default.",
+  "fullName" : "My Account > Settings > Change Password.#14 Player inputs into the password fields should be masked by default.",
+  "historyId" : "e51bebdda97ca4b3f5d813e0b8fa8157",
+  "time" : {
+    "start" : 1656941152265,
+    "stop" : 1656941162085,
+    "duration" : 9820
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d2cae945cca9d79b",
+      "name" : "Screenshot",
+      "source" : "d2cae945cca9d79b.png",
+      "type" : "image/png",
+      "size" : 256822
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "My Account > Settings > Change Password"
+  }, {
+    "name" : "testClass",
+    "value" : "My Account > Settings > Change Password"
+  }, {
+    "name" : "testMethod",
+    "value" : "#14 Player inputs into the password fields should be masked by default."
+  }, {
+    "name" : "package",
+    "value" : "My Account > Settings > Change Password"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "5f4d6a4fbdd2f76e",
+      "status" : "failed",
+      "statusDetails" : "Failed: login-form is still displayed\n                Wait timed out after 60007ms",
+      "time" : {
+        "start" : 1656923528632,
+        "stop" : 1656923592242,
+        "duration" : 63610
+      }
+    }, {
+      "uid" : "76ed512504b24014",
+      "status" : "failed",
+      "statusDetails" : "Failed: login-form is still displayed\n                Wait timed out after 60015ms",
+      "time" : {
+        "start" : 1656922238934,
+        "stop" : 1656922302290,
+        "duration" : 63356
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b1bbd6b111b2cc1d.json",
+  "parameterValues" : [ ]
+}

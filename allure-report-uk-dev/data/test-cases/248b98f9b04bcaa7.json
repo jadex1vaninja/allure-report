@@ -1,0 +1,97 @@
+{
+  "uid" : "248b98f9b04bcaa7",
+  "name" : "#01  User can search venue name and see a list of venues in collapsed view.",
+  "fullName" : "Venue > Search and expanded view.#01  User can search venue name and see a list of venues in collapsed view.",
+  "historyId" : "6c0d3b45128cdad652ae0bc7288b342a",
+  "time" : {
+    "start" : 1657026765369,
+    "stop" : 1657026775264,
+    "duration" : 9895
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expected '1miles' to contain '1MI', 'Closest radius not equal 1 miles.'.",
+  "statusTrace" : "Error: Failed expectation\n                    at UserContext.<anonymous> (/home/dev/azure/eyas-test-automation/src/test/venue/venue-search.spec.js:53:61)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expected '1miles' to contain '1MI', 'Closest radius not equal 1 miles.'.",
+    "statusTrace" : "Error: Failed expectation\n                    at UserContext.<anonymous> (/home/dev/azure/eyas-test-automation/src/test/venue/venue-search.spec.js:53:61)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ce8e8f36e7ff5318",
+      "name" : "Screenshot",
+      "source" : "ce8e8f36e7ff5318.png",
+      "type" : "image/png",
+      "size" : 254037
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Venue > Search and expanded view"
+  }, {
+    "name" : "testClass",
+    "value" : "Venue > Search and expanded view"
+  }, {
+    "name" : "testMethod",
+    "value" : "#01  User can search venue name and see a list of venues in collapsed view."
+  }, {
+    "name" : "package",
+    "value" : "Venue > Search and expanded view"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "be8372a0f2dd8d0d",
+      "status" : "failed",
+      "statusDetails" : "Expected '1miles' to contain '1MI', 'Closest radius not equal 1 miles.'.",
+      "time" : {
+        "start" : 1657026724944,
+        "stop" : 1657026735146,
+        "duration" : 10202
+      }
+    }, {
+      "uid" : "87dad60713ae6140",
+      "status" : "failed",
+      "statusDetails" : "Expected '1miles' to contain '1MI', 'Closest radius not equal 1 miles.'.",
+      "time" : {
+        "start" : 1656925233861,
+        "stop" : 1656925244103,
+        "duration" : 10242
+      }
+    }, {
+      "uid" : "2bdde49e7a8b0f9b",
+      "status" : "failed",
+      "statusDetails" : "Expected '1miles' to contain '1MI', 'Closest radius not equal 1 miles.'.",
+      "time" : {
+        "start" : 1656924612243,
+        "stop" : 1656924621091,
+        "duration" : 8848
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "248b98f9b04bcaa7.json",
+  "parameterValues" : [ ]
+}
