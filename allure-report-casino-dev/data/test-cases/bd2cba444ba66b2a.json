@@ -1,0 +1,88 @@
+{
+  "uid" : "bd2cba444ba66b2a",
+  "name" : "#14 Player inputs into the password fields should be masked by default.",
+  "fullName" : "My Account > Settings > Change Password.#14 Player inputs into the password fields should be masked by default.",
+  "historyId" : "e51bebdda97ca4b3f5d813e0b8fa8157",
+  "time" : {
+    "start" : 1657117529301,
+    "stop" : 1657117540588,
+    "duration" : 11287
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d6e25cc2836b0154",
+      "name" : "Screenshot",
+      "source" : "d6e25cc2836b0154.png",
+      "type" : "image/png",
+      "size" : 256822
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "My Account > Settings > Change Password"
+  }, {
+    "name" : "testClass",
+    "value" : "My Account > Settings > Change Password"
+  }, {
+    "name" : "testMethod",
+    "value" : "#14 Player inputs into the password fields should be masked by default."
+  }, {
+    "name" : "package",
+    "value" : "My Account > Settings > Change Password"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "e33951b8f5a644aa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656941152265,
+        "stop" : 1656941162085,
+        "duration" : 9820
+      }
+    }, {
+      "uid" : "45b0923d605449c6",
+      "status" : "failed",
+      "statusDetails" : "Failed: login-form is still displayed\n                Wait timed out after 60007ms",
+      "time" : {
+        "start" : 1656923528632,
+        "stop" : 1656923592242,
+        "duration" : 63610
+      }
+    }, {
+      "uid" : "62d2e87b645b818d",
+      "status" : "failed",
+      "statusDetails" : "Failed: login-form is still displayed\n                Wait timed out after 60015ms",
+      "time" : {
+        "start" : 1656922238934,
+        "stop" : 1656922302290,
+        "duration" : 63356
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bd2cba444ba66b2a.json",
+  "parameterValues" : [ ]
+}

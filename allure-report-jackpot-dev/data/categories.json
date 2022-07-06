@@ -4,29 +4,46 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
+      "name" : "Expected false to be true, 'Promotion is not displayed in usual promotions.'.",
+      "children" : [ {
+        "name" : "#8 Active promotions are excluded from the promotions section.",
+        "uid" : "a75aa6c45c53d0f",
+        "parentUid" : "74545abdbc97d68b25034d42b1e3a1db",
+        "status" : "failed",
+        "time" : {
+          "start" : 1657116201838,
+          "stop" : 1657116226492,
+          "duration" : 24654
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "74545abdbc97d68b25034d42b1e3a1db"
+    }, {
       "name" : "Failed: No element found using locator: By(css selector, .balance-details__item-summary-expand)",
       "children" : [ {
         "name" : "#56 User see cash and bonus balance after clicking arrow on the right side of bonus for total bonus balance.",
-        "uid" : "5acbfe8bf03dffa8",
+        "uid" : "5dfea2855d92200c",
         "parentUid" : "5a247155e5ce0d4cb78f1ac9da2da0f7",
         "status" : "failed",
         "time" : {
-          "start" : 1656920368105,
-          "stop" : 1656920374518,
-          "duration" : 6413
+          "start" : 1657116557100,
+          "stop" : 1657116562363,
+          "duration" : 5263
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "#57 Cash and bonus balance is closed after clicking on arrow for opened bonus balance.",
-        "uid" : "1c994db996bd3a07",
+        "uid" : "e3be64071118be29",
         "parentUid" : "5a247155e5ce0d4cb78f1ac9da2da0f7",
         "status" : "failed",
         "time" : {
-          "start" : 1656920374518,
-          "stop" : 1656920380286,
-          "duration" : 5768
+          "start" : 1657116562363,
+          "stop" : 1657116567571,
+          "duration" : 5208
         },
         "flaky" : false,
         "newFailed" : false,
@@ -34,110 +51,29 @@
       } ],
       "uid" : "5a247155e5ce0d4cb78f1ac9da2da0f7"
     }, {
-      "name" : "Expected 'We’re processing your payment' to contain 'success', 'Modal heading is incorrect'.",
-      "children" : [ {
-        "name" : "#7 Check user is able to deposit with a valid card and is presented with success modal",
-        "uid" : "46f3702333dc39e0",
-        "parentUid" : "d0741d2193b3f39b35f6a3fb3ad247a5",
-        "status" : "failed",
-        "time" : {
-          "start" : 1656920529292,
-          "stop" : 1656920556317,
-          "duration" : 27025
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "d0741d2193b3f39b35f6a3fb3ad247a5"
-    }, {
-      "name" : "NoSuchElementError: No element found using locator: By(css selector, *[id=\"step-content-account-details\"])",
-      "children" : [ {
-        "name" : "#8 User hover the game card and click on CTA 'INFO' and go to info page, click on JOIN and see register page",
-        "uid" : "45af654dbf2509b6",
-        "parentUid" : "9eadd1bcdb00b57e268287d8edf80e14",
-        "status" : "failed",
-        "time" : {
-          "start" : 1656920584326,
-          "stop" : 1656920590617,
-          "duration" : 6291
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "9eadd1bcdb00b57e268287d8edf80e14"
-    }, {
-      "name" : "Expected false to be true, 'Privacy Policy Link links not displayed on Step 4 of Registration process.'.",
-      "children" : [ {
-        "name" : "#11 User can click and view the Privacy Policy.",
-        "uid" : "c8e7d17f3162b8c9",
-        "parentUid" : "4c6519d46f55b883a2292bd49906348e",
-        "status" : "failed",
-        "time" : {
-          "start" : 1656920648593,
-          "stop" : 1656920660947,
-          "duration" : 12354
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "4c6519d46f55b883a2292bd49906348e"
-    }, {
-      "name" : "Failed: Index out of bound. Trying to access element at index: -1, but there are only 0 elements that match locator By(css selector, .account-tile-list-item--clickable)",
-      "children" : [ {
-        "name" : "#14 Player can continue with chosen 18 months option to 'Self Exclusion' and confirming modal should display.",
-        "uid" : "8e841c50a3037151",
-        "parentUid" : "9a5121378dc0066e0f200f3390feba91",
-        "status" : "failed",
-        "time" : {
-          "start" : 1656920696362,
-          "stop" : 1656920705549,
-          "duration" : 9187
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "#15 Player can continue with chosen 2 years option to 'Self Exclusion' and confirming modal should display.",
-        "uid" : "4d6cf46ea0f8112b",
-        "parentUid" : "9a5121378dc0066e0f200f3390feba91",
-        "status" : "failed",
-        "time" : {
-          "start" : 1656920705549,
-          "stop" : 1656920720911,
-          "duration" : 15362
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "#16 Player can continue with chosen 5 years option to 'Self Exclusion' and confirming modal should display.",
-        "uid" : "df595fb5504c6852",
-        "parentUid" : "9a5121378dc0066e0f200f3390feba91",
-        "status" : "failed",
-        "time" : {
-          "start" : 1656920720911,
-          "stop" : 1656920732821,
-          "duration" : 11910
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "9a5121378dc0066e0f200f3390feba91"
-    }, {
       "name" : "Failed: No element found using locator: By(css selector, h1)",
       "children" : [ {
         "name" : "#0 User can come to the terms and conditions page",
-        "uid" : "57680347404a44ca",
+        "uid" : "37cba181e9aabee4",
         "parentUid" : "2c379c3f4f9511c78a96211fc4224c41",
         "status" : "failed",
         "time" : {
-          "start" : 1657003034860,
-          "stop" : 1657003037376,
-          "duration" : 2516
+          "start" : 1657116601048,
+          "stop" : 1657116604594,
+          "duration" : 3546
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "#0 User can come to the Responsible Gambling page",
+        "uid" : "241ece823a81bd9d",
+        "parentUid" : "2c379c3f4f9511c78a96211fc4224c41",
+        "status" : "failed",
+        "time" : {
+          "start" : 1657116603067,
+          "stop" : 1657116610400,
+          "duration" : 7333
         },
         "flaky" : false,
         "newFailed" : false,
@@ -145,33 +81,248 @@
       } ],
       "uid" : "2c379c3f4f9511c78a96211fc4224c41"
     }, {
-      "name" : "Failed: stale element reference: element is not attached to the page document\n                  (Session info: headless chrome=103.0.5060.53)\n                For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\n                Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'\n                System info: host: 'smiss', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-40-generic', java.version: '11.0.15'\n                Driver info: driver.version: unknown",
+      "name" : "Failed: No element found using locator: By(css selector, [href=\"https://help.jackpotuniverse.com/hc/en-gb\"])",
       "children" : [ {
         "name" : "#1 User can come to the help center from terms and conditions page",
-        "uid" : "6d28f1f144fa304c",
-        "parentUid" : "ed01fc724bf1822a6a869f435fff118a",
+        "uid" : "6ed2db9ab9f21558",
+        "parentUid" : "8c8e1cca6fa30ccedb576f90c74c8cf7",
         "status" : "failed",
         "time" : {
-          "start" : 1657003037376,
-          "stop" : 1657003039549,
-          "duration" : 2173
+          "start" : 1657116604594,
+          "stop" : 1657116608294,
+          "duration" : 3700
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "ed01fc724bf1822a6a869f435fff118a"
+      "uid" : "8c8e1cca6fa30ccedb576f90c74c8cf7"
+    }, {
+      "name" : "Failed: No element found using locator: By(css selector, [href=\"/uk/en/legal/responsible-gambling.html\"])",
+      "children" : [ {
+        "name" : "#4 User can come to the Responsible Gambling page from terms and conditions page",
+        "uid" : "9c5df3be624fabe8",
+        "parentUid" : "7faac9068ea397b6c226c8cb785f5fc5",
+        "status" : "failed",
+        "time" : {
+          "start" : 1657116616855,
+          "stop" : 1657116620045,
+          "duration" : 3190
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7faac9068ea397b6c226c8cb785f5fc5"
+    }, {
+      "name" : "Failed: No element found using locator: By(css selector, [href =\"https://www.gamstop.co.uk/\"])",
+      "children" : [ {
+        "name" : "#3 User can come to the Gamble Stop page from Responsible Gambling page",
+        "uid" : "c055557ef82e4cca",
+        "parentUid" : "2b0b8a2b64e29031be500f3520394f97",
+        "status" : "failed",
+        "time" : {
+          "start" : 1657116626988,
+          "stop" : 1657116634156,
+          "duration" : 7168
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2b0b8a2b64e29031be500f3520394f97"
+    }, {
+      "name" : "Failed: No element found using locator: By(css selector, [href = \"https://www.gamstop.co.uk/\"])",
+      "children" : [ {
+        "name" : "#7 User can come to the GamStop page from terms and conditions page",
+        "uid" : "72c6bf783e6d3db8",
+        "parentUid" : "a28c743bc5b15ced70ae6d197f763b47",
+        "status" : "failed",
+        "time" : {
+          "start" : 1657116632160,
+          "stop" : 1657116636574,
+          "duration" : 4414
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a28c743bc5b15ced70ae6d197f763b47"
+    }, {
+      "name" : "Failed: No element found using locator: By(css selector, [href=\"https://ecogra.org/products-services/alternative-dispute-resolution\"])",
+      "children" : [ {
+        "name" : "#8 User can come to the eCOGRA page from terms and conditions page",
+        "uid" : "3aa56949b297c42f",
+        "parentUid" : "e0d41da5c0e3c76b0e5d4a8fbcbb534b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1657116636574,
+          "stop" : 1657116639812,
+          "duration" : 3238
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e0d41da5c0e3c76b0e5d4a8fbcbb534b"
+    }, {
+      "name" : "Failed: No element found using locator: By(css selector, *[id=\"_uk_en_legal_terms-and-conditions_jcr_content_root_aemnavcomponent_experiencefragment_root_text_copy\"])",
+      "children" : [ {
+        "name" : "#9 User can see Introduction section on terms and conditions page",
+        "uid" : "a92fb908690d0c5",
+        "parentUid" : "60e38d305ae98d442c4c7b5af5983064",
+        "status" : "failed",
+        "time" : {
+          "start" : 1657116639812,
+          "stop" : 1657116643158,
+          "duration" : 3346
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "#10 User can see the Terms and Conditions section on terms and conditions page",
+        "uid" : "271e7aad28fbaed1",
+        "parentUid" : "60e38d305ae98d442c4c7b5af5983064",
+        "status" : "failed",
+        "time" : {
+          "start" : 1657116643158,
+          "stop" : 1657116646370,
+          "duration" : 3212
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "#11 User can see the Definitions section on terms and conditions page",
+        "uid" : "557f63dc61f7f844",
+        "parentUid" : "60e38d305ae98d442c4c7b5af5983064",
+        "status" : "failed",
+        "time" : {
+          "start" : 1657116646370,
+          "stop" : 1657116650650,
+          "duration" : 4280
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "#14 User can see the Your Account section on terms and conditions page",
+        "uid" : "b66776367b460486",
+        "parentUid" : "60e38d305ae98d442c4c7b5af5983064",
+        "status" : "failed",
+        "time" : {
+          "start" : 1657116659074,
+          "stop" : 1657116662900,
+          "duration" : 3826
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "#16 User can see the Playing for Real Money section on terms and conditions page",
+        "uid" : "75c79240e9598349",
+        "parentUid" : "60e38d305ae98d442c4c7b5af5983064",
+        "status" : "failed",
+        "time" : {
+          "start" : 1657116667394,
+          "stop" : 1657116670717,
+          "duration" : 3323
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "#18 User can see the Anti-Money Laundering section on terms and conditions page",
+        "uid" : "60b47155d3b457e9",
+        "parentUid" : "60e38d305ae98d442c4c7b5af5983064",
+        "status" : "failed",
+        "time" : {
+          "start" : 1657116674172,
+          "stop" : 1657116677798,
+          "duration" : 3626
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "#21 User can see the Responsible Gambling section on terms and conditions page",
+        "uid" : "dc409487c256c7fa",
+        "parentUid" : "60e38d305ae98d442c4c7b5af5983064",
+        "status" : "failed",
+        "time" : {
+          "start" : 1657116684896,
+          "stop" : 1657116688015,
+          "duration" : 3119
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "#23 User can see the Intellectual Property section on terms and conditions page",
+        "uid" : "4b7ac5e345c2a2a8",
+        "parentUid" : "60e38d305ae98d442c4c7b5af5983064",
+        "status" : "failed",
+        "time" : {
+          "start" : 1657116692150,
+          "stop" : 1657116695601,
+          "duration" : 3451
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "#24 User can see the Limitation of Liability section on terms and conditions page",
+        "uid" : "f7d00bbc336ee9b4",
+        "parentUid" : "60e38d305ae98d442c4c7b5af5983064",
+        "status" : "failed",
+        "time" : {
+          "start" : 1657116695601,
+          "stop" : 1657116699060,
+          "duration" : 3459
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "#25 User can see the Complaints and disputes section on terms and conditions page",
+        "uid" : "980e1b473b274a6a",
+        "parentUid" : "60e38d305ae98d442c4c7b5af5983064",
+        "status" : "failed",
+        "time" : {
+          "start" : 1657116699060,
+          "stop" : 1657116702581,
+          "duration" : 3521
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "#26 User can see the Miscellaneous section on terms and conditions page",
+        "uid" : "c5b4c233a14d9eea",
+        "parentUid" : "60e38d305ae98d442c4c7b5af5983064",
+        "status" : "failed",
+        "time" : {
+          "start" : 1657116702581,
+          "stop" : 1657116705954,
+          "duration" : 3373
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "60e38d305ae98d442c4c7b5af5983064"
     }, {
       "name" : "Failed: element click intercepted: Element <div class=\"modal__close-btn\">...</div> is not clickable at point (1049, 275). Other element would receive the click: <div class=\"ReactModal__Overlay ReactModal__Overlay--after-open overlay-backdrop modal-backdrop\">...</div>\n                  (Session info: headless chrome=103.0.5060.53)\n                Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'\n                System info: host: 'smiss', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-40-generic', java.version: '11.0.15'\n                Driver info: driver.version: unknown",
       "children" : [ {
         "name" : "#3 User has account balance more than the withdrawal limit and click to hyperlink and see cashier and can close it.",
-        "uid" : "bf736276455ae0e",
+        "uid" : "ff7b2a061fc1823a",
         "parentUid" : "9d9402f0729264674cd57df3d7c20a44",
         "status" : "failed",
         "time" : {
-          "start" : 1657024321605,
-          "stop" : 1657024339782,
-          "duration" : 18177
+          "start" : 1657116640257,
+          "stop" : 1657116657196,
+          "duration" : 16939
         },
         "flaky" : false,
         "newFailed" : false,
@@ -179,108 +330,133 @@
       } ],
       "uid" : "9d9402f0729264674cd57df3d7c20a44"
     }, {
-      "name" : "Failed: No element found using locator: By(css selector, .reality-checks-section)",
+      "name" : "Failed: No element found using locator: By(css selector, [href = \"mailto:care@jackpotuniverse.com\"])",
       "children" : [ {
-        "name" : "#1 Player can select to edit their 'Time Limit' and is displayed the Play Reminders modal.",
-        "uid" : "4299ecf1b3d7de00",
-        "parentUid" : "5e297531cd3b98a6aced7ab00585960f",
+        "name" : "#27 User can opened mail client after clicks/taps on “care@merkurslots.com” ",
+        "uid" : "733cbe46da91be4b",
+        "parentUid" : "8b11d1096bade0009cba00d8a5b43440",
         "status" : "failed",
         "time" : {
-          "start" : 1657086306118,
-          "stop" : 1657086325741,
-          "duration" : 19623
+          "start" : 1657116705954,
+          "stop" : 1657116709508,
+          "duration" : 3554
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "#2 Player can close the 'Time Limit' modal.",
-        "uid" : "29c4ff42dda4fca7",
-        "parentUid" : "5e297531cd3b98a6aced7ab00585960f",
+        "name" : "#28 User can opened mail client after clicks/taps on “complaintsMGA@merkurslots.com” ",
+        "uid" : "de5d054040b9805c",
+        "parentUid" : "8b11d1096bade0009cba00d8a5b43440",
         "status" : "failed",
         "time" : {
-          "start" : 1657086325741,
-          "stop" : 1657086333808,
-          "duration" : 8067
+          "start" : 1657116709508,
+          "stop" : 1657116712892,
+          "duration" : 3384
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "5e297531cd3b98a6aced7ab00585960f"
+      "uid" : "8b11d1096bade0009cba00d8a5b43440"
     }, {
-      "name" : "Failed: No element found using locator: By(css selector, .account-tile-list-item__icon)",
+      "name" : "Failed: Deposit success message is not visible\n                Wait timed out after 60061ms",
       "children" : [ {
-        "name" : "#3 Player can cancel out of the 'Time Limit' modal.",
-        "uid" : "5ed90d16a0b40ab8",
-        "parentUid" : "3743181dc83928c569eec9f307cafe88",
+        "name" : "#7 Check user is able to deposit with a valid card and is presented with success modal",
+        "uid" : "de492d5859c71c3e",
+        "parentUid" : "83480632d11b335e667c509c1c3ea8a2",
         "status" : "failed",
         "time" : {
-          "start" : 1657086333808,
-          "stop" : 1657086348753,
-          "duration" : 14945
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "#4 Player cannot continue with 'Time Limit' if a limit is not selected.",
-        "uid" : "3824ddb616b5781c",
-        "parentUid" : "3743181dc83928c569eec9f307cafe88",
-        "status" : "failed",
-        "time" : {
-          "start" : 1657086348753,
-          "stop" : 1657086357461,
-          "duration" : 8708
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "#5 Player can select a time limit from the drop down menu.",
-        "uid" : "6d9ef6d0c9aba482",
-        "parentUid" : "3743181dc83928c569eec9f307cafe88",
-        "status" : "failed",
-        "time" : {
-          "start" : 1657086357461,
-          "stop" : 1657086365439,
-          "duration" : 7978
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "#6 Player can successfully set a 'Time Limit'.",
-        "uid" : "2c4b2a0b27fc15f0",
-        "parentUid" : "3743181dc83928c569eec9f307cafe88",
-        "status" : "failed",
-        "time" : {
-          "start" : 1657086365439,
-          "stop" : 1657086373465,
-          "duration" : 8026
+          "start" : 1657116714858,
+          "stop" : 1657116787990,
+          "duration" : 73132
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "3743181dc83928c569eec9f307cafe88"
+      "uid" : "83480632d11b335e667c509c1c3ea8a2"
     }, {
-      "name" : "Failed: Modal is still visible.\n                Wait timed out after 10003ms",
+      "name" : "NoSuchElementError: No element found using locator: By(css selector, *[id=\"step-content-account-details\"])",
       "children" : [ {
-        "name" : "#7 Player can successfully edit their 'Time Limit'.",
-        "uid" : "9c871c66d6c48934",
-        "parentUid" : "cbb10abe3d8a7c15b5dce4a193f88eed",
+        "name" : "#8 User hover the game card and click on CTA 'INFO' and go to info page, click on JOIN and see register page",
+        "uid" : "1a09a823d4046e2b",
+        "parentUid" : "9eadd1bcdb00b57e268287d8edf80e14",
         "status" : "failed",
         "time" : {
-          "start" : 1657086373465,
-          "stop" : 1657086394020,
-          "duration" : 20555
+          "start" : 1657116741853,
+          "stop" : 1657116747578,
+          "duration" : 5725
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "cbb10abe3d8a7c15b5dce4a193f88eed"
+      "uid" : "9eadd1bcdb00b57e268287d8edf80e14"
+    }, {
+      "name" : "Failed: Category is not visible.\n                Wait timed out after 5060ms",
+      "children" : [ {
+        "name" : "#10 User click on category and go to category page",
+        "uid" : "d12e5d35c3547c10",
+        "parentUid" : "0aa581fcbce5feeb5a6caad10b261b29",
+        "status" : "failed",
+        "time" : {
+          "start" : 1657116752184,
+          "stop" : 1657116759090,
+          "duration" : 6906
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0aa581fcbce5feeb5a6caad10b261b29"
+    }, {
+      "name" : "Failed: Index out of bound. Trying to access element at index: -1, but there are only 0 elements that match locator By(css selector, .account-tile-list-item--clickable)",
+      "children" : [ {
+        "name" : "#15 Player can continue with chosen 2 years option to 'Self Exclusion' and confirming modal should display.",
+        "uid" : "f62f73a18d8ed17a",
+        "parentUid" : "9a5121378dc0066e0f200f3390feba91",
+        "status" : "failed",
+        "time" : {
+          "start" : 1657116771220,
+          "stop" : 1657116781755,
+          "duration" : 10535
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "#16 Player can press 'BACK' for confirmating modal after chosen for 24 hours 'Take A Break' and should return to previous step.",
+        "uid" : "c541b5f8da94f7f1",
+        "parentUid" : "9a5121378dc0066e0f200f3390feba91",
+        "status" : "failed",
+        "time" : {
+          "start" : 1657116771736,
+          "stop" : 1657116781662,
+          "duration" : 9926
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9a5121378dc0066e0f200f3390feba91"
+    }, {
+      "name" : "Expected false to be true, 'Privacy Policy Link links not displayed on Step 4 of Registration process.'.",
+      "children" : [ {
+        "name" : "#11 User can click and view the Privacy Policy.",
+        "uid" : "5abbbc7103f7459b",
+        "parentUid" : "4c6519d46f55b883a2292bd49906348e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1657116790468,
+          "stop" : 1657116803831,
+          "duration" : 13363
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4c6519d46f55b883a2292bd49906348e"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]
