@@ -1,0 +1,79 @@
+{
+  "uid" : "54f152b4e2155b6c",
+  "name" : "#1 User see venue finder page and see map.",
+  "fullName" : "Venue > Venue land based information.#1 User see venue finder page and see map.",
+  "historyId" : "2c120dd7544e7ca4c311edcb39071e11",
+  "time" : {
+    "start" : 1658852221724,
+    "stop" : 1658852229230,
+    "duration" : 7506
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expected false to be true, 'Venue markers is not displayed'.",
+  "statusTrace" : "Error: Failed expectation\n                    at UserContext.<anonymous> (/home/dev/azure/eyas-test-automation/src/test/venue/land-based-information.spec.js:58:49)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expected false to be true, 'Venue markers is not displayed'.",
+    "statusTrace" : "Error: Failed expectation\n                    at UserContext.<anonymous> (/home/dev/azure/eyas-test-automation/src/test/venue/land-based-information.spec.js:58:49)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e8868e52b3333f5e",
+      "name" : "Screenshot",
+      "source" : "e8868e52b3333f5e.png",
+      "type" : "image/png",
+      "size" : 746302
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Venue > Venue land based information"
+  }, {
+    "name" : "testClass",
+    "value" : "Venue > Venue land based information"
+  }, {
+    "name" : "testMethod",
+    "value" : "#1 User see venue finder page and see map."
+  }, {
+    "name" : "package",
+    "value" : "Venue > Venue land based information"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a4d780b0e0a96b2f",
+      "status" : "failed",
+      "statusDetails" : "Expected false to be true, 'Venue markers is not displayed'.",
+      "time" : {
+        "start" : 1658851731444,
+        "stop" : 1658851741409,
+        "duration" : 9965
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "54f152b4e2155b6c.json",
+  "parameterValues" : [ ]
+}

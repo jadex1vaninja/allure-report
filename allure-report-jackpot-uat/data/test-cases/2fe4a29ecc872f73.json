@@ -1,0 +1,79 @@
+{
+  "uid" : "2fe4a29ecc872f73",
+  "name" : "#07 Player cannot login when entering an incorrect password.",
+  "fullName" : "Log In.#07 Player cannot login when entering an incorrect password.",
+  "historyId" : "a9e95653440839dca33617f15c6880d0",
+  "time" : {
+    "start" : 1658846681699,
+    "stop" : 1658846693316,
+    "duration" : 11617
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expected 'Poor Internet connection\n                We're having trouble connecting to your device. Please try refreshing the page, or reconnecting to your network.' to contain 'The login details you’ve entered are incorrect. You can try again, or reset your password.', 'Login error text incorrect when entering wrong password.'.",
+  "statusTrace" : "Error: Failed expectation\n                    at UserContext.<anonymous> (/home/dev/azure/eyas-test-automation/src/test/login.spec.js:207:53)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expected 'Poor Internet connection\n                We're having trouble connecting to your device. Please try refreshing the page, or reconnecting to your network.' to contain 'The login details you’ve entered are incorrect. You can try again, or reset your password.', 'Login error text incorrect when entering wrong password.'.",
+    "statusTrace" : "Error: Failed expectation\n                    at UserContext.<anonymous> (/home/dev/azure/eyas-test-automation/src/test/login.spec.js:207:53)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "87816a95ea4c61af",
+      "name" : "Screenshot",
+      "source" : "87816a95ea4c61af.png",
+      "type" : "image/png",
+      "size" : 424608
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Log In"
+  }, {
+    "name" : "testClass",
+    "value" : "Log In"
+  }, {
+    "name" : "testMethod",
+    "value" : "#07 Player cannot login when entering an incorrect password."
+  }, {
+    "name" : "package",
+    "value" : "Log In"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c472055836f0a9aa",
+      "status" : "failed",
+      "statusDetails" : "Expected 'Poor Internet connection\n                We're having trouble connecting to your device. Please try refreshing the page, or reconnecting to your network.' to contain 'The login details you’ve entered are incorrect. You can try again, or reset your password.', 'Login error text incorrect when entering wrong password.'.",
+      "time" : {
+        "start" : 1658842775119,
+        "stop" : 1658842785098,
+        "duration" : 9979
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "2fe4a29ecc872f73.json",
+  "parameterValues" : [ ]
+}
