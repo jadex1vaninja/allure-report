@@ -4,597 +4,768 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "Failed: The user should not see Bonus balance category for login user.\n                Wait timed out after 20009ms",
+      "name" : "Failed: Accept All Cookie Notification not visible.\n                Wait timed out after 20002ms",
       "children" : [ {
-        "name" : "#48 Bonus balance category is not displayed for not logged in user.",
-        "uid" : "3238ca39c1163ccd",
-        "parentUid" : "2ee043f733ec47db81022597ace8cd3c",
+        "name" : "#01 User is displayed the correct content and input fields for Step 3.",
+        "uid" : "122146ac2f675d31",
+        "parentUid" : "0e8773573c814f837dcde50b6b6a3be0",
         "status" : "failed",
         "time" : {
-          "start" : 1658850427420,
-          "stop" : 1658850449246,
-          "duration" : 21826
+          "start" : 1659362934214,
+          "stop" : 1659362959609,
+          "duration" : 25395
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "#03 Player can select the Manual Input button and is displayed the address inputs.",
+        "uid" : "48299289f229c368",
+        "parentUid" : "0e8773573c814f837dcde50b6b6a3be0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1659362984339,
+          "stop" : 1659363006025,
+          "duration" : 21686
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "#07 User can opt in to receive Phone marketing preferences.",
+        "uid" : "121b894b685aeed7",
+        "parentUid" : "0e8773573c814f837dcde50b6b6a3be0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1659363005477,
+          "stop" : 1659363027312,
+          "duration" : 21835
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "#16 Phone Number will display an error when entering non-numeric values into input.",
+        "uid" : "b88f1a4c79e40c9e",
+        "parentUid" : "0e8773573c814f837dcde50b6b6a3be0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1659363221947,
+          "stop" : 1659363243433,
+          "duration" : 21486
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "#18 Country Code is populated by default.",
+        "uid" : "b001b6c584264ff0",
+        "parentUid" : "0e8773573c814f837dcde50b6b6a3be0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1659363264679,
+          "stop" : 1659363285524,
+          "duration" : 20845
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "#19 User can select a Country Code from the dropdown menu.",
+        "uid" : "ef38763240b61cb5",
+        "parentUid" : "0e8773573c814f837dcde50b6b6a3be0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1659363285524,
+          "stop" : 1659363306638,
+          "duration" : 21114
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "2ee043f733ec47db81022597ace8cd3c"
+      "uid" : "0e8773573c814f837dcde50b6b6a3be0"
     }, {
-      "name" : "Failed: Index out of bound. Trying to access element at index: 0, but there are only 0 elements that match locator By(css selector, .category__navigation-item)",
+      "name" : "Failed: Accept All Cookie Notification not visible.\n                Wait timed out after 20000ms",
       "children" : [ {
-        "name" : "#50 New bonus sub navigation page is opened after clicking on bonus balance.",
-        "uid" : "96baa64bd8c90ff9",
-        "parentUid" : "16acad763d3c06af95237d55554208e7",
+        "name" : "#01 User is displayed the correct content and input fields for Step 1.",
+        "uid" : "5853b061ea9d8407",
+        "parentUid" : "94e1c41a41b765a974fc4a5d6ce45d81",
         "status" : "failed",
         "time" : {
-          "start" : 1658850455040,
-          "stop" : 1658850464024,
-          "duration" : 8984
+          "start" : 1659362934271,
+          "stop" : 1659362957662,
+          "duration" : 23391
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "#51 User see total bonus balance and my bonus activity after clicking on bonus balance.",
-        "uid" : "b63245af936ec175",
-        "parentUid" : "16acad763d3c06af95237d55554208e7",
+        "name" : "#03 First Name is a mandatory field.",
+        "uid" : "ca21f5663ca384e5",
+        "parentUid" : "94e1c41a41b765a974fc4a5d6ce45d81",
         "status" : "failed",
         "time" : {
-          "start" : 1658850464024,
-          "stop" : 1658850469582,
-          "duration" : 5558
+          "start" : 1659362957490,
+          "stop" : 1659362979176,
+          "duration" : 21686
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "#52 User see related information to bonus after clicking on arrow on the right side of bonus for my bonus activity.",
-        "uid" : "8db0e3dc3b133077",
-        "parentUid" : "16acad763d3c06af95237d55554208e7",
+        "name" : "#02 User can navigate back to the previous step.",
+        "uid" : "ec5deb3296706d24",
+        "parentUid" : "94e1c41a41b765a974fc4a5d6ce45d81",
         "status" : "failed",
         "time" : {
-          "start" : 1658850469582,
-          "stop" : 1658850475026,
-          "duration" : 5444
+          "start" : 1659362959609,
+          "stop" : 1659362984339,
+          "duration" : 24730
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "#53 Cancel drawer is opened after clicking on cancel button for bonus.",
-        "uid" : "95a339af825145de",
-        "parentUid" : "16acad763d3c06af95237d55554208e7",
+        "name" : "#07 User cannot enter numbers into step 2 name input fields.",
+        "uid" : "e9798fb72cece7bd",
+        "parentUid" : "94e1c41a41b765a974fc4a5d6ce45d81",
         "status" : "failed",
         "time" : {
-          "start" : 1658850475026,
-          "stop" : 1658850480390,
-          "duration" : 5364
+          "start" : 1659363044559,
+          "stop" : 1659363066291,
+          "duration" : 21732
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "#54 Bonus status is canceled after clicking Yes cancel btn for cancel drawer.",
-        "uid" : "1d008bfb9041aee0",
-        "parentUid" : "16acad763d3c06af95237d55554208e7",
+        "name" : "#12 User can successfully enter email address with local domain (.de).",
+        "uid" : "3c40676a797e36fa",
+        "parentUid" : "94e1c41a41b765a974fc4a5d6ce45d81",
         "status" : "failed",
         "time" : {
-          "start" : 1658850480390,
-          "stop" : 1658850486132,
-          "duration" : 5742
+          "start" : 1659363152190,
+          "stop" : 1659363173489,
+          "duration" : 21299
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "#55 Related information to bonus is closed after clicking on arrow on the right side of bonus for opened bonus.",
-        "uid" : "8d6621bae3af39c1",
-        "parentUid" : "16acad763d3c06af95237d55554208e7",
+        "name" : "#15 Phone Number is a mandatory field.",
+        "uid" : "70fb1a06d0c561e2",
+        "parentUid" : "94e1c41a41b765a974fc4a5d6ce45d81",
         "status" : "failed",
         "time" : {
-          "start" : 1658850486132,
-          "stop" : 1658850491696,
-          "duration" : 5564
+          "start" : 1659363200445,
+          "stop" : 1659363221947,
+          "duration" : 21502
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "#56 User see cash and bonus balance after clicking arrow on the right side of bonus for total bonus balance.",
-        "uid" : "b22527981eb9f8b7",
-        "parentUid" : "16acad763d3c06af95237d55554208e7",
+        "name" : "#17 User cannot enter spaces into Phone Number field.",
+        "uid" : "241f1555b0faf8e0",
+        "parentUid" : "94e1c41a41b765a974fc4a5d6ce45d81",
         "status" : "failed",
         "time" : {
-          "start" : 1658850491696,
-          "stop" : 1658850497276,
-          "duration" : 5580
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "#57 Cash and bonus balance is closed after clicking on arrow for opened bonus balance.",
-        "uid" : "5478b89706ddd7af",
-        "parentUid" : "16acad763d3c06af95237d55554208e7",
-        "status" : "failed",
-        "time" : {
-          "start" : 1658850497276,
-          "stop" : 1658850502968,
-          "duration" : 5692
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "#58 User sees bonuses from this range after select data range on calendar.",
-        "uid" : "2d74d19c9f825859",
-        "parentUid" : "16acad763d3c06af95237d55554208e7",
-        "status" : "failed",
-        "time" : {
-          "start" : 1658850502968,
-          "stop" : 1658850508272,
-          "duration" : 5304
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "#59 Bonus is in my bonus activity at bonus sub page after opted in bonus.",
-        "uid" : "cb7c8a544fbc9b0d",
-        "parentUid" : "16acad763d3c06af95237d55554208e7",
-        "status" : "failed",
-        "time" : {
-          "start" : 1658850508272,
-          "stop" : 1658850519984,
-          "duration" : 11712
+          "start" : 1659363243433,
+          "stop" : 1659363264679,
+          "duration" : 21246
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "16acad763d3c06af95237d55554208e7"
+      "uid" : "94e1c41a41b765a974fc4a5d6ce45d81"
     }, {
-      "name" : "Failed: No element found using locator: By(css selector, [href=\"https://help.merkurcasino.com/hc/en-gb\"])",
+      "name" : "Failed: Accept All Cookie Notification not visible.\n                Wait timed out after 20005ms",
       "children" : [ {
-        "name" : "#1 Player can see a light grey bar at the top of the footer",
-        "uid" : "414869a85476842c",
-        "parentUid" : "d5af6820780887d2d5219d3556fced0b",
+        "name" : "#01 User is displayed the correct content and defaut options for Step 4.",
+        "uid" : "628450e360d6a4b2",
+        "parentUid" : "195c3cd3be40c1db86d20a0ba8ef4a9c",
         "status" : "failed",
         "time" : {
-          "start" : 1658850523963,
-          "stop" : 1658850534254,
-          "duration" : 10291
+          "start" : 1659362934314,
+          "stop" : 1659362958227,
+          "duration" : 23913
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "#1 User can come to the help center from terms and conditions page",
-        "uid" : "a83b2f4eafc190f4",
-        "parentUid" : "d5af6820780887d2d5219d3556fced0b",
+        "name" : "#03 User is prompted with the 'Account already exists' drawer if they enter an email address that already exists.",
+        "uid" : "fd8afc28a4b14f28",
+        "parentUid" : "195c3cd3be40c1db86d20a0ba8ef4a9c",
         "status" : "failed",
         "time" : {
-          "start" : 1658850534636,
-          "stop" : 1658850539481,
-          "duration" : 4845
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "d5af6820780887d2d5219d3556fced0b"
-    }, {
-      "name" : "Failed: No element found using locator: By(css selector, h3)",
-      "children" : [ {
-        "name" : "#0 User can come to the Responsible Gambling page",
-        "uid" : "16c18d2637927612",
-        "parentUid" : "d23e28fd43f1861b28a6d275b9988733",
-        "status" : "failed",
-        "time" : {
-          "start" : 1658850524004,
-          "stop" : 1658850536740,
-          "duration" : 12736
+          "start" : 1659363000811,
+          "stop" : 1659363022598,
+          "duration" : 21787
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "#0 User can come to the terms and conditions page",
-        "uid" : "9fbdd6f98be1bbb6",
-        "parentUid" : "d23e28fd43f1861b28a6d275b9988733",
+        "name" : "#06 Post Code field is a mandatory field.",
+        "uid" : "16bf1c7778687d42",
+        "parentUid" : "195c3cd3be40c1db86d20a0ba8ef4a9c",
         "status" : "failed",
         "time" : {
-          "start" : 1658850530120,
-          "stop" : 1658850534636,
-          "duration" : 4516
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "d23e28fd43f1861b28a6d275b9988733"
-    }, {
-      "name" : "Expected false to be true, 'Header balance for authenticated user is not displayed.'.",
-      "children" : [ {
-        "name" : "#2 All elements are persisted on 404 error page.",
-        "uid" : "f750e30122fcea7e",
-        "parentUid" : "ef5a2032409889d60e0ef1072e00ee81",
-        "status" : "failed",
-        "time" : {
-          "start" : 1658850531261,
-          "stop" : 1658850540548,
-          "duration" : 9287
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "ef5a2032409889d60e0ef1072e00ee81"
-    }, {
-      "name" : "Failed: No element found using locator: By(css selector, [href =\"http://www.gambleaware.co.uk/\"])",
-      "children" : [ {
-        "name" : "#1 User can come to the Be Gamble Aware page from Responsible Gambling page",
-        "uid" : "b7fd9a53d996c5b3",
-        "parentUid" : "f3fde3f9d9a988d07605dd8ab53048f8",
-        "status" : "failed",
-        "time" : {
-          "start" : 1658850536741,
-          "stop" : 1658850546393,
-          "duration" : 9652
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "f3fde3f9d9a988d07605dd8ab53048f8"
-    }, {
-      "name" : "Failed: No element found using locator: By(css selector, [href = \"https://www.gamblingcommission.gov.uk/public-and-players/guide/how-gambling-companies-protect-your-money\"])",
-      "children" : [ {
-        "name" : "#3 User can come to the Gambling commission page from terms and conditions page",
-        "uid" : "81e0338f62083d19",
-        "parentUid" : "6d32b94768c5c7b6cd24adb5ae00f6e8",
-        "status" : "failed",
-        "time" : {
-          "start" : 1658850544057,
-          "stop" : 1658850547986,
-          "duration" : 3929
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "6d32b94768c5c7b6cd24adb5ae00f6e8"
-    }, {
-      "name" : "Failed: element click intercepted: Element <iframe src=\"https://ppp-test.safecharge.com/ppp/purchase.do?item_open_amount_1=true&amp;item_min_amount_1=10.00&amp;item_max_amount_1=10.00&amp;quick_deposit=0&amp;merchant_id=6257278084347382490&amp;merchant_site_id=213488&amp;time_stamp=2022-07-26+15%3A49%3A27&amp;total_amount=10.00&amp;currency=GBP&amp;checksum=05759e3dcf5d44f775a9612e089a2629&amp;item_name_1=Deposit&amp;item_amount_1=10.00&amp;item_quantity_1=1&amp;version=3.0.0&amp;user_token_id=40734&amp;first_name=Shenol&amp;last_name=Hoines&amp;email=automation_casino_user12%40mailinator.com&amp;address1=High+Street+109&amp;city=Westbury&amp;country=GB&amp;zip=BA13+3BN&amp;userid=automation_casino_user12%40mailinator.com&amp;phone1=%2B44+6912345678&amp;manage_3d_mode=auto&amp;customField1=merkurcasino.com_uk_gbp&amp;customField2=0d62d0b3-a9e9-450c-93bb-d2d8ba6dfd21&amp;customField4=True&amp;customField7=5e7b2129-73a6-40f9-b890-c4c16c14ca81&amp;customField15=eyg_np01&amp;merchant_unique_id=LntvmT90LXDfi4zdhTJj&amp;deliveryEmail=automation_casino_user12%40mailinator.com&amp;deliveryTimeFrame=01&amp;reorderItemsInd=02&amp;shipIndicator=07&amp;accountAge=05&amp;accountLastChangeDate=20220216&amp;accountLastChangeInd=04&amp;accountRegistrationDate=20220216&amp;accountSuspiciousActivityInd=01&amp;accountTransactionsCount24H=0&amp;accountTransactionsCount1Y=1&amp;accountPurchasesCount6M=1&amp;accountAddCardAttempts24H=0&amp;isNative=1&amp;merchantLocale=en_GB&amp;success_url=https%3A%2F%2Fmerkurcasino-com-uat.eyasgaming.net%2Fetc.clientlibs%2Feyas-web%2Fclientlibs%2Fclientlib-react%2Fresources%2Fcashier-pending.html&amp;pending_url=https%3A%2F%2Fmerkurcasino-com-uat.eyasgaming.net%2Fetc.clientlibs%2Feyas-web%2Fclientlibs%2Fclientlib-react%2Fresources%2Fcashier-pending.html&amp;error_url=https%3A%2F%2Fmerkurcasino-com-uat.eyasgaming.net%2Fetc.clientlibs%2Feyas-web%2Fclientlibs%2Fclientlib-react%2Fresources%2Fcashier-pending.html\" title=\"Deposit\" class=\"deposit-content__iframe\" cd_frame_id_=\"9be63a146f8862ceb792e2bf595ca5c7\"></iframe> is not clickable at point (850, 359). Other element would receive the click: <div class=\"ReactModal__Overlay ReactModal__Overlay--after-open overlay-backdrop touch-drawer__backdrop touch-drawer__backdrop--closeable touch-drawer__backdrop--fade-in\">...</div>\n                  (Session info: headless chrome=103.0.5060.134)\n                Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'\n                System info: host: 'smiss', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-41-generic', java.version: '11.0.15'\n                Driver info: driver.version: unknown",
-      "children" : [ {
-        "name" : "#7 Player can click \"Deposit\" button and open Deposit window.",
-        "uid" : "128d4d244ed60301",
-        "parentUid" : "8cc9ae62ac030bbf08db34e4253a40ee",
-        "status" : "failed",
-        "time" : {
-          "start" : 1658850560332,
-          "stop" : 1658850571152,
-          "duration" : 10820
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "8cc9ae62ac030bbf08db34e4253a40ee"
-    }, {
-      "name" : "Failed: No element found using locator: By(css selector, .account-tile-list-item__content)",
-      "children" : [ {
-        "name" : "#2 Player is displayed 'Set Deposit Limit' text if no deposit limits are set.",
-        "uid" : "b6e28ad0bba14a24",
-        "parentUid" : "5df5b757799c31ce1d031e7ff2472eaf",
-        "status" : "failed",
-        "time" : {
-          "start" : 1658850591909,
-          "stop" : 1658850607044,
-          "duration" : 15135
+          "start" : 1659363049696,
+          "stop" : 1659363071162,
+          "duration" : 21466
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "#3 Player can close the Deposit Limits modal.",
-        "uid" : "f988440073b16e27",
-        "parentUid" : "5df5b757799c31ce1d031e7ff2472eaf",
+        "name" : "#06 User can not register with an email address that already exists.",
+        "uid" : "122325c2bb3a1770",
+        "parentUid" : "195c3cd3be40c1db86d20a0ba8ef4a9c",
         "status" : "failed",
         "time" : {
-          "start" : 1658850607044,
-          "stop" : 1658850619759,
-          "duration" : 12715
+          "start" : 1659363065850,
+          "stop" : 1659363087562,
+          "duration" : 21712
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "#4 Player can cancel out of the Deposit Limits modal.",
-        "uid" : "8a0674332854c090",
-        "parentUid" : "5df5b757799c31ce1d031e7ff2472eaf",
+        "name" : "#08 User cannot enter invalid characters into step 2 name input fields.",
+        "uid" : "9884414a40b195e4",
+        "parentUid" : "195c3cd3be40c1db86d20a0ba8ef4a9c",
         "status" : "failed",
         "time" : {
-          "start" : 1658850619759,
-          "stop" : 1658850633965,
-          "duration" : 14206
+          "start" : 1659363066291,
+          "stop" : 1659363088124,
+          "duration" : 21833
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "#10 Player can successfully set a daily deposit limit if not already set.",
-        "uid" : "f139d505e96b5600",
-        "parentUid" : "5df5b757799c31ce1d031e7ff2472eaf",
+        "name" : "#11 User cannot enter invalid characters into the Post Code field.",
+        "uid" : "a9b4ac3eabc97f36",
+        "parentUid" : "195c3cd3be40c1db86d20a0ba8ef4a9c",
         "status" : "failed",
         "time" : {
-          "start" : 1658850725448,
-          "stop" : 1658850737469,
-          "duration" : 12021
+          "start" : 1659363135741,
+          "stop" : 1659363157098,
+          "duration" : 21357
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "#11 Player can successfully set a weekly deposit limit if not already set.",
-        "uid" : "f7724f7ff3ff33aa",
-        "parentUid" : "5df5b757799c31ce1d031e7ff2472eaf",
+        "name" : "#04 User can opt in to receive Email marketing preferences.",
+        "uid" : "f4ef1aec2f6fea9",
+        "parentUid" : "195c3cd3be40c1db86d20a0ba8ef4a9c",
         "status" : "failed",
         "time" : {
-          "start" : 1658850737469,
-          "stop" : 1658850748442,
-          "duration" : 10973
+          "start" : 1659363159339,
+          "stop" : 1659363180890,
+          "duration" : 21551
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "#12 Player can successfully set a monthly deposit limit if not already set.",
-        "uid" : "cce50ce1fac252b3",
-        "parentUid" : "5df5b757799c31ce1d031e7ff2472eaf",
+        "name" : "#29 User can successfully enter email address with uppercase letters.",
+        "uid" : "fbbbec3d75710f5e",
+        "parentUid" : "195c3cd3be40c1db86d20a0ba8ef4a9c",
         "status" : "failed",
         "time" : {
-          "start" : 1658850748443,
-          "stop" : 1658850759456,
-          "duration" : 11013
+          "start" : 1659363238217,
+          "stop" : 1659363259543,
+          "duration" : 21326
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "5df5b757799c31ce1d031e7ff2472eaf"
+      "uid" : "195c3cd3be40c1db86d20a0ba8ef4a9c"
     }, {
-      "name" : "Failed: Phone number field for phone deposit is missing or did not display in time\n                Wait timed out after 12041ms",
+      "name" : "Failed: Accept All Cookie Notification not visible.\n                Wait timed out after 20004ms",
       "children" : [ {
-        "name" : "#5 Check user is able to select Phone payment method and is provided with the correct information for this payment method",
-        "uid" : "e7cd1b6058a0b23c",
-        "parentUid" : "dda2119687db699dbaa22e65d748152f",
+        "name" : "#01 User is displayed the correct content and input fields for Step 2.",
+        "uid" : "a645f3824c8fe5a7",
+        "parentUid" : "14919f5dc67f8a4b4ffa2c6941ce5f34",
         "status" : "failed",
         "time" : {
-          "start" : 1658850594426,
-          "stop" : 1658850618534,
-          "duration" : 24108
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "dda2119687db699dbaa22e65d748152f"
-    }, {
-      "name" : "Failed: No element found using locator: By(css selector, [data-testid=\"review-step-item-telephone\"])",
-      "children" : [ {
-        "name" : "#04 Player can update their telephone number.",
-        "uid" : "8d641d2aeceec862",
-        "parentUid" : "4697d4169d7b53942e42a6774cf76d4d",
-        "status" : "failed",
-        "time" : {
-          "start" : 1658850598347,
-          "stop" : 1658850616518,
-          "duration" : 18171
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "4697d4169d7b53942e42a6774cf76d4d"
-    }, {
-      "name" : "Failed: element click intercepted: Element <div class=\"checkbox\">...</div> is not clickable at point (720, 671). Other element would receive the click: <footer class=\"modal-footer\">...</footer>\n                  (Session info: headless chrome=103.0.5060.134)\n                Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'\n                System info: host: 'smiss', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-41-generic', java.version: '11.0.15'\n                Driver info: driver.version: unknown",
-      "children" : [ {
-        "name" : "#3 Player can edit their preferences and exit using the Cancel CTA within the modal discarding changes",
-        "uid" : "1e60b94162ac0354",
-        "parentUid" : "31b4d7b5aaea0d4b6159c6d06d10cb60",
-        "status" : "failed",
-        "time" : {
-          "start" : 1658850611453,
-          "stop" : 1658850625132,
-          "duration" : 13679
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "31b4d7b5aaea0d4b6159c6d06d10cb60"
-    }, {
-      "name" : "Failed: No element found using locator: By(css selector, *[id=\"_uk_en_legal_terms-and-conditions_jcr_content_root_aemnavcomponent_experiencefragment_root_text\"])",
-      "children" : [ {
-        "name" : "#26 User can see the Miscellaneous section on terms and conditions page",
-        "uid" : "547760ec5fd01200",
-        "parentUid" : "3154dba0a5bdf001cffc65baa1043d65",
-        "status" : "failed",
-        "time" : {
-          "start" : 1658850651499,
-          "stop" : 1658850655562,
-          "duration" : 4063
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "3154dba0a5bdf001cffc65baa1043d65"
-    }, {
-      "name" : "Failed: No element found using locator: By(css selector, [data-testid=\"carousel-next-btn\"])",
-      "children" : [ {
-        "name" : "#4 User can see game carousel and can scroll it",
-        "uid" : "f6aaa71eaba02d43",
-        "parentUid" : "e2d274bac94e08d8ce3ea2a0f269889a",
-        "status" : "failed",
-        "time" : {
-          "start" : 1658850673154,
-          "stop" : 1658850677580,
-          "duration" : 4426
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "e2d274bac94e08d8ce3ea2a0f269889a"
-    }, {
-      "name" : "NoSuchElementError: No element found using locator: By(css selector, .promotion-main-wrapper__info-block)",
-      "children" : [ {
-        "name" : "#5 User can see on hero banner carousel primary button CTA, can click on it and see game info page",
-        "uid" : "8496659d243957c5",
-        "parentUid" : "da10ffd1efeae88ec61900140cfe5512",
-        "status" : "failed",
-        "time" : {
-          "start" : 1658850677580,
-          "stop" : 1658850681632,
-          "duration" : 4052
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "da10ffd1efeae88ec61900140cfe5512"
-    }, {
-      "name" : "NoSuchElementError: No element found using locator: By(css selector, .game-card-details)",
-      "children" : [ {
-        "name" : "#9 User hover the game card and click on it and login modal appears",
-        "uid" : "22e6dafe64bfd379",
-        "parentUid" : "1a266aea4038cf5a6b5e5c10e6a8f3a5",
-        "status" : "failed",
-        "time" : {
-          "start" : 1658850699702,
-          "stop" : 1658850704008,
-          "duration" : 4306
+          "start" : 1659362934329,
+          "stop" : 1659362957490,
+          "duration" : 23161
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "#13 User logged in and click on game card and game page appears",
-        "uid" : "427880ffcf05f649",
-        "parentUid" : "1a266aea4038cf5a6b5e5c10e6a8f3a5",
+        "name" : "#05 Date of Birth is a mandatory field.",
+        "uid" : "977828cb43258c3a",
+        "parentUid" : "14919f5dc67f8a4b4ffa2c6941ce5f34",
         "status" : "failed",
         "time" : {
-          "start" : 1658850728543,
-          "stop" : 1658850737973,
-          "duration" : 9430
+          "start" : 1659363000940,
+          "stop" : 1659363022840,
+          "duration" : 21900
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "#10 User can click and view the T&Cs.",
+        "uid" : "6213cd78d76a0e8d",
+        "parentUid" : "14919f5dc67f8a4b4ffa2c6941ce5f34",
+        "status" : "failed",
+        "time" : {
+          "start" : 1659363050261,
+          "stop" : 1659363072077,
+          "duration" : 21816
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "#11 User can click and view the Privacy Policy.",
+        "uid" : "2e25ac9355f12405",
+        "parentUid" : "14919f5dc67f8a4b4ffa2c6941ce5f34",
+        "status" : "failed",
+        "time" : {
+          "start" : 1659363072077,
+          "stop" : 1659363093791,
+          "duration" : 21714
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "#11 User can enter valid details on Step 2 and progress to Step 3 of the registration process.",
+        "uid" : "fc538eaeb680ebce",
+        "parentUid" : "14919f5dc67f8a4b4ffa2c6941ce5f34",
+        "status" : "failed",
+        "time" : {
+          "start" : 1659363088124,
+          "stop" : 1659363109854,
+          "duration" : 21730
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "#08 User can not enter an invaild email address (space in email).",
+        "uid" : "8529967df8dc98c6",
+        "parentUid" : "14919f5dc67f8a4b4ffa2c6941ce5f34",
+        "status" : "failed",
+        "time" : {
+          "start" : 1659363109178,
+          "stop" : 1659363130506,
+          "duration" : 21328
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "#09 User cannot enter invalid characters into the City field.",
+        "uid" : "1744fad93f57f978",
+        "parentUid" : "14919f5dc67f8a4b4ffa2c6941ce5f34",
+        "status" : "failed",
+        "time" : {
+          "start" : 1659363114087,
+          "stop" : 1659363135741,
+          "duration" : 21654
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "13 User is required to be 18 or over.",
+        "uid" : "d22aa0bec149377",
+        "parentUid" : "14919f5dc67f8a4b4ffa2c6941ce5f34",
+        "status" : "failed",
+        "time" : {
+          "start" : 1659363131553,
+          "stop" : 1659363153292,
+          "duration" : 21739
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "#14 User cannot enter invalid characters into the date of birth field.",
+        "uid" : "d9d75dac92375f85",
+        "parentUid" : "14919f5dc67f8a4b4ffa2c6941ce5f34",
+        "status" : "failed",
+        "time" : {
+          "start" : 1659363153292,
+          "stop" : 1659363175008,
+          "duration" : 21716
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "#23 User cannot continue to next step if their password does not meet the minimum password requirements.",
+        "uid" : "481b7a764781444a",
+        "parentUid" : "14919f5dc67f8a4b4ffa2c6941ce5f34",
+        "status" : "failed",
+        "time" : {
+          "start" : 1659363195214,
+          "stop" : 1659363216723,
+          "duration" : 21509
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "1a266aea4038cf5a6b5e5c10e6a8f3a5"
+      "uid" : "14919f5dc67f8a4b4ffa2c6941ce5f34"
     }, {
-      "name" : "Failed: stale element reference: element is not attached to the page document\n                  (Session info: headless chrome=103.0.5060.134)\n                For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\n                Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'\n                System info: host: 'smiss', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-41-generic', java.version: '11.0.15'\n                Driver info: driver.version: unknown",
+      "name" : "Failed: Accept All Cookie Notification not visible.\n                Wait timed out after 20007ms",
       "children" : [ {
-        "name" : "#12 User logged in hover the game card  and click on CTA \"INFO\" and go to INFO page and click on \"PLAY NOW\" and see game page",
-        "uid" : "584dc3e7a51f010e",
-        "parentUid" : "e8e7c0aabc0101a4c086784816fa91ba",
+        "name" : "#01.1 User can leave the registration process by clicking the Home link and click 'Yes I want to leave'.",
+        "uid" : "ccda48e3d4a45740",
+        "parentUid" : "ff9bd5815ca60dad2530c884b2b6402c",
         "status" : "failed",
         "time" : {
-          "start" : 1658850718939,
-          "stop" : 1658850728543,
-          "duration" : 9604
+          "start" : 1659362957663,
+          "stop" : 1659362979406,
+          "duration" : 21743
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "#13 Password is a mandatory field.",
+        "uid" : "1d8e53ae1d54ef0e",
+        "parentUid" : "ff9bd5815ca60dad2530c884b2b6402c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1659363173489,
+          "stop" : 1659363195214,
+          "duration" : 21725
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "e8e7c0aabc0101a4c086784816fa91ba"
+      "uid" : "ff9bd5815ca60dad2530c884b2b6402c"
     }, {
-      "name" : "Failed: No element found using locator: By(css selector, .u-action-footer)",
+      "name" : "Failed: Accept All Cookie Notification not visible.\n                Wait timed out after 20006ms",
       "children" : [ {
-        "name" : "#11 Player can continue with chosen 24 hours option to 'Take A Break' and confirming modal should display.",
-        "uid" : "ddbb33626bbc9cbb",
-        "parentUid" : "c9a6f28e7c88f0955711be88fba5f6c9",
+        "name" : "#02 User can navigate back to the previous step.",
+        "uid" : "69b640c89e9ec250",
+        "parentUid" : "cf47c830b933a8016c9caa1195d3c6d0",
         "status" : "failed",
         "time" : {
-          "start" : 1658850724715,
-          "stop" : 1658850741101,
-          "duration" : 16386
+          "start" : 1659362958227,
+          "stop" : 1659362982984,
+          "duration" : 24757
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "#12 Player can continue with chosen 1 week option to 'Take A Break' and confirming modal should display.",
-        "uid" : "2df4c115ab73c959",
-        "parentUid" : "c9a6f28e7c88f0955711be88fba5f6c9",
+        "name" : "#06 User can opt in to receive Post marketing preferences.",
+        "uid" : "89e93aa17d66f427",
+        "parentUid" : "cf47c830b933a8016c9caa1195d3c6d0",
         "status" : "failed",
         "time" : {
-          "start" : 1658850741101,
-          "stop" : 1658850757064,
-          "duration" : 15963
+          "start" : 1659362982984,
+          "stop" : 1659363005477,
+          "duration" : 22493
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "#13 Player can continue with chosen 4 weeks option to 'Take A Break' and confirming modal should display.",
-        "uid" : "920deaa64d84bf03",
-        "parentUid" : "c9a6f28e7c88f0955711be88fba5f6c9",
+        "name" : "#03 Address Line 1 field is a mandatory field.",
+        "uid" : "d7b1126d1ce6315f",
+        "parentUid" : "cf47c830b933a8016c9caa1195d3c6d0",
         "status" : "failed",
         "time" : {
-          "start" : 1658850757064,
-          "stop" : 1658850772317,
-          "duration" : 15253
+          "start" : 1659363006026,
+          "stop" : 1659363027861,
+          "duration" : 21835
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "#14 Player can continue with chosen 6 weeks option to 'Take A Break' and confirming modal should display.",
-        "uid" : "e359fc3f9ff7840c",
-        "parentUid" : "c9a6f28e7c88f0955711be88fba5f6c9",
+        "name" : "#08 User can overwrite Select All option and de-select a preference.",
+        "uid" : "ae6edd01495599dc",
+        "parentUid" : "cf47c830b933a8016c9caa1195d3c6d0",
         "status" : "failed",
         "time" : {
-          "start" : 1658850772317,
-          "stop" : 1658850787693,
-          "duration" : 15376
+          "start" : 1659363027312,
+          "stop" : 1659363050261,
+          "duration" : 22949
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "#16 Player can press 'BACK' for confirmating modal after chosen for 24 hours 'Take A Break' and should return to previous step.",
-        "uid" : "8e8ed976c3160529",
-        "parentUid" : "c9a6f28e7c88f0955711be88fba5f6c9",
+        "name" : "#07 User can not enter an invaild email address (no @ sign).",
+        "uid" : "5526f126820a76fa",
+        "parentUid" : "cf47c830b933a8016c9caa1195d3c6d0",
         "status" : "failed",
         "time" : {
-          "start" : 1658850803981,
-          "stop" : 1658850819391,
-          "duration" : 15410
+          "start" : 1659363087562,
+          "stop" : 1659363109178,
+          "duration" : 21616
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "#17 Player can close the take a break modal.",
-        "uid" : "648c9c38311f03b",
-        "parentUid" : "c9a6f28e7c88f0955711be88fba5f6c9",
+        "name" : "#08 User cannot enter invalid characters into the Address Line 2 field.",
+        "uid" : "80f4e078703571f9",
+        "parentUid" : "cf47c830b933a8016c9caa1195d3c6d0",
         "status" : "failed",
         "time" : {
-          "start" : 1658850819391,
-          "stop" : 1658850834972,
-          "duration" : 15581
+          "start" : 1659363092457,
+          "stop" : 1659363114087,
+          "duration" : 21630
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "#13 User doesn`t click on confirm checkbox, tries to click success registration button and error text is shown.",
+        "uid" : "6c8fa7139742645a",
+        "parentUid" : "cf47c830b933a8016c9caa1195d3c6d0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1659363116033,
+          "stop" : 1659363137660,
+          "duration" : 21627
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "#11 User can successfully enter email address with a combination of valid symbols, numbers and letters.",
+        "uid" : "3962118062eaa5d7",
+        "parentUid" : "cf47c830b933a8016c9caa1195d3c6d0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1659363130506,
+          "stop" : 1659363152190,
+          "duration" : 21684
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "c9a6f28e7c88f0955711be88fba5f6c9"
+      "uid" : "cf47c830b933a8016c9caa1195d3c6d0"
+    }, {
+      "name" : "Failed: Accept All Cookie Notification not visible.\n                Wait timed out after 20009ms",
+      "children" : [ {
+        "name" : "#04 Last Name is a mandatory field.",
+        "uid" : "aabd24db4ba4f6c0",
+        "parentUid" : "de0a44430cc9e6c7face654acc3585ce",
+        "status" : "failed",
+        "time" : {
+          "start" : 1659362979176,
+          "stop" : 1659363000940,
+          "duration" : 21764
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "#14 User can enter valid details on Step 3 and progress to Step 4 of the registration process.",
+        "uid" : "b384b2987f9781f3",
+        "parentUid" : "de0a44430cc9e6c7face654acc3585ce",
+        "status" : "failed",
+        "time" : {
+          "start" : 1659363157098,
+          "stop" : 1659363178787,
+          "duration" : 21689
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "de0a44430cc9e6c7face654acc3585ce"
+    }, {
+      "name" : "Failed: Accept All Cookie Notification not visible.\n                Wait timed out after 20015ms",
+      "children" : [ {
+        "name" : "#02 Email Address is a mandatory field.",
+        "uid" : "716b08579aca4e2d",
+        "parentUid" : "66174a952c256d27177fd21fd84622b9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1659362979407,
+          "stop" : 1659363000811,
+          "duration" : 21404
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "66174a952c256d27177fd21fd84622b9"
+    }, {
+      "name" : "Failed: Accept All Cookie Notification not visible.\n                Wait timed out after 20001ms",
+      "children" : [ {
+        "name" : "#04 User can select the 'Recover' button on the 'Account already exists' drawer and is displayed the Recover Password form.",
+        "uid" : "3620c1f0dadff244",
+        "parentUid" : "1f832a0ba0e0f580b2a5f81f0fe608b4",
+        "status" : "failed",
+        "time" : {
+          "start" : 1659363022598,
+          "stop" : 1659363044236,
+          "duration" : 21638
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "#04 City field is a mandatory field.",
+        "uid" : "9c92f2ee0478e584",
+        "parentUid" : "1f832a0ba0e0f580b2a5f81f0fe608b4",
+        "status" : "failed",
+        "time" : {
+          "start" : 1659363027861,
+          "stop" : 1659363049696,
+          "duration" : 21835
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "#05 User can select the 'Login' button on the 'Account already exists' drawer and is displayed the Login form.",
+        "uid" : "79801a3dc7b79d6b",
+        "parentUid" : "1f832a0ba0e0f580b2a5f81f0fe608b4",
+        "status" : "failed",
+        "time" : {
+          "start" : 1659363044236,
+          "stop" : 1659363065850,
+          "duration" : 21614
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "#07 User cannot enter invalid characters into the Address Line 1 field.",
+        "uid" : "d4c5ad92e6a26927",
+        "parentUid" : "1f832a0ba0e0f580b2a5f81f0fe608b4",
+        "status" : "failed",
+        "time" : {
+          "start" : 1659363071162,
+          "stop" : 1659363092457,
+          "duration" : 21295
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1f832a0ba0e0f580b2a5f81f0fe608b4"
+    }, {
+      "name" : "Failed: Accept All Cookie Notification not visible.\n                Wait timed out after 20003ms",
+      "children" : [ {
+        "name" : "#06 User cannot enter less that 2 characters into step 2 name input fields.",
+        "uid" : "8b0b8ec349e15ba4",
+        "parentUid" : "86d870a7729784ff3e63511630a3420a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1659363022840,
+          "stop" : 1659363044559,
+          "duration" : 21719
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "#05 User can opt in to receive SMS marketing preferences.",
+        "uid" : "2f25e8d2f010f366",
+        "parentUid" : "86d870a7729784ff3e63511630a3420a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1659363180890,
+          "stop" : 1659363202237,
+          "duration" : 21347
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "#09 User can select multiple marketing preferences.",
+        "uid" : "ab8abd3a3d023ebd",
+        "parentUid" : "86d870a7729784ff3e63511630a3420a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1659363202237,
+          "stop" : 1659363223720,
+          "duration" : 21483
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "#28 User can enter valid details on Step 1 and progress to Step 2 of the registration process.",
+        "uid" : "f2f7802607eafe62",
+        "parentUid" : "86d870a7729784ff3e63511630a3420a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1659363216723,
+          "stop" : 1659363238217,
+          "duration" : 21494
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "86d870a7729784ff3e63511630a3420a"
+    }, {
+      "name" : "Failed: Accept All Cookie Notification not visible.\n                Wait timed out after 20012ms",
+      "children" : [ {
+        "name" : "#12 User can click on confirm checkbox and click success registration button.",
+        "uid" : "f2e6cb6858e4d9f7",
+        "parentUid" : "faf62692ef61f9d0eb78d47056ca2a35",
+        "status" : "failed",
+        "time" : {
+          "start" : 1659363093791,
+          "stop" : 1659363116032,
+          "duration" : 22241
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "faf62692ef61f9d0eb78d47056ca2a35"
+    }, {
+      "name" : "Failed: Accept All Cookie Notification not visible.\n                Wait timed out after 20008ms",
+      "children" : [ {
+        "name" : "#12 User cannot enter an invalid date into the date of birth field.",
+        "uid" : "f2203398d87018d9",
+        "parentUid" : "74843955ab08c13d6c4092b531937911",
+        "status" : "failed",
+        "time" : {
+          "start" : 1659363109854,
+          "stop" : 1659363131553,
+          "duration" : 21699
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "#03 User can opt in to receive All marketing preferences.",
+        "uid" : "f54e7520e1e37d8b",
+        "parentUid" : "74843955ab08c13d6c4092b531937911",
+        "status" : "failed",
+        "time" : {
+          "start" : 1659363137660,
+          "stop" : 1659363159339,
+          "duration" : 21679
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "74843955ab08c13d6c4092b531937911"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]
