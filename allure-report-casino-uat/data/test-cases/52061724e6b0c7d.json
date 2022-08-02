@@ -1,0 +1,97 @@
+{
+  "uid" : "52061724e6b0c7d",
+  "name" : "#01 User is displayed the correct content and input fields for Step 3.",
+  "fullName" : "Registration > Step 3.#01 User is displayed the correct content and input fields for Step 3.",
+  "historyId" : "5eb65bae60e8f50b917fbbf3063f91e3",
+  "time" : {
+    "start" : 1659442045151,
+    "stop" : 1659442055858,
+    "duration" : 10707
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expected 'Enter Manually' to be 'Search Manually', 'Manual/Auto Complete Address switch has incorrect text.'.",
+  "statusTrace" : "Error: Failed expectation\n                    at UserContext.<anonymous> (/home/dev/azure/eyas-test-automation/src/test/registration/registration-step-4.spec.js:82:66)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expected 'Enter Manually' to be 'Search Manually', 'Manual/Auto Complete Address switch has incorrect text.'.",
+    "statusTrace" : "Error: Failed expectation\n                    at UserContext.<anonymous> (/home/dev/azure/eyas-test-automation/src/test/registration/registration-step-4.spec.js:82:66)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e947340dc8df5609",
+      "name" : "Screenshot",
+      "source" : "e947340dc8df5609.png",
+      "type" : "image/png",
+      "size" : 53934
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Registration > Step 3"
+  }, {
+    "name" : "testClass",
+    "value" : "Registration > Step 3"
+  }, {
+    "name" : "testMethod",
+    "value" : "#01 User is displayed the correct content and input fields for Step 3."
+  }, {
+    "name" : "package",
+    "value" : "Registration > Step 3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "2a4e568108b74b86",
+      "status" : "failed",
+      "statusDetails" : "Expected 'Enter Manually' to be 'Search Manually', 'Manual/Auto Complete Address switch has incorrect text.'.",
+      "time" : {
+        "start" : 1659441938778,
+        "stop" : 1659441953396,
+        "duration" : 14618
+      }
+    }, {
+      "uid" : "d1cd45bf850aa813",
+      "status" : "failed",
+      "statusDetails" : "Failed: Accept All Cookie Notification not visible.\n                Wait timed out after 20002ms",
+      "time" : {
+        "start" : 1659362934214,
+        "stop" : 1659362959609,
+        "duration" : 25395
+      }
+    }, {
+      "uid" : "8602f669f8c82fd0",
+      "status" : "failed",
+      "statusDetails" : "Failed: Accept All Cookie Notification not visible.\n                Wait timed out after 20003ms",
+      "time" : {
+        "start" : 1659362558727,
+        "stop" : 1659362583265,
+        "duration" : 24538
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "52061724e6b0c7d.json",
+  "parameterValues" : [ ]
+}

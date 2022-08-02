@@ -2,319 +2,371 @@
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
   "name" : "suites",
   "children" : [ {
-    "name" : "Registration > Step 2",
+    "name" : "Registration > Step 1",
     "children" : [ {
-      "name" : "#01 User is displayed the correct content and input fields for Step 2.",
-      "uid" : "f783aff0c32ca26f",
-      "parentUid" : "c7a56c8951c8bbd440242d86660c49fd",
+      "name" : "#01 User is displayed the correct content and input fields for Step 1.",
+      "uid" : "96f12961695db660",
+      "parentUid" : "f9f164a6061257e04a7392d6948dbcb0",
       "status" : "failed",
       "time" : {
-        "start" : 1659363695165,
-        "stop" : 1659363720006,
-        "duration" : 24841
+        "start" : 1659442515048,
+        "stop" : 1659442540027,
+        "duration" : 24979
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
-      "name" : "#03 First Name is a mandatory field.",
-      "uid" : "803b556d8fe7ce26",
-      "parentUid" : "c7a56c8951c8bbd440242d86660c49fd",
+      "name" : "#01.1 User can leave the registration process by clicking the Home link and click 'Yes I want to leave'.",
+      "uid" : "d55b74101b213287",
+      "parentUid" : "f9f164a6061257e04a7392d6948dbcb0",
       "status" : "failed",
       "time" : {
-        "start" : 1659363720006,
-        "stop" : 1659363742323,
-        "duration" : 22317
+        "start" : 1659442540027,
+        "stop" : 1659442560579,
+        "duration" : 20552
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
-      "name" : "#04 Last Name is a mandatory field.",
-      "uid" : "80047d74de68234c",
-      "parentUid" : "c7a56c8951c8bbd440242d86660c49fd",
+      "name" : "#02 Email Address is a mandatory field.",
+      "uid" : "c6ac9becbb16dc68",
+      "parentUid" : "f9f164a6061257e04a7392d6948dbcb0",
       "status" : "failed",
       "time" : {
-        "start" : 1659363742323,
-        "stop" : 1659363764015,
-        "duration" : 21692
+        "start" : 1659442560579,
+        "stop" : 1659442581083,
+        "duration" : 20504
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
-      "name" : "#05 Date of Birth is a mandatory field.",
-      "uid" : "4cfccd82ac7e535b",
-      "parentUid" : "c7a56c8951c8bbd440242d86660c49fd",
+      "name" : "#03 User is prompted with the 'Account already exists' drawer if they enter an email address that already exists.",
+      "uid" : "3e49f08fbf7046a1",
+      "parentUid" : "f9f164a6061257e04a7392d6948dbcb0",
       "status" : "failed",
       "time" : {
-        "start" : 1659363764015,
-        "stop" : 1659363786008,
-        "duration" : 21993
+        "start" : 1659442581083,
+        "stop" : 1659442601637,
+        "duration" : 20554
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
-      "name" : "#06 User cannot enter less that 2 characters into step 2 name input fields.",
-      "uid" : "28e7e123523405e7",
-      "parentUid" : "c7a56c8951c8bbd440242d86660c49fd",
+      "name" : "#04 User can select the 'Recover' button on the 'Account already exists' drawer and is displayed the Recover Password form.",
+      "uid" : "294f53d5063a0916",
+      "parentUid" : "f9f164a6061257e04a7392d6948dbcb0",
       "status" : "failed",
       "time" : {
-        "start" : 1659363786008,
-        "stop" : 1659363808059,
-        "duration" : 22051
+        "start" : 1659442601638,
+        "stop" : 1659442622189,
+        "duration" : 20551
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
-      "name" : "#07 User cannot enter numbers into step 2 name input fields.",
-      "uid" : "9991a74e8a690ddf",
-      "parentUid" : "c7a56c8951c8bbd440242d86660c49fd",
+      "name" : "#05 User can select the 'Login' button on the 'Account already exists' drawer and is displayed the Login form.",
+      "uid" : "f9a3571491beabe5",
+      "parentUid" : "f9f164a6061257e04a7392d6948dbcb0",
       "status" : "failed",
       "time" : {
-        "start" : 1659363808059,
-        "stop" : 1659363830047,
-        "duration" : 21988
+        "start" : 1659442622189,
+        "stop" : 1659442642683,
+        "duration" : 20494
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
-      "name" : "#08 User cannot enter invalid characters into step 2 name input fields.",
-      "uid" : "8fcfc34c5b0de2ad",
-      "parentUid" : "c7a56c8951c8bbd440242d86660c49fd",
+      "name" : "#06 User can not register with an email address that already exists.",
+      "uid" : "faa95afdc75d1155",
+      "parentUid" : "f9f164a6061257e04a7392d6948dbcb0",
       "status" : "failed",
       "time" : {
-        "start" : 1659363830047,
-        "stop" : 1659363852076,
-        "duration" : 22029
+        "start" : 1659442642683,
+        "stop" : 1659442663597,
+        "duration" : 20914
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
-      "name" : "#11 User can enter valid details on Step 2 and progress to Step 3 of the registration process.",
-      "uid" : "9d8c0292a49a1f0c",
-      "parentUid" : "c7a56c8951c8bbd440242d86660c49fd",
+      "name" : "#07 User can not enter an invaild email address (no @ sign).",
+      "uid" : "a98f46779950f544",
+      "parentUid" : "f9f164a6061257e04a7392d6948dbcb0",
       "status" : "failed",
       "time" : {
-        "start" : 1659363852076,
-        "stop" : 1659363874088,
-        "duration" : 22012
+        "start" : 1659442663597,
+        "stop" : 1659442684107,
+        "duration" : 20510
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
-      "name" : "#12 User cannot enter an invalid date into the date of birth field.",
-      "uid" : "c015a75eec275d85",
-      "parentUid" : "c7a56c8951c8bbd440242d86660c49fd",
+      "name" : "#08 User can not enter an invaild email address (space in email).",
+      "uid" : "6ff4e7fdfb88523f",
+      "parentUid" : "f9f164a6061257e04a7392d6948dbcb0",
       "status" : "failed",
       "time" : {
-        "start" : 1659363874088,
-        "stop" : 1659363896142,
-        "duration" : 22054
+        "start" : 1659442684107,
+        "stop" : 1659442704603,
+        "duration" : 20496
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
-      "name" : "13 User is required to be 18 or over.",
-      "uid" : "561709cd78809cde",
-      "parentUid" : "c7a56c8951c8bbd440242d86660c49fd",
+      "name" : "#11 User can successfully enter email address with a combination of valid symbols, numbers and letters.",
+      "uid" : "1e235f0ba036862",
+      "parentUid" : "f9f164a6061257e04a7392d6948dbcb0",
       "status" : "failed",
       "time" : {
-        "start" : 1659363896142,
-        "stop" : 1659363918243,
-        "duration" : 22101
+        "start" : 1659442704603,
+        "stop" : 1659442725100,
+        "duration" : 20497
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
-      "name" : "#14 User cannot enter invalid characters into the date of birth field.",
-      "uid" : "a76da1973eaf71ac",
-      "parentUid" : "c7a56c8951c8bbd440242d86660c49fd",
+      "name" : "#12 User can successfully enter email address with local domain (.de).",
+      "uid" : "989c546f317d5690",
+      "parentUid" : "f9f164a6061257e04a7392d6948dbcb0",
       "status" : "failed",
       "time" : {
-        "start" : 1659363918243,
-        "stop" : 1659363940219,
-        "duration" : 21976
+        "start" : 1659442725100,
+        "stop" : 1659442745671,
+        "duration" : 20571
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#13 Password is a mandatory field.",
+      "uid" : "e9552dfe86dd73c4",
+      "parentUid" : "f9f164a6061257e04a7392d6948dbcb0",
+      "status" : "failed",
+      "time" : {
+        "start" : 1659442745671,
+        "stop" : 1659442766177,
+        "duration" : 20506
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#23 User cannot continue to next step if their password does not meet the minimum password requirements.",
+      "uid" : "c5005879c9f0acc5",
+      "parentUid" : "f9f164a6061257e04a7392d6948dbcb0",
+      "status" : "failed",
+      "time" : {
+        "start" : 1659442766177,
+        "stop" : 1659442786628,
+        "duration" : 20451
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#28 User can enter valid details on Step 1 and progress to Step 2 of the registration process.",
+      "uid" : "93dd10bca62e00c7",
+      "parentUid" : "f9f164a6061257e04a7392d6948dbcb0",
+      "status" : "failed",
+      "time" : {
+        "start" : 1659442786628,
+        "stop" : 1659442807072,
+        "duration" : 20444
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "#29 User can successfully enter email address with uppercase letters.",
+      "uid" : "270e3f0e1a3bf8d7",
+      "parentUid" : "f9f164a6061257e04a7392d6948dbcb0",
+      "status" : "failed",
+      "time" : {
+        "start" : 1659442807072,
+        "stop" : 1659442827565,
+        "duration" : 20493
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     } ],
-    "uid" : "c7a56c8951c8bbd440242d86660c49fd"
+    "uid" : "f9f164a6061257e04a7392d6948dbcb0"
   }, {
     "name" : "Registration > Step 4",
     "children" : [ {
       "name" : "#01 User is displayed the correct content and defaut options for Step 4.",
-      "uid" : "f94e24679df53953",
+      "uid" : "300e05cb32262cfe",
       "parentUid" : "9b68b957e5ab8e985bfab331d4081eeb",
       "status" : "failed",
       "time" : {
-        "start" : 1659363695200,
-        "stop" : 1659363718722,
-        "duration" : 23522
+        "start" : 1659442515050,
+        "stop" : 1659442540135,
+        "duration" : 25085
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "#02 User can navigate back to the previous step.",
-      "uid" : "28d4bab2f466bc20",
+      "uid" : "2742d708c1e08fb0",
       "parentUid" : "9b68b957e5ab8e985bfab331d4081eeb",
       "status" : "failed",
       "time" : {
-        "start" : 1659363718722,
-        "stop" : 1659363744163,
-        "duration" : 25441
+        "start" : 1659442540135,
+        "stop" : 1659442563706,
+        "duration" : 23571
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "#06 User can opt in to receive Post marketing preferences.",
-      "uid" : "6dea6ffe10c905a7",
+      "uid" : "f2b40d613e55284",
       "parentUid" : "9b68b957e5ab8e985bfab331d4081eeb",
       "status" : "failed",
       "time" : {
-        "start" : 1659363744163,
-        "stop" : 1659363767184,
-        "duration" : 23021
+        "start" : 1659442563706,
+        "stop" : 1659442585269,
+        "duration" : 21563
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "#07 User can opt in to receive Phone marketing preferences.",
-      "uid" : "23d5ffe8e7694740",
+      "uid" : "4f68e67adf25ebac",
       "parentUid" : "9b68b957e5ab8e985bfab331d4081eeb",
       "status" : "failed",
       "time" : {
-        "start" : 1659363767184,
-        "stop" : 1659363789138,
-        "duration" : 21954
+        "start" : 1659442585269,
+        "stop" : 1659442605802,
+        "duration" : 20533
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "#08 User can overwrite Select All option and de-select a preference.",
-      "uid" : "586c555c87de114",
+      "uid" : "5a696c215822d31d",
       "parentUid" : "9b68b957e5ab8e985bfab331d4081eeb",
       "status" : "failed",
       "time" : {
-        "start" : 1659363789138,
-        "stop" : 1659363811993,
-        "duration" : 22855
+        "start" : 1659442605802,
+        "stop" : 1659442627301,
+        "duration" : 21499
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "#10 User can click and view the T&Cs.",
-      "uid" : "e655e45c5da2cfde",
+      "uid" : "88c7a9d671dfef1f",
       "parentUid" : "9b68b957e5ab8e985bfab331d4081eeb",
       "status" : "failed",
       "time" : {
-        "start" : 1659363811993,
-        "stop" : 1659363833842,
-        "duration" : 21849
+        "start" : 1659442627301,
+        "stop" : 1659442647799,
+        "duration" : 20498
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "#11 User can click and view the Privacy Policy.",
-      "uid" : "74c7dc3f79570181",
+      "uid" : "763076120a199d1d",
       "parentUid" : "9b68b957e5ab8e985bfab331d4081eeb",
       "status" : "failed",
       "time" : {
-        "start" : 1659363833842,
-        "stop" : 1659363855723,
-        "duration" : 21881
+        "start" : 1659442647799,
+        "stop" : 1659442668357,
+        "duration" : 20558
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "#12 User can click on confirm checkbox and click success registration button.",
-      "uid" : "9560feb735528f85",
+      "uid" : "f93049668520ab51",
       "parentUid" : "9b68b957e5ab8e985bfab331d4081eeb",
       "status" : "failed",
       "time" : {
-        "start" : 1659363855723,
-        "stop" : 1659363878594,
-        "duration" : 22871
+        "start" : 1659442668357,
+        "stop" : 1659442689924,
+        "duration" : 21567
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "#13 User doesn`t click on confirm checkbox, tries to click success registration button and error text is shown.",
-      "uid" : "976b57b100134af8",
+      "uid" : "36a9579e7e05d8cb",
       "parentUid" : "9b68b957e5ab8e985bfab331d4081eeb",
       "status" : "failed",
       "time" : {
-        "start" : 1659363878594,
-        "stop" : 1659363900483,
-        "duration" : 21889
+        "start" : 1659442689924,
+        "stop" : 1659442710473,
+        "duration" : 20549
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "#03 User can opt in to receive All marketing preferences.",
-      "uid" : "9267fb4a92d95275",
+      "uid" : "9dc5a68112e3ebb8",
       "parentUid" : "9b68b957e5ab8e985bfab331d4081eeb",
       "status" : "failed",
       "time" : {
-        "start" : 1659363900483,
-        "stop" : 1659363922305,
-        "duration" : 21822
+        "start" : 1659442710473,
+        "stop" : 1659442730945,
+        "duration" : 20472
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "#04 User can opt in to receive Email marketing preferences.",
-      "uid" : "b69adae452246fcc",
+      "uid" : "90561610d6d4bb58",
       "parentUid" : "9b68b957e5ab8e985bfab331d4081eeb",
       "status" : "failed",
       "time" : {
-        "start" : 1659363922305,
-        "stop" : 1659363943496,
-        "duration" : 21191
+        "start" : 1659442730945,
+        "stop" : 1659442751466,
+        "duration" : 20521
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "#05 User can opt in to receive SMS marketing preferences.",
-      "uid" : "9b0d0a29ce23286a",
+      "uid" : "7cbf058c903e33dc",
       "parentUid" : "9b68b957e5ab8e985bfab331d4081eeb",
       "status" : "failed",
       "time" : {
-        "start" : 1659363943497,
-        "stop" : 1659363965227,
-        "duration" : 21730
+        "start" : 1659442751466,
+        "stop" : 1659442771943,
+        "duration" : 20477
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "#09 User can select multiple marketing preferences.",
-      "uid" : "7a65e0b97cec9c35",
+      "uid" : "3fa10e4404b8bba9",
       "parentUid" : "9b68b957e5ab8e985bfab331d4081eeb",
       "status" : "failed",
       "time" : {
-        "start" : 1659363965228,
-        "stop" : 1659363986921,
-        "duration" : 21693
+        "start" : 1659442771943,
+        "stop" : 1659442792455,
+        "duration" : 20512
       },
       "flaky" : false,
       "newFailed" : false,
@@ -325,208 +377,208 @@
     "name" : "Registration > Step 3",
     "children" : [ {
       "name" : "#01 User is displayed the correct content and input fields for Step 3.",
-      "uid" : "6d432e7f29a59970",
+      "uid" : "f24c7cb5468e3f34",
       "parentUid" : "dc18a166fbbb8fde42eec53cb4f2a803",
       "status" : "failed",
       "time" : {
-        "start" : 1659363695262,
-        "stop" : 1659363719069,
-        "duration" : 23807
+        "start" : 1659442515078,
+        "stop" : 1659442539851,
+        "duration" : 24773
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "#02 User can navigate back to the previous step.",
-      "uid" : "a2dc0b9ca4e81df0",
+      "uid" : "551a20f5f392ca2",
       "parentUid" : "dc18a166fbbb8fde42eec53cb4f2a803",
       "status" : "failed",
       "time" : {
-        "start" : 1659363719069,
-        "stop" : 1659363744544,
-        "duration" : 25475
+        "start" : 1659442539851,
+        "stop" : 1659442563356,
+        "duration" : 23505
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "#03 Player can select the Manual Input button and is displayed the address inputs.",
-      "uid" : "47253178a590aa74",
+      "uid" : "1fcdce6cc9caa8b",
       "parentUid" : "dc18a166fbbb8fde42eec53cb4f2a803",
       "status" : "failed",
       "time" : {
-        "start" : 1659363744544,
-        "stop" : 1659363765908,
-        "duration" : 21364
+        "start" : 1659442563357,
+        "stop" : 1659442583891,
+        "duration" : 20534
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "#03 Address Line 1 field is a mandatory field.",
-      "uid" : "f4697b5d9e8527b9",
+      "uid" : "f4a97a953b817666",
       "parentUid" : "dc18a166fbbb8fde42eec53cb4f2a803",
       "status" : "failed",
       "time" : {
-        "start" : 1659363765908,
-        "stop" : 1659363787739,
-        "duration" : 21831
+        "start" : 1659442583891,
+        "stop" : 1659442604385,
+        "duration" : 20494
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "#04 City field is a mandatory field.",
-      "uid" : "229cf481e3695ca1",
+      "uid" : "aa9e3b460f5fec9c",
       "parentUid" : "dc18a166fbbb8fde42eec53cb4f2a803",
       "status" : "failed",
       "time" : {
-        "start" : 1659363787739,
-        "stop" : 1659363809622,
-        "duration" : 21883
+        "start" : 1659442604385,
+        "stop" : 1659442624918,
+        "duration" : 20533
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "#06 Post Code field is a mandatory field.",
-      "uid" : "e744edf161477825",
+      "uid" : "321851d5958aafa",
       "parentUid" : "dc18a166fbbb8fde42eec53cb4f2a803",
       "status" : "failed",
       "time" : {
-        "start" : 1659363809622,
-        "stop" : 1659363831523,
-        "duration" : 21901
+        "start" : 1659442624918,
+        "stop" : 1659442645416,
+        "duration" : 20498
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "#07 User cannot enter invalid characters into the Address Line 1 field.",
-      "uid" : "fa1a2a298ddb0aaf",
+      "uid" : "cc90f12da0405c81",
       "parentUid" : "dc18a166fbbb8fde42eec53cb4f2a803",
       "status" : "failed",
       "time" : {
-        "start" : 1659363831523,
-        "stop" : 1659363853464,
-        "duration" : 21941
+        "start" : 1659442645416,
+        "stop" : 1659442666300,
+        "duration" : 20884
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "#08 User cannot enter invalid characters into the Address Line 2 field.",
-      "uid" : "e22227a48029a515",
+      "uid" : "3f170acd85e87c3d",
       "parentUid" : "dc18a166fbbb8fde42eec53cb4f2a803",
       "status" : "failed",
       "time" : {
-        "start" : 1659363853464,
-        "stop" : 1659363875439,
-        "duration" : 21975
+        "start" : 1659442666300,
+        "stop" : 1659442686867,
+        "duration" : 20567
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "#09 User cannot enter invalid characters into the City field.",
-      "uid" : "898b35551606febc",
+      "uid" : "9bbdfe57d3f6ccc0",
       "parentUid" : "dc18a166fbbb8fde42eec53cb4f2a803",
       "status" : "failed",
       "time" : {
-        "start" : 1659363875439,
-        "stop" : 1659363897456,
-        "duration" : 22017
+        "start" : 1659442686867,
+        "stop" : 1659442707400,
+        "duration" : 20533
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "#11 User cannot enter invalid characters into the Post Code field.",
-      "uid" : "6d1b6ec1e8dc1da3",
+      "uid" : "d251b48c1e9d3fb5",
       "parentUid" : "dc18a166fbbb8fde42eec53cb4f2a803",
       "status" : "failed",
       "time" : {
-        "start" : 1659363897456,
-        "stop" : 1659363919361,
-        "duration" : 21905
+        "start" : 1659442707400,
+        "stop" : 1659442727881,
+        "duration" : 20481
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "#14 User can enter valid details on Step 3 and progress to Step 4 of the registration process.",
-      "uid" : "45284c83981f3ab5",
+      "uid" : "d7699b6f7cf545e8",
       "parentUid" : "dc18a166fbbb8fde42eec53cb4f2a803",
       "status" : "failed",
       "time" : {
-        "start" : 1659363919361,
-        "stop" : 1659363941278,
-        "duration" : 21917
+        "start" : 1659442727881,
+        "stop" : 1659442748443,
+        "duration" : 20562
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "#15 Phone Number is a mandatory field.",
-      "uid" : "8d58b677db8c7b8f",
+      "uid" : "37b5c1b41a7e66a1",
       "parentUid" : "dc18a166fbbb8fde42eec53cb4f2a803",
       "status" : "failed",
       "time" : {
-        "start" : 1659363963120,
-        "stop" : 1659363984775,
-        "duration" : 21655
+        "start" : 1659442769307,
+        "stop" : 1659442789782,
+        "duration" : 20475
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "#16 Phone Number will display an error when entering non-numeric values into input.",
-      "uid" : "5666d37b7ddf913d",
+      "uid" : "8d76ccf767a054e9",
       "parentUid" : "dc18a166fbbb8fde42eec53cb4f2a803",
       "status" : "failed",
       "time" : {
-        "start" : 1659363984775,
-        "stop" : 1659364006388,
-        "duration" : 21613
+        "start" : 1659442789782,
+        "stop" : 1659442810238,
+        "duration" : 20456
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "#17 User cannot enter spaces into Phone Number field.",
-      "uid" : "e9d5eb0879459138",
+      "uid" : "135590aa6575a7d6",
       "parentUid" : "dc18a166fbbb8fde42eec53cb4f2a803",
       "status" : "failed",
       "time" : {
-        "start" : 1659364006388,
-        "stop" : 1659364027763,
-        "duration" : 21375
+        "start" : 1659442810238,
+        "stop" : 1659442830696,
+        "duration" : 20458
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "#18 Country Code is populated by default.",
-      "uid" : "3d47eb821dbf7e51",
+      "uid" : "85595a632af52bbd",
       "parentUid" : "dc18a166fbbb8fde42eec53cb4f2a803",
       "status" : "failed",
       "time" : {
-        "start" : 1659364027763,
-        "stop" : 1659364048685,
-        "duration" : 20922
+        "start" : 1659442830696,
+        "stop" : 1659442851790,
+        "duration" : 21094
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "#19 User can select a Country Code from the dropdown menu.",
-      "uid" : "74f2f95ef6d7d85c",
+      "uid" : "9f0cd691d24f5697",
       "parentUid" : "dc18a166fbbb8fde42eec53cb4f2a803",
       "status" : "failed",
       "time" : {
-        "start" : 1659364048685,
-        "stop" : 1659364069800,
-        "duration" : 21115
+        "start" : 1659442851790,
+        "stop" : 1659442872263,
+        "duration" : 20473
       },
       "flaky" : false,
       "newFailed" : false,
@@ -534,203 +586,151 @@
     } ],
     "uid" : "dc18a166fbbb8fde42eec53cb4f2a803"
   }, {
-    "name" : "Registration > Step 1",
+    "name" : "Registration > Step 2",
     "children" : [ {
-      "name" : "#01 User is displayed the correct content and input fields for Step 1.",
-      "uid" : "d10de76a306fcfd2",
-      "parentUid" : "f9f164a6061257e04a7392d6948dbcb0",
+      "name" : "#01 User is displayed the correct content and input fields for Step 2.",
+      "uid" : "3d97efd7e61699c7",
+      "parentUid" : "c7a56c8951c8bbd440242d86660c49fd",
       "status" : "failed",
       "time" : {
-        "start" : 1659363695292,
-        "stop" : 1659363719278,
-        "duration" : 23986
+        "start" : 1659442515119,
+        "stop" : 1659442538920,
+        "duration" : 23801
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
-      "name" : "#01.1 User can leave the registration process by clicking the Home link and click 'Yes I want to leave'.",
-      "uid" : "282aa09699065129",
-      "parentUid" : "f9f164a6061257e04a7392d6948dbcb0",
+      "name" : "#03 First Name is a mandatory field.",
+      "uid" : "755f35ffdb3b13f3",
+      "parentUid" : "c7a56c8951c8bbd440242d86660c49fd",
       "status" : "failed",
       "time" : {
-        "start" : 1659363719278,
-        "stop" : 1659363741826,
-        "duration" : 22548
+        "start" : 1659442538920,
+        "stop" : 1659442559591,
+        "duration" : 20671
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
-      "name" : "#02 Email Address is a mandatory field.",
-      "uid" : "a78ce78c529277a5",
-      "parentUid" : "f9f164a6061257e04a7392d6948dbcb0",
+      "name" : "#04 Last Name is a mandatory field.",
+      "uid" : "792ac3b7d6e3e91d",
+      "parentUid" : "c7a56c8951c8bbd440242d86660c49fd",
       "status" : "failed",
       "time" : {
-        "start" : 1659363741826,
-        "stop" : 1659363763493,
-        "duration" : 21667
+        "start" : 1659442559591,
+        "stop" : 1659442580116,
+        "duration" : 20525
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
-      "name" : "#03 User is prompted with the 'Account already exists' drawer if they enter an email address that already exists.",
-      "uid" : "9de41d749b8b41ae",
-      "parentUid" : "f9f164a6061257e04a7392d6948dbcb0",
+      "name" : "#05 Date of Birth is a mandatory field.",
+      "uid" : "fa69e24967205af2",
+      "parentUid" : "c7a56c8951c8bbd440242d86660c49fd",
       "status" : "failed",
       "time" : {
-        "start" : 1659363763494,
-        "stop" : 1659363785475,
-        "duration" : 21981
+        "start" : 1659442580116,
+        "stop" : 1659442600662,
+        "duration" : 20546
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
-      "name" : "#04 User can select the 'Recover' button on the 'Account already exists' drawer and is displayed the Recover Password form.",
-      "uid" : "ac4c628b0c198b8e",
-      "parentUid" : "f9f164a6061257e04a7392d6948dbcb0",
+      "name" : "#06 User cannot enter less that 2 characters into step 2 name input fields.",
+      "uid" : "569c247c6cab63cd",
+      "parentUid" : "c7a56c8951c8bbd440242d86660c49fd",
       "status" : "failed",
       "time" : {
-        "start" : 1659363785475,
-        "stop" : 1659363807444,
-        "duration" : 21969
+        "start" : 1659442600662,
+        "stop" : 1659442621144,
+        "duration" : 20482
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
-      "name" : "#05 User can select the 'Login' button on the 'Account already exists' drawer and is displayed the Login form.",
-      "uid" : "ad454552f418f19f",
-      "parentUid" : "f9f164a6061257e04a7392d6948dbcb0",
+      "name" : "#07 User cannot enter numbers into step 2 name input fields.",
+      "uid" : "6689d7816d6ee0cc",
+      "parentUid" : "c7a56c8951c8bbd440242d86660c49fd",
       "status" : "failed",
       "time" : {
-        "start" : 1659363807444,
-        "stop" : 1659363829403,
-        "duration" : 21959
+        "start" : 1659442621144,
+        "stop" : 1659442641684,
+        "duration" : 20540
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
-      "name" : "#06 User can not register with an email address that already exists.",
-      "uid" : "f60a8a4c85a38735",
-      "parentUid" : "f9f164a6061257e04a7392d6948dbcb0",
+      "name" : "#08 User cannot enter invalid characters into step 2 name input fields.",
+      "uid" : "cd22014074a13f40",
+      "parentUid" : "c7a56c8951c8bbd440242d86660c49fd",
       "status" : "failed",
       "time" : {
-        "start" : 1659363829403,
-        "stop" : 1659363851414,
-        "duration" : 22011
+        "start" : 1659442641684,
+        "stop" : 1659442662161,
+        "duration" : 20477
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
-      "name" : "#07 User can not enter an invaild email address (no @ sign).",
-      "uid" : "4aaafc465a5aa4b",
-      "parentUid" : "f9f164a6061257e04a7392d6948dbcb0",
+      "name" : "#11 User can enter valid details on Step 2 and progress to Step 3 of the registration process.",
+      "uid" : "27622ed47c7ce9c",
+      "parentUid" : "c7a56c8951c8bbd440242d86660c49fd",
       "status" : "failed",
       "time" : {
-        "start" : 1659363851415,
-        "stop" : 1659363873346,
-        "duration" : 21931
+        "start" : 1659442662161,
+        "stop" : 1659442682645,
+        "duration" : 20484
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
-      "name" : "#08 User can not enter an invaild email address (space in email).",
-      "uid" : "c3c94a6981746766",
-      "parentUid" : "f9f164a6061257e04a7392d6948dbcb0",
+      "name" : "#12 User cannot enter an invalid date into the date of birth field.",
+      "uid" : "7493073291c2ea88",
+      "parentUid" : "c7a56c8951c8bbd440242d86660c49fd",
       "status" : "failed",
       "time" : {
-        "start" : 1659363873346,
-        "stop" : 1659363895404,
-        "duration" : 22058
+        "start" : 1659442682646,
+        "stop" : 1659442703213,
+        "duration" : 20567
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
-      "name" : "#11 User can successfully enter email address with a combination of valid symbols, numbers and letters.",
-      "uid" : "1de35c37b10cb238",
-      "parentUid" : "f9f164a6061257e04a7392d6948dbcb0",
+      "name" : "13 User is required to be 18 or over.",
+      "uid" : "e190f966ce442465",
+      "parentUid" : "c7a56c8951c8bbd440242d86660c49fd",
       "status" : "failed",
       "time" : {
-        "start" : 1659363895404,
-        "stop" : 1659363917465,
-        "duration" : 22061
+        "start" : 1659442703213,
+        "stop" : 1659442723730,
+        "duration" : 20517
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
-      "name" : "#12 User can successfully enter email address with local domain (.de).",
-      "uid" : "569901e8ca26a7c7",
-      "parentUid" : "f9f164a6061257e04a7392d6948dbcb0",
+      "name" : "#14 User cannot enter invalid characters into the date of birth field.",
+      "uid" : "226b915fff9c27cd",
+      "parentUid" : "c7a56c8951c8bbd440242d86660c49fd",
       "status" : "failed",
       "time" : {
-        "start" : 1659363917465,
-        "stop" : 1659363939287,
-        "duration" : 21822
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "#13 Password is a mandatory field.",
-      "uid" : "f702254c1cfb578c",
-      "parentUid" : "f9f164a6061257e04a7392d6948dbcb0",
-      "status" : "failed",
-      "time" : {
-        "start" : 1659363939287,
-        "stop" : 1659363961159,
-        "duration" : 21872
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "#23 User cannot continue to next step if their password does not meet the minimum password requirements.",
-      "uid" : "3b70d22be157f1c3",
-      "parentUid" : "f9f164a6061257e04a7392d6948dbcb0",
-      "status" : "failed",
-      "time" : {
-        "start" : 1659363961159,
-        "stop" : 1659363982345,
-        "duration" : 21186
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "#28 User can enter valid details on Step 1 and progress to Step 2 of the registration process.",
-      "uid" : "977f1f2f7d3e226",
-      "parentUid" : "f9f164a6061257e04a7392d6948dbcb0",
-      "status" : "failed",
-      "time" : {
-        "start" : 1659363982345,
-        "stop" : 1659364003969,
-        "duration" : 21624
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "#29 User can successfully enter email address with uppercase letters.",
-      "uid" : "6d65b84a90a15989",
-      "parentUid" : "f9f164a6061257e04a7392d6948dbcb0",
-      "status" : "failed",
-      "time" : {
-        "start" : 1659364003969,
-        "stop" : 1659364024965,
-        "duration" : 20996
+        "start" : 1659442723730,
+        "stop" : 1659442744281,
+        "duration" : 20551
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     } ],
-    "uid" : "f9f164a6061257e04a7392d6948dbcb0"
+    "uid" : "c7a56c8951c8bbd440242d86660c49fd"
   } ]
 }
