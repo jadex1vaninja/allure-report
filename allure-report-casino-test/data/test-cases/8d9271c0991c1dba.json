@@ -1,0 +1,79 @@
+{
+  "uid" : "8d9271c0991c1dba",
+  "name" : "#2 Deep link to play reminders open login when not logged in before play reminders",
+  "fullName" : "Deep Link -> Play Reminders.#2 Deep link to play reminders open login when not logged in before play reminders",
+  "historyId" : "682462de3ffa03f2f895f4d0ee2ab98c",
+  "time" : {
+    "start" : 1660825718878,
+    "stop" : 1660825730375,
+    "duration" : 11497
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expected false to be true, 'Time Limit modal is not displayed after clicking the Time Limit menu item.'.",
+  "statusTrace" : "Error: Failed expectation\n                    at UserContext.<anonymous> (/home/dev/azure/eyas-test-automation/src/test/my-account/deep-links/play-reminders.spec.js:79:65)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expected false to be true, 'Time Limit modal is not displayed after clicking the Time Limit menu item.'.",
+    "statusTrace" : "Error: Failed expectation\n                    at UserContext.<anonymous> (/home/dev/azure/eyas-test-automation/src/test/my-account/deep-links/play-reminders.spec.js:79:65)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "eef2f012f7ee0c72",
+      "name" : "Screenshot",
+      "source" : "eef2f012f7ee0c72.png",
+      "type" : "image/png",
+      "size" : 193567
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Deep Link -> Play Reminders"
+  }, {
+    "name" : "testClass",
+    "value" : "Deep Link -> Play Reminders"
+  }, {
+    "name" : "testMethod",
+    "value" : "#2 Deep link to play reminders open login when not logged in before play reminders"
+  }, {
+    "name" : "package",
+    "value" : "Deep Link -> Play Reminders"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a43327b174485ba8",
+      "status" : "failed",
+      "statusDetails" : "Expected false to be true, 'Time Limit modal is not displayed after clicking the Time Limit menu item.'.",
+      "time" : {
+        "start" : 1660824963175,
+        "stop" : 1660824974434,
+        "duration" : 11259
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "8d9271c0991c1dba.json",
+  "parameterValues" : [ ]
+}

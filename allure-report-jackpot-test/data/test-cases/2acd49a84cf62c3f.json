@@ -1,0 +1,79 @@
+{
+  "uid" : "2acd49a84cf62c3f",
+  "name" : "#20 User has logged in, card is displayed, user clicks/taps on card then the user go to the game.",
+  "fullName" : "Live Casino.#20 User has logged in, card is displayed, user clicks/taps on card then the user go to the game.",
+  "historyId" : "6ebcfe35c4cf0ff96d901d98879cf437",
+  "time" : {
+    "start" : 1660824257577,
+    "stop" : 1660824266330,
+    "duration" : 8753
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expected 'https://jackpotuniverse-com-test.eyasgaming.net/uk/en/casino.html' to contain '/real', 'User has not go to the game.'.",
+  "statusTrace" : "Error: Failed expectation\n                    at UserContext.<anonymous> (/home/dev/azure/eyas-test-automation/src/test/live-casino/live-casino.spec.js:386:43)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expected 'https://jackpotuniverse-com-test.eyasgaming.net/uk/en/casino.html' to contain '/real', 'User has not go to the game.'.",
+    "statusTrace" : "Error: Failed expectation\n                    at UserContext.<anonymous> (/home/dev/azure/eyas-test-automation/src/test/live-casino/live-casino.spec.js:386:43)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d09a6e90f5923a6e",
+      "name" : "Screenshot",
+      "source" : "d09a6e90f5923a6e.png",
+      "type" : "image/png",
+      "size" : 296760
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Live Casino"
+  }, {
+    "name" : "testClass",
+    "value" : "Live Casino"
+  }, {
+    "name" : "testMethod",
+    "value" : "#20 User has logged in, card is displayed, user clicks/taps on card then the user go to the game."
+  }, {
+    "name" : "package",
+    "value" : "Live Casino"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "5dddaf5709532813",
+      "status" : "failed",
+      "statusDetails" : "Expected 'https://jackpotuniverse-com-test.eyasgaming.net/uk/en/casino.html' to contain '/real', 'User has not go to the game.'.",
+      "time" : {
+        "start" : 1660823384312,
+        "stop" : 1660823392756,
+        "duration" : 8444
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "2acd49a84cf62c3f.json",
+  "parameterValues" : [ ]
+}

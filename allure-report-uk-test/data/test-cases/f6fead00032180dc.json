@@ -1,0 +1,79 @@
+{
+  "uid" : "f6fead00032180dc",
+  "name" : "#05 After clicking on the location icon, the user will be redirected to the venue details page.",
+  "fullName" : "Venue > Search and expanded view.#05 After clicking on the location icon, the user will be redirected to the venue details page.",
+  "historyId" : "9c3eb6ac9bd3c7049b74b87d25805e52",
+  "time" : {
+    "start" : 1660827550625,
+    "stop" : 1660827552833,
+    "duration" : 2208
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expected 'https://merkurslots-com-test.eyasgaming.net/uk/en/venues.html#/venue/undefined' to contain 'en/venues.html#/venue/12128', '\"Venue Page\" error page is not displayed'.",
+  "statusTrace" : "Error: Failed expectation\n                    at UserContext.<anonymous> (/home/dev/azure/eyas-test-automation/src/test/venue/venue-search.spec.js:194:37)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expected 'https://merkurslots-com-test.eyasgaming.net/uk/en/venues.html#/venue/undefined' to contain 'en/venues.html#/venue/12128', '\"Venue Page\" error page is not displayed'.",
+    "statusTrace" : "Error: Failed expectation\n                    at UserContext.<anonymous> (/home/dev/azure/eyas-test-automation/src/test/venue/venue-search.spec.js:194:37)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f4f46a52819c322f",
+      "name" : "Screenshot",
+      "source" : "f4f46a52819c322f.png",
+      "type" : "image/png",
+      "size" : 118802
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Venue > Search and expanded view"
+  }, {
+    "name" : "testClass",
+    "value" : "Venue > Search and expanded view"
+  }, {
+    "name" : "testMethod",
+    "value" : "#05 After clicking on the location icon, the user will be redirected to the venue details page."
+  }, {
+    "name" : "package",
+    "value" : "Venue > Search and expanded view"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f6a14904ced75b98",
+      "status" : "failed",
+      "statusDetails" : "Expected 'https://merkurslots-com-test.eyasgaming.net/uk/en/venues.html#/venue/undefined' to contain 'en/venues.html#/venue/12128', '\"Venue Page\" error page is not displayed'.",
+      "time" : {
+        "start" : 1660826953331,
+        "stop" : 1660826955206,
+        "duration" : 1875
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "f6fead00032180dc.json",
+  "parameterValues" : [ ]
+}

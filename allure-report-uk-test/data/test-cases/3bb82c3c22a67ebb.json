@@ -1,0 +1,79 @@
+{
+  "uid" : "3bb82c3c22a67ebb",
+  "name" : "#02 User click on expanded search and see a Get directions btn, Telephone number, Opening times, More info.",
+  "fullName" : "Venue > Search and expanded view.#02 User click on expanded search and see a Get directions btn, Telephone number, Opening times, More info.",
+  "historyId" : "9c877bfce5c85578a85e3544db637b0f",
+  "time" : {
+    "start" : 1660827544005,
+    "stop" : 1660827547035,
+    "duration" : 3030
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expected $[0].text = '' to equal '10:00 am - 11:00 pm'.\n                Expected $[1].text = '' to equal '10:00 am - 11:00 pm'.\n                Expected $[2].text = '' to equal '10:00 am - 11:00 pm'.\n                Expected $[3].text = '' to equal '10:00 am - 11:00 pm'.\n                Expected $[4].text = '' to equal '10:00 am - 11:00 pm'.\n                Expected $[5].text = '' to equal '10:00 am - 11:00 pm'.\n                Expected $[6].text = '' to equal '9:00 am - 11:00 pm'.",
+  "statusTrace" : "Error: Failed expectation\n                    at VenuePageObject.checkWorkTimeAndDay (/home/dev/azure/eyas-test-automation/src/test/venue/venue.pageObject.js:274:25)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at UserContext.<anonymous> (/home/dev/azure/eyas-test-automation/src/test/venue/venue-search.spec.js:124:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expected $[0].text = '' to equal '10:00 am - 11:00 pm'.\n                Expected $[1].text = '' to equal '10:00 am - 11:00 pm'.\n                Expected $[2].text = '' to equal '10:00 am - 11:00 pm'.\n                Expected $[3].text = '' to equal '10:00 am - 11:00 pm'.\n                Expected $[4].text = '' to equal '10:00 am - 11:00 pm'.\n                Expected $[5].text = '' to equal '10:00 am - 11:00 pm'.\n                Expected $[6].text = '' to equal '9:00 am - 11:00 pm'.",
+    "statusTrace" : "Error: Failed expectation\n                    at VenuePageObject.checkWorkTimeAndDay (/home/dev/azure/eyas-test-automation/src/test/venue/venue.pageObject.js:274:25)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at UserContext.<anonymous> (/home/dev/azure/eyas-test-automation/src/test/venue/venue-search.spec.js:124:5)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d5318fd4fcb6eb5d",
+      "name" : "Screenshot",
+      "source" : "d5318fd4fcb6eb5d.png",
+      "type" : "image/png",
+      "size" : 302745
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Venue > Search and expanded view"
+  }, {
+    "name" : "testClass",
+    "value" : "Venue > Search and expanded view"
+  }, {
+    "name" : "testMethod",
+    "value" : "#02 User click on expanded search and see a Get directions btn, Telephone number, Opening times, More info."
+  }, {
+    "name" : "package",
+    "value" : "Venue > Search and expanded view"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "80289544762bfb9",
+      "status" : "failed",
+      "statusDetails" : "Expected $[0].text = '' to equal '10:00 am - 11:00 pm'.\n                Expected $[1].text = '' to equal '10:00 am - 11:00 pm'.\n                Expected $[2].text = '' to equal '10:00 am - 11:00 pm'.\n                Expected $[3].text = '' to equal '10:00 am - 11:00 pm'.\n                Expected $[4].text = '' to equal '10:00 am - 11:00 pm'.\n                Expected $[5].text = '' to equal '10:00 am - 11:00 pm'.\n                Expected $[6].text = '' to equal '9:00 am - 11:00 pm'.",
+      "time" : {
+        "start" : 1660826946504,
+        "stop" : 1660826949797,
+        "duration" : 3293
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "3bb82c3c22a67ebb.json",
+  "parameterValues" : [ ]
+}
