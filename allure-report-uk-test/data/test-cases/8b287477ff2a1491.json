@@ -1,0 +1,88 @@
+{
+  "uid" : "8b287477ff2a1491",
+  "name" : "#3 Active promotions are displayed in correct order.",
+  "fullName" : "Promotions functionality testing. Promotions functionality for authenticated user. Blocks of promotions..#3 Active promotions are displayed in correct order.",
+  "historyId" : "bd9be0eb6d578ed72d8caad0ade7e2b2",
+  "time" : {
+    "start" : 1661169411786,
+    "stop" : 1661169423363,
+    "duration" : 11577
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expected 3 to equal 7.",
+  "statusTrace" : "Error: Failed expectation\n                    at UserContext.<anonymous> (/home/dev/azure/eyas-test-automation/src/test/promotions/promotions.spec.js:90:64)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expected 3 to equal 7.",
+    "statusTrace" : "Error: Failed expectation\n                    at UserContext.<anonymous> (/home/dev/azure/eyas-test-automation/src/test/promotions/promotions.spec.js:90:64)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b8ecdb1fa6d0ca27",
+      "name" : "Screenshot",
+      "source" : "b8ecdb1fa6d0ca27.png",
+      "type" : "image/png",
+      "size" : 654465
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Promotions functionality testing. Promotions functionality for authenticated user. Blocks of promotions."
+  }, {
+    "name" : "testClass",
+    "value" : "Promotions functionality testing. Promotions functionality for authenticated user. Blocks of promotions."
+  }, {
+    "name" : "testMethod",
+    "value" : "#3 Active promotions are displayed in correct order."
+  }, {
+    "name" : "package",
+    "value" : "Promotions functionality testing. Promotions functionality for authenticated user. Blocks of promotions."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "76e19fa493f6d040",
+      "status" : "failed",
+      "statusDetails" : "Expected 3 to equal 5.",
+      "time" : {
+        "start" : 1661168944764,
+        "stop" : 1661168957035,
+        "duration" : 12271
+      }
+    }, {
+      "uid" : "9cdb737486235260",
+      "status" : "failed",
+      "statusDetails" : "Expected 3 to equal 5.",
+      "time" : {
+        "start" : 1660826748104,
+        "stop" : 1660826761017,
+        "duration" : 12913
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "8b287477ff2a1491.json",
+  "parameterValues" : [ ]
+}
