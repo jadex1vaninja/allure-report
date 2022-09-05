@@ -1,0 +1,79 @@
+{
+  "uid" : "367004478dd6c370",
+  "name" : "#9 Player can choose 18 months option for 'Self Exclusion' and this option should be selected.",
+  "fullName" : "My Account > Gambling Controls > Account Closure > Self Exclusion.#9 Player can choose 18 months option for 'Self Exclusion' and this option should be selected.",
+  "historyId" : "ba179a6afaea27ba964c15be25af2f9",
+  "time" : {
+    "start" : 1662361637013,
+    "stop" : 1662361643012,
+    "duration" : 5999
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Failed: element click intercepted: Element <button class=\"button button--secondary-alt button--large unauthenticated-header__login-btn\" type=\"button\" aria-disabled=\"false\">...</button> is not clickable at point (1272, 36). Other element would receive the click: <div class=\"notification-wrapper notification-wrapper--disabled-content\">...</div>\n                  (Session info: headless chrome=105.0.5195.102)\n                Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'\n                System info: host: 'smiss', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-46-generic', java.version: '11.0.16'\n                Driver info: driver.version: unknown",
+  "statusTrace" : "WebDriverError: element click intercepted: Element <button class=\"button button--secondary-alt button--large unauthenticated-header__login-btn\" type=\"button\" aria-disabled=\"false\">...</button> is not clickable at point (1272, 36). Other element would receive the click: <div class=\"notification-wrapper notification-wrapper--disabled-content\">...</div>\n                  (Session info: headless chrome=105.0.5195.102)\n                Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'\n                System info: host: 'smiss', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-46-generic', java.version: '11.0.16'\n                Driver info: driver.version: unknown\n                    at Object.checkLegacyResponse (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/error.js:546:15)\n                    at parseHttpResponse (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/http.js:509:13)\n                    at /home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/http.js:441:30\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                From: Task: WebElement.click()\n                    at thenableWebDriverProxy.schedule (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/webdriver.js:807:17)\n                    at WebElement.schedule_ (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/webdriver.js:2010:25)\n                    at WebElement.click (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/webdriver.js:2092:17)\n                    at actionFn (/home/dev/azure/eyas-test-automation/node_modules/protractor/built/element.js:89:44)\n                    at Array.map (<anonymous>)\n                    at /home/dev/azure/eyas-test-automation/node_modules/protractor/built/element.js:461:65\n                    at ManagedPromise.invokeCallback_ (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:1376:14)\n                    at TaskQueue.execute_ (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n                    at TaskQueue.executeNext_ (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n                    at /home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2927:27Error\n                    at ElementArrayFinder.applyAction_ (/home/dev/azure/eyas-test-automation/node_modules/protractor/built/element.js:459:27)\n                    at ElementArrayFinder.<computed> [as click] (/home/dev/azure/eyas-test-automation/node_modules/protractor/built/element.js:91:29)\n                    at ElementFinder.<computed> [as click] (/home/dev/azure/eyas-test-automation/node_modules/protractor/built/element.js:831:22)\n                    at Home.openLoginModal (/home/dev/azure/eyas-test-automation/src/test/page.pageObject.js:48:33)\n                    at UserContext.<anonymous> (/home/dev/azure/eyas-test-automation/src/test/my-account/gambling-controls/self-exclusion.spec.js:41:14)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                From: Task: Run beforeEach in control flow\n                    at UserContext.<anonymous> (/home/dev/azure/eyas-test-automation/node_modules/jasminewd2/index.js:94:19)\n                    at attempt (/home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4297:26)\n                    at QueueRunner.run (/home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4217:20)\n                    at QueueRunner.execute (/home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4199:10)\n                    at Spec.queueRunnerFactory (/home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:909:35)\n                    at Spec.execute (/home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:526:10)\n                    at UserContext.fn (/home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:5340:37)\n                    at attempt (/home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4297:26)\n                    at QueueRunner.run (/home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4217:20)\n                    at runNext (/home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4257:20)\n                From asynchronous test: \n                Error\n                    at Object.<anonymous> (/home/dev/azure/eyas-test-automation/src/test/my-account/gambling-controls/self-exclusion.spec.js:33:1)\n                    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n                    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n                    at Module.load (node:internal/modules/cjs/loader:981:32)\n                    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n                    at Module.require (node:internal/modules/cjs/loader:1005:19)\n                    at require (node:internal/modules/cjs/helpers:102:18)\n                    at /home/dev/azure/eyas-test-automation/node_modules/jasmine/lib/jasmine.js:93:5\n                    at Array.forEach (<anonymous>)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Failed: element click intercepted: Element <button class=\"button button--secondary-alt button--large unauthenticated-header__login-btn\" type=\"button\" aria-disabled=\"false\">...</button> is not clickable at point (1272, 36). Other element would receive the click: <div class=\"notification-wrapper notification-wrapper--disabled-content\">...</div>\n                  (Session info: headless chrome=105.0.5195.102)\n                Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'\n                System info: host: 'smiss', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-46-generic', java.version: '11.0.16'\n                Driver info: driver.version: unknown",
+    "statusTrace" : "WebDriverError: element click intercepted: Element <button class=\"button button--secondary-alt button--large unauthenticated-header__login-btn\" type=\"button\" aria-disabled=\"false\">...</button> is not clickable at point (1272, 36). Other element would receive the click: <div class=\"notification-wrapper notification-wrapper--disabled-content\">...</div>\n                  (Session info: headless chrome=105.0.5195.102)\n                Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'\n                System info: host: 'smiss', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-46-generic', java.version: '11.0.16'\n                Driver info: driver.version: unknown\n                    at Object.checkLegacyResponse (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/error.js:546:15)\n                    at parseHttpResponse (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/http.js:509:13)\n                    at /home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/http.js:441:30\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                From: Task: WebElement.click()\n                    at thenableWebDriverProxy.schedule (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/webdriver.js:807:17)\n                    at WebElement.schedule_ (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/webdriver.js:2010:25)\n                    at WebElement.click (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/webdriver.js:2092:17)\n                    at actionFn (/home/dev/azure/eyas-test-automation/node_modules/protractor/built/element.js:89:44)\n                    at Array.map (<anonymous>)\n                    at /home/dev/azure/eyas-test-automation/node_modules/protractor/built/element.js:461:65\n                    at ManagedPromise.invokeCallback_ (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:1376:14)\n                    at TaskQueue.execute_ (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n                    at TaskQueue.executeNext_ (/home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n                    at /home/dev/azure/eyas-test-automation/node_modules/selenium-webdriver/lib/promise.js:2927:27Error\n                    at ElementArrayFinder.applyAction_ (/home/dev/azure/eyas-test-automation/node_modules/protractor/built/element.js:459:27)\n                    at ElementArrayFinder.<computed> [as click] (/home/dev/azure/eyas-test-automation/node_modules/protractor/built/element.js:91:29)\n                    at ElementFinder.<computed> [as click] (/home/dev/azure/eyas-test-automation/node_modules/protractor/built/element.js:831:22)\n                    at Home.openLoginModal (/home/dev/azure/eyas-test-automation/src/test/page.pageObject.js:48:33)\n                    at UserContext.<anonymous> (/home/dev/azure/eyas-test-automation/src/test/my-account/gambling-controls/self-exclusion.spec.js:41:14)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                From: Task: Run beforeEach in control flow\n                    at UserContext.<anonymous> (/home/dev/azure/eyas-test-automation/node_modules/jasminewd2/index.js:94:19)\n                    at attempt (/home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4297:26)\n                    at QueueRunner.run (/home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4217:20)\n                    at QueueRunner.execute (/home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4199:10)\n                    at Spec.queueRunnerFactory (/home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:909:35)\n                    at Spec.execute (/home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:526:10)\n                    at UserContext.fn (/home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:5340:37)\n                    at attempt (/home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4297:26)\n                    at QueueRunner.run (/home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4217:20)\n                    at runNext (/home/dev/azure/eyas-test-automation/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4257:20)\n                From asynchronous test: \n                Error\n                    at Object.<anonymous> (/home/dev/azure/eyas-test-automation/src/test/my-account/gambling-controls/self-exclusion.spec.js:33:1)\n                    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n                    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n                    at Module.load (node:internal/modules/cjs/loader:981:32)\n                    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n                    at Module.require (node:internal/modules/cjs/loader:1005:19)\n                    at require (node:internal/modules/cjs/helpers:102:18)\n                    at /home/dev/azure/eyas-test-automation/node_modules/jasmine/lib/jasmine.js:93:5\n                    at Array.forEach (<anonymous>)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "69f86d39a99bf79b",
+      "name" : "Screenshot",
+      "source" : "69f86d39a99bf79b.png",
+      "type" : "image/png",
+      "size" : 432760
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "My Account > Gambling Controls > Account Closure > Self Exclusion"
+  }, {
+    "name" : "testClass",
+    "value" : "My Account > Gambling Controls > Account Closure > Self Exclusion"
+  }, {
+    "name" : "testMethod",
+    "value" : "#9 Player can choose 18 months option for 'Self Exclusion' and this option should be selected."
+  }, {
+    "name" : "package",
+    "value" : "My Account > Gambling Controls > Account Closure > Self Exclusion"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c4d362199f2b3946",
+      "status" : "failed",
+      "statusDetails" : "Failed: element click intercepted: Element <button class=\"button button--secondary-alt button--large unauthenticated-header__login-btn\" type=\"button\" aria-disabled=\"false\">...</button> is not clickable at point (1272, 36). Other element would receive the click: <div class=\"notification-wrapper notification-wrapper--disabled-content\">...</div>\n                  (Session info: headless chrome=105.0.5195.102)\n                Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'\n                System info: host: 'smiss', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-46-generic', java.version: '11.0.16'\n                Driver info: driver.version: unknown",
+      "time" : {
+        "start" : 1662361158654,
+        "stop" : 1662361163494,
+        "duration" : 4840
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "367004478dd6c370.json",
+  "parameterValues" : [ ]
+}
