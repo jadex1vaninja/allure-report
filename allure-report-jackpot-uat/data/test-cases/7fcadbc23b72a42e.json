@@ -1,0 +1,97 @@
+{
+  "uid" : "7fcadbc23b72a42e",
+  "name" : "#03 Address Line 1 field is a mandatory field.",
+  "fullName" : "Registration > Step 3.#03 Address Line 1 field is a mandatory field.",
+  "historyId" : "ed863aef739859518a8314ea9643b1f0",
+  "time" : {
+    "start" : 1662383791242,
+    "stop" : 1662383799641,
+    "duration" : 8399
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expected 'This field must be corrected to complete registration.' to contain 'Please complete this step to continue registration', 'Address Line 1 required field error has incorrect text.'.",
+  "statusTrace" : "Error: Failed expectation\n                    at UserContext.<anonymous> (/home/dev/azure/eyas-test-automation/src/test/registration/registration-step-4.spec.js:295:11)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expected 'This field must be corrected to complete registration.' to contain 'Please complete this step to continue registration', 'Address Line 1 required field error has incorrect text.'.",
+    "statusTrace" : "Error: Failed expectation\n                    at UserContext.<anonymous> (/home/dev/azure/eyas-test-automation/src/test/registration/registration-step-4.spec.js:295:11)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e4822a911f1cec48",
+      "name" : "Screenshot",
+      "source" : "e4822a911f1cec48.png",
+      "type" : "image/png",
+      "size" : 1381765
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Registration > Step 3"
+  }, {
+    "name" : "testClass",
+    "value" : "Registration > Step 3"
+  }, {
+    "name" : "testMethod",
+    "value" : "#03 Address Line 1 field is a mandatory field."
+  }, {
+    "name" : "package",
+    "value" : "Registration > Step 3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c4dc94f05b148097",
+      "status" : "failed",
+      "statusDetails" : "Expected 'This field must be corrected to complete registration.' to contain 'Please complete this step to continue registration', 'Address Line 1 required field error has incorrect text.'.",
+      "time" : {
+        "start" : 1662383239341,
+        "stop" : 1662383247736,
+        "duration" : 8395
+      }
+    }, {
+      "uid" : "b4a2c96f2daa47a6",
+      "status" : "failed",
+      "statusDetails" : "Expected 'This field must be corrected to complete registration.' to contain 'Please complete this step to continue registration', 'Address Line 1 required field error has incorrect text.'.",
+      "time" : {
+        "start" : 1662359806208,
+        "stop" : 1662359814013,
+        "duration" : 7805
+      }
+    }, {
+      "uid" : "16e37dc655118a21",
+      "status" : "failed",
+      "statusDetails" : "Expected 'This field must be corrected to complete registration.' to contain 'Please complete this step to continue registration', 'Address Line 1 required field error has incorrect text.'.",
+      "time" : {
+        "start" : 1662359033892,
+        "stop" : 1662359042313,
+        "duration" : 8421
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "7fcadbc23b72a42e.json",
+  "parameterValues" : [ ]
+}

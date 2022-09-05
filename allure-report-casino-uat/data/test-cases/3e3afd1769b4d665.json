@@ -1,0 +1,80 @@
+{
+  "uid" : "3e3afd1769b4d665",
+  "name" : "#13 User doesn`t click on confirm checkbox, tries to click success registration button and error text is shown.",
+  "fullName" : "Registration > Step 4.#13 User doesn`t click on confirm checkbox, tries to click success registration button and error text is shown.",
+  "historyId" : "edc7ea4a30be0f87bf59b5a42d8d6e25",
+  "time" : {
+    "start" : 1662384734313,
+    "stop" : 1662384741443,
+    "duration" : 7130
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "8b43553bd3438294",
+      "name" : "Screenshot",
+      "source" : "8b43553bd3438294.png",
+      "type" : "image/png",
+      "size" : 63512
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Registration > Step 4"
+  }, {
+    "name" : "testClass",
+    "value" : "Registration > Step 4"
+  }, {
+    "name" : "testMethod",
+    "value" : "#13 User doesn`t click on confirm checkbox, tries to click success registration button and error text is shown."
+  }, {
+    "name" : "package",
+    "value" : "Registration > Step 4"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "cbd2ff719ea02a1d",
+      "status" : "failed",
+      "statusDetails" : "Failed: element click intercepted: Element <input autocomplete=\"bday\" type=\"text\" inputmode=\"numeric\" name=\"dateOfBirth\" class=\"input__box\" id=\"dateOfBirth\" value=\"\"> is not clickable at point (963, 351). Other element would receive the click: <div class=\"notification-wrapper notification-wrapper--disabled-content\">...</div>\n                  (Session info: headless chrome=105.0.5195.102)\n                Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'\n                System info: host: 'smiss', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-46-generic', java.version: '11.0.16'\n                Driver info: driver.version: unknown",
+      "time" : {
+        "start" : 1662360773055,
+        "stop" : 1662360777138,
+        "duration" : 4083
+      }
+    }, {
+      "uid" : "232498f00fd6e315",
+      "status" : "failed",
+      "statusDetails" : "Failed: element click intercepted: Element <input autocomplete=\"bday\" type=\"text\" inputmode=\"numeric\" name=\"dateOfBirth\" class=\"input__box\" id=\"dateOfBirth\" value=\"\"> is not clickable at point (964, 351). Other element would receive the click: <div class=\"notification-wrapper notification-wrapper--disabled-content\">...</div>\n                  (Session info: headless chrome=105.0.5195.102)\n                Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'\n                System info: host: 'smiss', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-46-generic', java.version: '11.0.16'\n                Driver info: driver.version: unknown",
+      "time" : {
+        "start" : 1662360416406,
+        "stop" : 1662360420156,
+        "duration" : 3750
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3e3afd1769b4d665.json",
+  "parameterValues" : [ ]
+}

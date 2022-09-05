@@ -1,0 +1,88 @@
+{
+  "uid" : "4f7658cba101096a",
+  "name" : "#16 Phone Number will display an error when entering non-numeric values into input.",
+  "fullName" : "Registration > Step 3.#16 Phone Number will display an error when entering non-numeric values into input.",
+  "historyId" : "7a82ed8df026e5f51b162ba5bce73a30",
+  "time" : {
+    "start" : 1662386987192,
+    "stop" : 1662386993557,
+    "duration" : 6365
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "4f3aab343ea70f51",
+      "name" : "Screenshot",
+      "source" : "4f3aab343ea70f51.png",
+      "type" : "image/png",
+      "size" : 352430
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Registration > Step 3"
+  }, {
+    "name" : "testClass",
+    "value" : "Registration > Step 3"
+  }, {
+    "name" : "testMethod",
+    "value" : "#16 Phone Number will display an error when entering non-numeric values into input."
+  }, {
+    "name" : "package",
+    "value" : "Registration > Step 3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "9438a1437b0e775",
+      "status" : "passed",
+      "time" : {
+        "start" : 1662386149419,
+        "stop" : 1662386158168,
+        "duration" : 8749
+      }
+    }, {
+      "uid" : "9eac3b17595cbf3b",
+      "status" : "failed",
+      "statusDetails" : "Failed: element click intercepted: Element <input autocomplete=\"bday\" type=\"text\" inputmode=\"numeric\" name=\"dateOfBirth\" class=\"input__box\" id=\"dateOfBirth\" value=\"\"> is not clickable at point (966, 351). Other element would receive the click: <div class=\"notification-wrapper notification-wrapper--disabled-content\">...</div>\n                  (Session info: headless chrome=105.0.5195.102)\n                Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'\n                System info: host: 'smiss', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-46-generic', java.version: '11.0.16'\n                Driver info: driver.version: unknown",
+      "time" : {
+        "start" : 1662361856128,
+        "stop" : 1662361859683,
+        "duration" : 3555
+      }
+    }, {
+      "uid" : "2aa4396a28426339",
+      "status" : "failed",
+      "statusDetails" : "Failed: element click intercepted: Element <input autocomplete=\"bday\" type=\"text\" inputmode=\"numeric\" name=\"dateOfBirth\" class=\"input__box\" id=\"dateOfBirth\" value=\"\"> is not clickable at point (963, 351). Other element would receive the click: <div class=\"notification-wrapper notification-wrapper--disabled-content\">...</div>\n                  (Session info: headless chrome=105.0.5195.102)\n                Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'\n                System info: host: 'smiss', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-46-generic', java.version: '11.0.16'\n                Driver info: driver.version: unknown",
+      "time" : {
+        "start" : 1662361325608,
+        "stop" : 1662361330181,
+        "duration" : 4573
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4f7658cba101096a.json",
+  "parameterValues" : [ ]
+}

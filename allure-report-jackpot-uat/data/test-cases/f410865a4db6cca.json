@@ -1,0 +1,87 @@
+{
+  "uid" : "f410865a4db6cca",
+  "name" : "#11 New password must contain a minimum of 8 characters.",
+  "fullName" : "My Account > Settings > Change Password.#11 New password must contain a minimum of 8 characters.",
+  "historyId" : "112d428f7a58ea69a90eae33cd75ac78",
+  "time" : {
+    "start" : 1662383819657,
+    "stop" : 1662383831245,
+    "duration" : 11588
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "14a2ec7236d78313",
+      "name" : "Screenshot",
+      "source" : "14a2ec7236d78313.png",
+      "type" : "image/png",
+      "size" : 162528
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "My Account > Settings > Change Password"
+  }, {
+    "name" : "testClass",
+    "value" : "My Account > Settings > Change Password"
+  }, {
+    "name" : "testMethod",
+    "value" : "#11 New password must contain a minimum of 8 characters."
+  }, {
+    "name" : "package",
+    "value" : "My Account > Settings > Change Password"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "7d9d4c25e8cf95ba",
+      "status" : "passed",
+      "time" : {
+        "start" : 1662383202875,
+        "stop" : 1662383214444,
+        "duration" : 11569
+      }
+    }, {
+      "uid" : "76c5abde82d04ad",
+      "status" : "failed",
+      "statusDetails" : "Failed: No element found using locator: By(css selector, [data-testid='navigation-Account-link'])",
+      "time" : {
+        "start" : 1662359704402,
+        "stop" : 1662359709756,
+        "duration" : 5354
+      }
+    }, {
+      "uid" : "47d1f7df6126090",
+      "status" : "passed",
+      "time" : {
+        "start" : 1662358950546,
+        "stop" : 1662358961643,
+        "duration" : 11097
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f410865a4db6cca.json",
+  "parameterValues" : [ ]
+}

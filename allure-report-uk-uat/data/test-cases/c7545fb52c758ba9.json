@@ -1,0 +1,80 @@
+{
+  "uid" : "c7545fb52c758ba9",
+  "name" : "#08 User cannot enter invalid characters into step 2 name input fields.",
+  "fullName" : "Registration > Step 2.#08 User cannot enter invalid characters into step 2 name input fields.",
+  "historyId" : "8a8fa3710d09dde27caa78980ca25094",
+  "time" : {
+    "start" : 1662386045315,
+    "stop" : 1662386050239,
+    "duration" : 4924
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7f1a6065d0f56cdb",
+      "name" : "Screenshot",
+      "source" : "7f1a6065d0f56cdb.png",
+      "type" : "image/png",
+      "size" : 342533
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Registration > Step 2"
+  }, {
+    "name" : "testClass",
+    "value" : "Registration > Step 2"
+  }, {
+    "name" : "testMethod",
+    "value" : "#08 User cannot enter invalid characters into step 2 name input fields."
+  }, {
+    "name" : "package",
+    "value" : "Registration > Step 2"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "55fdbbd640bfa955",
+      "status" : "failed",
+      "statusDetails" : "Failed: element click intercepted: Element <input autocomplete=\"family-name\" autocorrect=\"off\" name=\"lastname\" id=\"lastname\" class=\"input__box\" value=\"\"> is not clickable at point (962, 283). Other element would receive the click: <div class=\"notification-wrapper notification-wrapper--disabled-content\">...</div>\n                  (Session info: headless chrome=105.0.5195.102)\n                Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'\n                System info: host: 'smiss', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-46-generic', java.version: '11.0.16'\n                Driver info: driver.version: unknown",
+      "time" : {
+        "start" : 1662361734029,
+        "stop" : 1662361740012,
+        "duration" : 5983
+      }
+    }, {
+      "uid" : "7286e10626db0a0c",
+      "status" : "failed",
+      "statusDetails" : "Failed: element click intercepted: Element <input autocomplete=\"family-name\" autocorrect=\"off\" name=\"lastname\" id=\"lastname\" class=\"input__box\" value=\"\"> is not clickable at point (962, 283). Other element would receive the click: <div class=\"notification-wrapper notification-wrapper--disabled-content\">...</div>\n                  (Session info: headless chrome=105.0.5195.102)\n                Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'\n                System info: host: 'smiss', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-46-generic', java.version: '11.0.16'\n                Driver info: driver.version: unknown",
+      "time" : {
+        "start" : 1662361274354,
+        "stop" : 1662361279108,
+        "duration" : 4754
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c7545fb52c758ba9.json",
+  "parameterValues" : [ ]
+}

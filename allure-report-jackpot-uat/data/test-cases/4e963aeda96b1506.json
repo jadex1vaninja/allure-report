@@ -1,0 +1,64 @@
+{
+  "uid" : "4e963aeda96b1506",
+  "name" : "#4 Player cannot continue with 'Time Limit' if a limit is not selected.",
+  "fullName" : "My Account > Gambling Controls > Play Reminders.#4 Player cannot continue with 'Time Limit' if a limit is not selected.",
+  "historyId" : "d62fac6cf0860952da786f4fc119182d",
+  "time" : {
+    "start" : 1662382962467,
+    "stop" : 1662382975504,
+    "duration" : 13037
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expected 'You can change your Play Reminder settings at any point.' to contain 'This is your current interval duration. Please choose another or press 'Cancel'', 'Incorrect error message shown.'.",
+  "statusTrace" : "Error: Failed expectation\n                    at UserContext.<anonymous> (/home/dev/azure/eyas-test-automation/src/test/my-account/gambling-controls/play-reminders.spec.js:169:60)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expected 'You can change your Play Reminder settings at any point.' to contain 'This is your current interval duration. Please choose another or press 'Cancel'', 'Incorrect error message shown.'.",
+    "statusTrace" : "Error: Failed expectation\n                    at UserContext.<anonymous> (/home/dev/azure/eyas-test-automation/src/test/my-account/gambling-controls/play-reminders.spec.js:169:60)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "929c09e6ec4efc0",
+      "name" : "Screenshot",
+      "source" : "929c09e6ec4efc0.png",
+      "type" : "image/png",
+      "size" : 169174
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "My Account > Gambling Controls > Play Reminders"
+  }, {
+    "name" : "testClass",
+    "value" : "My Account > Gambling Controls > Play Reminders"
+  }, {
+    "name" : "testMethod",
+    "value" : "#4 Player cannot continue with 'Time Limit' if a limit is not selected."
+  }, {
+    "name" : "package",
+    "value" : "My Account > Gambling Controls > Play Reminders"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4e963aeda96b1506.json",
+  "parameterValues" : [ ]
+}

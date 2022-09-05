@@ -1,0 +1,97 @@
+{
+  "uid" : "5f159d259819cd52",
+  "name" : "#8 Check user is displayed with a declined modal when safecharge returns a declined response",
+  "fullName" : "My Account -> Deposit.#8 Check user is displayed with a declined modal when safecharge returns a declined response",
+  "historyId" : "612b5276f3853418be1cf8bea5ffd4da",
+  "time" : {
+    "start" : 1662386791863,
+    "stop" : 1662386816659,
+    "duration" : 24796
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expected 'Or' to contain 'CONTACT US', 'Contact support button does not contain correct text'.",
+  "statusTrace" : "Error: Failed expectation\n                    at UserContext.<anonymous> (/home/dev/azure/eyas-test-automation/src/test/my-account/my-account-deposit.spec.js:459:57)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expected 'Or' to contain 'CONTACT US', 'Contact support button does not contain correct text'.",
+    "statusTrace" : "Error: Failed expectation\n                    at UserContext.<anonymous> (/home/dev/azure/eyas-test-automation/src/test/my-account/my-account-deposit.spec.js:459:57)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a3fb24d40f55df3c",
+      "name" : "Screenshot",
+      "source" : "a3fb24d40f55df3c.png",
+      "type" : "image/png",
+      "size" : 188977
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "My Account -> Deposit"
+  }, {
+    "name" : "testClass",
+    "value" : "My Account -> Deposit"
+  }, {
+    "name" : "testMethod",
+    "value" : "#8 Check user is displayed with a declined modal when safecharge returns a declined response"
+  }, {
+    "name" : "package",
+    "value" : "My Account -> Deposit"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "e173e1ed8d0be7ba",
+      "status" : "failed",
+      "statusDetails" : "Expected 'Or' to contain 'CONTACT US', 'Contact support button does not contain correct text'.",
+      "time" : {
+        "start" : 1662385870079,
+        "stop" : 1662385893228,
+        "duration" : 23149
+      }
+    }, {
+      "uid" : "291012524496cf3b",
+      "status" : "failed",
+      "statusDetails" : "Failed: element click intercepted: Element <button class=\"button button--secondary-alt button--large unauthenticated-header__login-btn\" type=\"button\" aria-disabled=\"false\">...</button> is not clickable at point (1272, 36). Other element would receive the click: <div class=\"notification-wrapper notification-wrapper--disabled-content\">...</div>\n                  (Session info: headless chrome=105.0.5195.102)\n                Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'\n                System info: host: 'smiss', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-46-generic', java.version: '11.0.16'\n                Driver info: driver.version: unknown",
+      "time" : {
+        "start" : 1662361550009,
+        "stop" : 1662361554231,
+        "duration" : 4222
+      }
+    }, {
+      "uid" : "8d30529acd67b61e",
+      "status" : "failed",
+      "statusDetails" : "Failed: element click intercepted: Element <button class=\"button button--secondary-alt button--large unauthenticated-header__login-btn\" type=\"button\" aria-disabled=\"false\">...</button> is not clickable at point (1272, 36). Other element would receive the click: <div class=\"notification-wrapper notification-wrapper--disabled-content\">...</div>\n                  (Session info: headless chrome=105.0.5195.102)\n                Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'\n                System info: host: 'smiss', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-46-generic', java.version: '11.0.16'\n                Driver info: driver.version: unknown",
+      "time" : {
+        "start" : 1662361177667,
+        "stop" : 1662361182070,
+        "duration" : 4403
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "5f159d259819cd52.json",
+  "parameterValues" : [ ]
+}

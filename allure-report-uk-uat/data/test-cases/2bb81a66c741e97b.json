@@ -1,0 +1,88 @@
+{
+  "uid" : "2bb81a66c741e97b",
+  "name" : "#8 New password must contain a number.",
+  "fullName" : "My Account > Settings > Change Password.#8 New password must contain a number.",
+  "historyId" : "da2e9fc7f3e047e1f516dcca138820f6",
+  "time" : {
+    "start" : 1662386826512,
+    "stop" : 1662386839221,
+    "duration" : 12709
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "43cd5bf98eda025d",
+      "name" : "Screenshot",
+      "source" : "43cd5bf98eda025d.png",
+      "type" : "image/png",
+      "size" : 254020
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "My Account > Settings > Change Password"
+  }, {
+    "name" : "testClass",
+    "value" : "My Account > Settings > Change Password"
+  }, {
+    "name" : "testMethod",
+    "value" : "#8 New password must contain a number."
+  }, {
+    "name" : "package",
+    "value" : "My Account > Settings > Change Password"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "71609ac4ce677833",
+      "status" : "passed",
+      "time" : {
+        "start" : 1662385979035,
+        "stop" : 1662385991785,
+        "duration" : 12750
+      }
+    }, {
+      "uid" : "563868140604ac86",
+      "status" : "failed",
+      "statusDetails" : "Failed: element click intercepted: Element <button class=\"button button--secondary-alt button--large unauthenticated-header__login-btn\" type=\"button\" aria-disabled=\"false\">...</button> is not clickable at point (1272, 36). Other element would receive the click: <div class=\"notification-wrapper notification-wrapper--disabled-content\">...</div>\n                  (Session info: headless chrome=105.0.5195.102)\n                Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'\n                System info: host: 'smiss', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-46-generic', java.version: '11.0.16'\n                Driver info: driver.version: unknown",
+      "time" : {
+        "start" : 1662361658417,
+        "stop" : 1662361661934,
+        "duration" : 3517
+      }
+    }, {
+      "uid" : "b62862ec99719c28",
+      "status" : "failed",
+      "statusDetails" : "Failed: element click intercepted: Element <button class=\"button button--secondary-alt button--large unauthenticated-header__login-btn\" type=\"button\" aria-disabled=\"false\">...</button> is not clickable at point (1272, 36). Other element would receive the click: <div class=\"notification-wrapper notification-wrapper--disabled-content\">...</div>\n                  (Session info: headless chrome=105.0.5195.102)\n                Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'\n                System info: host: 'smiss', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-46-generic', java.version: '11.0.16'\n                Driver info: driver.version: unknown",
+      "time" : {
+        "start" : 1662361222572,
+        "stop" : 1662361225944,
+        "duration" : 3372
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2bb81a66c741e97b.json",
+  "parameterValues" : [ ]
+}

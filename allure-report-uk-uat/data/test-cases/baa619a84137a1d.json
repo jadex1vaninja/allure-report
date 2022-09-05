@@ -1,0 +1,88 @@
+{
+  "uid" : "baa619a84137a1d",
+  "name" : "#06 Post Code field is a mandatory field.",
+  "fullName" : "Registration > Step 3.#06 Post Code field is a mandatory field.",
+  "historyId" : "3fa9c457a15bf5f69fb148298e3620c",
+  "time" : {
+    "start" : 1662386927760,
+    "stop" : 1662386936964,
+    "duration" : 9204
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c3b517bab10271cc",
+      "name" : "Screenshot",
+      "source" : "c3b517bab10271cc.png",
+      "type" : "image/png",
+      "size" : 349603
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Registration > Step 3"
+  }, {
+    "name" : "testClass",
+    "value" : "Registration > Step 3"
+  }, {
+    "name" : "testMethod",
+    "value" : "#06 Post Code field is a mandatory field."
+  }, {
+    "name" : "package",
+    "value" : "Registration > Step 3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "68c11673e2f308ba",
+      "status" : "passed",
+      "time" : {
+        "start" : 1662386090595,
+        "stop" : 1662386097196,
+        "duration" : 6601
+      }
+    }, {
+      "uid" : "d277d9b8ac775788",
+      "status" : "failed",
+      "statusDetails" : "Failed: element click intercepted: Element <input autocomplete=\"bday\" type=\"text\" inputmode=\"numeric\" name=\"dateOfBirth\" class=\"input__box\" id=\"dateOfBirth\" value=\"\"> is not clickable at point (963, 351). Other element would receive the click: <div class=\"notification-wrapper notification-wrapper--disabled-content\">...</div>\n                  (Session info: headless chrome=105.0.5195.102)\n                Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'\n                System info: host: 'smiss', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-46-generic', java.version: '11.0.16'\n                Driver info: driver.version: unknown",
+      "time" : {
+        "start" : 1662361821960,
+        "stop" : 1662361826561,
+        "duration" : 4601
+      }
+    }, {
+      "uid" : "d26c16bcb8b262fc",
+      "status" : "failed",
+      "statusDetails" : "Failed: element click intercepted: Element <input autocomplete=\"bday\" type=\"text\" inputmode=\"numeric\" name=\"dateOfBirth\" class=\"input__box\" id=\"dateOfBirth\" value=\"\"> is not clickable at point (962, 351). Other element would receive the click: <div class=\"notification-wrapper notification-wrapper--disabled-content\">...</div>\n                  (Session info: headless chrome=105.0.5195.102)\n                Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'\n                System info: host: 'smiss', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-46-generic', java.version: '11.0.16'\n                Driver info: driver.version: unknown",
+      "time" : {
+        "start" : 1662361286275,
+        "stop" : 1662361291414,
+        "duration" : 5139
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "baa619a84137a1d.json",
+  "parameterValues" : [ ]
+}

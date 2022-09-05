@@ -1,0 +1,80 @@
+{
+  "uid" : "bd88dbb686aaf54",
+  "name" : "#08 User can not enter an invaild email address (space in email).",
+  "fullName" : "Registration > Step 1.#08 User can not enter an invaild email address (space in email).",
+  "historyId" : "ba34d0a1c58fc188857d8701b588ce05",
+  "time" : {
+    "start" : 1662386041330,
+    "stop" : 1662386045374,
+    "duration" : 4044
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7b8e9cafbdf248dc",
+      "name" : "Screenshot",
+      "source" : "7b8e9cafbdf248dc.png",
+      "type" : "image/png",
+      "size" : 343038
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Registration > Step 1"
+  }, {
+    "name" : "testClass",
+    "value" : "Registration > Step 1"
+  }, {
+    "name" : "testMethod",
+    "value" : "#08 User can not enter an invaild email address (space in email)."
+  }, {
+    "name" : "package",
+    "value" : "Registration > Step 1"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f8a09337330765bc",
+      "status" : "failed",
+      "statusDetails" : "Failed: element click intercepted: Element <input autocomplete=\"new-password\" maxlength=\"100\" name=\"password\" id=\"password\" type=\"password\" class=\"input__box\" value=\"\"> is not clickable at point (962, 301). Other element would receive the click: <div class=\"notification-wrapper notification-wrapper--disabled-content\">...</div>\n                  (Session info: headless chrome=105.0.5195.102)\n                Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'\n                System info: host: 'smiss', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-46-generic', java.version: '11.0.16'\n                Driver info: driver.version: unknown",
+      "time" : {
+        "start" : 1662361724062,
+        "stop" : 1662361727374,
+        "duration" : 3312
+      }
+    }, {
+      "uid" : "37898339843d9dcf",
+      "status" : "failed",
+      "statusDetails" : "Failed: element click intercepted: Element <input autocomplete=\"new-password\" maxlength=\"100\" name=\"password\" id=\"password\" type=\"password\" class=\"input__box\" value=\"\"> is not clickable at point (962, 301). Other element would receive the click: <div class=\"notification-wrapper notification-wrapper--disabled-content\">...</div>\n                  (Session info: headless chrome=105.0.5195.102)\n                Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'\n                System info: host: 'smiss', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-46-generic', java.version: '11.0.16'\n                Driver info: driver.version: unknown",
+      "time" : {
+        "start" : 1662361250168,
+        "stop" : 1662361253038,
+        "duration" : 2870
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bd88dbb686aaf54.json",
+  "parameterValues" : [ ]
+}

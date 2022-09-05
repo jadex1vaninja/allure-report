@@ -1,0 +1,97 @@
+{
+  "uid" : "e889998dafcc4142",
+  "name" : "#4 Player cannot continue with 'Time Limit' if a limit is not selected.",
+  "fullName" : "My Account > Gambling Controls > Play Reminders.#4 Player cannot continue with 'Time Limit' if a limit is not selected.",
+  "historyId" : "d62fac6cf0860952da786f4fc119182d",
+  "time" : {
+    "start" : 1662385139640,
+    "stop" : 1662385153859,
+    "duration" : 14219
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expected 'You can change your Play Reminder settings at any point.' to contain 'This is your current interval duration. Please choose another or press 'Cancel'', 'Incorrect error message shown.'.",
+  "statusTrace" : "Error: Failed expectation\n                    at UserContext.<anonymous> (/home/dev/azure/eyas-test-automation/src/test/my-account/gambling-controls/play-reminders.spec.js:169:60)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expected 'You can change your Play Reminder settings at any point.' to contain 'This is your current interval duration. Please choose another or press 'Cancel'', 'Incorrect error message shown.'.",
+    "statusTrace" : "Error: Failed expectation\n                    at UserContext.<anonymous> (/home/dev/azure/eyas-test-automation/src/test/my-account/gambling-controls/play-reminders.spec.js:169:60)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f4fa697122f30671",
+      "name" : "Screenshot",
+      "source" : "f4fa697122f30671.png",
+      "type" : "image/png",
+      "size" : 254735
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "My Account > Gambling Controls > Play Reminders"
+  }, {
+    "name" : "testClass",
+    "value" : "My Account > Gambling Controls > Play Reminders"
+  }, {
+    "name" : "testMethod",
+    "value" : "#4 Player cannot continue with 'Time Limit' if a limit is not selected."
+  }, {
+    "name" : "package",
+    "value" : "My Account > Gambling Controls > Play Reminders"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "366aa93e4801bc95",
+      "status" : "failed",
+      "statusDetails" : "Expected 'You can change your Play Reminder settings at any point.' to contain 'This is your current interval duration. Please choose another or press 'Cancel'', 'Incorrect error message shown.'.",
+      "time" : {
+        "start" : 1662384391141,
+        "stop" : 1662384403783,
+        "duration" : 12642
+      }
+    }, {
+      "uid" : "7c6bcd0bdc227ed6",
+      "status" : "failed",
+      "statusDetails" : "Failed: element click intercepted: Element <button class=\"button button--secondary-alt button--large unauthenticated-header__login-btn\" type=\"button\" aria-disabled=\"false\">...</button> is not clickable at point (1224, 36). Other element would receive the click: <div class=\"notification-wrapper notification-wrapper--disabled-content\">...</div>\n                  (Session info: headless chrome=105.0.5195.102)\n                Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'\n                System info: host: 'smiss', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-46-generic', java.version: '11.0.16'\n                Driver info: driver.version: unknown",
+      "time" : {
+        "start" : 1662360701393,
+        "stop" : 1662360724148,
+        "duration" : 22755
+      }
+    }, {
+      "uid" : "2aac9b6cadc040d5",
+      "status" : "failed",
+      "statusDetails" : "Failed: element click intercepted: Element <button class=\"button button--secondary-alt button--large unauthenticated-header__login-btn\" type=\"button\" aria-disabled=\"false\">...</button> is not clickable at point (1224, 36). Other element would receive the click: <div class=\"notification-wrapper notification-wrapper--disabled-content\">...</div>\n                  (Session info: headless chrome=105.0.5195.102)\n                Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'\n                System info: host: 'smiss', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-46-generic', java.version: '11.0.16'\n                Driver info: driver.version: unknown",
+      "time" : {
+        "start" : 1662360250030,
+        "stop" : 1662360272718,
+        "duration" : 22688
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "e889998dafcc4142.json",
+  "parameterValues" : [ ]
+}

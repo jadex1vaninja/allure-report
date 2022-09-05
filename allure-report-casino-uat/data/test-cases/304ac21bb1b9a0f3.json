@@ -1,0 +1,88 @@
+{
+  "uid" : "304ac21bb1b9a0f3",
+  "name" : "#09 User cannot enter invalid characters into the City field.",
+  "fullName" : "Registration > Step 3.#09 User cannot enter invalid characters into the City field.",
+  "historyId" : "79a51cce4ed36dcd29bbe0145851146e",
+  "time" : {
+    "start" : 1662385321878,
+    "stop" : 1662385328426,
+    "duration" : 6548
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c2b3d1870c6c33bb",
+      "name" : "Screenshot",
+      "source" : "c2b3d1870c6c33bb.png",
+      "type" : "image/png",
+      "size" : 74037
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Registration > Step 3"
+  }, {
+    "name" : "testClass",
+    "value" : "Registration > Step 3"
+  }, {
+    "name" : "testMethod",
+    "value" : "#09 User cannot enter invalid characters into the City field."
+  }, {
+    "name" : "package",
+    "value" : "Registration > Step 3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "197cba55a4843826",
+      "status" : "passed",
+      "time" : {
+        "start" : 1662384714971,
+        "stop" : 1662384722666,
+        "duration" : 7695
+      }
+    }, {
+      "uid" : "23cb9fa9c8fa24f5",
+      "status" : "failed",
+      "statusDetails" : "Failed: element click intercepted: Element <input autocomplete=\"bday\" type=\"text\" inputmode=\"numeric\" name=\"dateOfBirth\" class=\"input__box\" id=\"dateOfBirth\" value=\"\"> is not clickable at point (963, 351). Other element would receive the click: <div class=\"notification-wrapper notification-wrapper--disabled-content\">...</div>\n                  (Session info: headless chrome=105.0.5195.102)\n                Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'\n                System info: host: 'smiss', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-46-generic', java.version: '11.0.16'\n                Driver info: driver.version: unknown",
+      "time" : {
+        "start" : 1662360775621,
+        "stop" : 1662360779441,
+        "duration" : 3820
+      }
+    }, {
+      "uid" : "22b88350cfc402d8",
+      "status" : "failed",
+      "statusDetails" : "Failed: element click intercepted: Element <input autocomplete=\"bday\" type=\"text\" inputmode=\"numeric\" name=\"dateOfBirth\" class=\"input__box\" id=\"dateOfBirth\" value=\"\"> is not clickable at point (962, 351). Other element would receive the click: <div class=\"notification-wrapper notification-wrapper--disabled-content\">...</div>\n                  (Session info: headless chrome=105.0.5195.102)\n                Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'\n                System info: host: 'smiss', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-46-generic', java.version: '11.0.16'\n                Driver info: driver.version: unknown",
+      "time" : {
+        "start" : 1662360409774,
+        "stop" : 1662360414142,
+        "duration" : 4368
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "304ac21bb1b9a0f3.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,87 @@
+{
+  "uid" : "df01f6a7c5daf0c5",
+  "name" : "#13 Player cannot continue to next step if their new password does not meet the minimum password requirements.",
+  "fullName" : "My Account > Settings > Change Password.#13 Player cannot continue to next step if their new password does not meet the minimum password requirements.",
+  "historyId" : "fd5c1b8c33e5af30e069d4be830e7650",
+  "time" : {
+    "start" : 1662383842442,
+    "stop" : 1662383853509,
+    "duration" : 11067
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "915e95b2d52ea2d9",
+      "name" : "Screenshot",
+      "source" : "915e95b2d52ea2d9.png",
+      "type" : "image/png",
+      "size" : 163292
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "My Account > Settings > Change Password"
+  }, {
+    "name" : "testClass",
+    "value" : "My Account > Settings > Change Password"
+  }, {
+    "name" : "testMethod",
+    "value" : "#13 Player cannot continue to next step if their new password does not meet the minimum password requirements."
+  }, {
+    "name" : "package",
+    "value" : "My Account > Settings > Change Password"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "34fcb99a1353ca42",
+      "status" : "failed",
+      "statusDetails" : "Failed: No element found using locator: By(css selector, [data-testid='navigation-Account-link'])",
+      "time" : {
+        "start" : 1662383225218,
+        "stop" : 1662383230750,
+        "duration" : 5532
+      }
+    }, {
+      "uid" : "547f6740a5c327a2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1662359721493,
+        "stop" : 1662359733023,
+        "duration" : 11530
+      }
+    }, {
+      "uid" : "d17c94afbdfd1c14",
+      "status" : "passed",
+      "time" : {
+        "start" : 1662358972179,
+        "stop" : 1662358984062,
+        "duration" : 11883
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "df01f6a7c5daf0c5.json",
+  "parameterValues" : [ ]
+}
